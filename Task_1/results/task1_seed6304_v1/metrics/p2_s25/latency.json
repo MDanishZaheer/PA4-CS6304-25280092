@@ -1,0 +1,91 @@
+{
+  "unit": "milliseconds per batch",
+  "batch_size": 1,
+  "warmup_repetitions": 2,
+  "timing_repetitions": 5,
+  "decode_steps": 64,
+  "decode_definition": "64 cached next-token forward/argmax steps after an untimed prefill; EOS ignored for matched fixed work",
+  "execution": "dense FP16 SDPA; no claimed sparse/low-bit hardware speedup",
+  "shapes": {
+    "512": {
+      "prompt_tokens": 512,
+      "sdpa_observed_operators": [
+        "aten::_flash_attention_forward",
+        "aten::_scaled_dot_product_flash_attention",
+        "aten::scaled_dot_product_attention"
+      ],
+      "prefill_ms": [
+        34.31056600004467,
+        34.62485000000015,
+        34.218493000025774,
+        35.58620000001156,
+        34.283357000049364
+      ],
+      "decode_64_steps_ms": [
+        2111.867598999993,
+        2099.5217509999975,
+        2081.0148609999715,
+        2105.5808559999605,
+        2110.711312000035
+      ],
+      "prefill_median_ms": 34.31056600004467,
+      "decode_median_ms": 2105.5808559999605,
+      "prefill_peak_allocated_bytes": [
+        3146681856,
+        3146681856,
+        3146681856,
+        3146681856,
+        3146681856
+      ],
+      "decode_peak_allocated_bytes": [
+        3114752512,
+        3114752512,
+        3114752512,
+        3114752512,
+        3114752512
+      ],
+      "peak_allocated_bytes": 3146681856,
+      "peak_reserved_bytes_at_end": 11819548672
+    },
+    "2048": {
+      "prompt_tokens": 2048,
+      "sdpa_observed_operators": [
+        "aten::_flash_attention_forward",
+        "aten::_scaled_dot_product_flash_attention",
+        "aten::scaled_dot_product_attention"
+      ],
+      "prefill_ms": [
+        49.774033000062445,
+        49.74262700000054,
+        49.796318000062456,
+        49.7574999999415,
+        49.67756100006682
+      ],
+      "decode_64_steps_ms": [
+        2126.004511000019,
+        2126.1170440000114,
+        2119.891295000002,
+        2086.4313310000853,
+        2077.28505700004
+      ],
+      "prefill_median_ms": 49.7574999999415,
+      "decode_median_ms": 2119.891295000002,
+      "prefill_peak_allocated_bytes": [
+        3292458496,
+        3292458496,
+        3292458496,
+        3292458496,
+        3292458496
+      ],
+      "decode_peak_allocated_bytes": [
+        3201797632,
+        3201797632,
+        3201797632,
+        3201797632,
+        3201797632
+      ],
+      "peak_allocated_bytes": 3292458496,
+      "peak_reserved_bytes_at_end": 11819548672
+    }
+  }
+}

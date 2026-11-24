@@ -1,0 +1,114 @@
+[
+  {
+    "family": "P1",
+    "suite": "wikitext2",
+    "conditions": 3,
+    "pearson_correlation": 0.9931524770113708,
+    "note": "descriptive across conditions; not a causal or generalization claim"
+  },
+  {
+    "family": "P1",
+    "suite": "c4",
+    "conditions": 3,
+    "pearson_correlation": 0.9927768448649359,
+    "note": "descriptive across conditions; not a causal or generalization claim"
+  },
+  {
+    "family": "P2",
+    "suite": "wikitext2",
+    "conditions": 3,
+    "pearson_correlation": 0.9872382510723821,
+    "note": "descriptive across conditions; not a causal or generalization claim"
+  },
+  {
+    "family": "P2",
+    "suite": "c4",
+    "conditions": 3,
+    "pearson_correlation": 0.985335707127019,
+    "note": "descriptive across conditions; not a causal or generalization claim"
+  },
+  {
+    "family": "P3",
+    "suite": "wikitext2",
+    "conditions": 2,
+    "pearson_correlation": null,
+    "note": "descriptive across conditions; not a causal or generalization claim"
+  },
+  {
+    "family": "P3",
+    "suite": "c4",
+    "conditions": 2,
+    "pearson_correlation": null,
+    "note": "descriptive across conditions; not a causal or generalization claim"
+  },
+  {
+    "family": "Q1",
+    "suite": "wikitext2",
+    "conditions": 3,
+    "pearson_correlation": 0.9980491499483309,
+    "note": "descriptive across conditions; not a causal or generalization claim"
+  },
+  {
+    "family": "Q1",
+    "suite": "c4",
+    "conditions": 3,
+    "pearson_correlation": 0.9967165922188825,
+    "note": "descriptive across conditions; not a causal or generalization claim"
+  },
+  {
+    "family": "Q2",
+    "suite": "wikitext2",
+    "conditions": 3,
+    "pearson_correlation": 0.9996226685553373,
+    "note": "descriptive across conditions; not a causal or generalization claim"
+  },
+  {
+    "family": "Q2",
+    "suite": "c4",
+    "conditions": 3,
+    "pearson_correlation": 0.9988529364946352,
+    "note": "descriptive across conditions; not a causal or generalization claim"
+  },
+  {
+    "family": "Q3",
+    "suite": "wikitext2",
+    "conditions": 2,
+    "pearson_correlation": null,
+    "note": "descriptive across conditions; not a causal or generalization claim"
+  },
+  {
+    "family": "Q3",
+    "suite": "c4",
+    "conditions": 2,
+    "pearson_correlation": null,
+    "note": "descriptive across conditions; not a causal or generalization claim"
+  },
+  {
+    "family": "fp16",
+    "suite": "wikitext2",
+    "conditions": 1,
+    "pearson_correlation": null,
+    "note": "descriptive across conditions; not a causal or generalization claim"
+  },
+  {
+    "family": "fp16",
+    "suite": "c4",
+    "conditions": 1,
+    "pearson_correlation": null,
+    "note": "descriptive across conditions; not a causal or generalization claim"
+  },
+  {
+    "family": "structured",
+    "suite": "wikitext2",
+    "conditions": 1,
+    "pearson_correlation": null,
+    "note": "descriptive across conditions; not a causal or generalization claim"
+  },
+  {
+    "family": "structured",
+    "suite": "c4",
+    "conditions": 1,
+    "pearson_correlation": null,
+    "note": "descriptive across conditions; not a causal or generalization claim"
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "stage": "wanda_2of4",
+  "status": "complete",
+  "config_id": "b3a20f09648105e24c16f6f143510d39c3bc30f74bbb44f05d43d9d414b9ed78",
+  "artifacts": {
+    "metrics/wanda_2of4/storage.json": "c972f61fa32418a3847e1e7b98f53b194194f44df11a691a2f0ddae8d730bca1",
+    "metrics/wanda_2of4/projection_policy.json": "2b0666bfce6e500ea3c968c8b22e3de019a34ec219e6860ebee080d32fb02371",
+    "metrics/wanda_2of4/layer_errors.json": "05338295926610d6c98fb1da06645cfc197324e332977103c3ea11a24f97694a",
+    "metrics/wanda_2of4/wikitext2.json": "155ac12d9b1609a3026671d8d8737e8064d29604d490850b5e5fc625720b1c8c",
+    "predictions/wanda_2of4/wikitext2.jsonl": "c1d2632708b9f4e874a067344346cbc0c869d7a13534a5ba647bf70533b27a58",
+    "metrics/wanda_2of4/c4.json": "577c785437068461e97bc531bf9edea011d1fc1106c189f7b126f7bf5b0fa14c",
+    "predictions/wanda_2of4/c4.jsonl": "1d9539064602bdbef7c4db8be6e215618d04f4c045592301b3c2e87b806a3370",
+    "metrics/wanda_2of4/hellaswag.json": "ad8ba3e3017bfb35cccadf9e1b790b5c48b0d9e2003bd53a6dfaab33c9fd6015",
+    "predictions/wanda_2of4/hellaswag.jsonl": "de822e08513559eda656678dc93fa2076e82dae0cc3aa908db889a16c4c2198f",
+    "metrics/wanda_2of4/latency.json": "94decb1dac6e5a86993f1fc55a47af3fede0dd214db302258039ffd2690eb649",
+    "metrics/wanda_2of4/summary.json": "20f403574966839c19512e3d12539747fd94c18d4dade8c63af68afd9d48fee5"
+  },
+  "summary": {
+    "condition_status": "complete"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "split": "train",
+  "seed": 6305,
+  "K": 8,
+  "regime": "mixed",
+  "start_index": 192000,
+  "stop_index": 195200,
+  "examples": 3200,
+  "columns": [
+    "query_position",
+    "answer_id",
+    "source_position",
+    "distance"
+  ],
+  "dtype": "uint8",
+  "sha256": "f088e5a388856edb812f4eba5870aa6f4f433594e50b8b3017e0183ff83a1bd1",
+  "generator_sha256": "af69fe1cfd03a63ddbe2cc5844691bff138f06206bd94e8c7cb7aad93c727d08"
+}

@@ -1,0 +1,34 @@
+{
+  "prompt_id": "SHORT-shifted-0003",
+  "prompt_sha256": "c69ff932b3981afc6b0e11c3299d82fb182fde9da8d944b0d4f510e3565556bc",
+  "draft": "off_policy_seed6304",
+  "workload": "shifted",
+  "repetition": 0,
+  "response": {
+    "token_ids": [
+      11109,
+      151645
+    ],
+    "new_tokens": 2,
+    "eos": true,
+    "truncated": false,
+    "ignore_eos": false,
+    "generation_seed": 936955,
+    "prefill_seconds": 0.03184727600091719,
+    "decode_seconds": 0.029611284997372422,
+    "elapsed_seconds": 0.06149087599987979,
+    "target_prefill_passes": 1,
+    "target_decode_passes": 1,
+    "target_passes": 2,
+    "draft_forward_passes": 0,
+    "rounds": [],
+    "peak_allocated_bytes": 4110994944,
+    "peak_reserved_bytes": 5377097728
+  },
+  "text": "May",
+  "extracted_answer": "may",
+  "correct": true,
+  "extractable": true,
+  "format_compliant": true,
+  "evaluation": "standalone model quality; not speculative-output quality"
+}

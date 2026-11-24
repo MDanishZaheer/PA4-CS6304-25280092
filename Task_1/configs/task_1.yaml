@@ -1,0 +1,5 @@
+# Keep scientific settings in base.yaml. Operational overrides belong here.
+experiment_name: task_1_pruning_and_quantization
+execution:
+  run_id: task1_seed6304_v1
+  drive_project: ATML_PA4/PA_4

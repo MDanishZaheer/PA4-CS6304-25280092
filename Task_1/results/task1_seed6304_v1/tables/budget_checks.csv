@@ -1,0 +1,5 @@
+method,target,required_zeros,allocated_zeros,temperature,development_mean_nll,matched,reference_bytes,allocated_bytes,unused_bytes
+p3_s50,0.5,655097856.0,655097856.0,0.25,3.572948376834359,True,,,
+p3_s75,0.75,982646784.0,982646784.0,0.5,9.248008646971297,True,,,
+q3_budget_int4,,,,,,True,1153371520.0,1153371520.0,0.0
+q3_budget_int3,,,,,,True,989597056.0,989597056.0,0.0

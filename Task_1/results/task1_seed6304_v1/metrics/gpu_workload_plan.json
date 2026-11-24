@@ -1,0 +1,114 @@
+{
+  "selection_id": "cf2f05ff2135130667954620ea12903ae14847ae3c214b3ca82d7a312731feec",
+  "batch_sequences": 64,
+  "head_chunk_tokens": 4096,
+  "padded_token_budget": 32768,
+  "calibration_batch_sequences": 16,
+  "memory_budget_bytes": 37723251507,
+  "gpu_total_bytes": 42405855232,
+  "target_memory_fraction": 0.9,
+  "selected_probe_peak_bytes": 10045844992,
+  "probes": [
+    {
+      "batch_sequences": 1,
+      "head_chunk_tokens": 256,
+      "status": "ok",
+      "seconds": 0.04771020500004397,
+      "peak_allocated_bytes": 3527521280,
+      "scored_tokens_per_second": 10710.49684233235
+    },
+    {
+      "batch_sequences": 2,
+      "head_chunk_tokens": 256,
+      "status": "ok",
+      "seconds": 0.05690162899998086,
+      "peak_allocated_bytes": 3528850944,
+      "scored_tokens_per_second": 17960.821473148753
+    },
+    {
+      "batch_sequences": 4,
+      "head_chunk_tokens": 256,
+      "status": "ok",
+      "seconds": 0.07560970400004408,
+      "peak_allocated_bytes": 3532030464,
+      "scored_tokens_per_second": 27033.567014080738
+    },
+    {
+      "batch_sequences": 8,
+      "head_chunk_tokens": 256,
+      "status": "ok",
+      "seconds": 0.13869910200003233,
+      "peak_allocated_bytes": 3537439232,
+      "scored_tokens_per_second": 29473.875036328984
+    },
+    {
+      "batch_sequences": 16,
+      "head_chunk_tokens": 256,
+      "status": "ok",
+      "seconds": 0.23043330799998785,
+      "peak_allocated_bytes": 3642531840,
+      "scored_tokens_per_second": 35480.98176848822
+    },
+    {
+      "batch_sequences": 32,
+      "head_chunk_tokens": 256,
+      "status": "ok",
+      "seconds": 0.4441544779999731,
+      "peak_allocated_bytes": 4187930624,
+      "scored_tokens_per_second": 36816.01967322952
+    },
+    {
+      "batch_sequences": 64,
+      "head_chunk_tokens": 256,
+      "status": "ok",
+      "seconds": 0.8712278790000028,
+      "peak_allocated_bytes": 5278728192,
+      "scored_tokens_per_second": 37537.82539367051
+    },
+    {
+      "batch_sequences": 64,
+      "head_chunk_tokens": 1024,
+      "status": "ok",
+      "seconds": 0.8529492540000092,
+      "peak_allocated_bytes": 5278728192,
+      "scored_tokens_per_second": 38342.25758054259
+    },
+    {
+      "batch_sequences": 64,
+      "head_chunk_tokens": 4096,
+      "status": "ok",
+      "seconds": 0.8462707899999486,
+      "peak_allocated_bytes": 10045844992,
+      "scored_tokens_per_second": 38644.840855256254
+    },
+    {
+      "batch_sequences": 64,
+      "head_chunk_tokens": 8192,
+      "status": "ok",
+      "seconds": 0.8464991300000975,
+      "peak_allocated_bytes": 16890981888,
+      "scored_tokens_per_second": 38634.416552792245
+    },
+    {
+      "batch_sequences": 64,
+      "head_chunk_tokens": 12288,
+      "status": "ok",
+      "seconds": 0.8516163059999826,
+      "peak_allocated_bytes": 23736643072,
+      "scored_tokens_per_second": 38402.27079916982
+    },
+    {
+      "batch_sequences": 64,
+      "head_chunk_tokens": 16384,
+      "status": "ok",
+      "seconds": 0.8553012940000144,
+      "peak_allocated_bytes": 30581124608,
+      "scored_tokens_per_second": 38236.818100732875
+    }
+  ],
+  "tuning_seconds": 9.201494841999988,
+  "selection_rule": "highest observed scored-token throughput within memory headroom; calibration inputs only",
+  "latency_benchmark_batch_size": 1,
+  "note": "Headroom guides probe selection; no CUDA allocator quota or dummy VRAM allocation is applied.",
+  "batch_reference_maximum_mean_nll_error": 0.0010925596579909325
+}

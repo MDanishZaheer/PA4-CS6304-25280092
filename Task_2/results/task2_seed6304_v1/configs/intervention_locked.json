@@ -1,0 +1,41 @@
+{
+  "method": "local_content",
+  "train_K": 16,
+  "train_regime": "mixed",
+  "content_k": 64,
+  "selection_rule": "topk_64_if_dense_minus_dilated_dev_far_at_least_threshold_else_32",
+  "development_gap_threshold": 0.02,
+  "observed_development_far_accuracy": [
+    {
+      "seed": 6304,
+      "dense": 1.0,
+      "window": 0.01611328125,
+      "dilated": 0.060546875
+    },
+    {
+      "seed": 6305,
+      "dense": 1.0,
+      "window": 0.01611328125,
+      "dilated": 0.05810546875
+    },
+    {
+      "seed": 6306,
+      "dense": 1.0,
+      "window": 0.014892578125,
+      "dilated": 0.06640625
+    }
+  ],
+  "dense_minus_dilated_mean_development_gap": 0.9383138020833334,
+  "final_test_accessed": false,
+  "prediction": {
+    "metric": "far_query_accuracy",
+    "direction": "greater_than_dilated",
+    "comparator": "dilated_K16_mixed"
+  },
+  "persistent_state": "ordinary full-history keys and values for content score selection; no compressed recurrent state",
+  "extra_trainable_parameters": 0,
+  "local_heads": 2,
+  "content_selected_heads": 2,
+  "selection_cost": "all causal scores plus stable sort; no efficient sparse-kernel claim",
+  "fallback": null
+}

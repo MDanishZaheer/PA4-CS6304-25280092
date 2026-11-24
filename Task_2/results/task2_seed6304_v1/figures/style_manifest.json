@@ -1,0 +1,151 @@
+{
+  "font": {
+    "family": "Times New Roman",
+    "size_pt": 10,
+    "resolved_regular_font": "/content/ATML_PA4/PA_4/Task_2/resources/fonts/times.ttf",
+    "font_sha256": "0bf1b21b27b370039b60eca23d532c3fe3fb308750d8f13816db70a6cb666804",
+    "dpi": 300
+  },
+  "figures": {
+    "figures/rq1_exact_attention.png": {
+      "sha256": "c51ffc4b6837c2dc58402528c754059656961789af8f252eebaa7d4f83f61736",
+      "font_sizes_pt": [
+        10.0
+      ],
+      "font_families": [
+        "Times New Roman"
+      ],
+      "text_objects": 248,
+      "resolved_font_files": [
+        "/content/ATML_PA4/PA_4/Task_2/resources/fonts/times.ttf"
+      ]
+    },
+    "figures/rq2_learning_curves.png": {
+      "sha256": "f3845733cdb6956e0fdf04ff19ae56060a500e7f2762e7a8d680c076b9e318ab",
+      "font_sizes_pt": [
+        10.0
+      ],
+      "font_families": [
+        "Times New Roman"
+      ],
+      "text_objects": 200,
+      "resolved_font_files": [
+        "/content/ATML_PA4/PA_4/Task_2/resources/fonts/times.ttf"
+      ]
+    },
+    "figures/rq2_distance_load.png": {
+      "sha256": "346165ff5d22dc6b1756cc83bda1a05674f224803010006cbdf7e581a57c6a4b",
+      "font_sizes_pt": [
+        10.0
+      ],
+      "font_families": [
+        "Times New Roman"
+      ],
+      "text_objects": 75,
+      "resolved_font_files": [
+        "/content/ATML_PA4/PA_4/Task_2/resources/fonts/times.ttf"
+      ]
+    },
+    "figures/rq2_regime_controls.png": {
+      "sha256": "fc492712545656f034d499777c69f0a8625c9e08e528875a18418eda0d3636c3",
+      "font_sizes_pt": [
+        10.0
+      ],
+      "font_families": [
+        "Times New Roman"
+      ],
+      "text_objects": 99,
+      "resolved_font_files": [
+        "/content/ATML_PA4/PA_4/Task_2/resources/fonts/times.ttf"
+      ]
+    },
+    "figures/rq3_kv_fidelity.png": {
+      "sha256": "acc98cb47412743d2f39cc570ae662a918e960e7597bf3ba29304e72c3807fc1",
+      "font_sizes_pt": [
+        10.0
+      ],
+      "font_families": [
+        "Times New Roman"
+      ],
+      "text_objects": 116,
+      "resolved_font_files": [
+        "/content/ATML_PA4/PA_4/Task_2/resources/fonts/times.ttf"
+      ]
+    },
+    "figures/rq3_kv_factorial.png": {
+      "sha256": "679cb515eb207073e7968aeefa12731f4ee2c4c2531ac87000c0f84c6770a0a4",
+      "font_sizes_pt": [
+        10.0
+      ],
+      "font_families": [
+        "Times New Roman"
+      ],
+      "text_objects": 192,
+      "resolved_font_files": [
+        "/content/ATML_PA4/PA_4/Task_2/resources/fonts/times.ttf"
+      ]
+    },
+    "figures/rq4_packed_cache_systems.png": {
+      "sha256": "8c1e36d4b6a336aeac9c4ef12823fbbefc6b30059b8511da2b5fc6409fc26e9f",
+      "font_sizes_pt": [
+        10.0
+      ],
+      "font_families": [
+        "Times New Roman"
+      ],
+      "text_objects": 128,
+      "resolved_font_files": [
+        "/content/ATML_PA4/PA_4/Task_2/resources/fonts/times.ttf"
+      ]
+    },
+    "figures/rq4_resources_and_overheads.png": {
+      "sha256": "56fb58080683ff268d80fa5758498d9bb42b9152b9bdfc935882092be17409cd",
+      "font_sizes_pt": [
+        10.0
+      ],
+      "font_families": [
+        "Times New Roman"
+      ],
+      "text_objects": 149,
+      "resolved_font_files": [
+        "/content/ATML_PA4/PA_4/Task_2/resources/fonts/times.ttf"
+      ]
+    }
+  },
+  "rendered_at_utc": "2026-11-21T20:32:43.134362+00:00",
+  "rendered_on": "Linux-6.6.159+-x86_64-with-glibc2.39",
+  "original_runtime": {
+    "computed_on": "Google Colab",
+    "python": "3.13.16",
+    "packages": {
+      "torch": "2.8.0",
+      "transformers": "4.57.1",
+      "huggingface_hub": "0.36.2",
+      "numpy": "2.2.6",
+      "safetensors": "0.6.2",
+      "accelerate": "1.11.0"
+    },
+    "cuda": "12.8",
+    "gpu": "NVIDIA A100-SXM4-40GB",
+    "gpu_memory_bytes": 42405855232,
+    "compute_capability": [
+      8,
+      0
+    ],
+    "tf32": false
+  },
+  "computed_on": "Google Colab",
+  "table_hashes": {
+    "tables/attention_conditions.csv": "2032a4a3801ed227d9522d68239fc4be182eedc60650526a38b66dddd638e6c8",
+    "tables/kv_factorial.csv": "a7c654b56a6fb2cadd5c2b62d4469fcefc0892b7601bcba2290ca20acc8ca7be",
+    "tables/kv_packed_systems.csv": "010196b6c688f2b1c657c49de8cda6750dffc49231ac557fea7550ecfde70b71",
+    "tables/kv_paired_intervals.csv": "420981ad6e682147f83b93f0ea937db1b6cac0c6762062ff7e40dc135c2ce684",
+    "tables/kv_summary.csv": "14ba7b9fd9c727f411e05cac246e36e031d7f97456518bbf2967132f1d7ff700",
+    "tables/mqar_accuracy.csv": "3e6bd7c07fddc7d7cee8722688d8f970e27fec06eec2e2d83ec1bbe52505e769",
+    "tables/mqar_distance_bins.csv": "42c2e8112a370c0168cbc5c4091a6603cf4fc32f7654419324c3430e90aa4bf2",
+    "tables/mqar_learning_curves.csv": "bb7858ab80f9561b5bc729d467a151aa026db58f07a8ff90ab8cd317f34d1d09",
+    "tables/mqar_operator_resources.csv": "5d2b87dc9bf9e92efbf78a643f91211841cd2cb305aab415284b3cb6083da772",
+    "tables/mqar_seed_dispersion.csv": "c0d130068fbfab3122a5e67b9cc19dfdcfa9f03678e4b39d2960c9c70fb8ec34",
+    "tables/mqar_training.csv": "032d728cae85fd6b9f2e935059f5340bbfdaa38a159efae81a268d557185c2db"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "seed": 6304,
+  "prompts": 800,
+  "math_prompts": 500,
+  "short_prompts": 300,
+  "generation_seconds": 3378.3602515040116,
+  "generated_tokens": 94784,
+  "peak_allocated_bytes": 3123779072,
+  "shared_between_methods": false,
+  "cost_accounting": "one separate frozen 800-prompt pool for each off-policy training seed"
+}

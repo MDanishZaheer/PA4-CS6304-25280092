@@ -1,0 +1,13 @@
+{
+  "stage": "isolated_original",
+  "status": "complete",
+  "config_id": "ca016510f6ba13eb7b0399b721f8bacbedbe9183fdc5bbc7a4b51ad310914e62",
+  "artifacts": {
+    "systems/original_L64.json": "0a58fa3d46716cc4b46304a9b6dafb62d96e3ac7412e7f7b267f7d69d251c066",
+    "systems/original_L256.json": "79857fa610dc112515aa5b59e7fc12faee71cedbf37fc0fabaf383b79e538812",
+    "systems/original_L512.json": "fc292c923e8992cc237cf5f700a53a9ef4e1b621244b953f725794af1baaa578"
+  },
+  "summary": {
+    "conditions": 3
+  }
+}

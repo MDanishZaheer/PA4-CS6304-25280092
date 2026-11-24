@@ -1,0 +1,19 @@
+{
+  "seconds": 2.8580511349999824,
+  "sequences": 128,
+  "timing_scope": "completed forwards and activation hooks; excludes checkpoint I/O and repeated unsaved work",
+  "peak_allocated_bytes": 3944775168,
+  "checkpoint_interval_sequences": 16,
+  "resumed_from_sequences": 0,
+  "batch_sequences": 16,
+  "tokens_per_sequence": 512,
+  "probe_positions_within_every_sequence": [
+    0,
+    170,
+    341,
+    511
+  ],
+  "probe_tokens_per_projection": 512,
+  "feature_norm_tokens_per_projection": 65536,
+  "note": "Full calibration feature norms; fixed, recorded within-sequence subsampling for local error probes."
+}

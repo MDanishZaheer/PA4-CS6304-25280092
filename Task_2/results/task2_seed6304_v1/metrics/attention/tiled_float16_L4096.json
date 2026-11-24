@@ -1,0 +1,76 @@
+{
+  "method": "tiled",
+  "dtype": "float16",
+  "length": 4096,
+  "batch": 2,
+  "heads": 4,
+  "head_dimension": 64,
+  "accumulation": "FP32 scores/statistics",
+  "reference_status": "dense_fp32_on_identical_input_values",
+  "output_error": {
+    "maximum_absolute": 0.0009107589721679688,
+    "relative_l2": 0.0002016877697315067
+  },
+  "gradient_errors": [
+    {
+      "maximum_absolute": 0.0009005069732666016,
+      "relative_l2": 0.00020657767890952528
+    },
+    {
+      "maximum_absolute": 0.0009710788726806641,
+      "relative_l2": 0.00020828057313337922
+    },
+    {
+      "maximum_absolute": 0.0017218589782714844,
+      "relative_l2": 0.00020786320965271443
+    }
+  ],
+  "numerical_tolerance_relative_l2": 0.005,
+  "numerical_check": "passed",
+  "observed_operators": [
+    "python_tiled_custom_recomputed_backward"
+  ],
+  "forward": {
+    "unit": "milliseconds per batch",
+    "warmup_repetitions": 3,
+    "timing_repetitions": 10,
+    "samples_ms": [
+      64.39179099999137,
+      64.46595199997773,
+      66.83172699996476,
+      67.27089700001443,
+      65.06214600000249,
+      65.31189800000448,
+      64.56066900000224,
+      64.65311099998416,
+      64.85394499998165,
+      64.52752899997449
+    ],
+    "median_ms": 64.75352799998291,
+    "peak_allocated_bytes": 51873792,
+    "peak_reserved_bytes": 67108864,
+    "additional_peak_allocated_bytes": 18057216
+  },
+  "forward_backward": {
+    "unit": "milliseconds per batch",
+    "warmup_repetitions": 3,
+    "timing_repetitions": 10,
+    "samples_ms": [
+      145.06915200001913,
+      146.60178500002985,
+      144.8750460000383,
+      146.8847240000173,
+      155.309342999999,
+      145.09574799996017,
+      145.04564100002426,
+      149.67280199999777,
+      146.15529099995683,
+      146.26798400001917
+    ],
+    "median_ms": 146.211637499988,
+    "peak_allocated_bytes": 96873472,
+    "peak_reserved_bytes": 109051904,
+    "additional_peak_allocated_bytes": 50473984
+  },
+  "status": "complete"
+}

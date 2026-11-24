@@ -1,0 +1,13 @@
+{
+  "stage": "isolated_on_policy_seed6305",
+  "status": "complete",
+  "config_id": "ca016510f6ba13eb7b0399b721f8bacbedbe9183fdc5bbc7a4b51ad310914e62",
+  "artifacts": {
+    "systems/on_policy_seed6305_L64.json": "fcca390cdcc06a6ed5873d4bd2e2cc3908bf3bd888fc154f25f70a86e29a17c5",
+    "systems/on_policy_seed6305_L256.json": "ffa62c666ad4b390cec7bec4e72e49c7761936b568e64463f8d452a0fea3256e",
+    "systems/on_policy_seed6305_L512.json": "a5ed97a9438daf03fe4b6ca9cf437d1b60c191c1213dbc1bd9c51199cc70277c"
+  },
+  "summary": {
+    "conditions": 3
+  }
+}

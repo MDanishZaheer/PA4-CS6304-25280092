@@ -1,0 +1,151 @@
+{
+  "font": {
+    "family": "Times New Roman",
+    "size_pt": 10,
+    "resolved_regular_font": "C:\\Windows\\Fonts\\times.ttf",
+    "font_sha256": "0bf1b21b27b370039b60eca23d532c3fe3fb308750d8f13816db70a6cb666804",
+    "dpi": 300
+  },
+  "figures": {
+    "figures/sampler_correctness.png": {
+      "sha256": "e450e114946e5acaeef9a0e96e5b68d42d343ea75e77cbf34c50f702d72c7706",
+      "font_sizes_pt": [
+        10.0
+      ],
+      "font_families": [
+        "Times New Roman"
+      ],
+      "text_objects": 100,
+      "resolved_font_files": [
+        "C:\\Windows\\Fonts\\times.ttf"
+      ]
+    },
+    "figures/distillation_curves.png": {
+      "sha256": "097337c8d2bd1bbb8eb559ba18aa6d326c5568f5a320cf56ebc641959dd0d9a2",
+      "font_sizes_pt": [
+        10.0
+      ],
+      "font_families": [
+        "Times New Roman"
+      ],
+      "text_objects": 79,
+      "resolved_font_files": [
+        "C:\\Windows\\Fonts\\times.ttf"
+      ]
+    },
+    "figures/common_prefix_alignment.png": {
+      "sha256": "f1532a16fe7df6943217df28c901d90495fec5573e90155338b89e50a90e2930",
+      "font_sizes_pt": [
+        10.0
+      ],
+      "font_families": [
+        "Times New Roman"
+      ],
+      "text_objects": 156,
+      "resolved_font_files": [
+        "C:\\Windows\\Fonts\\times.ttf"
+      ]
+    },
+    "figures/workload_position.png": {
+      "sha256": "24d0cee69891d9a4a390cdf80e68fca2b589aa1b97060f1b456f57837b062c01",
+      "font_sizes_pt": [
+        10.0
+      ],
+      "font_families": [
+        "Times New Roman"
+      ],
+      "text_objects": 161,
+      "resolved_font_files": [
+        "C:\\Windows\\Fonts\\times.ttf"
+      ]
+    },
+    "figures/quality_and_lengths.png": {
+      "sha256": "2659a4714b28ebaad2b919d2b5ee8557a7b72a1e6e2f6021a17c154c4d798fa9",
+      "font_sizes_pt": [
+        10.0
+      ],
+      "font_families": [
+        "Times New Roman"
+      ],
+      "text_objects": 114,
+      "resolved_font_files": [
+        "C:\\Windows\\Fonts\\times.ttf"
+      ]
+    },
+    "figures/acceptance_verification.png": {
+      "sha256": "8360a2135f3e38514f35ab050dd3af57e217568db1aeb49f92aebde8534bb9a0",
+      "font_sizes_pt": [
+        10.0
+      ],
+      "font_families": [
+        "Times New Roman"
+      ],
+      "text_objects": 104,
+      "resolved_font_files": [
+        "C:\\Windows\\Fonts\\times.ttf"
+      ]
+    },
+    "figures/predicted_measured_speedup.png": {
+      "sha256": "cffcd97800935bf58199a5327976c11cdd5b6f0b0c3c27a4b91cc3e6d5f480c7",
+      "font_sizes_pt": [
+        10.0
+      ],
+      "font_families": [
+        "Times New Roman"
+      ],
+      "text_objects": 80,
+      "resolved_font_files": [
+        "C:\\Windows\\Fonts\\times.ttf"
+      ]
+    },
+    "figures/execution_costs.png": {
+      "sha256": "ca58ee5a81983f7330e37ec345dcfe0cff8a77cd52a4c1efb97948959ad6403a",
+      "font_sizes_pt": [
+        10.0
+      ],
+      "font_families": [
+        "Times New Roman"
+      ],
+      "text_objects": 150,
+      "resolved_font_files": [
+        "C:\\Windows\\Fonts\\times.ttf"
+      ]
+    },
+    "figures/training_amortization.png": {
+      "sha256": "38adb8f0cd57e0616edbbc0f9a4a66a136083f1705a94638b0ddaaedf944af4d",
+      "font_sizes_pt": [
+        10.0
+      ],
+      "font_families": [
+        "Times New Roman"
+      ],
+      "text_objects": 96,
+      "resolved_font_files": [
+        "C:\\Windows\\Fonts\\times.ttf"
+      ]
+    }
+  },
+  "rendered_at_utc": "2026-11-24T08:07:05.696882+00:00",
+  "computed_on": "Google Colab",
+  "rendered_on": "Local ATML, CPU-only derived-evidence rebuild",
+  "table_hashes": {
+    "tables/acceptance_prediction_correlations.csv": "8ec489fe5897758aa713ed1f94da0bb48ae406ce085444b8b13f3304e407a9f4",
+    "tables/common_prefix_metrics.csv": "843b1bd1514374a65eb5a6c538075a659b44d8983c33410264dff5b84e989800",
+    "tables/common_prefix_summary.csv": "31c86410bb72b6fe65e7fe9104c36a60781ef0c6068a3e0cac73bba193ba6ed7",
+    "tables/deployment_break_even.csv": "606f836503e38357315559ff4618b7b69d6e5eedbedcd10f7f09399f7f6c97da",
+    "tables/distillation_learning_curves.csv": "990f8689d0d21df92354d4f8d814ceb474e6a8e584a32ddfdc28eb912f83443b",
+    "tables/distillation_summary.csv": "67ee2f320af0e9cb5267a4edbbddebd483ef2e09f8829573f3867b85f6158c0c",
+    "tables/isolated_decode_costs.csv": "6db8c01700f21b6d07581d076f600daecce482817989cb5545a314106291dcb4",
+    "tables/output_length_diagnostics.csv": "35909e55282e823c98b49b2efd6d842480e7013790bf455b52806b8473aae47a",
+    "tables/paired_draft_comparisons.csv": "766f06afee119ff3f16d8b0f5c2614a97513e416f7e96dcdfb183b9243a2390e",
+    "tables/paired_prompt_intervals.csv": "7188c85f9e5c87601c31cb4729afe134cb4f1da573b0e5786c659711e8413801",
+    "tables/sampler_conditions.csv": "8b4e2cb30c45795144aada0f05cf49915369c5bc5ab83d988e00d34a5bc7b006",
+    "tables/sampler_joint_probabilities.csv": "bd7532cb177cbf5d1784e01566c16909794e77fde5c2606eaa98b8d05e5f376a",
+    "tables/speculative_per_prompt.csv": "b18ae1365db4d4cc7d38aa2e0d14de7ca5a700d5d38219a8e14c3a1f858e5bb6",
+    "tables/speculative_summary.csv": "266f52b12e442164e6c105156147d3235b8ae67970c6a340dfeeb5aefaaa78fa",
+    "tables/standalone_quality_per_prompt.csv": "e1ea0eed5dc6a7a1a3d9aae08249500562125e3e6a1cc7f65dead5b0be776ba3",
+    "tables/standalone_quality_summary.csv": "2352b0c0d7ccfeeca60d31cd12c2e321f114559bd0897bf234729586e8183062",
+    "tables/target_speculative_consistency.csv": "b51faa6258dcb75051efb87dcd7650ad8a97a3a5edbdb879beebd80eccfc7f78",
+    "tables/upfront_costs.csv": "a1c812a373372a707f4f20a9858f91c2ee73e45ae67d81286576466b67f2fe0b"
+  }
+}

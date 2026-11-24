@@ -1,0 +1,108 @@
+{
+  "prompt_id": "SHORT-shifted-0019",
+  "prompt_sha256": "37cf556f071f2e629418972913f4b7ceafa6124568fb7b6db81e18412e921cf4",
+  "workload": "shifted",
+  "bank": "exact_spec_original_gamma4",
+  "producer": "original",
+  "producer_checkpoint": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "response_token_ids": [
+    20,
+    22,
+    24,
+    19,
+    151645
+  ],
+  "selected_positions": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "prefix_ids": [
+    "exact_spec_original_gamma4:SHORT-shifted-0019:p001",
+    "exact_spec_original_gamma4:SHORT-shifted-0019:p002",
+    "exact_spec_original_gamma4:SHORT-shifted-0019:p003",
+    "exact_spec_original_gamma4:SHORT-shifted-0019:p004",
+    "exact_spec_original_gamma4:SHORT-shifted-0019:p005"
+  ],
+  "generation": {
+    "token_ids": [
+      20,
+      22,
+      24,
+      19,
+      151645
+    ],
+    "new_tokens": 5,
+    "eos": true,
+    "truncated": false,
+    "ignore_eos": false,
+    "generation_seed": 1097313,
+    "gamma": 4,
+    "rounds": [
+      {
+        "round": 0,
+        "output_offset": 0,
+        "proposed_tokens": [
+          20,
+          22,
+          24,
+          19
+        ],
+        "emitted_tokens": [
+          20,
+          22,
+          24,
+          19,
+          151645
+        ],
+        "proposed": 4,
+        "examined": 4,
+        "accepted": 4,
+        "accepted_prefix_length": 4,
+        "bonus": true,
+        "rejected": false,
+        "target_verification_passes": 1,
+        "target_verification_input_tokens": 4,
+        "draft_forward_passes": 4,
+        "proposal_seconds": 0.11776005100000475,
+        "verification_seconds": 0.04028346800032523,
+        "sampling_seconds": 0.0018105529998138081,
+        "maintenance_seconds": 8.373500031666481e-05,
+        "cache_length": 60,
+        "pending_token": 151645
+      }
+    ],
+    "proposed": 4,
+    "examined": 4,
+    "accepted": 4,
+    "draft_forward_passes": 4,
+    "proposal_seconds": 0.11776005100000475,
+    "verification_seconds": 0.04028346800032523,
+    "sampling_seconds": 0.0018105529998138081,
+    "maintenance_seconds": 8.373500031666481e-05,
+    "accepted_examined_fraction": 1.0,
+    "accepted_proposed_fraction": 1.0,
+    "mean_accepted_prefix": 4.0,
+    "target_verification_passes": 1,
+    "target_prefill_passes": 1,
+    "draft_prefill_passes": 1,
+    "target_passes": 2,
+    "target_passes_per_output_token": 0.4,
+    "draft_forward_passes_including_prefill": 5,
+    "prefill_seconds": 0.06886706299974321,
+    "target_prefill_seconds": 0.037472168000022066,
+    "draft_prefill_seconds": 0.031394894999721146,
+    "decode_seconds": 0.16005162000010387,
+    "host_overhead_seconds": 0.00011381299964341451,
+    "elapsed_seconds": 0.22897089599973697,
+    "final_cache_length": 60,
+    "final_pending_token": 151645,
+    "cache_convention": "returned context minus exactly one pending last token",
+    "peak_allocated_bytes": 4122425344,
+    "peak_reserved_bytes": 4362076160
+  },
+  "law": "target",
+  "materialization": "generated here because the supplied data-only checkout contains no materialized prefix bank"
+}

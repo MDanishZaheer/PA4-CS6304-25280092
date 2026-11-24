@@ -1,0 +1,43 @@
+{
+  "prompt_id": "SHORT-shifted-0012",
+  "prompt_sha256": "836e52237c0feb2112215c1578d904a34f7c69db7001ca09df12b0a7fd003fd3",
+  "workload": "shifted",
+  "bank": "original_draft",
+  "producer": "original",
+  "producer_checkpoint": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "response_token_ids": [
+    30194,
+    151645
+  ],
+  "selected_positions": [
+    1,
+    2
+  ],
+  "prefix_ids": [
+    "original_draft:SHORT-shifted-0012:p001",
+    "original_draft:SHORT-shifted-0012:p002"
+  ],
+  "generation": {
+    "token_ids": [
+      30194,
+      151645
+    ],
+    "new_tokens": 2,
+    "eos": true,
+    "truncated": false,
+    "ignore_eos": false,
+    "generation_seed": 1027141,
+    "prefill_seconds": 0.03230737100011538,
+    "decode_seconds": 0.029742755999905057,
+    "elapsed_seconds": 0.0620654670001386,
+    "target_prefill_passes": 1,
+    "target_decode_passes": 1,
+    "target_passes": 2,
+    "draft_forward_passes": 0,
+    "rounds": [],
+    "peak_allocated_bytes": 4112174592,
+    "peak_reserved_bytes": 4345298944
+  },
+  "law": "original",
+  "materialization": "generated here because the supplied data-only checkout contains no materialized prefix bank"
+}

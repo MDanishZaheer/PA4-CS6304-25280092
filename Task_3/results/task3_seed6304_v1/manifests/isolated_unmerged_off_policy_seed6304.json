@@ -1,0 +1,13 @@
+{
+  "stage": "isolated_unmerged_off_policy_seed6304",
+  "status": "complete",
+  "config_id": "ca016510f6ba13eb7b0399b721f8bacbedbe9183fdc5bbc7a4b51ad310914e62",
+  "artifacts": {
+    "systems/unmerged_off_policy_seed6304_L64.json": "f9fe7b8323fc66c23aa35a81f8158b777e89181a4d775a41a1c69d1b97e674bd",
+    "systems/unmerged_off_policy_seed6304_L256.json": "bb401be93a09ec6faa28ede38d850a10ad0ce3d66342bb2bd8e0bdced51b6bfb",
+    "systems/unmerged_off_policy_seed6304_L512.json": "43b750b7952642cf1e8c9bada6353ff7f4353d85e830b7cb4aa8c6a64e05cb9f"
+  },
+  "summary": {
+    "conditions": 3
+  }
+}

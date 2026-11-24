@@ -1,0 +1,35 @@
+{
+  "prompt_id": "SHORT-shifted-0012",
+  "prompt_sha256": "836e52237c0feb2112215c1578d904a34f7c69db7001ca09df12b0a7fd003fd3",
+  "draft": "original",
+  "workload": "shifted",
+  "repetition": 0,
+  "response": {
+    "token_ids": [
+      30194,
+      13,
+      151645
+    ],
+    "new_tokens": 3,
+    "eos": true,
+    "truncated": false,
+    "ignore_eos": false,
+    "generation_seed": 1027018,
+    "prefill_seconds": 0.03205821099982131,
+    "decode_seconds": 0.0587203139984922,
+    "elapsed_seconds": 0.09079411999846343,
+    "target_prefill_passes": 1,
+    "target_decode_passes": 2,
+    "target_passes": 3,
+    "draft_forward_passes": 0,
+    "rounds": [],
+    "peak_allocated_bytes": 4107873792,
+    "peak_reserved_bytes": 5387583488
+  },
+  "text": "October.",
+  "extracted_answer": "october",
+  "correct": true,
+  "extractable": true,
+  "format_compliant": false,
+  "evaluation": "standalone model quality; not speculative-output quality"
+}

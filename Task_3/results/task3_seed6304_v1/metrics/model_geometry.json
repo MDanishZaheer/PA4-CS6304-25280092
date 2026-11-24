@@ -1,0 +1,10 @@
+{
+  "teacher_parameters": 1543714304,
+  "teacher_vocabulary": 151936,
+  "teacher_model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "teacher_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "student_model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "student_revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "original_backbones_frozen": true,
+  "backend": "sdpa"
+}

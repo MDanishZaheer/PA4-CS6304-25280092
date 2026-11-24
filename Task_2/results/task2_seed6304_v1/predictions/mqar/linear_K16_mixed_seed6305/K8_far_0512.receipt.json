@@ -1,0 +1,6 @@
+{
+  "condition": "linear_K16_mixed_seed6305",
+  "first": 512,
+  "examples": 128,
+  "sha256": "69b857b7f86ed5542136bd81602f0f618506f236521cd6dc4de73ed3f717fb1d"
+}

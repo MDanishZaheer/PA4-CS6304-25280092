@@ -1,0 +1,76 @@
+{
+  "method": "dense",
+  "dtype": "float16",
+  "length": 256,
+  "batch": 2,
+  "heads": 4,
+  "head_dimension": 64,
+  "accumulation": "FP32 scores/statistics",
+  "reference_status": "dense_fp32_on_identical_input_values",
+  "output_error": {
+    "maximum_absolute": 0.0008835792541503906,
+    "relative_l2": 0.00019993449677713215
+  },
+  "gradient_errors": [
+    {
+      "maximum_absolute": 0.0008280277252197266,
+      "relative_l2": 0.00020743215281981975
+    },
+    {
+      "maximum_absolute": 0.0007891654968261719,
+      "relative_l2": 0.00020733731798827648
+    },
+    {
+      "maximum_absolute": 0.0013065338134765625,
+      "relative_l2": 0.0002063124702544883
+    }
+  ],
+  "numerical_tolerance_relative_l2": 0.005,
+  "numerical_check": "passed",
+  "observed_operators": [
+    "explicit_dense_fp32"
+  ],
+  "forward": {
+    "unit": "milliseconds per batch",
+    "warmup_repetitions": 3,
+    "timing_repetitions": 10,
+    "samples_ms": [
+      0.6225480000239259,
+      0.6059759999743619,
+      0.5957040000339475,
+      0.6597710000164625,
+      0.6154000000151427,
+      0.6000540000172805,
+      0.6045040000230983,
+      0.6230399999935798,
+      0.6238149999830966,
+      0.6068430000141234
+    ],
+    "median_ms": 0.6111215000146331,
+    "peak_allocated_bytes": 26608128,
+    "peak_reserved_bytes": 46137344,
+    "additional_peak_allocated_bytes": 8520192
+  },
+  "forward_backward": {
+    "unit": "milliseconds per batch",
+    "warmup_repetitions": 3,
+    "timing_repetitions": 10,
+    "samples_ms": [
+      1.6119430000003376,
+      1.5999209999790764,
+      1.6172339999798169,
+      1.6209909999815864,
+      1.6227550000280644,
+      1.5923670000006496,
+      1.579826000011053,
+      1.59518600003139,
+      1.5867829999933747,
+      1.587949999986904
+    ],
+    "median_ms": 1.5975535000052332,
+    "peak_allocated_bytes": 29032960,
+    "peak_reserved_bytes": 48234496,
+    "additional_peak_allocated_bytes": 10158592
+  },
+  "status": "complete"
+}

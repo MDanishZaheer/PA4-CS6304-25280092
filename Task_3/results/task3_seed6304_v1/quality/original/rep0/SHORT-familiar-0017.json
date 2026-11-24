@@ -1,0 +1,43 @@
+{
+  "prompt_id": "SHORT-familiar-0017",
+  "prompt_sha256": "2a4381308eb086792c99b5b0d024c0d6db532c9223fe2ac355c3aa6891ef8028",
+  "draft": "original",
+  "workload": "familiar",
+  "repetition": 0,
+  "response": {
+    "token_ids": [
+      785,
+      9106,
+      2038,
+      369,
+      419,
+      11601,
+      2383,
+      374,
+      1447,
+      27188,
+      151645
+    ],
+    "new_tokens": 11,
+    "eos": true,
+    "truncated": false,
+    "ignore_eos": false,
+    "generation_seed": 776843,
+    "prefill_seconds": 0.03239281499918434,
+    "decode_seconds": 0.29392321900013485,
+    "elapsed_seconds": 0.3263324939980521,
+    "target_prefill_passes": 1,
+    "target_decode_passes": 10,
+    "target_passes": 11,
+    "draft_forward_passes": 0,
+    "rounds": [],
+    "peak_allocated_bytes": 4107849216,
+    "peak_reserved_bytes": 5387583488
+  },
+  "text": "The destination code for this shipping label is:\n\nJP",
+  "extracted_answer": "jp",
+  "correct": true,
+  "extractable": true,
+  "format_compliant": false,
+  "evaluation": "standalone model quality; not speculative-output quality"
+}

@@ -1,0 +1,42 @@
+{
+  "prompt_id": "SHORT-shifted-0029",
+  "prompt_sha256": "bc8814ff9e214a24d72841c8dcc6a05af1505125d8b9762a4eb9e37cf2a8b210",
+  "draft": "off_policy_seed6305",
+  "workload": "shifted",
+  "repetition": 1,
+  "response": {
+    "token_ids": [
+      785,
+      1378,
+      79368,
+      2038,
+      369,
+      16654,
+      374,
+      16654,
+      13,
+      151645
+    ],
+    "new_tokens": 10,
+    "eos": true,
+    "truncated": false,
+    "ignore_eos": false,
+    "generation_seed": 2197140,
+    "prefill_seconds": 0.032188725999731105,
+    "decode_seconds": 0.264858077000099,
+    "elapsed_seconds": 0.29706272200201056,
+    "target_prefill_passes": 1,
+    "target_decode_passes": 9,
+    "target_passes": 10,
+    "draft_forward_passes": 0,
+    "rounds": [],
+    "peak_allocated_bytes": 4110994944,
+    "peak_reserved_bytes": 5377097728
+  },
+  "text": "The two-letter code for FR is FR.",
+  "extracted_answer": "fr",
+  "correct": true,
+  "extractable": true,
+  "format_compliant": false,
+  "evaluation": "standalone model quality; not speculative-output quality"
+}

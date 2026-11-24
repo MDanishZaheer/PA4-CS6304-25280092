@@ -1,0 +1,33 @@
+{
+  "draft": "off_policy_seed6305",
+  "status": "complete",
+  "merge_compute_seconds": 0.03482194299976982,
+  "merge_write_and_backup_seconds": 12.8727092729996,
+  "merged_checkpoint": "checkpoints/off_policy_seed6305/merged_fp16.pt",
+  "merged_checkpoint_sha256": "b827c8d0bb564c65595d6165ac031aabfa65f459cd8b054fbce770a2d0a2bbf3",
+  "merged_checkpoint_bytes": 1260429336,
+  "numerical_checks": [
+    {
+      "prompt_id": "GSM8K-train-0000",
+      "relative_l2": 0.0020403540693223476,
+      "maximum_absolute": 0.02734375
+    },
+    {
+      "prompt_id": "GSM8K-train-0001",
+      "relative_l2": 0.0025495095178484917,
+      "maximum_absolute": 0.03515625
+    },
+    {
+      "prompt_id": "SHORT-train-0000",
+      "relative_l2": 0.002518340712413192,
+      "maximum_absolute": 0.03497314453125
+    },
+    {
+      "prompt_id": "SHORT-train-0001",
+      "relative_l2": 0.0028360860887914896,
+      "maximum_absolute": 0.03515625
+    }
+  ],
+  "wrapper_in_primary_timing": false,
+  "fresh_fp16_backbone": true
+}

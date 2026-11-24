@@ -1,0 +1,32 @@
+{
+  "stage": "data",
+  "status": "complete",
+  "config_id": "78c8fbc4f13121f27796d6e958bd0508c5b029ebef7e46cc27690631b2f7cfcd",
+  "artifacts": {
+    "splits/data_manifest.json": "d48514a090ab6df350ef231a34dec0d4da73e542b4cecfe0f1be83826aae17ed",
+    "splits/kv_model_revision.json": "9e1c0dd3c88fc376d23c209be0ca785fb446cbec953dde1a5ce488acaea3a886",
+    "splits/retrieval_tokenized.jsonl.gz": "9429f07d29c674e8ef5104112d5df12bccbde78dafaff8b6352f410853fe52d9",
+    "splits/retrieval_selection.json": "3cdf56d0ad4937812fb40f216a034b4c663a07bc43ae70859f02a3e1af6209fc"
+  },
+  "summary": {
+    "supplied_hashes": {
+      "scripts/mqar_generator.py": "af69fe1cfd03a63ddbe2cc5844691bff138f06206bd94e8c7cb7aad93c727d08",
+      "data/mqar/mqar_development.jsonl.gz": "b960a5c503956afdb77edb43c9c89003ca5cbed07cca3ca65fbc71d50be5d9fd",
+      "data/mqar/mqar_test.jsonl.gz": "84925dc5f2b7a7e0b042fc354e5ec34435002b829a90b35813accd005ad4b549",
+      "data/kv_retrieval/kv_retrieval_cases.jsonl.gz": "6e2c12dae84805ed54666ff647a06e51d9412adde65729635ce07a0caa64fc13"
+    },
+    "generator_master_seed": 6304,
+    "mqar_development_examples": 2304,
+    "mqar_final_test_examples": 9216,
+    "retrieval_examples": 180,
+    "generator_training_checks": 288,
+    "tokenized_retrieval_sha256": "9429f07d29c674e8ef5104112d5df12bccbde78dafaff8b6352f410853fe52d9",
+    "expected_kv_geometry": {
+      "layers": 28,
+      "kv_heads": 2,
+      "head_dimension": 128
+    },
+    "cache_budget_preflight_conditions": 900,
+    "final_test_policy": "do not score final MQAR tests before intervention lock and all training runs"
+  }
+}

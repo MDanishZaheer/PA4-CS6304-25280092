@@ -1,0 +1,43 @@
+{
+  "prompt_id": "SHORT-familiar-0005",
+  "prompt_sha256": "319eede44c206be8e6fa4f6eb71c0aaf21e633885ecf4199ab294222e4fa3bee",
+  "draft": "off_policy_seed6305",
+  "workload": "familiar",
+  "repetition": 0,
+  "response": {
+    "token_ids": [
+      785,
+      9106,
+      2038,
+      304,
+      279,
+      11601,
+      2383,
+      374,
+      24826,
+      13,
+      151645
+    ],
+    "new_tokens": 11,
+    "eos": true,
+    "truncated": false,
+    "ignore_eos": false,
+    "generation_seed": 656759,
+    "prefill_seconds": 0.032446084998809965,
+    "decode_seconds": 0.2938695650009322,
+    "elapsed_seconds": 0.32633601499765064,
+    "target_prefill_passes": 1,
+    "target_decode_passes": 10,
+    "target_passes": 11,
+    "draft_forward_passes": 0,
+    "rounds": [],
+    "peak_allocated_bytes": 4110994944,
+    "peak_reserved_bytes": 5377097728
+  },
+  "text": "The destination code in the shipping label is PK.",
+  "extracted_answer": "pk",
+  "correct": true,
+  "extractable": true,
+  "format_compliant": false,
+  "evaluation": "standalone model quality; not speculative-output quality"
+}

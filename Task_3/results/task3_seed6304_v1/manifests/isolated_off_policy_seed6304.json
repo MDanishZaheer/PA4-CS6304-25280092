@@ -1,0 +1,13 @@
+{
+  "stage": "isolated_off_policy_seed6304",
+  "status": "complete",
+  "config_id": "ca016510f6ba13eb7b0399b721f8bacbedbe9183fdc5bbc7a4b51ad310914e62",
+  "artifacts": {
+    "systems/off_policy_seed6304_L64.json": "a1f5d6089010dd87b0bf35f72cde5368c0afae6832392353caacd7aa5357eed6",
+    "systems/off_policy_seed6304_L256.json": "3c4652156ed3dc0bdf1d44feb31f79854ff88619e00a0fd3c40677345c63b65a",
+    "systems/off_policy_seed6304_L512.json": "dc361471c09dabd537aeeb29c13b33e9feca189b7863e1bc848cb04250c0ed81"
+  },
+  "summary": {
+    "conditions": 3
+  }
+}

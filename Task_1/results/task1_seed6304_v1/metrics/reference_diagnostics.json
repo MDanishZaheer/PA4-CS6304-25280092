@@ -1,0 +1,11 @@
+{
+  "calibration_sequence_index": 0,
+  "tokens": 32,
+  "scored_tokens": 31,
+  "manual_mean_nll": 2.3505205648370096,
+  "model_mean_nll": 2.3505184650421143,
+  "absolute_error": 2.0997948952938827e-06,
+  "excluded_parameters_sha256": "959f5e8271ab3b6bb0bac4d331fbf8ecc3ebb6c46cd795f3bfb117f121209a0f",
+  "projection_count": 196,
+  "status": "passed"
+}

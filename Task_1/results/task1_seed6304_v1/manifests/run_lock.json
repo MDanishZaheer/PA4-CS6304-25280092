@@ -1,0 +1,281 @@
+{
+  "task": "Task_1",
+  "run_id": "task1_seed6304_v1",
+  "config_id": "b3a20f09648105e24c16f6f143510d39c3bc30f74bbb44f05d43d9d414b9ed78",
+  "source_id": "657b5e3f973809baab74173eaa68eca0384818d1124f0ad40d02b71f0a6c8801",
+  "created_utc": "2026-11-21T14:33:06.742776+00:00",
+  "runtime": {
+    "computed_on": "Google Colab",
+    "python": "3.13.16",
+    "packages": {
+      "torch": "2.8.0",
+      "transformers": "4.57.1",
+      "huggingface_hub": "0.36.2",
+      "datasets": "4.4.1",
+      "accelerate": "1.11.0",
+      "numpy": "2.2.6",
+      "safetensors": "0.6.2"
+    },
+    "cuda": "12.8",
+    "gpu": "NVIDIA A100-SXM4-40GB",
+    "gpu_memory_bytes": 42405855232,
+    "compute_capability": [
+      8,
+      0
+    ],
+    "precision": "float16 weights/activations; float32 error/scoring arithmetic; float64 NLL accumulation",
+    "attention_implementation": "sdpa",
+    "tf32": false,
+    "seed": 6304
+  },
+  "conditions": [
+    {
+      "id": "fp16",
+      "family": "fp16",
+      "label": "Unchanged FP16",
+      "hellaswag_count": 2000
+    },
+    {
+      "id": "p1_s25",
+      "family": "P1",
+      "sparsity": 0.25,
+      "label": "P1 25%",
+      "hellaswag_count": 512
+    },
+    {
+      "id": "p1_s50",
+      "family": "P1",
+      "sparsity": 0.5,
+      "label": "P1 50%",
+      "hellaswag_count": 2000
+    },
+    {
+      "id": "p1_s75",
+      "family": "P1",
+      "sparsity": 0.75,
+      "label": "P1 75%",
+      "hellaswag_count": 512
+    },
+    {
+      "id": "p2_s25",
+      "family": "P2",
+      "sparsity": 0.25,
+      "label": "P2 25%",
+      "hellaswag_count": 512
+    },
+    {
+      "id": "p2_s50",
+      "family": "P2",
+      "sparsity": 0.5,
+      "label": "P2 50%",
+      "hellaswag_count": 2000
+    },
+    {
+      "id": "p2_s75",
+      "family": "P2",
+      "sparsity": 0.75,
+      "label": "P2 75%",
+      "hellaswag_count": 512
+    },
+    {
+      "id": "p3_s50",
+      "family": "P3",
+      "sparsity": 0.5,
+      "label": "P3 adaptive 50%",
+      "hellaswag_count": 2000
+    },
+    {
+      "id": "p3_s75",
+      "family": "P3",
+      "sparsity": 0.75,
+      "label": "P3 adaptive 75%",
+      "hellaswag_count": 512
+    },
+    {
+      "id": "q1_int8",
+      "family": "Q1",
+      "bits": 8,
+      "label": "Q1 INT8",
+      "hellaswag_count": 512
+    },
+    {
+      "id": "q1_int4",
+      "family": "Q1",
+      "bits": 4,
+      "label": "Q1 INT4",
+      "hellaswag_count": 2000
+    },
+    {
+      "id": "q1_int3",
+      "family": "Q1",
+      "bits": 3,
+      "label": "Q1 INT3",
+      "hellaswag_count": 2000
+    },
+    {
+      "id": "q2_int8",
+      "family": "Q2",
+      "bits": 8,
+      "label": "Q2 INT8",
+      "hellaswag_count": 512
+    },
+    {
+      "id": "q2_int4",
+      "family": "Q2",
+      "bits": 4,
+      "label": "Q2 INT4",
+      "hellaswag_count": 2000
+    },
+    {
+      "id": "q2_int3",
+      "family": "Q2",
+      "bits": 3,
+      "label": "Q2 INT3",
+      "hellaswag_count": 2000
+    },
+    {
+      "id": "q3_budget_int4",
+      "family": "Q3",
+      "reference_bits": 4,
+      "label": "Q3 <= Q2 INT4 bytes",
+      "hellaswag_count": 2000
+    },
+    {
+      "id": "q3_budget_int3",
+      "family": "Q3",
+      "reference_bits": 3,
+      "label": "Q3 <= Q2 INT3 bytes",
+      "hellaswag_count": 2000
+    },
+    {
+      "id": "wanda_2of4",
+      "family": "structured",
+      "sparsity": 0.5,
+      "label": "Wanda 2:4 diagnostic",
+      "hellaswag_count": 512
+    }
+  ],
+  "data_id": "2d958e32231a2a1706122fe1cb13a6ceabe4841acc4e18b8f066869a5da0d0fe",
+  "allocation_lock_id": "88fc72233452b42bf97e446aa3150c57c320eb70572905f4c9d2e997337a3c27",
+  "heldout_access_started": true,
+  "scientific_configuration": {
+    "seed": 6304,
+    "model": {
+      "name": "Qwen/Qwen2.5-1.5B",
+      "revision": null,
+      "dtype": "float16",
+      "attention_backend": "sdpa",
+      "eligible": [
+        "q_proj",
+        "k_proj",
+        "v_proj",
+        "o_proj",
+        "gate_proj",
+        "up_proj",
+        "down_proj"
+      ]
+    },
+    "calibration": {
+      "sequences": 128,
+      "development_sequences": 32,
+      "sequence_length": 512,
+      "probe_tokens_per_sequence": 4,
+      "pruning_probe_sparsities": [
+        0.1,
+        0.25,
+        0.5,
+        0.75,
+        0.85
+      ]
+    },
+    "pruning": {
+      "uniform_sparsities": [
+        0.25,
+        0.5,
+        0.75
+      ],
+      "adaptive_sparsities": [
+        0.5,
+        0.75
+      ],
+      "minimum": 0.1,
+      "maximum": 0.85,
+      "sensitivity": "isolated_wanda_relative_output_mse_at_50_percent",
+      "allocation": "clipped_inverse_sensitivity_water_filling",
+      "temperature_candidates": [
+        0.25,
+        0.5,
+        1.0
+      ],
+      "selection": "minimum_development_pooled_token_nll_then_smaller_temperature"
+    },
+    "quantization": {
+      "uniform_bits": [
+        8,
+        4,
+        3
+      ],
+      "allowed_bits": [
+        2,
+        3,
+        4,
+        8
+      ],
+      "group_size": 128,
+      "scale_dtype": "float16",
+      "zero_point_dtype": "uint8",
+      "rounding": "nearest_ties_to_even",
+      "include_zero_in_range": true,
+      "packing": "little_endian_bitstream_per_row",
+      "tensor_alignment_bytes": 16,
+      "projection_header_bytes": 64,
+      "scale_candidates": [
+        0.0,
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "scale_clip": [
+        0.05,
+        20.0
+      ],
+      "fold_down_inverse_into_up": true,
+      "mixed_allocation": "greedy_calibration_distortion_reduction_per_packed_byte"
+    },
+    "evaluation": {
+      "scored_tokens_per_suite": 50000,
+      "window_length": 512,
+      "hellaswag_full_count": 2000,
+      "hellaswag_diagnostic_count": 512,
+      "hellaswag_task_version": "1.0",
+      "hellaswag_reference": "lm-evaluation-harness_v0.4.9",
+      "head_chunk_tokens": 64,
+      "save_every_examples": 16,
+      "bootstrap_resamples": 2000,
+      "confidence": 0.95,
+      "qualitative_orders": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "benchmark": {
+      "prompt_lengths": [
+        512,
+        2048
+      ],
+      "batch_size": 1,
+      "decode_steps": 64,
+      "warmup_repetitions": 2,
+      "repetitions": 5,
+      "ignore_eos_for_fixed_work": true
+    }
+  },
+  "model_revision": "8faed761d45a263340a0528343f099c05c9a4323"
+}

@@ -1,0 +1,13 @@
+{
+  "stage": "allocation_plan",
+  "status": "complete",
+  "config_id": "b3a20f09648105e24c16f6f143510d39c3bc30f74bbb44f05d43d9d414b9ed78",
+  "artifacts": {
+    "configs/allocations_locked.json": "5ffe1169a1afd91a04e065690f8acc5409a006846b3b4fe6244d246e3ec5c642",
+    "metrics/sensitivity_profiles.json": "edd586689f2035792117234d67c6241e0bee50c9e623719797e5aa1f73466143"
+  },
+  "summary": {
+    "allocation_lock_id": "88fc72233452b42bf97e446aa3150c57c320eb70572905f4c9d2e997337a3c27",
+    "heldout_access_started": false
+  }
+}

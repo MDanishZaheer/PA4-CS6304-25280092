@@ -1,0 +1,9 @@
+{
+  "scored_tokens": 50000,
+  "windows": 177,
+  "mean_nll": 4.629365444164742,
+  "perplexity": 102.44903384776461,
+  "perplexity_overflow": false,
+  "saved_successful_item_scoring_seconds": 2.1840027450000434,
+  "current_session_scoring_seconds": 2.6533402310000156
+}

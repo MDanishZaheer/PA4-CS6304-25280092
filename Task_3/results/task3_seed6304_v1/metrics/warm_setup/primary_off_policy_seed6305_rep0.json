@@ -1,0 +1,11 @@
+{
+  "seconds": 0.662730616000772,
+  "attempt_seconds": [
+    0.662730616000772
+  ],
+  "excluded_from_primary_timing": true,
+  "draft": "off_policy_seed6305",
+  "repetition": 0,
+  "model_order_index": 3,
+  "reason": "warm every newly loaded model, including resumed partial conditions"
+}

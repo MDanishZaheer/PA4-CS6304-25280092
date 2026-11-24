@@ -1,0 +1,42 @@
+{
+  "prompt_id": "SHORT-familiar-0023",
+  "prompt_sha256": "b05649c04da3135c272b8f9f4ebe07474908ef8b7ff35cdfbd898947d755e55f",
+  "draft": "original",
+  "workload": "familiar",
+  "repetition": 1,
+  "response": {
+    "token_ids": [
+      785,
+      9106,
+      2038,
+      18054,
+      374,
+      3070,
+      2034,
+      334,
+      13,
+      151645
+    ],
+    "new_tokens": 10,
+    "eos": true,
+    "truncated": false,
+    "ignore_eos": false,
+    "generation_seed": 1836888,
+    "prefill_seconds": 0.03142368599947076,
+    "decode_seconds": 0.2599968260001333,
+    "elapsed_seconds": 0.2914358390007692,
+    "target_prefill_passes": 1,
+    "target_decode_passes": 9,
+    "target_passes": 10,
+    "draft_forward_passes": 0,
+    "rounds": [],
+    "peak_allocated_bytes": 4107824640,
+    "peak_reserved_bytes": 5387583488
+  },
+  "text": "The destination code matched is **US**.",
+  "extracted_answer": "us",
+  "correct": true,
+  "extractable": true,
+  "format_compliant": false,
+  "evaluation": "standalone model quality; not speculative-output quality"
+}

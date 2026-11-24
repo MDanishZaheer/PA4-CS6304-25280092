@@ -1,0 +1,36 @@
+{
+  "prompt_id": "SHORT-familiar-0008",
+  "prompt_sha256": "b925d03eb986ec552288eb9d281bff9efa073e8e73e633934ac0fdf8dd275351",
+  "draft": "original",
+  "workload": "familiar",
+  "repetition": 0,
+  "response": {
+    "token_ids": [
+      33605,
+      2038,
+      18865,
+      151645
+    ],
+    "new_tokens": 4,
+    "eos": true,
+    "truncated": false,
+    "ignore_eos": false,
+    "generation_seed": 686780,
+    "prefill_seconds": 0.03157143799762707,
+    "decode_seconds": 0.08638113000051817,
+    "elapsed_seconds": 0.11796838200098136,
+    "target_prefill_passes": 1,
+    "target_decode_passes": 3,
+    "target_passes": 4,
+    "draft_forward_passes": 0,
+    "rounds": [],
+    "peak_allocated_bytes": 4107750912,
+    "peak_reserved_bytes": 5387583488
+  },
+  "text": "Destination code GB",
+  "extracted_answer": "gb",
+  "correct": true,
+  "extractable": true,
+  "format_compliant": false,
+  "evaluation": "standalone model quality; not speculative-output quality"
+}

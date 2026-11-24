@@ -1,0 +1,32 @@
+{
+  "source_id": "SHORT-train-0086",
+  "domain": "short",
+  "prompt_sha256": "cd8ef0e0ed62d06c136133926787bba0f13a56280f93180c52e20add7b48c2ee",
+  "rollout_seed": 6924203163983502300,
+  "teacher_scored_tokens": 0,
+  "producer": "teacher",
+  "token_ids": [
+    785,
+    9106,
+    2038,
+    374,
+    9183,
+    13,
+    151645
+  ],
+  "new_tokens": 7,
+  "eos": true,
+  "truncated": false,
+  "ignore_eos": false,
+  "generation_seed": 6924203163983502300,
+  "prefill_seconds": 0.03812717300024815,
+  "decode_seconds": 0.21718405100000382,
+  "elapsed_seconds": 0.2553284430014173,
+  "target_prefill_passes": 1,
+  "target_decode_passes": 6,
+  "target_passes": 7,
+  "draft_forward_passes": 0,
+  "rounds": [],
+  "peak_allocated_bytes": 3109863424,
+  "peak_reserved_bytes": 5523898368
+}

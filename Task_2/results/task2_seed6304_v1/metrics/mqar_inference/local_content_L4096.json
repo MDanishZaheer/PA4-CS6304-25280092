@@ -1,0 +1,44 @@
+{
+  "method": "local_content",
+  "batch": 2,
+  "heads": 4,
+  "length": 4096,
+  "head_dimension": 32,
+  "attended_pairs": 2081024,
+  "content_selection_score_pairs": 67108864,
+  "content_causal_candidate_pairs": 33562624,
+  "explicit_content_score_bytes": 268435456,
+  "full_sort_index_bytes": 536870912,
+  "theoretical_incremental_state_bytes": 2129920,
+  "explicit_mask_bytes": 16777216,
+  "mask_scope": "boolean mask passed to SDPA; construction/selection temporaries appear in measured peaks",
+  "implementation": "dense scores, stable sort and dense selected attention",
+  "state_note": "hypothetical minimal incremental per-head buffers/recurrent state, not measured full-sequence training allocation",
+  "observed_operators": [
+    "aten::_efficient_attention_forward",
+    "aten::_scaled_dot_product_efficient_attention",
+    "aten::scaled_dot_product_attention"
+  ],
+  "timing": {
+    "unit": "milliseconds per batch",
+    "warmup_repetitions": 3,
+    "timing_repetitions": 10,
+    "samples_ms": [
+      10.74234699990484,
+      10.728229999585892,
+      10.741248999693198,
+      10.725621999881696,
+      10.7205829999657,
+      10.740720999820041,
+      10.721788999944692,
+      9.28090700017492,
+      9.188428000015847,
+      9.18403000014223
+    ],
+    "median_ms": 10.723705499913194,
+    "peak_allocated_bytes": 1473511424,
+    "peak_reserved_bytes": 1553989632,
+    "additional_peak_allocated_bytes": 1450180608
+  },
+  "status": "complete"
+}

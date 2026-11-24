@@ -1,0 +1,68 @@
+{
+  "status": "passed",
+  "device": "cpu",
+  "pretrained_models_loaded": false,
+  "gpu_work_performed": false,
+  "runs": [
+    {
+      "draft": "off_policy_seed6304",
+      "adapter_tensors": 192,
+      "adapter_dtype": "torch.float32",
+      "optimizer_moment_dtypes": [
+        "torch.float32"
+      ],
+      "final_matches_full_recovery": true,
+      "successful_updates": 157,
+      "teacher_scored_tokens": {
+        "math": 30000,
+        "short": 10000
+      },
+      "grad_scaler_state_present": true
+    },
+    {
+      "draft": "off_policy_seed6305",
+      "adapter_tensors": 192,
+      "adapter_dtype": "torch.float32",
+      "optimizer_moment_dtypes": [
+        "torch.float32"
+      ],
+      "final_matches_full_recovery": true,
+      "successful_updates": 157,
+      "teacher_scored_tokens": {
+        "math": 30000,
+        "short": 10000
+      },
+      "grad_scaler_state_present": true
+    },
+    {
+      "draft": "on_policy_seed6304",
+      "adapter_tensors": 192,
+      "adapter_dtype": "torch.float32",
+      "optimizer_moment_dtypes": [
+        "torch.float32"
+      ],
+      "final_matches_full_recovery": true,
+      "successful_updates": 157,
+      "teacher_scored_tokens": {
+        "math": 30000,
+        "short": 10000
+      },
+      "grad_scaler_state_present": true
+    },
+    {
+      "draft": "on_policy_seed6305",
+      "adapter_tensors": 192,
+      "adapter_dtype": "torch.float32",
+      "optimizer_moment_dtypes": [
+        "torch.float32"
+      ],
+      "final_matches_full_recovery": true,
+      "successful_updates": 157,
+      "teacher_scored_tokens": {
+        "math": 30000,
+        "short": 10000
+      },
+      "grad_scaler_state_present": true
+    }
+  ]
+}

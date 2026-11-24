@@ -1,0 +1,73 @@
+{
+  "prompt_id": "SHORT-familiar-0008",
+  "prompt_sha256": "b925d03eb986ec552288eb9d281bff9efa073e8e73e633934ac0fdf8dd275351",
+  "workload": "familiar",
+  "bank": "own_on_policy_seed6304",
+  "producer": "on_policy_seed6304",
+  "producer_checkpoint": "2ff9dda20797f6248d04cac9005e91666d43c866e547ed9bc3d72ca3947e4fd6",
+  "response_token_ids": [
+    785,
+    9106,
+    2038,
+    369,
+    279,
+    11601,
+    2383,
+    374,
+    18865,
+    13,
+    151645
+  ],
+  "selected_positions": [
+    2,
+    3,
+    4,
+    6,
+    7,
+    8,
+    9,
+    11
+  ],
+  "prefix_ids": [
+    "own_on_policy_seed6304:SHORT-familiar-0008:p002",
+    "own_on_policy_seed6304:SHORT-familiar-0008:p003",
+    "own_on_policy_seed6304:SHORT-familiar-0008:p004",
+    "own_on_policy_seed6304:SHORT-familiar-0008:p006",
+    "own_on_policy_seed6304:SHORT-familiar-0008:p007",
+    "own_on_policy_seed6304:SHORT-familiar-0008:p008",
+    "own_on_policy_seed6304:SHORT-familiar-0008:p009",
+    "own_on_policy_seed6304:SHORT-familiar-0008:p011"
+  ],
+  "generation": {
+    "token_ids": [
+      785,
+      9106,
+      2038,
+      369,
+      279,
+      11601,
+      2383,
+      374,
+      18865,
+      13,
+      151645
+    ],
+    "new_tokens": 11,
+    "eos": true,
+    "truncated": false,
+    "ignore_eos": false,
+    "generation_seed": 687784,
+    "prefill_seconds": 0.05148215400004119,
+    "decode_seconds": 0.4557813299998088,
+    "elapsed_seconds": 0.5072792329992808,
+    "target_prefill_passes": 1,
+    "target_decode_passes": 10,
+    "target_passes": 11,
+    "draft_forward_passes": 0,
+    "rounds": [],
+    "peak_allocated_bytes": 4112174592,
+    "peak_reserved_bytes": 4362076160
+  },
+  "law": "on_policy_seed6304",
+  "materialization": "generated here because the supplied data-only checkout contains no materialized prefix bank"
+}

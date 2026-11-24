@@ -1,0 +1,153 @@
+{
+  "purpose": "Main report figures rendered locally; numerical cloud measurements are unchanged.",
+  "rendered_at_utc": "2026-11-21T15:33:08.809672+00:00",
+  "rendered_on": {
+    "platform": "Windows-10-10.0.26300-SP0",
+    "python_executable": "C:\\Users\\DanishZaheer\\anaconda3\\envs\\ATML\\python.exe",
+    "python_version": "3.11.15",
+    "matplotlib": "3.11.1"
+  },
+  "original_execution": {
+    "run_id": "task1_seed6304_v1",
+    "config_id": "b3a20f09648105e24c16f6f143510d39c3bc30f74bbb44f05d43d9d414b9ed78",
+    "data_id": "2d958e32231a2a1706122fe1cb13a6ceabe4841acc4e18b8f066869a5da0d0fe",
+    "computed_on": "Google Colab",
+    "runtime": {
+      "computed_on": "Google Colab",
+      "python": "3.13.16",
+      "packages": {
+        "torch": "2.8.0",
+        "transformers": "4.57.1",
+        "huggingface_hub": "0.36.2",
+        "datasets": "4.4.1",
+        "accelerate": "1.11.0",
+        "numpy": "2.2.6",
+        "safetensors": "0.6.2"
+      },
+      "cuda": "12.8",
+      "gpu": "NVIDIA A100-SXM4-40GB",
+      "gpu_memory_bytes": 42405855232,
+      "compute_capability": [
+        8,
+        0
+      ],
+      "precision": "float16 weights/activations; float32 error/scoring arithmetic; float64 NLL accumulation",
+      "attention_implementation": "sdpa",
+      "tf32": false,
+      "seed": 6304
+    }
+  },
+  "inputs": {
+    "saved_inputs": {
+      "tables/all_conditions.csv": "9a7b6d214331d44dcde680bee9d47f984341259c16f05258e5c68fa4e7aa52b9",
+      "tables/sensitivity_and_allocations.csv": "50a595f76597a13aa003254b9b6a750df0787247880dded46fb9627fa60ccae3",
+      "tables/pruning_local_errors.csv": "d1328cb697f9d041a6369e213cf94ef3bce7379c77fbf8d218578e5d01d9ad0a",
+      "metrics/sensitivity_profiles.json": "edd586689f2035792117234d67c6241e0bee50c9e623719797e5aa1f73466143"
+    },
+    "rendering_code": {
+      "presentation.py": "d3213ab3cda9dee5b6e0c252b28be0cf7e872e811b4aa63395c14cb0a24125cf",
+      "evidence.py": "840a1b4433af6a9adb6f05a2d7ebbb6424b408144ef60256db0c626eb6505458"
+    },
+    "run_identity": {
+      "run_id": "task1_seed6304_v1",
+      "config_id": "b3a20f09648105e24c16f6f143510d39c3bc30f74bbb44f05d43d9d414b9ed78",
+      "data_id": "2d958e32231a2a1706122fe1cb13a6ceabe4841acc4e18b8f066869a5da0d0fe"
+    },
+    "font_family": "Times New Roman",
+    "font_size_pt": 10,
+    "dpi": 300
+  },
+  "resolved_regular_font": "C:\\Windows\\Fonts\\times.ttf",
+  "figures": {
+    "figures/rq1_pruning_mechanism.png": {
+      "relative_path": "figures/rq1_pruning_mechanism.png",
+      "sha256": "0f9ddcfe9598e9bfdc89d13a693d9a58ae2309a3ad4adacd7da03fe7673842d0",
+      "dimensions_pixels": [
+        2965,
+        1017
+      ],
+      "text_objects": 70,
+      "font_sizes_pt": [
+        10.0
+      ],
+      "font_families": [
+        "Times New Roman"
+      ],
+      "resolved_font_files": [
+        "C:\\Windows\\Fonts\\times.ttf"
+      ]
+    },
+    "figures/rq2_sensitivity_and_allocations.png": {
+      "relative_path": "figures/rq2_sensitivity_and_allocations.png",
+      "sha256": "8266c7dd4d15a837ae3aedfe9892a1d32edb56da4bf4b4951f9716c61063398e",
+      "dimensions_pixels": [
+        2934,
+        2967
+      ],
+      "text_objects": 272,
+      "font_sizes_pt": [
+        10.0
+      ],
+      "font_families": [
+        "Times New Roman"
+      ],
+      "resolved_font_files": [
+        "C:\\Windows\\Fonts\\times.ttf"
+      ]
+    },
+    "figures/rq3_resource_quality.png": {
+      "relative_path": "figures/rq3_resource_quality.png",
+      "sha256": "15e32b8d5e96cf89b9b81b916368c21fd8886370642ab55b470f5e67f63055b9",
+      "dimensions_pixels": [
+        3267,
+        2067
+      ],
+      "text_objects": 156,
+      "font_sizes_pt": [
+        10.0
+      ],
+      "font_families": [
+        "Times New Roman"
+      ],
+      "resolved_font_files": [
+        "C:\\Windows\\Fonts\\times.ttf"
+      ]
+    },
+    "figures/rq3_calibration_vs_heldout.png": {
+      "relative_path": "figures/rq3_calibration_vs_heldout.png",
+      "sha256": "1d10c1967aa4e4c33805700b09592284f99a9b3c874c29e6c13c1a95ff709e06",
+      "dimensions_pixels": [
+        2969,
+        1017
+      ],
+      "text_objects": 82,
+      "font_sizes_pt": [
+        10.0
+      ],
+      "font_families": [
+        "Times New Roman"
+      ],
+      "resolved_font_files": [
+        "C:\\Windows\\Fonts\\times.ttf"
+      ]
+    },
+    "figures/rq4_storage_memory_latency.png": {
+      "relative_path": "figures/rq4_storage_memory_latency.png",
+      "sha256": "30be4343333680b7fcb4ee1a3b344953ea155a5300db3ee9b8630528732ec0b3",
+      "dimensions_pixels": [
+        3569,
+        2070
+      ],
+      "text_objects": 111,
+      "font_sizes_pt": [
+        10.0
+      ],
+      "font_families": [
+        "Times New Roman"
+      ],
+      "resolved_font_files": [
+        "C:\\Windows\\Fonts\\times.ttf"
+      ]
+    }
+  }
+}

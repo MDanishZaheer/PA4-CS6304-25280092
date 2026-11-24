@@ -1,0 +1,6 @@
+{
+  "condition": "dense_K16_mixed_seed6306_test_window64",
+  "first": 384,
+  "examples": 128,
+  "sha256": "9c53fbfb6c0e59c5b80261cebc59ed9ea8ef63b928a44aced37c0482461ceb65"
+}

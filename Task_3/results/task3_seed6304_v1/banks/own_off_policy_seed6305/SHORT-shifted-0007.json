@@ -1,0 +1,51 @@
+{
+  "prompt_id": "SHORT-shifted-0007",
+  "prompt_sha256": "955936d352128e3b34c295abf6a3015a6b562424c0751ae8885a46c43faeb97d",
+  "workload": "shifted",
+  "bank": "own_off_policy_seed6305",
+  "producer": "off_policy_seed6305",
+  "producer_checkpoint": "ec1d56f1ca40a0cb6f712e6138630bca7ea87d526ef20b41632af5db126dac24",
+  "response_token_ids": [
+    16,
+    23,
+    20,
+    151645
+  ],
+  "selected_positions": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "prefix_ids": [
+    "own_off_policy_seed6305:SHORT-shifted-0007:p001",
+    "own_off_policy_seed6305:SHORT-shifted-0007:p002",
+    "own_off_policy_seed6305:SHORT-shifted-0007:p003",
+    "own_off_policy_seed6305:SHORT-shifted-0007:p004"
+  ],
+  "generation": {
+    "token_ids": [
+      16,
+      23,
+      20,
+      151645
+    ],
+    "new_tokens": 4,
+    "eos": true,
+    "truncated": false,
+    "ignore_eos": false,
+    "generation_seed": 977988,
+    "prefill_seconds": 0.049883904999660444,
+    "decode_seconds": 0.13205042800018418,
+    "elapsed_seconds": 0.18194941399997333,
+    "target_prefill_passes": 1,
+    "target_decode_passes": 3,
+    "target_passes": 4,
+    "draft_forward_passes": 0,
+    "rounds": [],
+    "peak_allocated_bytes": 4112174592,
+    "peak_reserved_bytes": 4362076160
+  },
+  "law": "off_policy_seed6305",
+  "materialization": "generated here because the supplied data-only checkout contains no materialized prefix bank"
+}

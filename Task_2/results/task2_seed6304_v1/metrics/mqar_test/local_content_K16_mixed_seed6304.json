@@ -1,0 +1,320 @@
+{
+  "id": "local_content_K16_mixed_seed6304",
+  "method": "local_content",
+  "train_K": 16,
+  "train_regime": "mixed",
+  "seed": 6304,
+  "training_id": "local_content_K16_mixed_seed6304",
+  "test_method": "local_content",
+  "test_only_mask": false,
+  "status": "complete",
+  "examples": 9216,
+  "cells": [
+    {
+      "test_K": 4,
+      "regime": "near",
+      "examples": 1024,
+      "queries": 4096,
+      "correct": 4087,
+      "accuracy": 0.997802734375,
+      "mean_query_nll": 0.01623648752779161,
+      "chance_label_space": 0.015625,
+      "chance_present_values": 0.25,
+      "distance_bins": {
+        "0_32": {
+          "correct": 1809,
+          "queries": 1818,
+          "accuracy": 0.995049504950495
+        },
+        "32_64": {
+          "correct": 2278,
+          "queries": 2278,
+          "accuracy": 1.0
+        },
+        "64_128": {
+          "correct": 0,
+          "queries": 0,
+          "accuracy": null
+        },
+        "128_256": {
+          "correct": 0,
+          "queries": 0,
+          "accuracy": null
+        }
+      },
+      "denominator": "all supervised query positions; no next-token shift"
+    },
+    {
+      "test_K": 4,
+      "regime": "far",
+      "examples": 1024,
+      "queries": 4096,
+      "correct": 4095,
+      "accuracy": 0.999755859375,
+      "mean_query_nll": 0.0017546142157982558,
+      "chance_label_space": 0.015625,
+      "chance_present_values": 0.25,
+      "distance_bins": {
+        "0_32": {
+          "correct": 0,
+          "queries": 0,
+          "accuracy": null
+        },
+        "32_64": {
+          "correct": 0,
+          "queries": 0,
+          "accuracy": null
+        },
+        "64_128": {
+          "correct": 0,
+          "queries": 0,
+          "accuracy": null
+        },
+        "128_256": {
+          "correct": 4095,
+          "queries": 4096,
+          "accuracy": 0.999755859375
+        }
+      },
+      "denominator": "all supervised query positions; no next-token shift"
+    },
+    {
+      "test_K": 4,
+      "regime": "mixed",
+      "examples": 1024,
+      "queries": 4096,
+      "correct": 4088,
+      "accuracy": 0.998046875,
+      "mean_query_nll": 0.009603881106195367,
+      "chance_label_space": 0.015625,
+      "chance_present_values": 0.25,
+      "distance_bins": {
+        "0_32": {
+          "correct": 447,
+          "queries": 453,
+          "accuracy": 0.9867549668874173
+        },
+        "32_64": {
+          "correct": 538,
+          "queries": 538,
+          "accuracy": 1.0
+        },
+        "64_128": {
+          "correct": 1046,
+          "queries": 1047,
+          "accuracy": 0.9990448901623686
+        },
+        "128_256": {
+          "correct": 2057,
+          "queries": 2058,
+          "accuracy": 0.999514091350826
+        }
+      },
+      "denominator": "all supervised query positions; no next-token shift"
+    },
+    {
+      "test_K": 8,
+      "regime": "near",
+      "examples": 1024,
+      "queries": 8192,
+      "correct": 8180,
+      "accuracy": 0.99853515625,
+      "mean_query_nll": 0.008954392605432737,
+      "chance_label_space": 0.015625,
+      "chance_present_values": 0.125,
+      "distance_bins": {
+        "0_32": {
+          "correct": 3293,
+          "queries": 3304,
+          "accuracy": 0.9966707021791767
+        },
+        "32_64": {
+          "correct": 4887,
+          "queries": 4888,
+          "accuracy": 0.9997954173486089
+        },
+        "64_128": {
+          "correct": 0,
+          "queries": 0,
+          "accuracy": null
+        },
+        "128_256": {
+          "correct": 0,
+          "queries": 0,
+          "accuracy": null
+        }
+      },
+      "denominator": "all supervised query positions; no next-token shift"
+    },
+    {
+      "test_K": 8,
+      "regime": "far",
+      "examples": 1024,
+      "queries": 8192,
+      "correct": 8191,
+      "accuracy": 0.9998779296875,
+      "mean_query_nll": 0.001264932471582103,
+      "chance_label_space": 0.015625,
+      "chance_present_values": 0.125,
+      "distance_bins": {
+        "0_32": {
+          "correct": 0,
+          "queries": 0,
+          "accuracy": null
+        },
+        "32_64": {
+          "correct": 0,
+          "queries": 0,
+          "accuracy": null
+        },
+        "64_128": {
+          "correct": 0,
+          "queries": 0,
+          "accuracy": null
+        },
+        "128_256": {
+          "correct": 8191,
+          "queries": 8192,
+          "accuracy": 0.9998779296875
+        }
+      },
+      "denominator": "all supervised query positions; no next-token shift"
+    },
+    {
+      "test_K": 8,
+      "regime": "mixed",
+      "examples": 1024,
+      "queries": 8192,
+      "correct": 8188,
+      "accuracy": 0.99951171875,
+      "mean_query_nll": 0.002557213575038908,
+      "chance_label_space": 0.015625,
+      "chance_present_values": 0.125,
+      "distance_bins": {
+        "0_32": {
+          "correct": 756,
+          "queries": 758,
+          "accuracy": 0.9973614775725593
+        },
+        "32_64": {
+          "correct": 1088,
+          "queries": 1089,
+          "accuracy": 0.9990817263544536
+        },
+        "64_128": {
+          "correct": 2242,
+          "queries": 2243,
+          "accuracy": 0.9995541685242978
+        },
+        "128_256": {
+          "correct": 4102,
+          "queries": 4102,
+          "accuracy": 1.0
+        }
+      },
+      "denominator": "all supervised query positions; no next-token shift"
+    },
+    {
+      "test_K": 16,
+      "regime": "near",
+      "examples": 1024,
+      "queries": 16384,
+      "correct": 16383,
+      "accuracy": 0.99993896484375,
+      "mean_query_nll": 0.0007263957571155277,
+      "chance_label_space": 0.015625,
+      "chance_present_values": 0.0625,
+      "distance_bins": {
+        "0_32": {
+          "correct": 4326,
+          "queries": 4327,
+          "accuracy": 0.9997688929974579
+        },
+        "32_64": {
+          "correct": 12057,
+          "queries": 12057,
+          "accuracy": 1.0
+        },
+        "64_128": {
+          "correct": 0,
+          "queries": 0,
+          "accuracy": null
+        },
+        "128_256": {
+          "correct": 0,
+          "queries": 0,
+          "accuracy": null
+        }
+      },
+      "denominator": "all supervised query positions; no next-token shift"
+    },
+    {
+      "test_K": 16,
+      "regime": "far",
+      "examples": 1024,
+      "queries": 16384,
+      "correct": 16384,
+      "accuracy": 1.0,
+      "mean_query_nll": 0.00046150144482237643,
+      "chance_label_space": 0.015625,
+      "chance_present_values": 0.0625,
+      "distance_bins": {
+        "0_32": {
+          "correct": 0,
+          "queries": 0,
+          "accuracy": null
+        },
+        "32_64": {
+          "correct": 0,
+          "queries": 0,
+          "accuracy": null
+        },
+        "64_128": {
+          "correct": 0,
+          "queries": 0,
+          "accuracy": null
+        },
+        "128_256": {
+          "correct": 16384,
+          "queries": 16384,
+          "accuracy": 1.0
+        }
+      },
+      "denominator": "all supervised query positions; no next-token shift"
+    },
+    {
+      "test_K": 16,
+      "regime": "mixed",
+      "examples": 1024,
+      "queries": 16384,
+      "correct": 16384,
+      "accuracy": 1.0,
+      "mean_query_nll": 0.0004701404233631301,
+      "chance_label_space": 0.015625,
+      "chance_present_values": 0.0625,
+      "distance_bins": {
+        "0_32": {
+          "correct": 1055,
+          "queries": 1055,
+          "accuracy": 1.0
+        },
+        "32_64": {
+          "correct": 2352,
+          "queries": 2352,
+          "accuracy": 1.0
+        },
+        "64_128": {
+          "correct": 4743,
+          "queries": 4743,
+          "accuracy": 1.0
+        },
+        "128_256": {
+          "correct": 8234,
+          "queries": 8234,
+          "accuracy": 1.0
+        }
+      },
+      "denominator": "all supervised query positions; no next-token shift"
+    }
+  ]
+}

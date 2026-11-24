@@ -1,0 +1,231 @@
+{
+  "audited_on": "Local ATML; saved evidence only",
+  "audited_at_utc": "2026-11-21T17:18:18.767713+00:00",
+  "run_id": "task1_seed6304_v1",
+  "computed_on": "Google Colab",
+  "gpu": "NVIDIA A100-SXM4-40GB",
+  "status": "passed",
+  "gpu_rerun_required": false,
+  "checks": {
+    "stage_manifests": {
+      "data": true,
+      "allocation_plan": true,
+      "fp16": true,
+      "p1_s25": true,
+      "p1_s50": true,
+      "p1_s75": true,
+      "p2_s25": true,
+      "p2_s50": true,
+      "p2_s75": true,
+      "p3_s50": true,
+      "p3_s75": true,
+      "q1_int8": true,
+      "q1_int4": true,
+      "q1_int3": true,
+      "q2_int8": true,
+      "q2_int4": true,
+      "q2_int3": true,
+      "q3_budget_int4": true,
+      "q3_budget_int3": true,
+      "wanda_2of4": true
+    },
+    "cloud_files_verified": 645,
+    "locally_formatted_files_verified": [
+      "figures/rq1_pruning_mechanism.png",
+      "figures/rq2_sensitivity_and_allocations.png",
+      "figures/rq3_resource_quality.png",
+      "figures/rq3_calibration_vs_heldout.png",
+      "figures/rq4_storage_memory_latency.png",
+      "manifests/run.json",
+      "figures/style_manifest.json"
+    ],
+    "optional_recovery_files_not_downloaded": [],
+    "data_protocol": {
+      "calibration_sequences": 128,
+      "development_sequences": 32,
+      "calibration_tokens_per_sequence": 512,
+      "wikitext2_scored_tokens": 50000,
+      "c4_scored_tokens": 50000,
+      "hellaswag_examples": 2000,
+      "hellaswag_diagnostic_orders": [
+        0,
+        512
+      ],
+      "leakage_checks": "passed"
+    },
+    "pruning_allocations": {
+      "0.5": {
+        "zeros": 655097856,
+        "development_candidates": 3,
+        "selected_temperature": 0.25
+      },
+      "0.75": {
+        "zeros": 982646784,
+        "development_candidates": 3,
+        "selected_temperature": 0.5
+      }
+    },
+    "quantization_allocations": {
+      "4": {
+        "actual_bytes": 1153371520,
+        "reference_bytes": 1153371520,
+        "bit_counts": {
+          "4": 181,
+          "3": 3,
+          "8": 10,
+          "2": 2
+        }
+      },
+      "3": {
+        "actual_bytes": 989597056,
+        "reference_bytes": 989597056,
+        "bit_counts": {
+          "3": 158,
+          "2": 12,
+          "4": 26
+        }
+      }
+    },
+    "scorer_and_rescaling": {
+      "causal_reference_error": 2.0997948952938827e-06,
+      "maximum_local_rescaling_relative_l2": 3.060825974898762e-07,
+      "maximum_whole_model_fp16_rescaling_relative_l2": 0.003022716147825122,
+      "batched_reference_mean_nll_error": 0.0010925596579909325
+    },
+    "conditions": [
+      {
+        "condition": "fp16",
+        "status": "complete",
+        "wikitext2_targets": 50000,
+        "c4_targets": 50000,
+        "hellaswag_examples": 2000
+      },
+      {
+        "condition": "p1_s25",
+        "status": "complete",
+        "wikitext2_targets": 50000,
+        "c4_targets": 50000,
+        "hellaswag_examples": 512
+      },
+      {
+        "condition": "p1_s50",
+        "status": "complete",
+        "wikitext2_targets": 50000,
+        "c4_targets": 50000,
+        "hellaswag_examples": 2000
+      },
+      {
+        "condition": "p1_s75",
+        "status": "complete",
+        "wikitext2_targets": 50000,
+        "c4_targets": 50000,
+        "hellaswag_examples": 512
+      },
+      {
+        "condition": "p2_s25",
+        "status": "complete",
+        "wikitext2_targets": 50000,
+        "c4_targets": 50000,
+        "hellaswag_examples": 512
+      },
+      {
+        "condition": "p2_s50",
+        "status": "complete",
+        "wikitext2_targets": 50000,
+        "c4_targets": 50000,
+        "hellaswag_examples": 2000
+      },
+      {
+        "condition": "p2_s75",
+        "status": "complete",
+        "wikitext2_targets": 50000,
+        "c4_targets": 50000,
+        "hellaswag_examples": 512
+      },
+      {
+        "condition": "p3_s50",
+        "status": "complete",
+        "wikitext2_targets": 50000,
+        "c4_targets": 50000,
+        "hellaswag_examples": 2000
+      },
+      {
+        "condition": "p3_s75",
+        "status": "complete",
+        "wikitext2_targets": 50000,
+        "c4_targets": 50000,
+        "hellaswag_examples": 512
+      },
+      {
+        "condition": "q1_int8",
+        "status": "complete",
+        "wikitext2_targets": 50000,
+        "c4_targets": 50000,
+        "hellaswag_examples": 512
+      },
+      {
+        "condition": "q1_int4",
+        "status": "complete",
+        "wikitext2_targets": 50000,
+        "c4_targets": 50000,
+        "hellaswag_examples": 2000
+      },
+      {
+        "condition": "q1_int3",
+        "status": "complete",
+        "wikitext2_targets": 50000,
+        "c4_targets": 50000,
+        "hellaswag_examples": 2000
+      },
+      {
+        "condition": "q2_int8",
+        "status": "complete",
+        "wikitext2_targets": 50000,
+        "c4_targets": 50000,
+        "hellaswag_examples": 512
+      },
+      {
+        "condition": "q2_int4",
+        "status": "complete",
+        "wikitext2_targets": 50000,
+        "c4_targets": 50000,
+        "hellaswag_examples": 2000
+      },
+      {
+        "condition": "q2_int3",
+        "status": "complete",
+        "wikitext2_targets": 50000,
+        "c4_targets": 50000,
+        "hellaswag_examples": 2000
+      },
+      {
+        "condition": "q3_budget_int4",
+        "status": "complete",
+        "wikitext2_targets": 50000,
+        "c4_targets": 50000,
+        "hellaswag_examples": 2000
+      },
+      {
+        "condition": "q3_budget_int3",
+        "status": "complete",
+        "wikitext2_targets": 50000,
+        "c4_targets": 50000,
+        "hellaswag_examples": 2000
+      },
+      {
+        "condition": "wanda_2of4",
+        "status": "complete",
+        "wikitext2_targets": 50000,
+        "c4_targets": 50000,
+        "hellaswag_examples": 512
+      }
+    ],
+    "paired_intervals": 24,
+    "registered_artifacts_verified": 454,
+    "checkpoint_files_verified": 197
+  },
+  "interpretation_notes": [
+    "Retain unsuccessful adaptive outcomes; do not choose replacements using held-out results.",
+    "This audit checks saved evidence and does not repeat pretrained inference."
+  ]
+}

@@ -1,0 +1,1780 @@
+{
+  "dense_fp16_parameter_bytes": 3087428608,
+  "uncompressed_parameter_bytes": 467037184,
+  "model_header_bytes": 128,
+  "estimated_packed_model_bytes": 3087441280,
+  "packed_size_kind": "justified custom binary-format estimate; no low-bit/sparse inference kernel",
+  "packing_convention": "64-byte per-projection header, 16-byte tensor alignment, 128-byte model header; excluded FP16 tensors stored once",
+  "effective_nonzeros": 1310192798,
+  "eligible_parameters": 1310195712,
+  "achieved_sparsity": 2.224095204450549e-06,
+  "nominal_bits_per_eligible_weight": 16.0,
+  "effective_packed_bits_per_eligible_weight": 16.000076593137255,
+  "execution": "dense FP16 reconstructed weights; explicit input compensation for unfused AWQ scales",
+  "projection_storage": {
+    "model.layers.0.self_attn.q_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 4718592,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 4718656,
+      "elements": 2359296,
+      "effective_nonzeros": 2359291,
+      "nominal_bits": 16
+    },
+    "model.layers.0.self_attn.k_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 786432,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 786496,
+      "elements": 393216,
+      "effective_nonzeros": 393215,
+      "nominal_bits": 16
+    },
+    "model.layers.0.self_attn.v_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 786432,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 786496,
+      "elements": 393216,
+      "effective_nonzeros": 393212,
+      "nominal_bits": 16
+    },
+    "model.layers.0.self_attn.o_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 4718592,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 4718656,
+      "elements": 2359296,
+      "effective_nonzeros": 2359293,
+      "nominal_bits": 16
+    },
+    "model.layers.0.mlp.gate_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762541,
+      "nominal_bits": 16
+    },
+    "model.layers.0.mlp.up_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762531,
+      "nominal_bits": 16
+    },
+    "model.layers.0.mlp.down_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762536,
+      "nominal_bits": 16
+    },
+    "model.layers.1.self_attn.q_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 4718592,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 4718656,
+      "elements": 2359296,
+      "effective_nonzeros": 2359290,
+      "nominal_bits": 16
+    },
+    "model.layers.1.self_attn.k_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 786432,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 786496,
+      "elements": 393216,
+      "effective_nonzeros": 393215,
+      "nominal_bits": 16
+    },
+    "model.layers.1.self_attn.v_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 786432,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 786496,
+      "elements": 393216,
+      "effective_nonzeros": 393215,
+      "nominal_bits": 16
+    },
+    "model.layers.1.self_attn.o_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 4718592,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 4718656,
+      "elements": 2359296,
+      "effective_nonzeros": 2359295,
+      "nominal_bits": 16
+    },
+    "model.layers.1.mlp.gate_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762540,
+      "nominal_bits": 16
+    },
+    "model.layers.1.mlp.up_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762527,
+      "nominal_bits": 16
+    },
+    "model.layers.1.mlp.down_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762530,
+      "nominal_bits": 16
+    },
+    "model.layers.2.self_attn.q_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 4718592,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 4718656,
+      "elements": 2359296,
+      "effective_nonzeros": 2359292,
+      "nominal_bits": 16
+    },
+    "model.layers.2.self_attn.k_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 786432,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 786496,
+      "elements": 393216,
+      "effective_nonzeros": 393215,
+      "nominal_bits": 16
+    },
+    "model.layers.2.self_attn.v_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 786432,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 786496,
+      "elements": 393216,
+      "effective_nonzeros": 393215,
+      "nominal_bits": 16
+    },
+    "model.layers.2.self_attn.o_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 4718592,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 4718656,
+      "elements": 2359296,
+      "effective_nonzeros": 2359290,
+      "nominal_bits": 16
+    },
+    "model.layers.2.mlp.gate_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762528,
+      "nominal_bits": 16
+    },
+    "model.layers.2.mlp.up_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762538,
+      "nominal_bits": 16
+    },
+    "model.layers.2.mlp.down_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762535,
+      "nominal_bits": 16
+    },
+    "model.layers.3.self_attn.q_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 4718592,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 4718656,
+      "elements": 2359296,
+      "effective_nonzeros": 2359293,
+      "nominal_bits": 16
+    },
+    "model.layers.3.self_attn.k_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 786432,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 786496,
+      "elements": 393216,
+      "effective_nonzeros": 393215,
+      "nominal_bits": 16
+    },
+    "model.layers.3.self_attn.v_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 786432,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 786496,
+      "elements": 393216,
+      "effective_nonzeros": 393214,
+      "nominal_bits": 16
+    },
+    "model.layers.3.self_attn.o_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 4718592,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 4718656,
+      "elements": 2359296,
+      "effective_nonzeros": 2359290,
+      "nominal_bits": 16
+    },
+    "model.layers.3.mlp.gate_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762538,
+      "nominal_bits": 16
+    },
+    "model.layers.3.mlp.up_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762526,
+      "nominal_bits": 16
+    },
+    "model.layers.3.mlp.down_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762538,
+      "nominal_bits": 16
+    },
+    "model.layers.4.self_attn.q_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 4718592,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 4718656,
+      "elements": 2359296,
+      "effective_nonzeros": 2359293,
+      "nominal_bits": 16
+    },
+    "model.layers.4.self_attn.k_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 786432,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 786496,
+      "elements": 393216,
+      "effective_nonzeros": 393216,
+      "nominal_bits": 16
+    },
+    "model.layers.4.self_attn.v_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 786432,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 786496,
+      "elements": 393216,
+      "effective_nonzeros": 393216,
+      "nominal_bits": 16
+    },
+    "model.layers.4.self_attn.o_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 4718592,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 4718656,
+      "elements": 2359296,
+      "effective_nonzeros": 2359289,
+      "nominal_bits": 16
+    },
+    "model.layers.4.mlp.gate_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762527,
+      "nominal_bits": 16
+    },
+    "model.layers.4.mlp.up_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762536,
+      "nominal_bits": 16
+    },
+    "model.layers.4.mlp.down_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762535,
+      "nominal_bits": 16
+    },
+    "model.layers.5.self_attn.q_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 4718592,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 4718656,
+      "elements": 2359296,
+      "effective_nonzeros": 2359294,
+      "nominal_bits": 16
+    },
+    "model.layers.5.self_attn.k_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 786432,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 786496,
+      "elements": 393216,
+      "effective_nonzeros": 393215,
+      "nominal_bits": 16
+    },
+    "model.layers.5.self_attn.v_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 786432,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 786496,
+      "elements": 393216,
+      "effective_nonzeros": 393216,
+      "nominal_bits": 16
+    },
+    "model.layers.5.self_attn.o_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 4718592,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 4718656,
+      "elements": 2359296,
+      "effective_nonzeros": 2359291,
+      "nominal_bits": 16
+    },
+    "model.layers.5.mlp.gate_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762536,
+      "nominal_bits": 16
+    },
+    "model.layers.5.mlp.up_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762534,
+      "nominal_bits": 16
+    },
+    "model.layers.5.mlp.down_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762532,
+      "nominal_bits": 16
+    },
+    "model.layers.6.self_attn.q_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 4718592,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 4718656,
+      "elements": 2359296,
+      "effective_nonzeros": 2359291,
+      "nominal_bits": 16
+    },
+    "model.layers.6.self_attn.k_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 786432,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 786496,
+      "elements": 393216,
+      "effective_nonzeros": 393216,
+      "nominal_bits": 16
+    },
+    "model.layers.6.self_attn.v_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 786432,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 786496,
+      "elements": 393216,
+      "effective_nonzeros": 393216,
+      "nominal_bits": 16
+    },
+    "model.layers.6.self_attn.o_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 4718592,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 4718656,
+      "elements": 2359296,
+      "effective_nonzeros": 2359288,
+      "nominal_bits": 16
+    },
+    "model.layers.6.mlp.gate_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762532,
+      "nominal_bits": 16
+    },
+    "model.layers.6.mlp.up_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762535,
+      "nominal_bits": 16
+    },
+    "model.layers.6.mlp.down_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762531,
+      "nominal_bits": 16
+    },
+    "model.layers.7.self_attn.q_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 4718592,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 4718656,
+      "elements": 2359296,
+      "effective_nonzeros": 2359290,
+      "nominal_bits": 16
+    },
+    "model.layers.7.self_attn.k_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 786432,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 786496,
+      "elements": 393216,
+      "effective_nonzeros": 393216,
+      "nominal_bits": 16
+    },
+    "model.layers.7.self_attn.v_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 786432,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 786496,
+      "elements": 393216,
+      "effective_nonzeros": 393216,
+      "nominal_bits": 16
+    },
+    "model.layers.7.self_attn.o_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 4718592,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 4718656,
+      "elements": 2359296,
+      "effective_nonzeros": 2359286,
+      "nominal_bits": 16
+    },
+    "model.layers.7.mlp.gate_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762521,
+      "nominal_bits": 16
+    },
+    "model.layers.7.mlp.up_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762526,
+      "nominal_bits": 16
+    },
+    "model.layers.7.mlp.down_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762537,
+      "nominal_bits": 16
+    },
+    "model.layers.8.self_attn.q_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 4718592,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 4718656,
+      "elements": 2359296,
+      "effective_nonzeros": 2359290,
+      "nominal_bits": 16
+    },
+    "model.layers.8.self_attn.k_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 786432,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 786496,
+      "elements": 393216,
+      "effective_nonzeros": 393216,
+      "nominal_bits": 16
+    },
+    "model.layers.8.self_attn.v_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 786432,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 786496,
+      "elements": 393216,
+      "effective_nonzeros": 393216,
+      "nominal_bits": 16
+    },
+    "model.layers.8.self_attn.o_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 4718592,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 4718656,
+      "elements": 2359296,
+      "effective_nonzeros": 2359292,
+      "nominal_bits": 16
+    },
+    "model.layers.8.mlp.gate_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762528,
+      "nominal_bits": 16
+    },
+    "model.layers.8.mlp.up_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762522,
+      "nominal_bits": 16
+    },
+    "model.layers.8.mlp.down_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762535,
+      "nominal_bits": 16
+    },
+    "model.layers.9.self_attn.q_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 4718592,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 4718656,
+      "elements": 2359296,
+      "effective_nonzeros": 2359291,
+      "nominal_bits": 16
+    },
+    "model.layers.9.self_attn.k_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 786432,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 786496,
+      "elements": 393216,
+      "effective_nonzeros": 393216,
+      "nominal_bits": 16
+    },
+    "model.layers.9.self_attn.v_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 786432,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 786496,
+      "elements": 393216,
+      "effective_nonzeros": 393213,
+      "nominal_bits": 16
+    },
+    "model.layers.9.self_attn.o_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 4718592,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 4718656,
+      "elements": 2359296,
+      "effective_nonzeros": 2359292,
+      "nominal_bits": 16
+    },
+    "model.layers.9.mlp.gate_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762526,
+      "nominal_bits": 16
+    },
+    "model.layers.9.mlp.up_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762531,
+      "nominal_bits": 16
+    },
+    "model.layers.9.mlp.down_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762528,
+      "nominal_bits": 16
+    },
+    "model.layers.10.self_attn.q_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 4718592,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 4718656,
+      "elements": 2359296,
+      "effective_nonzeros": 2359291,
+      "nominal_bits": 16
+    },
+    "model.layers.10.self_attn.k_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 786432,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 786496,
+      "elements": 393216,
+      "effective_nonzeros": 393216,
+      "nominal_bits": 16
+    },
+    "model.layers.10.self_attn.v_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 786432,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 786496,
+      "elements": 393216,
+      "effective_nonzeros": 393216,
+      "nominal_bits": 16
+    },
+    "model.layers.10.self_attn.o_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 4718592,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 4718656,
+      "elements": 2359296,
+      "effective_nonzeros": 2359292,
+      "nominal_bits": 16
+    },
+    "model.layers.10.mlp.gate_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762537,
+      "nominal_bits": 16
+    },
+    "model.layers.10.mlp.up_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762537,
+      "nominal_bits": 16
+    },
+    "model.layers.10.mlp.down_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762529,
+      "nominal_bits": 16
+    },
+    "model.layers.11.self_attn.q_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 4718592,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 4718656,
+      "elements": 2359296,
+      "effective_nonzeros": 2359289,
+      "nominal_bits": 16
+    },
+    "model.layers.11.self_attn.k_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 786432,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 786496,
+      "elements": 393216,
+      "effective_nonzeros": 393214,
+      "nominal_bits": 16
+    },
+    "model.layers.11.self_attn.v_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 786432,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 786496,
+      "elements": 393216,
+      "effective_nonzeros": 393213,
+      "nominal_bits": 16
+    },
+    "model.layers.11.self_attn.o_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 4718592,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 4718656,
+      "elements": 2359296,
+      "effective_nonzeros": 2359294,
+      "nominal_bits": 16
+    },
+    "model.layers.11.mlp.gate_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762525,
+      "nominal_bits": 16
+    },
+    "model.layers.11.mlp.up_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762534,
+      "nominal_bits": 16
+    },
+    "model.layers.11.mlp.down_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762526,
+      "nominal_bits": 16
+    },
+    "model.layers.12.self_attn.q_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 4718592,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 4718656,
+      "elements": 2359296,
+      "effective_nonzeros": 2359291,
+      "nominal_bits": 16
+    },
+    "model.layers.12.self_attn.k_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 786432,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 786496,
+      "elements": 393216,
+      "effective_nonzeros": 393214,
+      "nominal_bits": 16
+    },
+    "model.layers.12.self_attn.v_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 786432,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 786496,
+      "elements": 393216,
+      "effective_nonzeros": 393216,
+      "nominal_bits": 16
+    },
+    "model.layers.12.self_attn.o_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 4718592,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 4718656,
+      "elements": 2359296,
+      "effective_nonzeros": 2359291,
+      "nominal_bits": 16
+    },
+    "model.layers.12.mlp.gate_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762527,
+      "nominal_bits": 16
+    },
+    "model.layers.12.mlp.up_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762528,
+      "nominal_bits": 16
+    },
+    "model.layers.12.mlp.down_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762523,
+      "nominal_bits": 16
+    },
+    "model.layers.13.self_attn.q_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 4718592,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 4718656,
+      "elements": 2359296,
+      "effective_nonzeros": 2359292,
+      "nominal_bits": 16
+    },
+    "model.layers.13.self_attn.k_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 786432,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 786496,
+      "elements": 393216,
+      "effective_nonzeros": 393215,
+      "nominal_bits": 16
+    },
+    "model.layers.13.self_attn.v_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 786432,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 786496,
+      "elements": 393216,
+      "effective_nonzeros": 393215,
+      "nominal_bits": 16
+    },
+    "model.layers.13.self_attn.o_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 4718592,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 4718656,
+      "elements": 2359296,
+      "effective_nonzeros": 2359288,
+      "nominal_bits": 16
+    },
+    "model.layers.13.mlp.gate_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762518,
+      "nominal_bits": 16
+    },
+    "model.layers.13.mlp.up_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762533,
+      "nominal_bits": 16
+    },
+    "model.layers.13.mlp.down_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762530,
+      "nominal_bits": 16
+    },
+    "model.layers.14.self_attn.q_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 4718592,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 4718656,
+      "elements": 2359296,
+      "effective_nonzeros": 2359286,
+      "nominal_bits": 16
+    },
+    "model.layers.14.self_attn.k_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 786432,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 786496,
+      "elements": 393216,
+      "effective_nonzeros": 393214,
+      "nominal_bits": 16
+    },
+    "model.layers.14.self_attn.v_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 786432,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 786496,
+      "elements": 393216,
+      "effective_nonzeros": 393215,
+      "nominal_bits": 16
+    },
+    "model.layers.14.self_attn.o_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 4718592,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 4718656,
+      "elements": 2359296,
+      "effective_nonzeros": 2359293,
+      "nominal_bits": 16
+    },
+    "model.layers.14.mlp.gate_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762520,
+      "nominal_bits": 16
+    },
+    "model.layers.14.mlp.up_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762531,
+      "nominal_bits": 16
+    },
+    "model.layers.14.mlp.down_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762518,
+      "nominal_bits": 16
+    },
+    "model.layers.15.self_attn.q_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 4718592,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 4718656,
+      "elements": 2359296,
+      "effective_nonzeros": 2359289,
+      "nominal_bits": 16
+    },
+    "model.layers.15.self_attn.k_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 786432,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 786496,
+      "elements": 393216,
+      "effective_nonzeros": 393215,
+      "nominal_bits": 16
+    },
+    "model.layers.15.self_attn.v_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 786432,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 786496,
+      "elements": 393216,
+      "effective_nonzeros": 393216,
+      "nominal_bits": 16
+    },
+    "model.layers.15.self_attn.o_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 4718592,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 4718656,
+      "elements": 2359296,
+      "effective_nonzeros": 2359294,
+      "nominal_bits": 16
+    },
+    "model.layers.15.mlp.gate_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762529,
+      "nominal_bits": 16
+    },
+    "model.layers.15.mlp.up_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762526,
+      "nominal_bits": 16
+    },
+    "model.layers.15.mlp.down_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762519,
+      "nominal_bits": 16
+    },
+    "model.layers.16.self_attn.q_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 4718592,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 4718656,
+      "elements": 2359296,
+      "effective_nonzeros": 2359290,
+      "nominal_bits": 16
+    },
+    "model.layers.16.self_attn.k_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 786432,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 786496,
+      "elements": 393216,
+      "effective_nonzeros": 393214,
+      "nominal_bits": 16
+    },
+    "model.layers.16.self_attn.v_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 786432,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 786496,
+      "elements": 393216,
+      "effective_nonzeros": 393216,
+      "nominal_bits": 16
+    },
+    "model.layers.16.self_attn.o_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 4718592,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 4718656,
+      "elements": 2359296,
+      "effective_nonzeros": 2359291,
+      "nominal_bits": 16
+    },
+    "model.layers.16.mlp.gate_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762533,
+      "nominal_bits": 16
+    },
+    "model.layers.16.mlp.up_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762525,
+      "nominal_bits": 16
+    },
+    "model.layers.16.mlp.down_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762517,
+      "nominal_bits": 16
+    },
+    "model.layers.17.self_attn.q_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 4718592,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 4718656,
+      "elements": 2359296,
+      "effective_nonzeros": 2359295,
+      "nominal_bits": 16
+    },
+    "model.layers.17.self_attn.k_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 786432,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 786496,
+      "elements": 393216,
+      "effective_nonzeros": 393216,
+      "nominal_bits": 16
+    },
+    "model.layers.17.self_attn.v_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 786432,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 786496,
+      "elements": 393216,
+      "effective_nonzeros": 393215,
+      "nominal_bits": 16
+    },
+    "model.layers.17.self_attn.o_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 4718592,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 4718656,
+      "elements": 2359296,
+      "effective_nonzeros": 2359292,
+      "nominal_bits": 16
+    },
+    "model.layers.17.mlp.gate_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762523,
+      "nominal_bits": 16
+    },
+    "model.layers.17.mlp.up_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762535,
+      "nominal_bits": 16
+    },
+    "model.layers.17.mlp.down_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762530,
+      "nominal_bits": 16
+    },
+    "model.layers.18.self_attn.q_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 4718592,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 4718656,
+      "elements": 2359296,
+      "effective_nonzeros": 2359288,
+      "nominal_bits": 16
+    },
+    "model.layers.18.self_attn.k_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 786432,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 786496,
+      "elements": 393216,
+      "effective_nonzeros": 393213,
+      "nominal_bits": 16
+    },
+    "model.layers.18.self_attn.v_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 786432,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 786496,
+      "elements": 393216,
+      "effective_nonzeros": 393216,
+      "nominal_bits": 16
+    },
+    "model.layers.18.self_attn.o_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 4718592,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 4718656,
+      "elements": 2359296,
+      "effective_nonzeros": 2359291,
+      "nominal_bits": 16
+    },
+    "model.layers.18.mlp.gate_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762516,
+      "nominal_bits": 16
+    },
+    "model.layers.18.mlp.up_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762524,
+      "nominal_bits": 16
+    },
+    "model.layers.18.mlp.down_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762533,
+      "nominal_bits": 16
+    },
+    "model.layers.19.self_attn.q_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 4718592,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 4718656,
+      "elements": 2359296,
+      "effective_nonzeros": 2359293,
+      "nominal_bits": 16
+    },
+    "model.layers.19.self_attn.k_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 786432,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 786496,
+      "elements": 393216,
+      "effective_nonzeros": 393213,
+      "nominal_bits": 16
+    },
+    "model.layers.19.self_attn.v_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 786432,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 786496,
+      "elements": 393216,
+      "effective_nonzeros": 393216,
+      "nominal_bits": 16
+    },
+    "model.layers.19.self_attn.o_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 4718592,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 4718656,
+      "elements": 2359296,
+      "effective_nonzeros": 2359293,
+      "nominal_bits": 16
+    },
+    "model.layers.19.mlp.gate_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762525,
+      "nominal_bits": 16
+    },
+    "model.layers.19.mlp.up_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762528,
+      "nominal_bits": 16
+    },
+    "model.layers.19.mlp.down_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762527,
+      "nominal_bits": 16
+    },
+    "model.layers.20.self_attn.q_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 4718592,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 4718656,
+      "elements": 2359296,
+      "effective_nonzeros": 2359287,
+      "nominal_bits": 16
+    },
+    "model.layers.20.self_attn.k_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 786432,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 786496,
+      "elements": 393216,
+      "effective_nonzeros": 393216,
+      "nominal_bits": 16
+    },
+    "model.layers.20.self_attn.v_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 786432,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 786496,
+      "elements": 393216,
+      "effective_nonzeros": 393215,
+      "nominal_bits": 16
+    },
+    "model.layers.20.self_attn.o_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 4718592,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 4718656,
+      "elements": 2359296,
+      "effective_nonzeros": 2359286,
+      "nominal_bits": 16
+    },
+    "model.layers.20.mlp.gate_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762518,
+      "nominal_bits": 16
+    },
+    "model.layers.20.mlp.up_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762533,
+      "nominal_bits": 16
+    },
+    "model.layers.20.mlp.down_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762541,
+      "nominal_bits": 16
+    },
+    "model.layers.21.self_attn.q_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 4718592,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 4718656,
+      "elements": 2359296,
+      "effective_nonzeros": 2359287,
+      "nominal_bits": 16
+    },
+    "model.layers.21.self_attn.k_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 786432,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 786496,
+      "elements": 393216,
+      "effective_nonzeros": 393215,
+      "nominal_bits": 16
+    },
+    "model.layers.21.self_attn.v_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 786432,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 786496,
+      "elements": 393216,
+      "effective_nonzeros": 393215,
+      "nominal_bits": 16
+    },
+    "model.layers.21.self_attn.o_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 4718592,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 4718656,
+      "elements": 2359296,
+      "effective_nonzeros": 2359293,
+      "nominal_bits": 16
+    },
+    "model.layers.21.mlp.gate_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762522,
+      "nominal_bits": 16
+    },
+    "model.layers.21.mlp.up_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762537,
+      "nominal_bits": 16
+    },
+    "model.layers.21.mlp.down_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762532,
+      "nominal_bits": 16
+    },
+    "model.layers.22.self_attn.q_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 4718592,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 4718656,
+      "elements": 2359296,
+      "effective_nonzeros": 2359286,
+      "nominal_bits": 16
+    },
+    "model.layers.22.self_attn.k_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 786432,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 786496,
+      "elements": 393216,
+      "effective_nonzeros": 393214,
+      "nominal_bits": 16
+    },
+    "model.layers.22.self_attn.v_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 786432,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 786496,
+      "elements": 393216,
+      "effective_nonzeros": 393213,
+      "nominal_bits": 16
+    },
+    "model.layers.22.self_attn.o_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 4718592,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 4718656,
+      "elements": 2359296,
+      "effective_nonzeros": 2359292,
+      "nominal_bits": 16
+    },
+    "model.layers.22.mlp.gate_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762530,
+      "nominal_bits": 16
+    },
+    "model.layers.22.mlp.up_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762523,
+      "nominal_bits": 16
+    },
+    "model.layers.22.mlp.down_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762532,
+      "nominal_bits": 16
+    },
+    "model.layers.23.self_attn.q_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 4718592,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 4718656,
+      "elements": 2359296,
+      "effective_nonzeros": 2359285,
+      "nominal_bits": 16
+    },
+    "model.layers.23.self_attn.k_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 786432,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 786496,
+      "elements": 393216,
+      "effective_nonzeros": 393213,
+      "nominal_bits": 16
+    },
+    "model.layers.23.self_attn.v_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 786432,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 786496,
+      "elements": 393216,
+      "effective_nonzeros": 393215,
+      "nominal_bits": 16
+    },
+    "model.layers.23.self_attn.o_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 4718592,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 4718656,
+      "elements": 2359296,
+      "effective_nonzeros": 2359293,
+      "nominal_bits": 16
+    },
+    "model.layers.23.mlp.gate_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762518,
+      "nominal_bits": 16
+    },
+    "model.layers.23.mlp.up_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762533,
+      "nominal_bits": 16
+    },
+    "model.layers.23.mlp.down_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762538,
+      "nominal_bits": 16
+    },
+    "model.layers.24.self_attn.q_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 4718592,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 4718656,
+      "elements": 2359296,
+      "effective_nonzeros": 2359294,
+      "nominal_bits": 16
+    },
+    "model.layers.24.self_attn.k_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 786432,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 786496,
+      "elements": 393216,
+      "effective_nonzeros": 393215,
+      "nominal_bits": 16
+    },
+    "model.layers.24.self_attn.v_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 786432,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 786496,
+      "elements": 393216,
+      "effective_nonzeros": 393215,
+      "nominal_bits": 16
+    },
+    "model.layers.24.self_attn.o_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 4718592,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 4718656,
+      "elements": 2359296,
+      "effective_nonzeros": 2359292,
+      "nominal_bits": 16
+    },
+    "model.layers.24.mlp.gate_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762523,
+      "nominal_bits": 16
+    },
+    "model.layers.24.mlp.up_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762530,
+      "nominal_bits": 16
+    },
+    "model.layers.24.mlp.down_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762534,
+      "nominal_bits": 16
+    },
+    "model.layers.25.self_attn.q_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 4718592,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 4718656,
+      "elements": 2359296,
+      "effective_nonzeros": 2359285,
+      "nominal_bits": 16
+    },
+    "model.layers.25.self_attn.k_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 786432,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 786496,
+      "elements": 393216,
+      "effective_nonzeros": 393216,
+      "nominal_bits": 16
+    },
+    "model.layers.25.self_attn.v_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 786432,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 786496,
+      "elements": 393216,
+      "effective_nonzeros": 393215,
+      "nominal_bits": 16
+    },
+    "model.layers.25.self_attn.o_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 4718592,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 4718656,
+      "elements": 2359296,
+      "effective_nonzeros": 2359293,
+      "nominal_bits": 16
+    },
+    "model.layers.25.mlp.gate_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762528,
+      "nominal_bits": 16
+    },
+    "model.layers.25.mlp.up_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762534,
+      "nominal_bits": 16
+    },
+    "model.layers.25.mlp.down_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762531,
+      "nominal_bits": 16
+    },
+    "model.layers.26.self_attn.q_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 4718592,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 4718656,
+      "elements": 2359296,
+      "effective_nonzeros": 2359282,
+      "nominal_bits": 16
+    },
+    "model.layers.26.self_attn.k_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 786432,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 786496,
+      "elements": 393216,
+      "effective_nonzeros": 393216,
+      "nominal_bits": 16
+    },
+    "model.layers.26.self_attn.v_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 786432,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 786496,
+      "elements": 393216,
+      "effective_nonzeros": 393216,
+      "nominal_bits": 16
+    },
+    "model.layers.26.self_attn.o_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 4718592,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 4718656,
+      "elements": 2359296,
+      "effective_nonzeros": 2359296,
+      "nominal_bits": 16
+    },
+    "model.layers.26.mlp.gate_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762519,
+      "nominal_bits": 16
+    },
+    "model.layers.26.mlp.up_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762532,
+      "nominal_bits": 16
+    },
+    "model.layers.26.mlp.down_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762532,
+      "nominal_bits": 16
+    },
+    "model.layers.27.self_attn.q_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 4718592,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 4718656,
+      "elements": 2359296,
+      "effective_nonzeros": 2359289,
+      "nominal_bits": 16
+    },
+    "model.layers.27.self_attn.k_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 786432,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 786496,
+      "elements": 393216,
+      "effective_nonzeros": 393215,
+      "nominal_bits": 16
+    },
+    "model.layers.27.self_attn.v_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 786432,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 786496,
+      "elements": 393216,
+      "effective_nonzeros": 393215,
+      "nominal_bits": 16
+    },
+    "model.layers.27.self_attn.o_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 4718592,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 4718656,
+      "elements": 2359296,
+      "effective_nonzeros": 2359291,
+      "nominal_bits": 16
+    },
+    "model.layers.27.mlp.gate_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762535,
+      "nominal_bits": 16
+    },
+    "model.layers.27.mlp.up_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762531,
+      "nominal_bits": 16
+    },
+    "model.layers.27.mlp.down_proj": {
+      "header_bytes": 64,
+      "fp16_payload_bytes": 27525120,
+      "alignment_padding_bytes": 0,
+      "packed_bytes": 27525184,
+      "elements": 13762560,
+      "effective_nonzeros": 13762530,
+      "nominal_bits": 16
+    }
+  }
+}

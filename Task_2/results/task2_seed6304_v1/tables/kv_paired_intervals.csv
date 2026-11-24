@@ -1,0 +1,10 @@
+method,reference,difference,ci_low,ci_high,paired_prompts,resamples,unit,failed_runs_counted_as_incorrect
+sink_recent,fp16,-0.6666666666666666,-0.7333333333333333,-0.6,180,2000,fraction; multiply by 100 for percentage points,True
+question_aware,fp16,0.0,0.0,0.0,180,2000,fraction; multiply by 100 for percentage points,True
+int4_token,fp16,-1.0,-1.0,-1.0,180,2000,fraction; multiply by 100 for percentage points,True
+int4_channel,fp16,0.0,0.0,0.0,180,2000,fraction; multiply by 100 for percentage points,True
+hybrid,fp16,-0.022222222222222223,-0.044444444444444446,-0.005555555555555556,180,2000,fraction; multiply by 100 for percentage points,True
+question_aware,sink_recent,0.6666666666666666,0.6,0.7333333333333333,180,2000,fraction; multiply by 100 for percentage points,True
+int4_channel,int4_token,1.0,1.0,1.0,180,2000,fraction; multiply by 100 for percentage points,True
+hybrid,question_aware,-0.022222222222222223,-0.044444444444444446,-0.005555555555555556,180,2000,fraction; multiply by 100 for percentage points,True
+hybrid,int4_channel,-0.022222222222222223,-0.044444444444444446,-0.005555555555555556,180,2000,fraction; multiply by 100 for percentage points,True

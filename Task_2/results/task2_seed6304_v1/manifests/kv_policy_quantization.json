@@ -1,0 +1,15 @@
+{
+  "stage": "kv_policy_quantization",
+  "status": "complete",
+  "config_id": "78c8fbc4f13121f27796d6e958bd0508c5b029ebef7e46cc27690631b2f7cfcd",
+  "artifacts": {
+    "metrics/kv/policy_quantization.json": "d16fa88afb48f61fd9f20f705bf844b3e108a0363b0c2cd3b4cde0affd64ce70"
+  },
+  "summary": {
+    "cases": 180,
+    "methods": [
+      "int4_token",
+      "int4_channel"
+    ]
+  }
+}

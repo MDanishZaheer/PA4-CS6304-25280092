@@ -1,0 +1,43 @@
+{
+  "prompt_id": "SHORT-familiar-0009",
+  "prompt_sha256": "1c1362b9027154893c25ee4a01bbc7ab88ebda57c6ae02ca63d5ec121fdb400f",
+  "draft": "off_policy_seed6305",
+  "workload": "familiar",
+  "repetition": 0,
+  "response": {
+    "token_ids": [
+      11109,
+      220,
+      16,
+      20,
+      11,
+      220,
+      17,
+      15,
+      17,
+      17,
+      151645
+    ],
+    "new_tokens": 11,
+    "eos": true,
+    "truncated": false,
+    "ignore_eos": false,
+    "generation_seed": 696787,
+    "prefill_seconds": 0.03357453699936741,
+    "decode_seconds": 0.2979248900010134,
+    "elapsed_seconds": 0.3315157370016095,
+    "target_prefill_passes": 1,
+    "target_decode_passes": 10,
+    "target_passes": 11,
+    "draft_forward_passes": 0,
+    "rounds": [],
+    "peak_allocated_bytes": 4111019520,
+    "peak_reserved_bytes": 5377097728
+  },
+  "text": "May 15, 2022",
+  "extracted_answer": "may",
+  "correct": true,
+  "extractable": true,
+  "format_compliant": false,
+  "evaluation": "standalone model quality; not speculative-output quality"
+}

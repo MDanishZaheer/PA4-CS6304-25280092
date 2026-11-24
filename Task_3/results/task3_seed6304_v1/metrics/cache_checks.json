@@ -1,0 +1,69 @@
+{
+  "status": "passed",
+  "conditions": [
+    {
+      "model": "teacher",
+      "prompt_id": "GSM8K-train-0000",
+      "split_relative_l2": 0.004077010788023472,
+      "rollback_relative_l2": 0.004077010788023472,
+      "tokens": 102,
+      "status": "passed"
+    },
+    {
+      "model": "teacher",
+      "prompt_id": "GSM8K-train-0001",
+      "split_relative_l2": 0.0022013310808688402,
+      "rollback_relative_l2": 0.0022013310808688402,
+      "tokens": 93,
+      "status": "passed"
+    },
+    {
+      "model": "teacher",
+      "prompt_id": "SHORT-train-0000",
+      "split_relative_l2": 0.0016258559189736843,
+      "rollback_relative_l2": 0.0016258559189736843,
+      "tokens": 50,
+      "status": "passed"
+    },
+    {
+      "model": "teacher",
+      "prompt_id": "SHORT-train-0001",
+      "split_relative_l2": 0.00430808262899518,
+      "rollback_relative_l2": 0.00430808262899518,
+      "tokens": 53,
+      "status": "passed"
+    },
+    {
+      "model": "original",
+      "prompt_id": "GSM8K-train-0000",
+      "split_relative_l2": 0.00520224729552865,
+      "rollback_relative_l2": 0.00520224729552865,
+      "tokens": 102,
+      "status": "passed"
+    },
+    {
+      "model": "original",
+      "prompt_id": "GSM8K-train-0001",
+      "split_relative_l2": 0.0034905478823930025,
+      "rollback_relative_l2": 0.0034905478823930025,
+      "tokens": 93,
+      "status": "passed"
+    },
+    {
+      "model": "original",
+      "prompt_id": "SHORT-train-0000",
+      "split_relative_l2": 0.0020713917911052704,
+      "rollback_relative_l2": 0.0020713917911052704,
+      "tokens": 50,
+      "status": "passed"
+    },
+    {
+      "model": "original",
+      "prompt_id": "SHORT-train-0001",
+      "split_relative_l2": 0.002807472599670291,
+      "rollback_relative_l2": 0.002807472599670291,
+      "tokens": 53,
+      "status": "passed"
+    }
+  ]
+}

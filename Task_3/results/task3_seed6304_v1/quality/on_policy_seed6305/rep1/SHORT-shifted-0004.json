@@ -1,0 +1,37 @@
+{
+  "prompt_id": "SHORT-shifted-0004",
+  "prompt_sha256": "6d5e7d052d91bf4b005ea5086caaa7b07c1bbc418b90be8b304ec3efe6fb81e5",
+  "draft": "on_policy_seed6305",
+  "workload": "shifted",
+  "repetition": 1,
+  "response": {
+    "token_ids": [
+      21,
+      19,
+      22,
+      16,
+      151645
+    ],
+    "new_tokens": 5,
+    "eos": true,
+    "truncated": false,
+    "ignore_eos": false,
+    "generation_seed": 1946965,
+    "prefill_seconds": 0.03128167199974996,
+    "decode_seconds": 0.11398780699892086,
+    "elapsed_seconds": 0.14528450299985707,
+    "target_prefill_passes": 1,
+    "target_decode_passes": 4,
+    "target_passes": 5,
+    "draft_forward_passes": 0,
+    "rounds": [],
+    "peak_allocated_bytes": 4107873792,
+    "peak_reserved_bytes": 5375000576
+  },
+  "text": "6471",
+  "extracted_answer": "6471",
+  "correct": true,
+  "extractable": true,
+  "format_compliant": true,
+  "evaluation": "standalone model quality; not speculative-output quality"
+}

@@ -1,0 +1,6 @@
+{
+  "condition": "dilated_K16_mixed_seed6305",
+  "first": 768,
+  "examples": 128,
+  "sha256": "9026143279cbe0640e415679b62375ceea2c29c1ac57b65c089c6f7c7e43fd03"
+}

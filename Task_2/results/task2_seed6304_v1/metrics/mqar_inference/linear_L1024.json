@@ -1,0 +1,42 @@
+{
+  "method": "linear",
+  "batch": 2,
+  "heads": 4,
+  "length": 1024,
+  "head_dimension": 32,
+  "attended_pairs": null,
+  "content_selection_score_pairs": 0,
+  "content_causal_candidate_pairs": 0,
+  "explicit_content_score_bytes": 0,
+  "full_sort_index_bytes": 0,
+  "theoretical_incremental_state_bytes": 33792,
+  "explicit_mask_bytes": 0,
+  "mask_scope": "boolean mask passed to SDPA; construction/selection temporaries appear in measured peaks",
+  "implementation": "chunked FP32 prefix tensors; autograd retains training intermediates",
+  "state_note": "hypothetical minimal incremental per-head buffers/recurrent state, not measured full-sequence training allocation",
+  "observed_operators": [
+    "explicit_chunked_elu1_prefix_state"
+  ],
+  "timing": {
+    "unit": "milliseconds per batch",
+    "warmup_repetitions": 3,
+    "timing_repetitions": 10,
+    "samples_ms": [
+      4.109536000214575,
+      4.092530999514565,
+      4.103838999981235,
+      4.161036999903445,
+      4.453352999917115,
+      4.296506999708072,
+      4.278028999578964,
+      4.292474000067159,
+      4.288179000468517,
+      4.8994649996529915
+    ],
+    "median_ms": 4.283104000023741,
+    "peak_allocated_bytes": 29296640,
+    "peak_reserved_bytes": 50331648,
+    "additional_peak_allocated_bytes": 10684416
+  },
+  "status": "complete"
+}

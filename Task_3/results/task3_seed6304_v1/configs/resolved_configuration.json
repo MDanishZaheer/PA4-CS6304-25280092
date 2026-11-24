@@ -1,0 +1,137 @@
+{
+  "seed": 6304,
+  "models": {
+    "teacher": "Qwen/Qwen2.5-1.5B-Instruct",
+    "teacher_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "student": "Qwen/Qwen2.5-0.5B-Instruct",
+    "student_revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "dtype": "float16",
+    "attention_backend": "sdpa"
+  },
+  "data": {
+    "gsm8k_revision": "740312add88f781978c0658806c59bc2815b9866",
+    "math_train": 500,
+    "short_train": 300,
+    "math_test": 60,
+    "short_test": 60,
+    "format": "user_only_qwen_chat_with_generation_prompt"
+  },
+  "training": {
+    "seeds": [
+      6304,
+      6305
+    ],
+    "methods": [
+      "off_policy",
+      "on_policy"
+    ],
+    "quota": {
+      "math": 30000,
+      "short": 10000
+    },
+    "response_caps": {
+      "math": 192,
+      "short": 32
+    },
+    "tokens_per_update": 256,
+    "microbatch": 1,
+    "lr": 0.0003,
+    "weight_decay": 0.01,
+    "gradient_clip": 1.0,
+    "lora_rank": 8,
+    "lora_alpha": 16,
+    "lora_dropout": 0,
+    "lora_targets": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj"
+    ],
+    "category_cycle": [
+      "math",
+      "math",
+      "math",
+      "short"
+    ],
+    "maximum_overflow_retries": 12
+  },
+  "sampling": {
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "top_k": 0,
+    "gammas": [
+      2,
+      4
+    ],
+    "speed_cap": 64,
+    "quality_caps": {
+      "math": 512,
+      "short": 32
+    },
+    "repetitions": 2,
+    "fixed_length_math_prompts": 24,
+    "markov_trials": 100000,
+    "markov_length": 3,
+    "markov_significance": 0.01
+  },
+  "banks": {
+    "short_strata": [
+      [
+        1,
+        16,
+        8
+      ],
+      [
+        17,
+        32,
+        8
+      ],
+      [
+        33,
+        64,
+        16
+      ]
+    ],
+    "long_strata": [
+      [
+        65,
+        192,
+        16
+      ]
+    ],
+    "generate_math_cap": 192,
+    "generate_short_cap": 32
+  },
+  "evaluation": {
+    "isolated_context_lengths": [
+      64,
+      256,
+      512
+    ],
+    "warmup": 3,
+    "timing_repetitions": 10,
+    "bootstrap_resamples": 2000,
+    "merge_relative_l2_tolerance": 0.01,
+    "fixed_qualitative_prompt_indices": [
+      0,
+      30,
+      60,
+      90
+    ]
+  },
+  "execution": {
+    "run_id": "task3_seed6304_v1",
+    "drive_project": "ATML_PA4/PA_4",
+    "drive_mount": "/content/drive",
+    "sync_to_drive": true,
+    "maximum_session_seconds": 36000,
+    "time_reserve_seconds": 300,
+    "recovery_every_updates": 5
+  },
+  "figures": {
+    "font_family": "Times New Roman",
+    "font_size": 10,
+    "dpi": 300
+  },
+  "experiment_name": "task_3_policy_distillation_and_speculative_decoding"
+}

@@ -1,0 +1,938 @@
+[
+  {
+    "method": "sdpa",
+    "dtype": "float16",
+    "length": 256,
+    "batch": 2,
+    "heads": 4,
+    "head_dimension": 64,
+    "accumulation": "SDPA backend-defined",
+    "reference_status": "dense_fp32_on_identical_input_values",
+    "output_error": {
+      "maximum_absolute": 0.0008835792541503906,
+      "relative_l2": 0.00024571793619543314
+    },
+    "gradient_errors": [
+      {
+        "maximum_absolute": 0.0011008977890014648,
+        "relative_l2": 0.00031829759245738387
+      },
+      {
+        "maximum_absolute": 0.0012087821960449219,
+        "relative_l2": 0.0003101140900980681
+      },
+      {
+        "maximum_absolute": 0.0013065338134765625,
+        "relative_l2": 0.0002863260160665959
+      }
+    ],
+    "numerical_tolerance_relative_l2": 0.005,
+    "numerical_check": "passed",
+    "observed_operators": [
+      "aten::_flash_attention_forward",
+      "aten::_scaled_dot_product_flash_attention",
+      "aten::scaled_dot_product_attention"
+    ],
+    "forward": {
+      "unit": "milliseconds per batch",
+      "warmup_repetitions": 3,
+      "timing_repetitions": 10,
+      "samples_ms": [
+        0.11540100001639075,
+        0.12509900000168273,
+        0.10087000003977664,
+        0.11828699996385694,
+        0.11210200000277837,
+        0.11149599998816484,
+        0.09796899996672437,
+        0.10101799995254623,
+        0.09127499998839994,
+        0.09929999998803396
+      ],
+      "median_ms": 0.10625699997035554,
+      "peak_allocated_bytes": 18359296,
+      "peak_reserved_bytes": 23068672,
+      "additional_peak_allocated_bytes": 271360
+    },
+    "forward_backward": {
+      "unit": "milliseconds per batch",
+      "warmup_repetitions": 3,
+      "timing_repetitions": 10,
+      "samples_ms": [
+        0.5951050000021496,
+        0.6007019999856311,
+        0.5917619999991075,
+        0.5852159999903961,
+        0.6584919999568228,
+        0.6094849999840335,
+        0.5959960000154751,
+        0.652488000014273,
+        0.5954260000180511,
+        0.5825540000046203
+      ],
+      "median_ms": 0.5957110000167631,
+      "peak_allocated_bytes": 20465664,
+      "peak_reserved_bytes": 25165824,
+      "additional_peak_allocated_bytes": 1591296
+    },
+    "status": "complete"
+  },
+  {
+    "method": "sdpa",
+    "dtype": "float32",
+    "length": 256,
+    "batch": 2,
+    "heads": 4,
+    "head_dimension": 64,
+    "accumulation": "SDPA backend-defined",
+    "reference_status": "dense_fp32_on_identical_input_values",
+    "output_error": {
+      "maximum_absolute": 1.9669532775878906e-06,
+      "relative_l2": 6.012700737301202e-07
+    },
+    "gradient_errors": [
+      {
+        "maximum_absolute": 2.993326688738307e-06,
+        "relative_l2": 9.495947210780287e-07
+      },
+      {
+        "maximum_absolute": 3.5762786865234375e-06,
+        "relative_l2": 1.053965888786479e-06
+      },
+      {
+        "maximum_absolute": 4.410743713378906e-06,
+        "relative_l2": 7.866742635087576e-07
+      }
+    ],
+    "numerical_tolerance_relative_l2": 0.0001,
+    "numerical_check": "passed",
+    "observed_operators": [
+      "aten::_efficient_attention_forward",
+      "aten::_scaled_dot_product_efficient_attention",
+      "aten::scaled_dot_product_attention"
+    ],
+    "forward": {
+      "unit": "milliseconds per batch",
+      "warmup_repetitions": 3,
+      "timing_repetitions": 10,
+      "samples_ms": [
+        0.09412200000724624,
+        0.11358599999766739,
+        0.10359999998854619,
+        0.1335689999564238,
+        0.1160569999569816,
+        0.10218100004522057,
+        0.12089199998399636,
+        0.11237900002925016,
+        0.10189599998966514,
+        0.10811700002477664
+      ],
+      "median_ms": 0.1102480000270134,
+      "peak_allocated_bytes": 19660800,
+      "peak_reserved_bytes": 25165824,
+      "additional_peak_allocated_bytes": 524288
+    },
+    "forward_backward": {
+      "unit": "milliseconds per batch",
+      "warmup_repetitions": 3,
+      "timing_repetitions": 10,
+      "samples_ms": [
+        0.6554419999815764,
+        0.6245980000016971,
+        0.6190139999944222,
+        0.6334619999961433,
+        0.6327670000132457,
+        0.6337039999948502,
+        0.6356100000175502,
+        0.652494000007664,
+        0.6407849999732207,
+        0.6074159999798212
+      ],
+      "median_ms": 0.6335829999954967,
+      "peak_allocated_bytes": 22832128,
+      "peak_reserved_bytes": 29360128,
+      "additional_peak_allocated_bytes": 2122752
+    },
+    "status": "complete"
+  },
+  {
+    "method": "sdpa",
+    "dtype": "float16",
+    "length": 512,
+    "batch": 2,
+    "heads": 4,
+    "head_dimension": 64,
+    "accumulation": "SDPA backend-defined",
+    "reference_status": "dense_fp32_on_identical_input_values",
+    "output_error": {
+      "maximum_absolute": 0.0009799003601074219,
+      "relative_l2": 0.00024699699133634567
+    },
+    "gradient_errors": [
+      {
+        "maximum_absolute": 0.0010247230529785156,
+        "relative_l2": 0.0003065589698962867
+      },
+      {
+        "maximum_absolute": 0.0011975765228271484,
+        "relative_l2": 0.0003011766530107707
+      },
+      {
+        "maximum_absolute": 0.002083301544189453,
+        "relative_l2": 0.0002859053493011743
+      }
+    ],
+    "numerical_tolerance_relative_l2": 0.005,
+    "numerical_check": "passed",
+    "observed_operators": [
+      "aten::_flash_attention_forward",
+      "aten::_scaled_dot_product_flash_attention",
+      "aten::scaled_dot_product_attention"
+    ],
+    "forward": {
+      "unit": "milliseconds per batch",
+      "warmup_repetitions": 3,
+      "timing_repetitions": 10,
+      "samples_ms": [
+        0.1036369999951603,
+        0.12705099999266167,
+        0.10858100000632476,
+        0.15101600001798943,
+        0.11910199998510507,
+        0.1294470000061665,
+        0.15453000003162742,
+        0.11365799997520298,
+        0.11991899998520239,
+        0.11448899999777495
+      ],
+      "median_ms": 0.11951049998515373,
+      "peak_allocated_bytes": 21808128,
+      "peak_reserved_bytes": 25165824,
+      "additional_peak_allocated_bytes": 2671616
+    },
+    "forward_backward": {
+      "unit": "milliseconds per batch",
+      "warmup_repetitions": 3,
+      "timing_repetitions": 10,
+      "samples_ms": [
+        0.6206580000025497,
+        0.6325950000132252,
+        0.6223899999895366,
+        0.6149669999899743,
+        0.5896700000107558,
+        0.6032879999793295,
+        0.6123169999909805,
+        0.6316739999761012,
+        0.6153809999887017,
+        0.6463240000016413
+      ],
+      "median_ms": 0.6180194999956257,
+      "peak_allocated_bytes": 23889920,
+      "peak_reserved_bytes": 29360128,
+      "additional_peak_allocated_bytes": 3180544
+    },
+    "status": "complete"
+  },
+  {
+    "method": "sdpa",
+    "dtype": "float32",
+    "length": 512,
+    "batch": 2,
+    "heads": 4,
+    "head_dimension": 64,
+    "accumulation": "SDPA backend-defined",
+    "reference_status": "dense_fp32_on_identical_input_values",
+    "output_error": {
+      "maximum_absolute": 1.6093254089355469e-06,
+      "relative_l2": 6.324850687633443e-07
+    },
+    "gradient_errors": [
+      {
+        "maximum_absolute": 3.1010165457701078e-06,
+        "relative_l2": 9.768223208084237e-07
+      },
+      {
+        "maximum_absolute": 4.76837158203125e-06,
+        "relative_l2": 1.1265598232057528e-06
+      },
+      {
+        "maximum_absolute": 5.7220458984375e-06,
+        "relative_l2": 8.7295978801194e-07
+      }
+    ],
+    "numerical_tolerance_relative_l2": 0.0001,
+    "numerical_check": "passed",
+    "observed_operators": [
+      "aten::_efficient_attention_forward",
+      "aten::_scaled_dot_product_efficient_attention",
+      "aten::scaled_dot_product_attention"
+    ],
+    "forward": {
+      "unit": "milliseconds per batch",
+      "warmup_repetitions": 3,
+      "timing_repetitions": 10,
+      "samples_ms": [
+        0.15243699999700766,
+        0.1657139999906576,
+        0.1689750000082313,
+        0.18432799998890914,
+        0.15708099999756087,
+        0.16994800000702526,
+        0.15696499997375213,
+        0.1532200000156081,
+        0.15327900001693706,
+        0.15727800001741343
+      ],
+      "median_ms": 0.15717950000748715,
+      "peak_allocated_bytes": 22282240,
+      "peak_reserved_bytes": 27262976,
+      "additional_peak_allocated_bytes": 1048576
+    },
+    "forward_backward": {
+      "unit": "milliseconds per batch",
+      "warmup_repetitions": 3,
+      "timing_repetitions": 10,
+      "samples_ms": [
+        0.6556079999882058,
+        0.6463230000122167,
+        0.6400000000326145,
+        0.6593819999807238,
+        0.6754830000090806,
+        0.6572389999632833,
+        0.6426840000131051,
+        0.6936729999438285,
+        0.7404510000128539,
+        0.7192840000129763
+      ],
+      "median_ms": 0.6583104999720035,
+      "peak_allocated_bytes": 28623872,
+      "peak_reserved_bytes": 33554432,
+      "additional_peak_allocated_bytes": 4244480
+    },
+    "status": "complete"
+  },
+  {
+    "method": "sdpa",
+    "dtype": "float16",
+    "length": 1024,
+    "batch": 2,
+    "heads": 4,
+    "head_dimension": 64,
+    "accumulation": "SDPA backend-defined",
+    "reference_status": "dense_fp32_on_identical_input_values",
+    "output_error": {
+      "maximum_absolute": 0.0008916854858398438,
+      "relative_l2": 0.00025082603679038584
+    },
+    "gradient_errors": [
+      {
+        "maximum_absolute": 0.0011324882507324219,
+        "relative_l2": 0.0003119264729321003
+      },
+      {
+        "maximum_absolute": 0.0013992786407470703,
+        "relative_l2": 0.00030718272319063544
+      },
+      {
+        "maximum_absolute": 0.001332998275756836,
+        "relative_l2": 0.00028736027888953686
+      }
+    ],
+    "numerical_tolerance_relative_l2": 0.005,
+    "numerical_check": "passed",
+    "observed_operators": [
+      "aten::_flash_attention_forward",
+      "aten::_scaled_dot_product_flash_attention",
+      "aten::scaled_dot_product_attention"
+    ],
+    "forward": {
+      "unit": "milliseconds per batch",
+      "warmup_repetitions": 3,
+      "timing_repetitions": 10,
+      "samples_ms": [
+        0.10554699997555872,
+        0.12457500002938104,
+        0.12317400000938505,
+        0.14313700000911922,
+        0.11719200000470664,
+        0.1302269999996497,
+        0.13010300000360076,
+        0.12283199998819327,
+        0.11675599995442099,
+        0.12310300002127406
+      ],
+      "median_ms": 0.12313850001532956,
+      "peak_allocated_bytes": 30835712,
+      "peak_reserved_bytes": 48234496,
+      "additional_peak_allocated_bytes": 9602048
+    },
+    "forward_backward": {
+      "unit": "milliseconds per batch",
+      "warmup_repetitions": 3,
+      "timing_repetitions": 10,
+      "samples_ms": [
+        0.7247010000241971,
+        0.6554010000172639,
+        0.6626220000498506,
+        0.6805189999568029,
+        0.6639399999812667,
+        0.6670370000279036,
+        0.6762470000012399,
+        0.6763869999986127,
+        0.8154359999821281,
+        0.6724390000272251
+      ],
+      "median_ms": 0.6743430000142325,
+      "peak_allocated_bytes": 30835712,
+      "peak_reserved_bytes": 54525952,
+      "additional_peak_allocated_bytes": 6456320
+    },
+    "status": "complete"
+  },
+  {
+    "method": "sdpa",
+    "dtype": "float32",
+    "length": 1024,
+    "batch": 2,
+    "heads": 4,
+    "head_dimension": 64,
+    "accumulation": "SDPA backend-defined",
+    "reference_status": "dense_fp32_on_identical_input_values",
+    "output_error": {
+      "maximum_absolute": 1.5497207641601562e-06,
+      "relative_l2": 6.855789251858369e-07
+    },
+    "gradient_errors": [
+      {
+        "maximum_absolute": 2.6226043701171875e-06,
+        "relative_l2": 1.0340946801079554e-06
+      },
+      {
+        "maximum_absolute": 8.344650268554688e-06,
+        "relative_l2": 1.2515544085545116e-06
+      },
+      {
+        "maximum_absolute": 5.9604644775390625e-06,
+        "relative_l2": 1.0336157174606342e-06
+      }
+    ],
+    "numerical_tolerance_relative_l2": 0.0001,
+    "numerical_check": "passed",
+    "observed_operators": [
+      "aten::_efficient_attention_forward",
+      "aten::_scaled_dot_product_efficient_attention",
+      "aten::scaled_dot_product_attention"
+    ],
+    "forward": {
+      "unit": "milliseconds per batch",
+      "warmup_repetitions": 3,
+      "timing_repetitions": 10,
+      "samples_ms": [
+        0.25849700000435405,
+        0.26998500004538073,
+        0.2696950000427023,
+        0.28606699999045304,
+        0.27995099998179285,
+        0.2700850000110222,
+        0.2658250000422413,
+        0.2703279999991537,
+        0.26331499998377694,
+        0.26715499996043945
+      ],
+      "median_ms": 0.2698400000440415,
+      "peak_allocated_bytes": 27525120,
+      "peak_reserved_bytes": 41943040,
+      "additional_peak_allocated_bytes": 2097152
+    },
+    "forward_backward": {
+      "unit": "milliseconds per batch",
+      "warmup_repetitions": 3,
+      "timing_repetitions": 10,
+      "samples_ms": [
+        0.9155839999834825,
+        0.9362050000163435,
+        0.9179109999877255,
+        0.9373059999688849,
+        0.9151559999622805,
+        0.9332480000239229,
+        0.9345559999474062,
+        0.9272059999716475,
+        0.9107909999670483,
+        0.92293300002666
+      ],
+      "median_ms": 0.9250694999991538,
+      "peak_allocated_bytes": 40207360,
+      "peak_reserved_bytes": 65011712,
+      "additional_peak_allocated_bytes": 8487936
+    },
+    "status": "complete"
+  },
+  {
+    "method": "sdpa",
+    "dtype": "float16",
+    "length": 2048,
+    "batch": 2,
+    "heads": 4,
+    "head_dimension": 64,
+    "accumulation": "SDPA backend-defined",
+    "reference_status": "dense_fp32_on_identical_input_values",
+    "output_error": {
+      "maximum_absolute": 0.00087738037109375,
+      "relative_l2": 0.00025458153686486185
+    },
+    "gradient_errors": [
+      {
+        "maximum_absolute": 0.0010344982147216797,
+        "relative_l2": 0.0003064652264583856
+      },
+      {
+        "maximum_absolute": 0.0011997222900390625,
+        "relative_l2": 0.00030204004724510014
+      },
+      {
+        "maximum_absolute": 0.0019078254699707031,
+        "relative_l2": 0.00028417157591320574
+      }
+    ],
+    "numerical_tolerance_relative_l2": 0.005,
+    "numerical_check": "passed",
+    "observed_operators": [
+      "aten::_flash_attention_forward",
+      "aten::_scaled_dot_product_flash_attention",
+      "aten::scaled_dot_product_attention"
+    ],
+    "forward": {
+      "unit": "milliseconds per batch",
+      "warmup_repetitions": 3,
+      "timing_repetitions": 10,
+      "samples_ms": [
+        0.1557209999987208,
+        0.16689199998154436,
+        0.1660269999774755,
+        0.18428900000344584,
+        0.17338999998628424,
+        0.16347100000757564,
+        0.1646549999918534,
+        0.17093300004944467,
+        0.162548999981027,
+        0.16393600003539177
+      ],
+      "median_ms": 0.16534099998466445,
+      "peak_allocated_bytes": 27591680,
+      "peak_reserved_bytes": 44040192,
+      "additional_peak_allocated_bytes": 2163712
+    },
+    "forward_backward": {
+      "unit": "milliseconds per batch",
+      "warmup_repetitions": 3,
+      "timing_repetitions": 10,
+      "samples_ms": [
+        0.675553000007767,
+        0.6281499999545304,
+        0.6440889999907995,
+        0.6409100000155377,
+        0.6677320000108011,
+        0.6411909999997079,
+        0.6195139999931598,
+        0.6726520000484015,
+        0.6364699999608092,
+        0.6767919999788319
+      ],
+      "median_ms": 0.6426399999952537,
+      "peak_allocated_bytes": 44435456,
+      "peak_reserved_bytes": 65011712,
+      "additional_peak_allocated_bytes": 12716032
+    },
+    "status": "complete"
+  },
+  {
+    "method": "sdpa",
+    "dtype": "float32",
+    "length": 2048,
+    "batch": 2,
+    "heads": 4,
+    "head_dimension": 64,
+    "accumulation": "SDPA backend-defined",
+    "reference_status": "dense_fp32_on_identical_input_values",
+    "output_error": {
+      "maximum_absolute": 2.0265579223632812e-06,
+      "relative_l2": 7.601975653415138e-07
+    },
+    "gradient_errors": [
+      {
+        "maximum_absolute": 3.337860107421875e-06,
+        "relative_l2": 1.1010687330781366e-06
+      },
+      {
+        "maximum_absolute": 6.9141387939453125e-06,
+        "relative_l2": 1.494385628575401e-06
+      },
+      {
+        "maximum_absolute": 1.2874603271484375e-05,
+        "relative_l2": 1.313328084506793e-06
+      }
+    ],
+    "numerical_tolerance_relative_l2": 0.0001,
+    "numerical_check": "passed",
+    "observed_operators": [
+      "aten::_efficient_attention_forward",
+      "aten::_scaled_dot_product_efficient_attention",
+      "aten::scaled_dot_product_attention"
+    ],
+    "forward": {
+      "unit": "milliseconds per batch",
+      "warmup_repetitions": 3,
+      "timing_repetitions": 10,
+      "samples_ms": [
+        0.6126650000055633,
+        0.6222669999829122,
+        0.6346650000068621,
+        0.6357390000175656,
+        0.645662000010816,
+        0.6177500000035252,
+        0.6166599999914979,
+        0.6180889999995998,
+        0.6266670000059094,
+        0.623102000020026
+      ],
+      "median_ms": 0.6226845000014691,
+      "peak_allocated_bytes": 38010880,
+      "peak_reserved_bytes": 41943040,
+      "additional_peak_allocated_bytes": 4194304
+    },
+    "forward_backward": {
+      "unit": "milliseconds per batch",
+      "warmup_repetitions": 3,
+      "timing_repetitions": 10,
+      "samples_ms": [
+        1.7790200000149525,
+        1.7951570000036554,
+        1.7943830000035632,
+        1.791519999983393,
+        1.8047410000008313,
+        1.7757400000277812,
+        1.7947219999996378,
+        1.8090130000132376,
+        1.750201999982437,
+        1.7765660000463868
+      ],
+      "median_ms": 1.7929514999934781,
+      "peak_allocated_bytes": 63374336,
+      "peak_reserved_bytes": 85983232,
+      "additional_peak_allocated_bytes": 16974848
+    },
+    "status": "complete"
+  },
+  {
+    "method": "sdpa",
+    "dtype": "float16",
+    "length": 4096,
+    "batch": 2,
+    "heads": 4,
+    "head_dimension": 64,
+    "accumulation": "SDPA backend-defined",
+    "reference_status": "dense_fp32_on_identical_input_values",
+    "output_error": {
+      "maximum_absolute": 0.0009107589721679688,
+      "relative_l2": 0.000256826460827142
+    },
+    "gradient_errors": [
+      {
+        "maximum_absolute": 0.001188516616821289,
+        "relative_l2": 0.000310137023916468
+      },
+      {
+        "maximum_absolute": 0.0014765262603759766,
+        "relative_l2": 0.00030775065533816814
+      },
+      {
+        "maximum_absolute": 0.0017218589782714844,
+        "relative_l2": 0.0002899342216551304
+      }
+    ],
+    "numerical_tolerance_relative_l2": 0.005,
+    "numerical_check": "passed",
+    "observed_operators": [
+      "aten::_flash_attention_forward",
+      "aten::_scaled_dot_product_flash_attention",
+      "aten::scaled_dot_product_attention"
+    ],
+    "forward": {
+      "unit": "milliseconds per batch",
+      "warmup_repetitions": 3,
+      "timing_repetitions": 10,
+      "samples_ms": [
+        0.2906519999896773,
+        0.30762800003003576,
+        0.3009170000041195,
+        0.3106969999748799,
+        0.2860769999983859,
+        0.299129999973502,
+        0.29999200000929704,
+        0.28912400000535854,
+        0.29176599997526864,
+        0.2989949999800956
+      ],
+      "median_ms": 0.2990624999767988,
+      "peak_allocated_bytes": 38142976,
+      "peak_reserved_bytes": 65011712,
+      "additional_peak_allocated_bytes": 4326400
+    },
+    "forward_backward": {
+      "unit": "milliseconds per batch",
+      "warmup_repetitions": 3,
+      "timing_repetitions": 10,
+      "samples_ms": [
+        1.047316000040155,
+        1.0283309999863377,
+        1.033973000005517,
+        1.015650999988793,
+        1.0313159999668642,
+        1.0409770000023855,
+        1.0312940000289927,
+        1.0241669999686565,
+        1.0043169999676138,
+        1.022504999980356
+      ],
+      "median_ms": 1.0298125000076652,
+      "peak_allocated_bytes": 71829504,
+      "peak_reserved_bytes": 85983232,
+      "additional_peak_allocated_bytes": 25430016
+    },
+    "status": "complete"
+  },
+  {
+    "method": "sdpa",
+    "dtype": "float32",
+    "length": 4096,
+    "batch": 2,
+    "heads": 4,
+    "head_dimension": 64,
+    "accumulation": "SDPA backend-defined",
+    "reference_status": "dense_fp32_on_identical_input_values",
+    "output_error": {
+      "maximum_absolute": 2.0265579223632812e-06,
+      "relative_l2": 8.205698236452008e-07
+    },
+    "gradient_errors": [
+      {
+        "maximum_absolute": 2.4724286049604416e-06,
+        "relative_l2": 1.1577969871723326e-06
+      },
+      {
+        "maximum_absolute": 9.298324584960938e-06,
+        "relative_l2": 1.8181236782766064e-06
+      },
+      {
+        "maximum_absolute": 1.4781951904296875e-05,
+        "relative_l2": 1.6879287159099476e-06
+      }
+    ],
+    "numerical_tolerance_relative_l2": 0.0001,
+    "numerical_check": "passed",
+    "observed_operators": [
+      "aten::_efficient_attention_forward",
+      "aten::_scaled_dot_product_efficient_attention",
+      "aten::scaled_dot_product_attention"
+    ],
+    "forward": {
+      "unit": "milliseconds per batch",
+      "warmup_repetitions": 3,
+      "timing_repetitions": 10,
+      "samples_ms": [
+        1.5614980000009382,
+        1.590329999999085,
+        1.5972429999919768,
+        1.5701829999557049,
+        1.5958370000248578,
+        1.5462019999858967,
+        1.5788129999805278,
+        1.5776859999618864,
+        1.5846649999957663,
+        1.5621229999851494
+      ],
+      "median_ms": 1.5782494999712071,
+      "peak_allocated_bytes": 58982400,
+      "peak_reserved_bytes": 83886080,
+      "additional_peak_allocated_bytes": 8388608
+    },
+    "forward_backward": {
+      "unit": "milliseconds per batch",
+      "warmup_repetitions": 3,
+      "timing_repetitions": 10,
+      "samples_ms": [
+        5.361811999989641,
+        5.509931999995388,
+        5.490248999990399,
+        5.436807000023691,
+        5.461362000005465,
+        5.4686949999904755,
+        5.389168000021982,
+        5.42673500001456,
+        5.420533999995314,
+        5.399111999963679
+      ],
+      "median_ms": 5.4317710000191255,
+      "peak_allocated_bytes": 109708288,
+      "peak_reserved_bytes": 148897792,
+      "additional_peak_allocated_bytes": 33948672
+    },
+    "status": "complete"
+  },
+  {
+    "method": "sdpa",
+    "dtype": "float16",
+    "length": 8192,
+    "batch": 2,
+    "heads": 4,
+    "head_dimension": 64,
+    "accumulation": "SDPA backend-defined",
+    "reference_status": "dense_fp32_on_identical_input_values",
+    "output_error": {
+      "maximum_absolute": 0.0009570121765136719,
+      "relative_l2": 0.00026237816200591624
+    },
+    "gradient_errors": [
+      {
+        "maximum_absolute": 0.001165926456451416,
+        "relative_l2": 0.00030912936199456453
+      },
+      {
+        "maximum_absolute": 0.001120924949645996,
+        "relative_l2": 0.0003045483317691833
+      },
+      {
+        "maximum_absolute": 0.0017075538635253906,
+        "relative_l2": 0.0002908871974796057
+      }
+    ],
+    "numerical_tolerance_relative_l2": 0.005,
+    "numerical_check": "passed",
+    "observed_operators": [
+      "aten::_flash_attention_forward",
+      "aten::_scaled_dot_product_flash_attention",
+      "aten::scaled_dot_product_attention"
+    ],
+    "forward": {
+      "unit": "milliseconds per batch",
+      "warmup_repetitions": 3,
+      "timing_repetitions": 10,
+      "samples_ms": [
+        0.6431830000224181,
+        0.6479550000335621,
+        0.6379640000204745,
+        0.6654089999642565,
+        0.6742599999824961,
+        0.6728650000127345,
+        0.6468259999792281,
+        0.6299620000049799,
+        0.6282290000285684,
+        0.6192680000367545
+      ],
+      "median_ms": 0.6450045000008231,
+      "peak_allocated_bytes": 59245568,
+      "peak_reserved_bytes": 85983232,
+      "additional_peak_allocated_bytes": 8651776
+    },
+    "forward_backward": {
+      "unit": "milliseconds per batch",
+      "warmup_repetitions": 3,
+      "timing_repetitions": 10,
+      "samples_ms": [
+        2.2030720000429937,
+        2.1909449999952813,
+        2.2057550000340598,
+        2.1702559999994264,
+        2.208096000003934,
+        2.194418999977188,
+        2.1777210000095693,
+        2.1889139999871077,
+        2.1852269999840246,
+        2.18320300001551
+      ],
+      "median_ms": 2.1899294999911945,
+      "peak_allocated_bytes": 126617600,
+      "peak_reserved_bytes": 153092096,
+      "additional_peak_allocated_bytes": 50857984
+    },
+    "status": "complete"
+  },
+  {
+    "method": "sdpa",
+    "dtype": "float32",
+    "length": 8192,
+    "batch": 2,
+    "heads": 4,
+    "head_dimension": 64,
+    "accumulation": "SDPA backend-defined",
+    "reference_status": "dense_fp32_on_identical_input_values",
+    "output_error": {
+      "maximum_absolute": 1.6689300537109375e-06,
+      "relative_l2": 9.37766628794634e-07
+    },
+    "gradient_errors": [
+      {
+        "maximum_absolute": 2.5033950805664062e-06,
+        "relative_l2": 1.2589796369866235e-06
+      },
+      {
+        "maximum_absolute": 1.1444091796875e-05,
+        "relative_l2": 2.3635668640054064e-06
+      },
+      {
+        "maximum_absolute": 3.62396240234375e-05,
+        "relative_l2": 2.316142854397185e-06
+      }
+    ],
+    "numerical_tolerance_relative_l2": 0.0001,
+    "numerical_check": "passed",
+    "observed_operators": [
+      "aten::_efficient_attention_forward",
+      "aten::_scaled_dot_product_efficient_attention",
+      "aten::scaled_dot_product_attention"
+    ],
+    "forward": {
+      "unit": "milliseconds per batch",
+      "warmup_repetitions": 3,
+      "timing_repetitions": 10,
+      "samples_ms": [
+        3.8080260000015187,
+        3.8896010000257775,
+        3.8541380000083336,
+        3.8210769999977856,
+        4.061938999996073,
+        3.9072440000040842,
+        3.75277900002402,
+        3.8593660000287855,
+        3.7738909999802672,
+        3.7683420000007573
+      ],
+      "median_ms": 3.8376075000030596,
+      "peak_allocated_bytes": 100925440,
+      "peak_reserved_bytes": 104857600,
+      "additional_peak_allocated_bytes": 16777216
+    },
+    "forward_backward": {
+      "unit": "milliseconds per batch",
+      "warmup_repetitions": 3,
+      "timing_repetitions": 10,
+      "samples_ms": [
+        13.318581000021368,
+        13.615744999981416,
+        13.434970999981033,
+        13.316002000010485,
+        13.525218000040695,
+        13.39522900002521,
+        13.28551200003858,
+        13.553283999954147,
+        13.516668000022491,
+        13.263687999995
+      ],
+      "median_ms": 13.415100000003122,
+      "peak_allocated_bytes": 202376192,
+      "peak_reserved_bytes": 226492416,
+      "additional_peak_allocated_bytes": 67896320
+    },
+    "status": "complete"
+  }
+]

@@ -1,0 +1,746 @@
+{
+  "id": "dilated_K16_mixed_seed6306",
+  "method": "dilated",
+  "train_K": 16,
+  "train_regime": "mixed",
+  "seed": 6306,
+  "status": "complete",
+  "completed_updates": 4500,
+  "trainable_parameters": 437824,
+  "baseline_trainable_parameters": 437824,
+  "initialization_sha256": "5e0392c54d65ad9968b2248f7f3101b011f2a3bc4063eec3008fec0849c3bb02",
+  "final_sha256": "7b2217b1195ec26c669efc2e553e03c5932bccf5d91bd44fb397cb75fa03f4ac",
+  "training_seconds": 124.00073834398518,
+  "skipped_optimizer_attempts": 0,
+  "content_k": 64,
+  "current_session_wall_seconds": 141.3750825899997,
+  "checkpoint_and_backup_seconds_this_session": 14.452251415003047,
+  "saved_development_seconds": 0.34864339100022335,
+  "timing_scope": "training_seconds pools successful update/data-wait time across recovery; current-session wall time includes setup, evaluation and backup",
+  "development_evaluations": [
+    {
+      "update": 500,
+      "split": "development",
+      "metrics": {
+        "near": {
+          "examples": 256,
+          "queries": 4096,
+          "correct": 65,
+          "accuracy": 0.015869140625,
+          "mean_query_nll": 4.167515362263657,
+          "chance_label_space": 0.015625,
+          "chance_present_values": 0.0625,
+          "distance_bins": {
+            "0_32": {
+              "correct": 15,
+              "queries": 1106,
+              "accuracy": 0.013562386980108499
+            },
+            "32_64": {
+              "correct": 50,
+              "queries": 2990,
+              "accuracy": 0.016722408026755852
+            },
+            "64_128": {
+              "correct": 0,
+              "queries": 0,
+              "accuracy": null
+            },
+            "128_256": {
+              "correct": 0,
+              "queries": 0,
+              "accuracy": null
+            }
+          },
+          "denominator": "all supervised query positions; no next-token shift"
+        },
+        "far": {
+          "examples": 256,
+          "queries": 4096,
+          "correct": 71,
+          "accuracy": 0.017333984375,
+          "mean_query_nll": 4.164285773411393,
+          "chance_label_space": 0.015625,
+          "chance_present_values": 0.0625,
+          "distance_bins": {
+            "0_32": {
+              "correct": 0,
+              "queries": 0,
+              "accuracy": null
+            },
+            "32_64": {
+              "correct": 0,
+              "queries": 0,
+              "accuracy": null
+            },
+            "64_128": {
+              "correct": 0,
+              "queries": 0,
+              "accuracy": null
+            },
+            "128_256": {
+              "correct": 71,
+              "queries": 4096,
+              "accuracy": 0.017333984375
+            }
+          },
+          "denominator": "all supervised query positions; no next-token shift"
+        },
+        "mixed": {
+          "examples": 256,
+          "queries": 4096,
+          "correct": 74,
+          "accuracy": 0.01806640625,
+          "mean_query_nll": 4.163067487534136,
+          "chance_label_space": 0.015625,
+          "chance_present_values": 0.0625,
+          "distance_bins": {
+            "0_32": {
+              "correct": 4,
+              "queries": 288,
+              "accuracy": 0.013888888888888888
+            },
+            "32_64": {
+              "correct": 17,
+              "queries": 593,
+              "accuracy": 0.02866779089376054
+            },
+            "64_128": {
+              "correct": 19,
+              "queries": 1116,
+              "accuracy": 0.017025089605734768
+            },
+            "128_256": {
+              "correct": 34,
+              "queries": 2099,
+              "accuracy": 0.016198189614101955
+            }
+          },
+          "denominator": "all supervised query positions; no next-token shift"
+        }
+      },
+      "evaluation_seconds": 0.06423599400022795
+    },
+    {
+      "update": 1000,
+      "split": "development",
+      "metrics": {
+        "near": {
+          "examples": 256,
+          "queries": 4096,
+          "correct": 262,
+          "accuracy": 0.06396484375,
+          "mean_query_nll": 3.94746654087794,
+          "chance_label_space": 0.015625,
+          "chance_present_values": 0.0625,
+          "distance_bins": {
+            "0_32": {
+              "correct": 60,
+              "queries": 1106,
+              "accuracy": 0.054249547920433995
+            },
+            "32_64": {
+              "correct": 202,
+              "queries": 2990,
+              "accuracy": 0.06755852842809365
+            },
+            "64_128": {
+              "correct": 0,
+              "queries": 0,
+              "accuracy": null
+            },
+            "128_256": {
+              "correct": 0,
+              "queries": 0,
+              "accuracy": null
+            }
+          },
+          "denominator": "all supervised query positions; no next-token shift"
+        },
+        "far": {
+          "examples": 256,
+          "queries": 4096,
+          "correct": 261,
+          "accuracy": 0.063720703125,
+          "mean_query_nll": 3.9330817509035114,
+          "chance_label_space": 0.015625,
+          "chance_present_values": 0.0625,
+          "distance_bins": {
+            "0_32": {
+              "correct": 0,
+              "queries": 0,
+              "accuracy": null
+            },
+            "32_64": {
+              "correct": 0,
+              "queries": 0,
+              "accuracy": null
+            },
+            "64_128": {
+              "correct": 0,
+              "queries": 0,
+              "accuracy": null
+            },
+            "128_256": {
+              "correct": 261,
+              "queries": 4096,
+              "accuracy": 0.063720703125
+            }
+          },
+          "denominator": "all supervised query positions; no next-token shift"
+        },
+        "mixed": {
+          "examples": 256,
+          "queries": 4096,
+          "correct": 271,
+          "accuracy": 0.066162109375,
+          "mean_query_nll": 3.933112872997299,
+          "chance_label_space": 0.015625,
+          "chance_present_values": 0.0625,
+          "distance_bins": {
+            "0_32": {
+              "correct": 24,
+              "queries": 288,
+              "accuracy": 0.08333333333333333
+            },
+            "32_64": {
+              "correct": 49,
+              "queries": 593,
+              "accuracy": 0.08263069139966273
+            },
+            "64_128": {
+              "correct": 63,
+              "queries": 1116,
+              "accuracy": 0.056451612903225805
+            },
+            "128_256": {
+              "correct": 135,
+              "queries": 2099,
+              "accuracy": 0.06431634111481659
+            }
+          },
+          "denominator": "all supervised query positions; no next-token shift"
+        }
+      },
+      "evaluation_seconds": 0.056530560000283
+    },
+    {
+      "update": 1500,
+      "split": "development",
+      "metrics": {
+        "near": {
+          "examples": 256,
+          "queries": 4096,
+          "correct": 256,
+          "accuracy": 0.0625,
+          "mean_query_nll": 3.756125842250185,
+          "chance_label_space": 0.015625,
+          "chance_present_values": 0.0625,
+          "distance_bins": {
+            "0_32": {
+              "correct": 49,
+              "queries": 1106,
+              "accuracy": 0.04430379746835443
+            },
+            "32_64": {
+              "correct": 207,
+              "queries": 2990,
+              "accuracy": 0.06923076923076923
+            },
+            "64_128": {
+              "correct": 0,
+              "queries": 0,
+              "accuracy": null
+            },
+            "128_256": {
+              "correct": 0,
+              "queries": 0,
+              "accuracy": null
+            }
+          },
+          "denominator": "all supervised query positions; no next-token shift"
+        },
+        "far": {
+          "examples": 256,
+          "queries": 4096,
+          "correct": 269,
+          "accuracy": 0.065673828125,
+          "mean_query_nll": 3.7449342279869597,
+          "chance_label_space": 0.015625,
+          "chance_present_values": 0.0625,
+          "distance_bins": {
+            "0_32": {
+              "correct": 0,
+              "queries": 0,
+              "accuracy": null
+            },
+            "32_64": {
+              "correct": 0,
+              "queries": 0,
+              "accuracy": null
+            },
+            "64_128": {
+              "correct": 0,
+              "queries": 0,
+              "accuracy": null
+            },
+            "128_256": {
+              "correct": 269,
+              "queries": 4096,
+              "accuracy": 0.065673828125
+            }
+          },
+          "denominator": "all supervised query positions; no next-token shift"
+        },
+        "mixed": {
+          "examples": 256,
+          "queries": 4096,
+          "correct": 249,
+          "accuracy": 0.060791015625,
+          "mean_query_nll": 3.752887807873776,
+          "chance_label_space": 0.015625,
+          "chance_present_values": 0.0625,
+          "distance_bins": {
+            "0_32": {
+              "correct": 14,
+              "queries": 288,
+              "accuracy": 0.04861111111111111
+            },
+            "32_64": {
+              "correct": 33,
+              "queries": 593,
+              "accuracy": 0.05564924114671164
+            },
+            "64_128": {
+              "correct": 62,
+              "queries": 1116,
+              "accuracy": 0.05555555555555555
+            },
+            "128_256": {
+              "correct": 140,
+              "queries": 2099,
+              "accuracy": 0.06669842782277274
+            }
+          },
+          "denominator": "all supervised query positions; no next-token shift"
+        }
+      },
+      "evaluation_seconds": 0.057493743999657454
+    },
+    {
+      "update": 2000,
+      "split": "development",
+      "metrics": {
+        "near": {
+          "examples": 256,
+          "queries": 4096,
+          "correct": 281,
+          "accuracy": 0.068603515625,
+          "mean_query_nll": 3.5737363396328874,
+          "chance_label_space": 0.015625,
+          "chance_present_values": 0.0625,
+          "distance_bins": {
+            "0_32": {
+              "correct": 64,
+              "queries": 1106,
+              "accuracy": 0.05786618444846293
+            },
+            "32_64": {
+              "correct": 217,
+              "queries": 2990,
+              "accuracy": 0.0725752508361204
+            },
+            "64_128": {
+              "correct": 0,
+              "queries": 0,
+              "accuracy": null
+            },
+            "128_256": {
+              "correct": 0,
+              "queries": 0,
+              "accuracy": null
+            }
+          },
+          "denominator": "all supervised query positions; no next-token shift"
+        },
+        "far": {
+          "examples": 256,
+          "queries": 4096,
+          "correct": 257,
+          "accuracy": 0.062744140625,
+          "mean_query_nll": 3.5668035150738433,
+          "chance_label_space": 0.015625,
+          "chance_present_values": 0.0625,
+          "distance_bins": {
+            "0_32": {
+              "correct": 0,
+              "queries": 0,
+              "accuracy": null
+            },
+            "32_64": {
+              "correct": 0,
+              "queries": 0,
+              "accuracy": null
+            },
+            "64_128": {
+              "correct": 0,
+              "queries": 0,
+              "accuracy": null
+            },
+            "128_256": {
+              "correct": 257,
+              "queries": 4096,
+              "accuracy": 0.062744140625
+            }
+          },
+          "denominator": "all supervised query positions; no next-token shift"
+        },
+        "mixed": {
+          "examples": 256,
+          "queries": 4096,
+          "correct": 260,
+          "accuracy": 0.0634765625,
+          "mean_query_nll": 3.5692685715621337,
+          "chance_label_space": 0.015625,
+          "chance_present_values": 0.0625,
+          "distance_bins": {
+            "0_32": {
+              "correct": 17,
+              "queries": 288,
+              "accuracy": 0.059027777777777776
+            },
+            "32_64": {
+              "correct": 41,
+              "queries": 593,
+              "accuracy": 0.06913996627318718
+            },
+            "64_128": {
+              "correct": 73,
+              "queries": 1116,
+              "accuracy": 0.06541218637992832
+            },
+            "128_256": {
+              "correct": 129,
+              "queries": 2099,
+              "accuracy": 0.06145783706526917
+            }
+          },
+          "denominator": "all supervised query positions; no next-token shift"
+        }
+      },
+      "evaluation_seconds": 0.060584546999962186
+    },
+    {
+      "update": 3000,
+      "split": "development",
+      "metrics": {
+        "near": {
+          "examples": 256,
+          "queries": 4096,
+          "correct": 276,
+          "accuracy": 0.0673828125,
+          "mean_query_nll": 3.32050811398949,
+          "chance_label_space": 0.015625,
+          "chance_present_values": 0.0625,
+          "distance_bins": {
+            "0_32": {
+              "correct": 70,
+              "queries": 1106,
+              "accuracy": 0.06329113924050633
+            },
+            "32_64": {
+              "correct": 206,
+              "queries": 2990,
+              "accuracy": 0.06889632107023412
+            },
+            "64_128": {
+              "correct": 0,
+              "queries": 0,
+              "accuracy": null
+            },
+            "128_256": {
+              "correct": 0,
+              "queries": 0,
+              "accuracy": null
+            }
+          },
+          "denominator": "all supervised query positions; no next-token shift"
+        },
+        "far": {
+          "examples": 256,
+          "queries": 4096,
+          "correct": 260,
+          "accuracy": 0.0634765625,
+          "mean_query_nll": 3.2943935254588723,
+          "chance_label_space": 0.015625,
+          "chance_present_values": 0.0625,
+          "distance_bins": {
+            "0_32": {
+              "correct": 0,
+              "queries": 0,
+              "accuracy": null
+            },
+            "32_64": {
+              "correct": 0,
+              "queries": 0,
+              "accuracy": null
+            },
+            "64_128": {
+              "correct": 0,
+              "queries": 0,
+              "accuracy": null
+            },
+            "128_256": {
+              "correct": 260,
+              "queries": 4096,
+              "accuracy": 0.0634765625
+            }
+          },
+          "denominator": "all supervised query positions; no next-token shift"
+        },
+        "mixed": {
+          "examples": 256,
+          "queries": 4096,
+          "correct": 256,
+          "accuracy": 0.0625,
+          "mean_query_nll": 3.3120862944051623,
+          "chance_label_space": 0.015625,
+          "chance_present_values": 0.0625,
+          "distance_bins": {
+            "0_32": {
+              "correct": 22,
+              "queries": 288,
+              "accuracy": 0.0763888888888889
+            },
+            "32_64": {
+              "correct": 37,
+              "queries": 593,
+              "accuracy": 0.06239460370994941
+            },
+            "64_128": {
+              "correct": 70,
+              "queries": 1116,
+              "accuracy": 0.06272401433691756
+            },
+            "128_256": {
+              "correct": 127,
+              "queries": 2099,
+              "accuracy": 0.060505002382086705
+            }
+          },
+          "denominator": "all supervised query positions; no next-token shift"
+        }
+      },
+      "evaluation_seconds": 0.05434306299957825
+    },
+    {
+      "update": 4500,
+      "split": "development",
+      "metrics": {
+        "near": {
+          "examples": 256,
+          "queries": 4096,
+          "correct": 266,
+          "accuracy": 0.06494140625,
+          "mean_query_nll": 3.1613921635434963,
+          "chance_label_space": 0.015625,
+          "chance_present_values": 0.0625,
+          "distance_bins": {
+            "0_32": {
+              "correct": 63,
+              "queries": 1106,
+              "accuracy": 0.056962025316455694
+            },
+            "32_64": {
+              "correct": 203,
+              "queries": 2990,
+              "accuracy": 0.06789297658862876
+            },
+            "64_128": {
+              "correct": 0,
+              "queries": 0,
+              "accuracy": null
+            },
+            "128_256": {
+              "correct": 0,
+              "queries": 0,
+              "accuracy": null
+            }
+          },
+          "denominator": "all supervised query positions; no next-token shift"
+        },
+        "far": {
+          "examples": 256,
+          "queries": 4096,
+          "correct": 272,
+          "accuracy": 0.06640625,
+          "mean_query_nll": 3.1272670058824588,
+          "chance_label_space": 0.015625,
+          "chance_present_values": 0.0625,
+          "distance_bins": {
+            "0_32": {
+              "correct": 0,
+              "queries": 0,
+              "accuracy": null
+            },
+            "32_64": {
+              "correct": 0,
+              "queries": 0,
+              "accuracy": null
+            },
+            "64_128": {
+              "correct": 0,
+              "queries": 0,
+              "accuracy": null
+            },
+            "128_256": {
+              "correct": 272,
+              "queries": 4096,
+              "accuracy": 0.06640625
+            }
+          },
+          "denominator": "all supervised query positions; no next-token shift"
+        },
+        "mixed": {
+          "examples": 256,
+          "queries": 4096,
+          "correct": 239,
+          "accuracy": 0.058349609375,
+          "mean_query_nll": 3.1520444092457183,
+          "chance_label_space": 0.015625,
+          "chance_present_values": 0.0625,
+          "distance_bins": {
+            "0_32": {
+              "correct": 9,
+              "queries": 288,
+              "accuracy": 0.03125
+            },
+            "32_64": {
+              "correct": 42,
+              "queries": 593,
+              "accuracy": 0.07082630691399663
+            },
+            "64_128": {
+              "correct": 65,
+              "queries": 1116,
+              "accuracy": 0.05824372759856631
+            },
+            "128_256": {
+              "correct": 123,
+              "queries": 2099,
+              "accuracy": 0.058599333015721775
+            }
+          },
+          "denominator": "all supervised query positions; no next-token shift"
+        }
+      },
+      "evaluation_seconds": 0.055455483000514505
+    }
+  ],
+  "final_checkpoint": "checkpoints/mqar/dilated_K16_mixed_seed6306/update_4500.pt",
+  "checkpoint_updates": [
+    500,
+    1000,
+    1500,
+    2000,
+    3000,
+    4500
+  ],
+  "history": "histories/mqar/dilated_K16_mixed_seed6306.jsonl",
+  "training_query_maps": [
+    "splits/mqar_training/seed6306_K16_mixed/queries_000288000_000291200.npz",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000288000_000291200.json",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000291200_000294400.npz",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000291200_000294400.json",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000294400_000297600.npz",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000294400_000297600.json",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000297600_000300800.npz",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000297600_000300800.json",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000300800_000304000.npz",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000300800_000304000.json",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000304000_000307200.npz",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000304000_000307200.json",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000307200_000310400.npz",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000307200_000310400.json",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000310400_000313600.npz",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000310400_000313600.json",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000313600_000316800.npz",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000313600_000316800.json",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000316800_000320000.npz",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000316800_000320000.json",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000320000_000323200.npz",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000320000_000323200.json",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000323200_000326400.npz",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000323200_000326400.json",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000326400_000329600.npz",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000326400_000329600.json",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000329600_000332800.npz",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000329600_000332800.json",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000332800_000336000.npz",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000332800_000336000.json",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000336000_000339200.npz",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000336000_000339200.json",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000339200_000342400.npz",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000339200_000342400.json",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000342400_000345600.npz",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000342400_000345600.json",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000345600_000348800.npz",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000345600_000348800.json",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000348800_000352000.npz",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000348800_000352000.json",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000352000_000355200.npz",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000352000_000355200.json",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000355200_000358400.npz",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000355200_000358400.json",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000358400_000361600.npz",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000358400_000361600.json",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000361600_000364800.npz",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000361600_000364800.json",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000364800_000368000.npz",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000364800_000368000.json",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000368000_000371200.npz",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000368000_000371200.json",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000371200_000374400.npz",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000371200_000374400.json",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000374400_000377600.npz",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000374400_000377600.json",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000377600_000380800.npz",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000377600_000380800.json",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000380800_000384000.npz",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000380800_000384000.json",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000384000_000387200.npz",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000384000_000387200.json",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000387200_000390400.npz",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000387200_000390400.json",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000390400_000393600.npz",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000390400_000393600.json",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000393600_000396800.npz",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000393600_000396800.json",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000396800_000400000.npz",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000396800_000400000.json",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000400000_000403200.npz",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000400000_000403200.json",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000403200_000406400.npz",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000403200_000406400.json",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000406400_000409600.npz",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000406400_000409600.json",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000409600_000412800.npz",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000409600_000412800.json",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000412800_000416000.npz",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000412800_000416000.json",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000416000_000419200.npz",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000416000_000419200.json",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000419200_000422400.npz",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000419200_000422400.json",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000422400_000425600.npz",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000422400_000425600.json",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000425600_000428800.npz",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000425600_000428800.json",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000428800_000432000.npz",
+    "splits/mqar_training/seed6306_K16_mixed/queries_000428800_000432000.json"
+  ],
+  "precision": "fp32_parameters_fp16_autocast_gradscaler",
+  "failure": null,
+  "peak_scope": "model construction, training and scheduled development evaluations for this run",
+  "peak_allocated_bytes": 361114112
+}

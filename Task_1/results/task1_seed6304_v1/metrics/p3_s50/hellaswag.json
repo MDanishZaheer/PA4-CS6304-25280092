@@ -1,0 +1,8 @@
+{
+  "examples": 2000,
+  "accuracy": 0.348,
+  "accuracy_normalized": 0.448,
+  "normalization": "preprocessed ending character count; excludes delimiter",
+  "saved_successful_item_scoring_seconds": 22.42724074300031,
+  "current_session_scoring_seconds": 33.18118604599999
+}

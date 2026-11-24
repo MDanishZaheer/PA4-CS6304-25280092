@@ -1,0 +1,1052 @@
+{
+  "status": "passed",
+  "seed": 6304,
+  "sequence_length": 3,
+  "target_transition": [
+    [
+      0.7,
+      0.2,
+      0.1
+    ],
+    [
+      0.15,
+      0.65,
+      0.2
+    ],
+    [
+      0.2,
+      0.2,
+      0.6
+    ]
+  ],
+  "draft_transition": [
+    [
+      0.15,
+      0.2,
+      0.65
+    ],
+    [
+      0.5,
+      0.1,
+      0.4
+    ],
+    [
+      0.6,
+      0.3,
+      0.1
+    ]
+  ],
+  "initial_state": 0,
+  "conditions": [
+    {
+      "gamma": 2,
+      "negative_control": false,
+      "trials": 100000,
+      "chi_square": 26.899656526318577,
+      "p_value": 0.4146097377385883,
+      "passed": true,
+      "minimum_expected_count": 200.00000000000006
+    },
+    {
+      "gamma": 2,
+      "negative_control": true,
+      "trials": 100000,
+      "chi_square": 41047.31736180114,
+      "p_value": 0.0,
+      "passed": true,
+      "minimum_expected_count": 200.00000000000006
+    },
+    {
+      "gamma": 4,
+      "negative_control": false,
+      "trials": 100000,
+      "chi_square": 31.58972129257441,
+      "p_value": 0.20703639221911824,
+      "passed": true,
+      "minimum_expected_count": 200.00000000000006
+    },
+    {
+      "gamma": 4,
+      "negative_control": true,
+      "trials": 100000,
+      "chi_square": 49706.32818312333,
+      "p_value": 0.0,
+      "passed": true,
+      "minimum_expected_count": 200.00000000000006
+    }
+  ],
+  "joint_categories": [
+    {
+      "gamma": 2,
+      "negative_control": false,
+      "sequence": "000",
+      "target_probability": 0.3429999999999999,
+      "observed_probability": 0.34139,
+      "expected_count": 34299.99999999999,
+      "observed_count": 34139
+    },
+    {
+      "gamma": 2,
+      "negative_control": false,
+      "sequence": "001",
+      "target_probability": 0.09799999999999999,
+      "observed_probability": 0.09799,
+      "expected_count": 9799.999999999998,
+      "observed_count": 9799
+    },
+    {
+      "gamma": 2,
+      "negative_control": false,
+      "sequence": "002",
+      "target_probability": 0.048999999999999995,
+      "observed_probability": 0.04908,
+      "expected_count": 4899.999999999999,
+      "observed_count": 4908
+    },
+    {
+      "gamma": 2,
+      "negative_control": false,
+      "sequence": "010",
+      "target_probability": 0.020999999999999998,
+      "observed_probability": 0.021,
+      "expected_count": 2100.0,
+      "observed_count": 2100
+    },
+    {
+      "gamma": 2,
+      "negative_control": false,
+      "sequence": "011",
+      "target_probability": 0.091,
+      "observed_probability": 0.09069,
+      "expected_count": 9100.0,
+      "observed_count": 9069
+    },
+    {
+      "gamma": 2,
+      "negative_control": false,
+      "sequence": "012",
+      "target_probability": 0.027999999999999997,
+      "observed_probability": 0.02843,
+      "expected_count": 2799.9999999999995,
+      "observed_count": 2843
+    },
+    {
+      "gamma": 2,
+      "negative_control": false,
+      "sequence": "020",
+      "target_probability": 0.013999999999999999,
+      "observed_probability": 0.01441,
+      "expected_count": 1399.9999999999998,
+      "observed_count": 1441
+    },
+    {
+      "gamma": 2,
+      "negative_control": false,
+      "sequence": "021",
+      "target_probability": 0.013999999999999999,
+      "observed_probability": 0.01444,
+      "expected_count": 1399.9999999999998,
+      "observed_count": 1444
+    },
+    {
+      "gamma": 2,
+      "negative_control": false,
+      "sequence": "022",
+      "target_probability": 0.041999999999999996,
+      "observed_probability": 0.0417,
+      "expected_count": 4200.0,
+      "observed_count": 4170
+    },
+    {
+      "gamma": 2,
+      "negative_control": false,
+      "sequence": "100",
+      "target_probability": 0.020999999999999998,
+      "observed_probability": 0.02119,
+      "expected_count": 2100.0,
+      "observed_count": 2119
+    },
+    {
+      "gamma": 2,
+      "negative_control": false,
+      "sequence": "101",
+      "target_probability": 0.006,
+      "observed_probability": 0.00603,
+      "expected_count": 600.0,
+      "observed_count": 603
+    },
+    {
+      "gamma": 2,
+      "negative_control": false,
+      "sequence": "102",
+      "target_probability": 0.003,
+      "observed_probability": 0.00302,
+      "expected_count": 300.0,
+      "observed_count": 302
+    },
+    {
+      "gamma": 2,
+      "negative_control": false,
+      "sequence": "110",
+      "target_probability": 0.0195,
+      "observed_probability": 0.01943,
+      "expected_count": 1950.0,
+      "observed_count": 1943
+    },
+    {
+      "gamma": 2,
+      "negative_control": false,
+      "sequence": "111",
+      "target_probability": 0.0845,
+      "observed_probability": 0.08548,
+      "expected_count": 8450.0,
+      "observed_count": 8548
+    },
+    {
+      "gamma": 2,
+      "negative_control": false,
+      "sequence": "112",
+      "target_probability": 0.026000000000000002,
+      "observed_probability": 0.02601,
+      "expected_count": 2600.0000000000005,
+      "observed_count": 2601
+    },
+    {
+      "gamma": 2,
+      "negative_control": false,
+      "sequence": "120",
+      "target_probability": 0.008000000000000002,
+      "observed_probability": 0.00886,
+      "expected_count": 800.0000000000002,
+      "observed_count": 886
+    },
+    {
+      "gamma": 2,
+      "negative_control": false,
+      "sequence": "121",
+      "target_probability": 0.008000000000000002,
+      "observed_probability": 0.0082,
+      "expected_count": 800.0000000000002,
+      "observed_count": 820
+    },
+    {
+      "gamma": 2,
+      "negative_control": false,
+      "sequence": "122",
+      "target_probability": 0.024000000000000004,
+      "observed_probability": 0.02279,
+      "expected_count": 2400.0000000000005,
+      "observed_count": 2279
+    },
+    {
+      "gamma": 2,
+      "negative_control": false,
+      "sequence": "200",
+      "target_probability": 0.014000000000000002,
+      "observed_probability": 0.01416,
+      "expected_count": 1400.0000000000002,
+      "observed_count": 1416
+    },
+    {
+      "gamma": 2,
+      "negative_control": false,
+      "sequence": "201",
+      "target_probability": 0.004000000000000001,
+      "observed_probability": 0.00391,
+      "expected_count": 400.0000000000001,
+      "observed_count": 391
+    },
+    {
+      "gamma": 2,
+      "negative_control": false,
+      "sequence": "202",
+      "target_probability": 0.0020000000000000005,
+      "observed_probability": 0.00211,
+      "expected_count": 200.00000000000006,
+      "observed_count": 211
+    },
+    {
+      "gamma": 2,
+      "negative_control": false,
+      "sequence": "210",
+      "target_probability": 0.0030000000000000005,
+      "observed_probability": 0.00289,
+      "expected_count": 300.00000000000006,
+      "observed_count": 289
+    },
+    {
+      "gamma": 2,
+      "negative_control": false,
+      "sequence": "211",
+      "target_probability": 0.013000000000000003,
+      "observed_probability": 0.01316,
+      "expected_count": 1300.0000000000002,
+      "observed_count": 1316
+    },
+    {
+      "gamma": 2,
+      "negative_control": false,
+      "sequence": "212",
+      "target_probability": 0.004000000000000001,
+      "observed_probability": 0.00396,
+      "expected_count": 400.0000000000001,
+      "observed_count": 396
+    },
+    {
+      "gamma": 2,
+      "negative_control": false,
+      "sequence": "220",
+      "target_probability": 0.012,
+      "observed_probability": 0.01137,
+      "expected_count": 1200.0,
+      "observed_count": 1137
+    },
+    {
+      "gamma": 2,
+      "negative_control": false,
+      "sequence": "221",
+      "target_probability": 0.012,
+      "observed_probability": 0.01193,
+      "expected_count": 1200.0,
+      "observed_count": 1193
+    },
+    {
+      "gamma": 2,
+      "negative_control": false,
+      "sequence": "222",
+      "target_probability": 0.036,
+      "observed_probability": 0.03637,
+      "expected_count": 3599.9999999999995,
+      "observed_count": 3637
+    },
+    {
+      "gamma": 2,
+      "negative_control": true,
+      "sequence": "000",
+      "target_probability": 0.3429999999999999,
+      "observed_probability": 0.15829,
+      "expected_count": 34299.99999999999,
+      "observed_count": 15829
+    },
+    {
+      "gamma": 2,
+      "negative_control": true,
+      "sequence": "001",
+      "target_probability": 0.09799999999999999,
+      "observed_probability": 0.0865,
+      "expected_count": 9799.999999999998,
+      "observed_count": 8650
+    },
+    {
+      "gamma": 2,
+      "negative_control": true,
+      "sequence": "002",
+      "target_probability": 0.048999999999999995,
+      "observed_probability": 0.04277,
+      "expected_count": 4899.999999999999,
+      "observed_count": 4277
+    },
+    {
+      "gamma": 2,
+      "negative_control": true,
+      "sequence": "010",
+      "target_probability": 0.020999999999999998,
+      "observed_probability": 0.03567,
+      "expected_count": 2100.0,
+      "observed_count": 3567
+    },
+    {
+      "gamma": 2,
+      "negative_control": true,
+      "sequence": "011",
+      "target_probability": 0.091,
+      "observed_probability": 0.0807,
+      "expected_count": 9100.0,
+      "observed_count": 8070
+    },
+    {
+      "gamma": 2,
+      "negative_control": true,
+      "sequence": "012",
+      "target_probability": 0.027999999999999997,
+      "observed_probability": 0.04859,
+      "expected_count": 2799.9999999999995,
+      "observed_count": 4859
+    },
+    {
+      "gamma": 2,
+      "negative_control": true,
+      "sequence": "020",
+      "target_probability": 0.013999999999999999,
+      "observed_probability": 0.02288,
+      "expected_count": 1399.9999999999998,
+      "observed_count": 2288
+    },
+    {
+      "gamma": 2,
+      "negative_control": true,
+      "sequence": "021",
+      "target_probability": 0.013999999999999999,
+      "observed_probability": 0.0239,
+      "expected_count": 1399.9999999999998,
+      "observed_count": 2390
+    },
+    {
+      "gamma": 2,
+      "negative_control": true,
+      "sequence": "022",
+      "target_probability": 0.041999999999999996,
+      "observed_probability": 0.03582,
+      "expected_count": 4200.0,
+      "observed_count": 3582
+    },
+    {
+      "gamma": 2,
+      "negative_control": true,
+      "sequence": "100",
+      "target_probability": 0.020999999999999998,
+      "observed_probability": 0.04418,
+      "expected_count": 2100.0,
+      "observed_count": 4418
+    },
+    {
+      "gamma": 2,
+      "negative_control": true,
+      "sequence": "101",
+      "target_probability": 0.006,
+      "observed_probability": 0.01838,
+      "expected_count": 600.0,
+      "observed_count": 1838
+    },
+    {
+      "gamma": 2,
+      "negative_control": true,
+      "sequence": "102",
+      "target_probability": 0.003,
+      "observed_probability": 0.00937,
+      "expected_count": 300.0,
+      "observed_count": 937
+    },
+    {
+      "gamma": 2,
+      "negative_control": true,
+      "sequence": "110",
+      "target_probability": 0.0195,
+      "observed_probability": 0.03169,
+      "expected_count": 1950.0,
+      "observed_count": 3169
+    },
+    {
+      "gamma": 2,
+      "negative_control": true,
+      "sequence": "111",
+      "target_probability": 0.0845,
+      "observed_probability": 0.06816,
+      "expected_count": 8450.0,
+      "observed_count": 6816
+    },
+    {
+      "gamma": 2,
+      "negative_control": true,
+      "sequence": "112",
+      "target_probability": 0.026000000000000002,
+      "observed_probability": 0.04213,
+      "expected_count": 2600.0000000000005,
+      "observed_count": 4213
+    },
+    {
+      "gamma": 2,
+      "negative_control": true,
+      "sequence": "120",
+      "target_probability": 0.008000000000000002,
+      "observed_probability": 0.02554,
+      "expected_count": 800.0000000000002,
+      "observed_count": 2554
+    },
+    {
+      "gamma": 2,
+      "negative_control": true,
+      "sequence": "121",
+      "target_probability": 0.008000000000000002,
+      "observed_probability": 0.02567,
+      "expected_count": 800.0000000000002,
+      "observed_count": 2567
+    },
+    {
+      "gamma": 2,
+      "negative_control": true,
+      "sequence": "122",
+      "target_probability": 0.024000000000000004,
+      "observed_probability": 0.04518,
+      "expected_count": 2400.0000000000005,
+      "observed_count": 4518
+    },
+    {
+      "gamma": 2,
+      "negative_control": true,
+      "sequence": "200",
+      "target_probability": 0.014000000000000002,
+      "observed_probability": 0.02749,
+      "expected_count": 1400.0000000000002,
+      "observed_count": 2749
+    },
+    {
+      "gamma": 2,
+      "negative_control": true,
+      "sequence": "201",
+      "target_probability": 0.004000000000000001,
+      "observed_probability": 0.01234,
+      "expected_count": 400.0000000000001,
+      "observed_count": 1234
+    },
+    {
+      "gamma": 2,
+      "negative_control": true,
+      "sequence": "202",
+      "target_probability": 0.0020000000000000005,
+      "observed_probability": 0.00635,
+      "expected_count": 200.00000000000006,
+      "observed_count": 635
+    },
+    {
+      "gamma": 2,
+      "negative_control": true,
+      "sequence": "210",
+      "target_probability": 0.0030000000000000005,
+      "observed_probability": 0.00897,
+      "expected_count": 300.00000000000006,
+      "observed_count": 897
+    },
+    {
+      "gamma": 2,
+      "negative_control": true,
+      "sequence": "211",
+      "target_probability": 0.013000000000000003,
+      "observed_probability": 0.02472,
+      "expected_count": 1300.0000000000002,
+      "observed_count": 2472
+    },
+    {
+      "gamma": 2,
+      "negative_control": true,
+      "sequence": "212",
+      "target_probability": 0.004000000000000001,
+      "observed_probability": 0.0125,
+      "expected_count": 400.0000000000001,
+      "observed_count": 1250
+    },
+    {
+      "gamma": 2,
+      "negative_control": true,
+      "sequence": "220",
+      "target_probability": 0.012,
+      "observed_probability": 0.01798,
+      "expected_count": 1200.0,
+      "observed_count": 1798
+    },
+    {
+      "gamma": 2,
+      "negative_control": true,
+      "sequence": "221",
+      "target_probability": 0.012,
+      "observed_probability": 0.01668,
+      "expected_count": 1200.0,
+      "observed_count": 1668
+    },
+    {
+      "gamma": 2,
+      "negative_control": true,
+      "sequence": "222",
+      "target_probability": 0.036,
+      "observed_probability": 0.02755,
+      "expected_count": 3599.9999999999995,
+      "observed_count": 2755
+    },
+    {
+      "gamma": 4,
+      "negative_control": false,
+      "sequence": "000",
+      "target_probability": 0.3429999999999999,
+      "observed_probability": 0.34255,
+      "expected_count": 34299.99999999999,
+      "observed_count": 34255
+    },
+    {
+      "gamma": 4,
+      "negative_control": false,
+      "sequence": "001",
+      "target_probability": 0.09799999999999999,
+      "observed_probability": 0.09679,
+      "expected_count": 9799.999999999998,
+      "observed_count": 9679
+    },
+    {
+      "gamma": 4,
+      "negative_control": false,
+      "sequence": "002",
+      "target_probability": 0.048999999999999995,
+      "observed_probability": 0.04887,
+      "expected_count": 4899.999999999999,
+      "observed_count": 4887
+    },
+    {
+      "gamma": 4,
+      "negative_control": false,
+      "sequence": "010",
+      "target_probability": 0.020999999999999998,
+      "observed_probability": 0.02047,
+      "expected_count": 2100.0,
+      "observed_count": 2047
+    },
+    {
+      "gamma": 4,
+      "negative_control": false,
+      "sequence": "011",
+      "target_probability": 0.091,
+      "observed_probability": 0.09086,
+      "expected_count": 9100.0,
+      "observed_count": 9086
+    },
+    {
+      "gamma": 4,
+      "negative_control": false,
+      "sequence": "012",
+      "target_probability": 0.027999999999999997,
+      "observed_probability": 0.02782,
+      "expected_count": 2799.9999999999995,
+      "observed_count": 2782
+    },
+    {
+      "gamma": 4,
+      "negative_control": false,
+      "sequence": "020",
+      "target_probability": 0.013999999999999999,
+      "observed_probability": 0.01337,
+      "expected_count": 1399.9999999999998,
+      "observed_count": 1337
+    },
+    {
+      "gamma": 4,
+      "negative_control": false,
+      "sequence": "021",
+      "target_probability": 0.013999999999999999,
+      "observed_probability": 0.01466,
+      "expected_count": 1399.9999999999998,
+      "observed_count": 1466
+    },
+    {
+      "gamma": 4,
+      "negative_control": false,
+      "sequence": "022",
+      "target_probability": 0.041999999999999996,
+      "observed_probability": 0.04187,
+      "expected_count": 4200.0,
+      "observed_count": 4187
+    },
+    {
+      "gamma": 4,
+      "negative_control": false,
+      "sequence": "100",
+      "target_probability": 0.020999999999999998,
+      "observed_probability": 0.02107,
+      "expected_count": 2100.0,
+      "observed_count": 2107
+    },
+    {
+      "gamma": 4,
+      "negative_control": false,
+      "sequence": "101",
+      "target_probability": 0.006,
+      "observed_probability": 0.00615,
+      "expected_count": 600.0,
+      "observed_count": 615
+    },
+    {
+      "gamma": 4,
+      "negative_control": false,
+      "sequence": "102",
+      "target_probability": 0.003,
+      "observed_probability": 0.00311,
+      "expected_count": 300.0,
+      "observed_count": 311
+    },
+    {
+      "gamma": 4,
+      "negative_control": false,
+      "sequence": "110",
+      "target_probability": 0.0195,
+      "observed_probability": 0.0194,
+      "expected_count": 1950.0,
+      "observed_count": 1940
+    },
+    {
+      "gamma": 4,
+      "negative_control": false,
+      "sequence": "111",
+      "target_probability": 0.0845,
+      "observed_probability": 0.08558,
+      "expected_count": 8450.0,
+      "observed_count": 8558
+    },
+    {
+      "gamma": 4,
+      "negative_control": false,
+      "sequence": "112",
+      "target_probability": 0.026000000000000002,
+      "observed_probability": 0.0267,
+      "expected_count": 2600.0000000000005,
+      "observed_count": 2670
+    },
+    {
+      "gamma": 4,
+      "negative_control": false,
+      "sequence": "120",
+      "target_probability": 0.008000000000000002,
+      "observed_probability": 0.00784,
+      "expected_count": 800.0000000000002,
+      "observed_count": 784
+    },
+    {
+      "gamma": 4,
+      "negative_control": false,
+      "sequence": "121",
+      "target_probability": 0.008000000000000002,
+      "observed_probability": 0.00801,
+      "expected_count": 800.0000000000002,
+      "observed_count": 801
+    },
+    {
+      "gamma": 4,
+      "negative_control": false,
+      "sequence": "122",
+      "target_probability": 0.024000000000000004,
+      "observed_probability": 0.02315,
+      "expected_count": 2400.0000000000005,
+      "observed_count": 2315
+    },
+    {
+      "gamma": 4,
+      "negative_control": false,
+      "sequence": "200",
+      "target_probability": 0.014000000000000002,
+      "observed_probability": 0.01456,
+      "expected_count": 1400.0000000000002,
+      "observed_count": 1456
+    },
+    {
+      "gamma": 4,
+      "negative_control": false,
+      "sequence": "201",
+      "target_probability": 0.004000000000000001,
+      "observed_probability": 0.00414,
+      "expected_count": 400.0000000000001,
+      "observed_count": 414
+    },
+    {
+      "gamma": 4,
+      "negative_control": false,
+      "sequence": "202",
+      "target_probability": 0.0020000000000000005,
+      "observed_probability": 0.00192,
+      "expected_count": 200.00000000000006,
+      "observed_count": 192
+    },
+    {
+      "gamma": 4,
+      "negative_control": false,
+      "sequence": "210",
+      "target_probability": 0.0030000000000000005,
+      "observed_probability": 0.00312,
+      "expected_count": 300.00000000000006,
+      "observed_count": 312
+    },
+    {
+      "gamma": 4,
+      "negative_control": false,
+      "sequence": "211",
+      "target_probability": 0.013000000000000003,
+      "observed_probability": 0.01342,
+      "expected_count": 1300.0000000000002,
+      "observed_count": 1342
+    },
+    {
+      "gamma": 4,
+      "negative_control": false,
+      "sequence": "212",
+      "target_probability": 0.004000000000000001,
+      "observed_probability": 0.00436,
+      "expected_count": 400.0000000000001,
+      "observed_count": 436
+    },
+    {
+      "gamma": 4,
+      "negative_control": false,
+      "sequence": "220",
+      "target_probability": 0.012,
+      "observed_probability": 0.0122,
+      "expected_count": 1200.0,
+      "observed_count": 1220
+    },
+    {
+      "gamma": 4,
+      "negative_control": false,
+      "sequence": "221",
+      "target_probability": 0.012,
+      "observed_probability": 0.01123,
+      "expected_count": 1200.0,
+      "observed_count": 1123
+    },
+    {
+      "gamma": 4,
+      "negative_control": false,
+      "sequence": "222",
+      "target_probability": 0.036,
+      "observed_probability": 0.03678,
+      "expected_count": 3599.9999999999995,
+      "observed_count": 3678
+    },
+    {
+      "gamma": 4,
+      "negative_control": true,
+      "sequence": "000",
+      "target_probability": 0.3429999999999999,
+      "observed_probability": 0.15246,
+      "expected_count": 34299.99999999999,
+      "observed_count": 15246
+    },
+    {
+      "gamma": 4,
+      "negative_control": true,
+      "sequence": "001",
+      "target_probability": 0.09799999999999999,
+      "observed_probability": 0.08914,
+      "expected_count": 9799.999999999998,
+      "observed_count": 8914
+    },
+    {
+      "gamma": 4,
+      "negative_control": true,
+      "sequence": "002",
+      "target_probability": 0.048999999999999995,
+      "observed_probability": 0.04418,
+      "expected_count": 4899.999999999999,
+      "observed_count": 4418
+    },
+    {
+      "gamma": 4,
+      "negative_control": true,
+      "sequence": "010",
+      "target_probability": 0.020999999999999998,
+      "observed_probability": 0.03766,
+      "expected_count": 2100.0,
+      "observed_count": 3766
+    },
+    {
+      "gamma": 4,
+      "negative_control": true,
+      "sequence": "011",
+      "target_probability": 0.091,
+      "observed_probability": 0.07658,
+      "expected_count": 9100.0,
+      "observed_count": 7658
+    },
+    {
+      "gamma": 4,
+      "negative_control": true,
+      "sequence": "012",
+      "target_probability": 0.027999999999999997,
+      "observed_probability": 0.05098,
+      "expected_count": 2799.9999999999995,
+      "observed_count": 5098
+    },
+    {
+      "gamma": 4,
+      "negative_control": true,
+      "sequence": "020",
+      "target_probability": 0.013999999999999999,
+      "observed_probability": 0.02435,
+      "expected_count": 1399.9999999999998,
+      "observed_count": 2435
+    },
+    {
+      "gamma": 4,
+      "negative_control": true,
+      "sequence": "021",
+      "target_probability": 0.013999999999999999,
+      "observed_probability": 0.02507,
+      "expected_count": 1399.9999999999998,
+      "observed_count": 2507
+    },
+    {
+      "gamma": 4,
+      "negative_control": true,
+      "sequence": "022",
+      "target_probability": 0.041999999999999996,
+      "observed_probability": 0.03244,
+      "expected_count": 4200.0,
+      "observed_count": 3244
+    },
+    {
+      "gamma": 4,
+      "negative_control": true,
+      "sequence": "100",
+      "target_probability": 0.020999999999999998,
+      "observed_probability": 0.03807,
+      "expected_count": 2100.0,
+      "observed_count": 3807
+    },
+    {
+      "gamma": 4,
+      "negative_control": true,
+      "sequence": "101",
+      "target_probability": 0.006,
+      "observed_probability": 0.02236,
+      "expected_count": 600.0,
+      "observed_count": 2236
+    },
+    {
+      "gamma": 4,
+      "negative_control": true,
+      "sequence": "102",
+      "target_probability": 0.003,
+      "observed_probability": 0.01128,
+      "expected_count": 300.0,
+      "observed_count": 1128
+    },
+    {
+      "gamma": 4,
+      "negative_control": true,
+      "sequence": "110",
+      "target_probability": 0.0195,
+      "observed_probability": 0.03369,
+      "expected_count": 1950.0,
+      "observed_count": 3369
+    },
+    {
+      "gamma": 4,
+      "negative_control": true,
+      "sequence": "111",
+      "target_probability": 0.0845,
+      "observed_probability": 0.06537,
+      "expected_count": 8450.0,
+      "observed_count": 6537
+    },
+    {
+      "gamma": 4,
+      "negative_control": true,
+      "sequence": "112",
+      "target_probability": 0.026000000000000002,
+      "observed_probability": 0.04495,
+      "expected_count": 2600.0000000000005,
+      "observed_count": 4495
+    },
+    {
+      "gamma": 4,
+      "negative_control": true,
+      "sequence": "120",
+      "target_probability": 0.008000000000000002,
+      "observed_probability": 0.02766,
+      "expected_count": 800.0000000000002,
+      "observed_count": 2766
+    },
+    {
+      "gamma": 4,
+      "negative_control": true,
+      "sequence": "121",
+      "target_probability": 0.008000000000000002,
+      "observed_probability": 0.02912,
+      "expected_count": 800.0000000000002,
+      "observed_count": 2912
+    },
+    {
+      "gamma": 4,
+      "negative_control": true,
+      "sequence": "122",
+      "target_probability": 0.024000000000000004,
+      "observed_probability": 0.03822,
+      "expected_count": 2400.0000000000005,
+      "observed_count": 3822
+    },
+    {
+      "gamma": 4,
+      "negative_control": true,
+      "sequence": "200",
+      "target_probability": 0.014000000000000002,
+      "observed_probability": 0.02506,
+      "expected_count": 1400.0000000000002,
+      "observed_count": 2506
+    },
+    {
+      "gamma": 4,
+      "negative_control": true,
+      "sequence": "201",
+      "target_probability": 0.004000000000000001,
+      "observed_probability": 0.01475,
+      "expected_count": 400.0000000000001,
+      "observed_count": 1475
+    },
+    {
+      "gamma": 4,
+      "negative_control": true,
+      "sequence": "202",
+      "target_probability": 0.0020000000000000005,
+      "observed_probability": 0.00698,
+      "expected_count": 200.00000000000006,
+      "observed_count": 698
+    },
+    {
+      "gamma": 4,
+      "negative_control": true,
+      "sequence": "210",
+      "target_probability": 0.0030000000000000005,
+      "observed_probability": 0.01106,
+      "expected_count": 300.00000000000006,
+      "observed_count": 1106
+    },
+    {
+      "gamma": 4,
+      "negative_control": true,
+      "sequence": "211",
+      "target_probability": 0.013000000000000003,
+      "observed_probability": 0.02158,
+      "expected_count": 1300.0000000000002,
+      "observed_count": 2158
+    },
+    {
+      "gamma": 4,
+      "negative_control": true,
+      "sequence": "212",
+      "target_probability": 0.004000000000000001,
+      "observed_probability": 0.01431,
+      "expected_count": 400.0000000000001,
+      "observed_count": 1431
+    },
+    {
+      "gamma": 4,
+      "negative_control": true,
+      "sequence": "220",
+      "target_probability": 0.012,
+      "observed_probability": 0.01878,
+      "expected_count": 1200.0,
+      "observed_count": 1878
+    },
+    {
+      "gamma": 4,
+      "negative_control": true,
+      "sequence": "221",
+      "target_probability": 0.012,
+      "observed_probability": 0.01868,
+      "expected_count": 1200.0,
+      "observed_count": 1868
+    },
+    {
+      "gamma": 4,
+      "negative_control": true,
+      "sequence": "222",
+      "target_probability": 0.036,
+      "observed_probability": 0.02522,
+      "expected_count": 3599.9999999999995,
+      "observed_count": 2522
+    }
+  ]
+}

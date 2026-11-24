@@ -1,0 +1,76 @@
+{
+  "method": "tiled",
+  "dtype": "float16",
+  "length": 1024,
+  "batch": 2,
+  "heads": 4,
+  "head_dimension": 64,
+  "accumulation": "FP32 scores/statistics",
+  "reference_status": "dense_fp32_on_identical_input_values",
+  "output_error": {
+    "maximum_absolute": 0.0008916854858398438,
+    "relative_l2": 0.00019989494467154145
+  },
+  "gradient_errors": [
+    {
+      "maximum_absolute": 0.0008206367492675781,
+      "relative_l2": 0.0002078618126688525
+    },
+    {
+      "maximum_absolute": 0.0009002685546875,
+      "relative_l2": 0.00020747433882206678
+    },
+    {
+      "maximum_absolute": 0.0009481906890869141,
+      "relative_l2": 0.000206149707082659
+    }
+  ],
+  "numerical_tolerance_relative_l2": 0.005,
+  "numerical_check": "passed",
+  "observed_operators": [
+    "python_tiled_custom_recomputed_backward"
+  ],
+  "forward": {
+    "unit": "milliseconds per batch",
+    "warmup_repetitions": 3,
+    "timing_repetitions": 10,
+    "samples_ms": [
+      5.691254999987905,
+      5.6842140000412655,
+      5.712888999994448,
+      5.659761000003982,
+      5.630944000017735,
+      5.678606000003583,
+      5.641175999983261,
+      5.617297000014787,
+      5.607933000021603,
+      5.616930000030607
+    ],
+    "median_ms": 5.650468499993622,
+    "peak_allocated_bytes": 32901120,
+    "peak_reserved_bytes": 50331648,
+    "additional_peak_allocated_bytes": 11667456
+  },
+  "forward_backward": {
+    "unit": "milliseconds per batch",
+    "warmup_repetitions": 3,
+    "timing_repetitions": 10,
+    "samples_ms": [
+      13.01496399997859,
+      13.042523000024175,
+      12.914577000003646,
+      12.835543999983656,
+      12.899933999960922,
+      12.82919199996968,
+      12.937161000024844,
+      12.855590999947708,
+      12.878618000002007,
+      12.66102699997873
+    ],
+    "median_ms": 12.889275999981464,
+    "peak_allocated_bytes": 44346368,
+    "peak_reserved_bytes": 54525952,
+    "additional_peak_allocated_bytes": 19966976
+  },
+  "status": "complete"
+}

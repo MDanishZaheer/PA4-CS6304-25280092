@@ -1,0 +1,103 @@
+{
+  "prompt_id": "SHORT-shifted-0025",
+  "prompt_sha256": "a68a80ffa91074d187b2543eb351e0b1f88c8cf78c9e88a71bcd4f418025a120",
+  "workload": "shifted",
+  "bank": "exact_spec_original_gamma4",
+  "producer": "original",
+  "producer_checkpoint": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "response_token_ids": [
+    16,
+    16,
+    15,
+    151645
+  ],
+  "selected_positions": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "prefix_ids": [
+    "exact_spec_original_gamma4:SHORT-shifted-0025:p001",
+    "exact_spec_original_gamma4:SHORT-shifted-0025:p002",
+    "exact_spec_original_gamma4:SHORT-shifted-0025:p003",
+    "exact_spec_original_gamma4:SHORT-shifted-0025:p004"
+  ],
+  "generation": {
+    "token_ids": [
+      16,
+      16,
+      15,
+      151645
+    ],
+    "new_tokens": 4,
+    "eos": true,
+    "truncated": false,
+    "ignore_eos": false,
+    "generation_seed": 1157355,
+    "gamma": 4,
+    "rounds": [
+      {
+        "round": 0,
+        "output_offset": 0,
+        "proposed_tokens": [
+          16,
+          16,
+          15,
+          151645
+        ],
+        "emitted_tokens": [
+          16,
+          16,
+          15,
+          151645
+        ],
+        "proposed": 4,
+        "examined": 4,
+        "accepted": 4,
+        "accepted_prefix_length": 4,
+        "bonus": false,
+        "rejected": false,
+        "target_verification_passes": 1,
+        "target_verification_input_tokens": 4,
+        "draft_forward_passes": 4,
+        "proposal_seconds": 0.11985771299987391,
+        "verification_seconds": 0.04117561700013539,
+        "sampling_seconds": 0.0014328960000966617,
+        "maintenance_seconds": 0.0006171800000629446,
+        "cache_length": 58,
+        "pending_token": 151645
+      }
+    ],
+    "proposed": 4,
+    "examined": 4,
+    "accepted": 4,
+    "draft_forward_passes": 4,
+    "proposal_seconds": 0.11985771299987391,
+    "verification_seconds": 0.04117561700013539,
+    "sampling_seconds": 0.0014328960000966617,
+    "maintenance_seconds": 0.0006171800000629446,
+    "accepted_examined_fraction": 1.0,
+    "accepted_proposed_fraction": 1.0,
+    "mean_accepted_prefix": 4.0,
+    "target_verification_passes": 1,
+    "target_prefill_passes": 1,
+    "draft_prefill_passes": 1,
+    "target_passes": 2,
+    "target_passes_per_output_token": 0.5,
+    "draft_forward_passes_including_prefill": 5,
+    "prefill_seconds": 0.06928522200041698,
+    "target_prefill_seconds": 0.0376770520001628,
+    "draft_prefill_seconds": 0.03160817000025418,
+    "decode_seconds": 0.16321562400025869,
+    "host_overhead_seconds": 0.0001322180000897788,
+    "elapsed_seconds": 0.2325504909999836,
+    "final_cache_length": 58,
+    "final_pending_token": 151645,
+    "cache_convention": "returned context minus exactly one pending last token",
+    "peak_allocated_bytes": 4122396672,
+    "peak_reserved_bytes": 4362076160
+  },
+  "law": "target",
+  "materialization": "generated here because the supplied data-only checkout contains no materialized prefix bank"
+}

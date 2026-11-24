@@ -1,0 +1,41 @@
+{
+  "prompt_id": "SHORT-familiar-0026",
+  "prompt_sha256": "474b449efc722ff206b39a7abf965e2a054bc9a253983b7506d3cd71df054b3c",
+  "draft": "off_policy_seed6305",
+  "workload": "familiar",
+  "repetition": 0,
+  "response": {
+    "token_ids": [
+      785,
+      9106,
+      2038,
+      9733,
+      374,
+      330,
+      35028,
+      3263,
+      151645
+    ],
+    "new_tokens": 9,
+    "eos": true,
+    "truncated": false,
+    "ignore_eos": false,
+    "generation_seed": 866906,
+    "prefill_seconds": 0.03301987499798997,
+    "decode_seconds": 0.2334275940011139,
+    "elapsed_seconds": 0.26646563099711784,
+    "target_prefill_passes": 1,
+    "target_decode_passes": 8,
+    "target_passes": 9,
+    "draft_forward_passes": 0,
+    "rounds": [],
+    "peak_allocated_bytes": 4110970368,
+    "peak_reserved_bytes": 5377097728
+  },
+  "text": "The destination code mentioned is \"AU\".",
+  "extracted_answer": "au",
+  "correct": true,
+  "extractable": true,
+  "format_compliant": false,
+  "evaluation": "standalone model quality; not speculative-output quality"
+}

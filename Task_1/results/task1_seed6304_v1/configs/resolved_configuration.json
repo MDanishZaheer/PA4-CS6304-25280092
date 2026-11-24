@@ -1,0 +1,263 @@
+{
+  "seed": 6304,
+  "model": {
+    "name": "Qwen/Qwen2.5-1.5B",
+    "revision": null,
+    "dtype": "float16",
+    "attention_backend": "sdpa",
+    "eligible": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj",
+      "gate_proj",
+      "up_proj",
+      "down_proj"
+    ]
+  },
+  "calibration": {
+    "sequences": 128,
+    "development_sequences": 32,
+    "sequence_length": 512,
+    "probe_tokens_per_sequence": 4,
+    "pruning_probe_sparsities": [
+      0.1,
+      0.25,
+      0.5,
+      0.75,
+      0.85
+    ]
+  },
+  "pruning": {
+    "uniform_sparsities": [
+      0.25,
+      0.5,
+      0.75
+    ],
+    "adaptive_sparsities": [
+      0.5,
+      0.75
+    ],
+    "minimum": 0.1,
+    "maximum": 0.85,
+    "sensitivity": "isolated_wanda_relative_output_mse_at_50_percent",
+    "allocation": "clipped_inverse_sensitivity_water_filling",
+    "temperature_candidates": [
+      0.25,
+      0.5,
+      1.0
+    ],
+    "selection": "minimum_development_pooled_token_nll_then_smaller_temperature"
+  },
+  "quantization": {
+    "uniform_bits": [
+      8,
+      4,
+      3
+    ],
+    "allowed_bits": [
+      2,
+      3,
+      4,
+      8
+    ],
+    "group_size": 128,
+    "scale_dtype": "float16",
+    "zero_point_dtype": "uint8",
+    "rounding": "nearest_ties_to_even",
+    "include_zero_in_range": true,
+    "packing": "little_endian_bitstream_per_row",
+    "tensor_alignment_bytes": 16,
+    "projection_header_bytes": 64,
+    "scale_candidates": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "scale_clip": [
+      0.05,
+      20.0
+    ],
+    "fold_down_inverse_into_up": true,
+    "mixed_allocation": "greedy_calibration_distortion_reduction_per_packed_byte"
+  },
+  "evaluation": {
+    "scored_tokens_per_suite": 50000,
+    "window_length": 512,
+    "hellaswag_full_count": 2000,
+    "hellaswag_diagnostic_count": 512,
+    "hellaswag_task_version": "1.0",
+    "hellaswag_reference": "lm-evaluation-harness_v0.4.9",
+    "head_chunk_tokens": 64,
+    "save_every_examples": 16,
+    "bootstrap_resamples": 2000,
+    "confidence": 0.95,
+    "qualitative_orders": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  "benchmark": {
+    "prompt_lengths": [
+      512,
+      2048
+    ],
+    "batch_size": 1,
+    "decode_steps": 64,
+    "warmup_repetitions": 2,
+    "repetitions": 5,
+    "ignore_eos_for_fixed_work": true
+  },
+  "execution": {
+    "run_id": "task1_seed6304_v1",
+    "drive_project": "ATML_PA4/PA_4",
+    "drive_mount": "/content/drive",
+    "source_folder": "atml-pa4-datasets-main",
+    "sync_to_drive": true,
+    "calibration_save_every_sequences": 16,
+    "gpu_memory_target_fraction": 0.9,
+    "gpu_batch_candidates": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "gpu_head_chunk_candidates": [
+      256,
+      1024,
+      4096,
+      8192,
+      12288,
+      16384
+    ],
+    "time_reserve_seconds": 300,
+    "maximum_session_seconds": 36000,
+    "continue_after_cuda_oom": true,
+    "gpu_workload": {
+      "selection_id": "cf2f05ff2135130667954620ea12903ae14847ae3c214b3ca82d7a312731feec",
+      "batch_sequences": 64,
+      "head_chunk_tokens": 4096,
+      "padded_token_budget": 32768,
+      "calibration_batch_sequences": 16,
+      "memory_budget_bytes": 37723251507,
+      "gpu_total_bytes": 42405855232,
+      "target_memory_fraction": 0.9,
+      "selected_probe_peak_bytes": 10045844992,
+      "probes": [
+        {
+          "batch_sequences": 1,
+          "head_chunk_tokens": 256,
+          "status": "ok",
+          "seconds": 0.04771020500004397,
+          "peak_allocated_bytes": 3527521280,
+          "scored_tokens_per_second": 10710.49684233235
+        },
+        {
+          "batch_sequences": 2,
+          "head_chunk_tokens": 256,
+          "status": "ok",
+          "seconds": 0.05690162899998086,
+          "peak_allocated_bytes": 3528850944,
+          "scored_tokens_per_second": 17960.821473148753
+        },
+        {
+          "batch_sequences": 4,
+          "head_chunk_tokens": 256,
+          "status": "ok",
+          "seconds": 0.07560970400004408,
+          "peak_allocated_bytes": 3532030464,
+          "scored_tokens_per_second": 27033.567014080738
+        },
+        {
+          "batch_sequences": 8,
+          "head_chunk_tokens": 256,
+          "status": "ok",
+          "seconds": 0.13869910200003233,
+          "peak_allocated_bytes": 3537439232,
+          "scored_tokens_per_second": 29473.875036328984
+        },
+        {
+          "batch_sequences": 16,
+          "head_chunk_tokens": 256,
+          "status": "ok",
+          "seconds": 0.23043330799998785,
+          "peak_allocated_bytes": 3642531840,
+          "scored_tokens_per_second": 35480.98176848822
+        },
+        {
+          "batch_sequences": 32,
+          "head_chunk_tokens": 256,
+          "status": "ok",
+          "seconds": 0.4441544779999731,
+          "peak_allocated_bytes": 4187930624,
+          "scored_tokens_per_second": 36816.01967322952
+        },
+        {
+          "batch_sequences": 64,
+          "head_chunk_tokens": 256,
+          "status": "ok",
+          "seconds": 0.8712278790000028,
+          "peak_allocated_bytes": 5278728192,
+          "scored_tokens_per_second": 37537.82539367051
+        },
+        {
+          "batch_sequences": 64,
+          "head_chunk_tokens": 1024,
+          "status": "ok",
+          "seconds": 0.8529492540000092,
+          "peak_allocated_bytes": 5278728192,
+          "scored_tokens_per_second": 38342.25758054259
+        },
+        {
+          "batch_sequences": 64,
+          "head_chunk_tokens": 4096,
+          "status": "ok",
+          "seconds": 0.8462707899999486,
+          "peak_allocated_bytes": 10045844992,
+          "scored_tokens_per_second": 38644.840855256254
+        },
+        {
+          "batch_sequences": 64,
+          "head_chunk_tokens": 8192,
+          "status": "ok",
+          "seconds": 0.8464991300000975,
+          "peak_allocated_bytes": 16890981888,
+          "scored_tokens_per_second": 38634.416552792245
+        },
+        {
+          "batch_sequences": 64,
+          "head_chunk_tokens": 12288,
+          "status": "ok",
+          "seconds": 0.8516163059999826,
+          "peak_allocated_bytes": 23736643072,
+          "scored_tokens_per_second": 38402.27079916982
+        },
+        {
+          "batch_sequences": 64,
+          "head_chunk_tokens": 16384,
+          "status": "ok",
+          "seconds": 0.8553012940000144,
+          "peak_allocated_bytes": 30581124608,
+          "scored_tokens_per_second": 38236.818100732875
+        }
+      ],
+      "tuning_seconds": 9.201494841999988,
+      "selection_rule": "highest observed scored-token throughput within memory headroom; calibration inputs only",
+      "latency_benchmark_batch_size": 1,
+      "note": "Headroom guides probe selection; no CUDA allocator quota or dummy VRAM allocation is applied.",
+      "batch_reference_maximum_mean_nll_error": 0.0010925596579909325
+    }
+  },
+  "experiment_name": "task_1_pruning_and_quantization"
+}

@@ -1,0 +1,51 @@
+{
+  "prompt_id": "SHORT-shifted-0007",
+  "prompt_sha256": "955936d352128e3b34c295abf6a3015a6b562424c0751ae8885a46c43faeb97d",
+  "workload": "shifted",
+  "bank": "original_draft",
+  "producer": "original",
+  "producer_checkpoint": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "response_token_ids": [
+    16,
+    23,
+    20,
+    151645
+  ],
+  "selected_positions": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "prefix_ids": [
+    "original_draft:SHORT-shifted-0007:p001",
+    "original_draft:SHORT-shifted-0007:p002",
+    "original_draft:SHORT-shifted-0007:p003",
+    "original_draft:SHORT-shifted-0007:p004"
+  ],
+  "generation": {
+    "token_ids": [
+      16,
+      23,
+      20,
+      151645
+    ],
+    "new_tokens": 4,
+    "eos": true,
+    "truncated": false,
+    "ignore_eos": false,
+    "generation_seed": 977106,
+    "prefill_seconds": 0.031808462999833864,
+    "decode_seconds": 0.0874337350001042,
+    "elapsed_seconds": 0.11925671299968599,
+    "target_prefill_passes": 1,
+    "target_decode_passes": 3,
+    "target_passes": 4,
+    "draft_forward_passes": 0,
+    "rounds": [],
+    "peak_allocated_bytes": 4112174592,
+    "peak_reserved_bytes": 4345298944
+  },
+  "law": "original",
+  "materialization": "generated here because the supplied data-only checkout contains no materialized prefix bank"
+}

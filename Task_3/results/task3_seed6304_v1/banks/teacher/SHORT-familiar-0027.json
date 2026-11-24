@@ -1,0 +1,43 @@
+{
+  "prompt_id": "SHORT-familiar-0027",
+  "prompt_sha256": "1115e4a296f7b2d4b4904fb3f1b2f58420f5b00b49b3ca2726c368adacbee14c",
+  "workload": "familiar",
+  "bank": "teacher",
+  "producer": "teacher",
+  "producer_checkpoint": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "response_token_ids": [
+    27523,
+    151645
+  ],
+  "selected_positions": [
+    1,
+    2
+  ],
+  "prefix_ids": [
+    "teacher:SHORT-familiar-0027:p001",
+    "teacher:SHORT-familiar-0027:p002"
+  ],
+  "generation": {
+    "token_ids": [
+      27523,
+      151645
+    ],
+    "new_tokens": 2,
+    "eos": true,
+    "truncated": false,
+    "ignore_eos": false,
+    "generation_seed": 876913,
+    "prefill_seconds": 0.0384570139999596,
+    "decode_seconds": 0.034394187000089005,
+    "elapsed_seconds": 0.0728706299996702,
+    "target_prefill_passes": 1,
+    "target_decode_passes": 1,
+    "target_passes": 2,
+    "draft_forward_passes": 0,
+    "rounds": [],
+    "peak_allocated_bytes": 3110053888,
+    "peak_reserved_bytes": 4626317312
+  },
+  "law": "target",
+  "materialization": "generated here because the supplied data-only checkout contains no materialized prefix bank"
+}

@@ -1,0 +1,11 @@
+{
+  "seconds": 0.6796365640002477,
+  "attempt_seconds": [
+    0.6796365640002477
+  ],
+  "excluded_from_primary_timing": true,
+  "draft": "original",
+  "repetition": 1,
+  "model_order_index": 4,
+  "reason": "warm every newly loaded model, including resumed partial conditions"
+}

@@ -1,0 +1,30 @@
+{
+  "2": {
+    "relative_l2": 0.002533579245209694,
+    "maximum_absolute": 0.2080078125,
+    "dtype": "FP16 execution before rounding",
+    "tokens": 32,
+    "calibration_sequence": 0
+  },
+  "3": {
+    "relative_l2": 0.0028826387133449316,
+    "maximum_absolute": 0.23046875,
+    "dtype": "FP16 execution before rounding",
+    "tokens": 32,
+    "calibration_sequence": 0
+  },
+  "4": {
+    "relative_l2": 0.002495183376595378,
+    "maximum_absolute": 0.20361328125,
+    "dtype": "FP16 execution before rounding",
+    "tokens": 32,
+    "calibration_sequence": 0
+  },
+  "8": {
+    "relative_l2": 0.003022716147825122,
+    "maximum_absolute": 0.234375,
+    "dtype": "FP16 execution before rounding",
+    "tokens": 32,
+    "calibration_sequence": 0
+  }
+}

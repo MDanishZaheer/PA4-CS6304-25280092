@@ -1,0 +1,25 @@
+draft,reference,gamma,metric,estimate,ci_low,ci_high,paired_prompts,resamples,repetition_unit
+off_policy_seed6304,original,2,accepted_examined_fraction,0.01584713078821047,0.0019620356448239555,0.03091655918758587,120,2000,two repetitions averaged within prompt before resampling
+off_policy_seed6304,original,2,end_to_end_tps_ratio,0.005568096878657418,-0.0040441883576853395,0.015738575444084,120,2000,two repetitions averaged within prompt before resampling
+on_policy_seed6304,original,2,accepted_examined_fraction,0.023053704085350967,0.006493455310008559,0.04156944475939616,120,2000,two repetitions averaged within prompt before resampling
+on_policy_seed6304,original,2,end_to_end_tps_ratio,0.006468107893402029,-0.0033221527184636827,0.016757105601478292,120,2000,two repetitions averaged within prompt before resampling
+off_policy_seed6305,original,2,accepted_examined_fraction,0.019173756115085004,0.004923753213129678,0.03414420373041773,120,2000,two repetitions averaged within prompt before resampling
+off_policy_seed6305,original,2,end_to_end_tps_ratio,0.00899466233141,0.00011753621250725255,0.018021153357523422,120,2000,two repetitions averaged within prompt before resampling
+on_policy_seed6305,original,2,accepted_examined_fraction,0.016355589919742067,0.0003365751891884571,0.034416091346852654,120,2000,two repetitions averaged within prompt before resampling
+on_policy_seed6305,original,2,end_to_end_tps_ratio,0.006222235744685129,-0.0041418468704047,0.01746338769089107,120,2000,two repetitions averaged within prompt before resampling
+on_policy_seed6304,off_policy_seed6304,2,accepted_examined_fraction,0.0072065732971405,-0.005259918726057469,0.020194940359264803,120,2000,two repetitions averaged within prompt before resampling
+on_policy_seed6304,off_policy_seed6304,2,end_to_end_tps_ratio,0.0009000110147446107,-0.007830857268897989,0.009372164187813834,120,2000,two repetitions averaged within prompt before resampling
+on_policy_seed6305,off_policy_seed6305,2,accepted_examined_fraction,-0.0028181661953429397,-0.01377597068836449,0.00812154203080912,120,2000,two repetitions averaged within prompt before resampling
+on_policy_seed6305,off_policy_seed6305,2,end_to_end_tps_ratio,-0.002772426586724873,-0.010289054824235248,0.004640888362064187,120,2000,two repetitions averaged within prompt before resampling
+off_policy_seed6304,original,4,accepted_examined_fraction,0.01917866430474234,0.005556286302146094,0.03484006739365012,120,2000,two repetitions averaged within prompt before resampling
+off_policy_seed6304,original,4,end_to_end_tps_ratio,0.013600797610474292,-0.0002448499672709744,0.029595848301407365,120,2000,two repetitions averaged within prompt before resampling
+on_policy_seed6304,original,4,accepted_examined_fraction,0.020274878477907324,0.0050861795377719265,0.03737244324325448,120,2000,two repetitions averaged within prompt before resampling
+on_policy_seed6304,original,4,end_to_end_tps_ratio,0.01065134943798407,-0.003334925186811144,0.02644354865296446,120,2000,two repetitions averaged within prompt before resampling
+off_policy_seed6305,original,4,accepted_examined_fraction,0.02151082997902507,0.007560748330269324,0.036340205759741076,120,2000,two repetitions averaged within prompt before resampling
+off_policy_seed6305,original,4,end_to_end_tps_ratio,0.018887999849679937,0.00460940357995665,0.034866853926086884,120,2000,two repetitions averaged within prompt before resampling
+on_policy_seed6305,original,4,accepted_examined_fraction,0.01772136223159779,0.0006924135436721131,0.03645067658255041,120,2000,two repetitions averaged within prompt before resampling
+on_policy_seed6305,original,4,end_to_end_tps_ratio,0.006941123102924342,-0.00972008127419644,0.02428982188455671,120,2000,two repetitions averaged within prompt before resampling
+on_policy_seed6304,off_policy_seed6304,4,accepted_examined_fraction,0.001096214173164987,-0.008652036445060988,0.011077265152582378,120,2000,two repetitions averaged within prompt before resampling
+on_policy_seed6304,off_policy_seed6304,4,end_to_end_tps_ratio,-0.0029494481724902247,-0.013904063157391403,0.007556693851307845,120,2000,two repetitions averaged within prompt before resampling
+on_policy_seed6305,off_policy_seed6305,4,accepted_examined_fraction,-0.00378946774742728,-0.01481298596207362,0.00804489576343495,120,2000,two repetitions averaged within prompt before resampling
+on_policy_seed6305,off_policy_seed6305,4,end_to_end_tps_ratio,-0.011946876746755597,-0.023479170411928388,-0.0006488274826451591,120,2000,two repetitions averaged within prompt before resampling

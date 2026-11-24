@@ -1,0 +1,34 @@
+{
+  "prompt_id": "SHORT-familiar-0015",
+  "prompt_sha256": "d6106cd8d246560850bd37a58d07cd091d9ffad496da1ae38c5cff3476839d45",
+  "draft": "original",
+  "workload": "familiar",
+  "repetition": 1,
+  "response": {
+    "token_ids": [
+      32227,
+      151645
+    ],
+    "new_tokens": 2,
+    "eos": true,
+    "truncated": false,
+    "ignore_eos": false,
+    "generation_seed": 1756832,
+    "prefill_seconds": 0.0332608140015509,
+    "decode_seconds": 0.030549404997145757,
+    "elapsed_seconds": 0.06383157900199876,
+    "target_prefill_passes": 1,
+    "target_decode_passes": 1,
+    "target_passes": 2,
+    "draft_forward_passes": 0,
+    "rounds": [],
+    "peak_allocated_bytes": 4107775488,
+    "peak_reserved_bytes": 5387583488
+  },
+  "text": "January",
+  "extracted_answer": "january",
+  "correct": true,
+  "extractable": true,
+  "format_compliant": true,
+  "evaluation": "standalone model quality; not speculative-output quality"
+}

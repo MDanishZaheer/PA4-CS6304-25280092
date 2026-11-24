@@ -1,0 +1,11 @@
+{
+  "stage": "intervention",
+  "status": "complete",
+  "config_id": "78c8fbc4f13121f27796d6e958bd0508c5b029ebef7e46cc27690631b2f7cfcd",
+  "artifacts": {
+    "configs/intervention_locked.json": "3ff1305e6464861460e69cfddd9c642566bb0eb32152eeb1ad9fd6f3d089bf58"
+  },
+  "summary": {
+    "intervention_id": "a2c7196e69a288c6c38606013425dff24d756c1acf15c9973783027abebe9a61"
+  }
+}

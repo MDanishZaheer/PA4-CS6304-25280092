@@ -1,0 +1,15 @@
+{
+  "stage": "data",
+  "status": "complete",
+  "config_id": "ca016510f6ba13eb7b0399b721f8bacbedbe9183fdc5bbc7a4b51ad310914e62",
+  "artifacts": {
+    "splits/train_prompts.jsonl.gz": "27e41d1bf6aa975c87e0cc68ba9b2b33bfe719ddce901c95c5f5a2fb6d618b84",
+    "splits/test_prompts.jsonl.gz": "af366df7a67e965666deb541753272bf48f351d4617a9df01c0c260b97dae50b",
+    "splits/data_manifest.json": "297974c28f806667bcf691aa9ed69755bac04486411ab5d7af34182d34380c09",
+    "splits/source_revisions.json": "734ec2ad840cdec40c6e037fd1e1c2e42b095f741bd22e3d6f7cbc12e2ae3564"
+  },
+  "summary": {
+    "train": 800,
+    "test": 120
+  }
+}

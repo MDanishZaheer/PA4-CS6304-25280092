@@ -1,0 +1,88 @@
+{
+  "method": "int4_channel",
+  "batch": 1,
+  "context_length": 4096,
+  "geometry": {
+    "layers": 28,
+    "kv_heads": 2,
+    "head_dimension": 128
+  },
+  "workload": "fixed synthetic FP16 KV tensors using the actual model geometry; identical tensors across policies",
+  "reference_int4_budget_bytes": 33030176,
+  "unit": "milliseconds per batch",
+  "decode_step_scope": "one full Qwen SDPA step including cache append, new-group packing and dequantization",
+  "setup_scope": "untimed independent cache clone before each fixed-shape decode repetition",
+  "memory_scope": "includes model, immutable reference tensors, persistent packed cache and work copy; incremental peaks also reported",
+  "encode": {
+    "unit": "milliseconds per batch",
+    "warmup_repetitions": 3,
+    "timing_repetitions": 10,
+    "samples_ms": [
+      51.88829700091446,
+      51.87232500065875,
+      51.776562999293674,
+      51.43436800062773,
+      52.08212600155093,
+      51.46379399957368,
+      51.43292299908353,
+      51.47245799889788,
+      51.29173599925707,
+      51.11337400012417
+    ],
+    "median_ms": 51.46812599923578,
+    "peak_allocated_bytes": 3288052224,
+    "peak_reserved_bytes": 3454009344,
+    "additional_peak_allocated_bytes": 61014528
+  },
+  "unpack": {
+    "unit": "milliseconds per batch",
+    "warmup_repetitions": 3,
+    "timing_repetitions": 10,
+    "samples_ms": [
+      14.422378000745084,
+      14.407500000743312,
+      14.304106000054162,
+      15.057004000482266,
+      16.742368001359864,
+      14.426870999159291,
+      14.337410000734963,
+      14.383988000190584,
+      14.347033000376541,
+      14.344594999784022
+    ],
+    "median_ms": 14.395744000466948,
+    "peak_allocated_bytes": 3392188928,
+    "peak_reserved_bytes": 3558866944,
+    "additional_peak_allocated_bytes": 132121088
+  },
+  "serialized_bytes": 33030176,
+  "binary_sha256": "72b68fffa09901985f873d99810e977123316242f43e7f2378fe3aa0d0c53f72",
+  "calculated_bytes": 33030176,
+  "sdpa_observed_operators": [
+    "aten::_flash_attention_forward",
+    "aten::_scaled_dot_product_flash_attention",
+    "aten::scaled_dot_product_attention"
+  ],
+  "decode_step": {
+    "unit": "milliseconds per batch",
+    "warmup_repetitions": 3,
+    "timing_repetitions": 10,
+    "samples_ms": [
+      54.436532000181614,
+      51.94444399967324,
+      51.29852599930018,
+      51.26722199929645,
+      51.287473001139006,
+      51.19379200004914,
+      51.31958999845665,
+      50.873735001005116,
+      54.70989800051029,
+      53.37797200081695
+    ],
+    "median_ms": 51.309057998878416,
+    "peak_allocated_bytes": 3312017408,
+    "peak_reserved_bytes": 3592421376,
+    "additional_peak_allocated_bytes": 18919424
+  },
+  "status": "complete"
+}

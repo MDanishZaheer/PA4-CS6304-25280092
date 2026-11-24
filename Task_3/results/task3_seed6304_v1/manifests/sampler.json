@@ -1,0 +1,12 @@
+{
+  "stage": "sampler",
+  "status": "complete",
+  "config_id": "ca016510f6ba13eb7b0399b721f8bacbedbe9183fdc5bbc7a4b51ad310914e62",
+  "artifacts": {
+    "metrics/sampler_markov.json": "99c3469b1186b2c3f2b055e28b7e3fa7ef0945558906ff576ccbe1d9f8c095a6",
+    "metrics/cache_checks.json": "4ddeb62fe2ff9e3f6e6868f92581aff590fc42df99e1e43f861ed2175469f3bf"
+  },
+  "summary": {
+    "status": "passed"
+  }
+}

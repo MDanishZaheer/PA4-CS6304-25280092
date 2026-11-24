@@ -1,0 +1,78 @@
+{
+  "method": "sdpa",
+  "dtype": "float16",
+  "length": 8192,
+  "batch": 2,
+  "heads": 4,
+  "head_dimension": 64,
+  "accumulation": "SDPA backend-defined",
+  "reference_status": "dense_fp32_on_identical_input_values",
+  "output_error": {
+    "maximum_absolute": 0.0009570121765136719,
+    "relative_l2": 0.00026237816200591624
+  },
+  "gradient_errors": [
+    {
+      "maximum_absolute": 0.001165926456451416,
+      "relative_l2": 0.00030912936199456453
+    },
+    {
+      "maximum_absolute": 0.001120924949645996,
+      "relative_l2": 0.0003045483317691833
+    },
+    {
+      "maximum_absolute": 0.0017075538635253906,
+      "relative_l2": 0.0002908871974796057
+    }
+  ],
+  "numerical_tolerance_relative_l2": 0.005,
+  "numerical_check": "passed",
+  "observed_operators": [
+    "aten::_flash_attention_forward",
+    "aten::_scaled_dot_product_flash_attention",
+    "aten::scaled_dot_product_attention"
+  ],
+  "forward": {
+    "unit": "milliseconds per batch",
+    "warmup_repetitions": 3,
+    "timing_repetitions": 10,
+    "samples_ms": [
+      0.6431830000224181,
+      0.6479550000335621,
+      0.6379640000204745,
+      0.6654089999642565,
+      0.6742599999824961,
+      0.6728650000127345,
+      0.6468259999792281,
+      0.6299620000049799,
+      0.6282290000285684,
+      0.6192680000367545
+    ],
+    "median_ms": 0.6450045000008231,
+    "peak_allocated_bytes": 59245568,
+    "peak_reserved_bytes": 85983232,
+    "additional_peak_allocated_bytes": 8651776
+  },
+  "forward_backward": {
+    "unit": "milliseconds per batch",
+    "warmup_repetitions": 3,
+    "timing_repetitions": 10,
+    "samples_ms": [
+      2.2030720000429937,
+      2.1909449999952813,
+      2.2057550000340598,
+      2.1702559999994264,
+      2.208096000003934,
+      2.194418999977188,
+      2.1777210000095693,
+      2.1889139999871077,
+      2.1852269999840246,
+      2.18320300001551
+    ],
+    "median_ms": 2.1899294999911945,
+    "peak_allocated_bytes": 126617600,
+    "peak_reserved_bytes": 153092096,
+    "additional_peak_allocated_bytes": 50857984
+  },
+  "status": "complete"
+}

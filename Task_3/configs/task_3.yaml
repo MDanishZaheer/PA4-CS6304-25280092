@@ -1,0 +1,4 @@
+experiment_name: task_3_policy_distillation_and_speculative_decoding
+execution:
+  run_id: task3_seed6304_v1
+  drive_project: ATML_PA4/PA_4

@@ -1,0 +1,59 @@
+{
+  "prompt_id": "SHORT-familiar-0019",
+  "prompt_sha256": "492ac7c092f7b575ace89f658172ad0d7caa3effccc95c33f65ad44ca10281f1",
+  "workload": "familiar",
+  "bank": "teacher",
+  "producer": "teacher",
+  "producer_checkpoint": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "response_token_ids": [
+    17,
+    23,
+    20,
+    20,
+    13,
+    151645
+  ],
+  "selected_positions": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "prefix_ids": [
+    "teacher:SHORT-familiar-0019:p001",
+    "teacher:SHORT-familiar-0019:p002",
+    "teacher:SHORT-familiar-0019:p003",
+    "teacher:SHORT-familiar-0019:p004",
+    "teacher:SHORT-familiar-0019:p005",
+    "teacher:SHORT-familiar-0019:p006"
+  ],
+  "generation": {
+    "token_ids": [
+      17,
+      23,
+      20,
+      20,
+      13,
+      151645
+    ],
+    "new_tokens": 6,
+    "eos": true,
+    "truncated": false,
+    "ignore_eos": false,
+    "generation_seed": 796857,
+    "prefill_seconds": 0.03702693500008536,
+    "decode_seconds": 0.1709877029998097,
+    "elapsed_seconds": 0.20803455699979168,
+    "target_prefill_passes": 1,
+    "target_decode_passes": 5,
+    "target_passes": 6,
+    "draft_forward_passes": 0,
+    "rounds": [],
+    "peak_allocated_bytes": 3110434816,
+    "peak_reserved_bytes": 4626317312
+  },
+  "law": "target",
+  "materialization": "generated here because the supplied data-only checkout contains no materialized prefix bank"
+}

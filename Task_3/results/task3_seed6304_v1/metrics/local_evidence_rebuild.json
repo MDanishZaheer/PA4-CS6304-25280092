@@ -1,0 +1,105 @@
+{
+  "status": "passed",
+  "rebuilt_at_utc": "2026-11-24T08:05:37.141454+00:00",
+  "computed_on": "Google Colab",
+  "rendered_on": "Local ATML, CPU only",
+  "gpu_work_performed": false,
+  "reason": "Disclose interrupted-run wall-cost lower bound and training-memory measurement scope.",
+  "original_manifest": "configs/original_colab_run_manifest.json",
+  "changed_derived_artifacts": [
+    {
+      "path": "figures/acceptance_verification.png",
+      "colab_sha256": "f6e1f5745026e783d14b9fcc4d14a3b2c90b3dcbd8150b4749a3099f48bf589d",
+      "local_sha256": "8360a2135f3e38514f35ab050dd3af57e217568db1aeb49f92aebde8534bb9a0"
+    },
+    {
+      "path": "figures/common_prefix_alignment.png",
+      "colab_sha256": "a7d0b87794d7afdf060d5c815a013810483fc73eabcfeade8f106eef25315ad3",
+      "local_sha256": "f1532a16fe7df6943217df28c901d90495fec5573e90155338b89e50a90e2930"
+    },
+    {
+      "path": "figures/distillation_curves.png",
+      "colab_sha256": "79b70d775b38ebb7499e3ea8873ccafdf162062d4844a18164cd100cbcc999cf",
+      "local_sha256": "097337c8d2bd1bbb8eb559ba18aa6d326c5568f5a320cf56ebc641959dd0d9a2"
+    },
+    {
+      "path": "figures/execution_costs.png",
+      "colab_sha256": "2846977bf7a539e375e9778d809ee0eaf038502d7109867a61ddde87d540b72d",
+      "local_sha256": "ca58ee5a81983f7330e37ec345dcfe0cff8a77cd52a4c1efb97948959ad6403a"
+    },
+    {
+      "path": "figures/predicted_measured_speedup.png",
+      "colab_sha256": "bec8c1a5f259df2d17c1ddd2a8f98efa44dea8ffef5984d1e2438d01cd150398",
+      "local_sha256": "cffcd97800935bf58199a5327976c11cdd5b6f0b0c3c27a4b91cc3e6d5f480c7"
+    },
+    {
+      "path": "figures/quality_and_lengths.png",
+      "colab_sha256": "921bf6521de435bd0d978d3c3ec9f46db4c4e4aa94f74dfef844fd077e70e2c6",
+      "local_sha256": "2659a4714b28ebaad2b919d2b5ee8557a7b72a1e6e2f6021a17c154c4d798fa9"
+    },
+    {
+      "path": "figures/sampler_correctness.png",
+      "colab_sha256": "878b86a9ff8af833490da775bca7f52de76fca80f8086f29e9c95b45c985ccbc",
+      "local_sha256": "e450e114946e5acaeef9a0e96e5b68d42d343ea75e77cbf34c50f702d72c7706"
+    },
+    {
+      "path": "figures/style_manifest.json",
+      "colab_sha256": "ec39772bb6316ff6ee56ebb5645d4e3625867a7be4337ade775acd127cc4a82e",
+      "local_sha256": "297dd7e3dc99fa400e440f096275f882f044a0c51435d2b6004f6dda8f0bc7c1"
+    },
+    {
+      "path": "figures/training_amortization.png",
+      "colab_sha256": "0d75174c622e94ceeaa6c56c9b96152ee50bf8d6530a25f3baddd98aba89ab48",
+      "local_sha256": "38adb8f0cd57e0616edbbc0f9a4a66a136083f1705a94638b0ddaaedf944af4d"
+    },
+    {
+      "path": "figures/workload_position.png",
+      "colab_sha256": "f3ec69a294fb182e047baafcf08aa7e625acf65cee94fff9bc9fb0b9937f0ee3",
+      "local_sha256": "24d0cee69891d9a4a390cdf80e68fca2b589aa1b97060f1b456f57837b062c01"
+    },
+    {
+      "path": "tables/deployment_break_even.csv",
+      "colab_sha256": "50a270f4d80447c6b814bc945f604a7d47bb8a6f30c393c1b72ec958e5c82bf0",
+      "local_sha256": "606f836503e38357315559ff4618b7b69d6e5eedbedcd10f7f09399f7f6c97da"
+    },
+    {
+      "path": "tables/distillation_summary.csv",
+      "colab_sha256": "3e0b632bfae37486525d3846643ee2d282f9438c2c772901ec8c3c5ab15a2c6f",
+      "local_sha256": "67ee2f320af0e9cb5267a4edbbddebd483ef2e09f8829573f3867b85f6158c0c"
+    },
+    {
+      "path": "tables/paired_prompt_intervals.csv",
+      "colab_sha256": "21dcf6c5205108830e1402014f14226db02000a6db7d8c3b58f6d1087a5b1e03",
+      "local_sha256": "7188c85f9e5c87601c31cb4729afe134cb4f1da573b0e5786c659711e8413801"
+    },
+    {
+      "path": "tables/speculative_per_prompt.csv",
+      "colab_sha256": "6deb8d9b802c0c71d874fce3f08435567b0725853210f970dad83b0ead6674f7",
+      "local_sha256": "b18ae1365db4d4cc7d38aa2e0d14de7ca5a700d5d38219a8e14c3a1f858e5bb6"
+    },
+    {
+      "path": "tables/speculative_summary.csv",
+      "colab_sha256": "de5eda2c44ad36be99e0ef362c18b0a0c05ebbb85f65f7454c56fa957e28940d",
+      "local_sha256": "266f52b12e442164e6c105156147d3235b8ae67970c6a340dfeeb5aefaaa78fa"
+    },
+    {
+      "path": "tables/upfront_costs.csv",
+      "colab_sha256": "b7eae6ad89a8d7c7226e9e5a98e0718d0d199bde33047ed3af3decb47ef40ff2",
+      "local_sha256": "a1c812a373372a707f4f20a9858f91c2ee73e45ae67d81286576466b67f2fe0b"
+    }
+  ],
+  "raw_scientific_artifacts_unchanged": true,
+  "scientific_config_id_unchanged": true,
+  "limitations": [
+    "The on-policy seed 6305 stage ledger omits time before its resumed session; full histories retain component costs. Accounted upfront time is a disclosed lower bound.",
+    "On-policy rollout generation resets CUDA peak statistics. Saved training allocator peaks describe the final reset interval; benchmark per-request peaks remain valid.",
+    "Task 3 was measured on NVIDIA L4; Tasks 1 and 2 were measured on A100. No cross-task hardware speed comparison is claimed."
+  ],
+  "analysis_source_hashes": {
+    "analysis/__init__.py": "e8c13f48a94a79cf92befed6cf3b573ffbbe5603e92513568740c885bed29bc2",
+    "analysis/costs.py": "aa51075b39084611bbd01b312650afb9bf860a90b83d7b9abdadd6c5b9291868",
+    "analysis/evidence.py": "082668162ed5c7188571fe9dd59343f86fda0a3fffe38d7b31189d3da007d3c0",
+    "analysis/fonts.py": "aef071a5af0de13b2041348b57b8dc9e7eb8eeee7435f589f53e10740df479bf"
+  },
+  "figure_layout_note": "All-nonfinite deployment thresholds are displayed as an explicit no-finite-break-even panel."
+}

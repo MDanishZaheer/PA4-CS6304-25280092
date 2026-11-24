@@ -1,0 +1,76 @@
+{
+  "method": "dense",
+  "dtype": "float16",
+  "length": 512,
+  "batch": 2,
+  "heads": 4,
+  "head_dimension": 64,
+  "accumulation": "FP32 scores/statistics",
+  "reference_status": "dense_fp32_on_identical_input_values",
+  "output_error": {
+    "maximum_absolute": 0.0009732246398925781,
+    "relative_l2": 0.00019943888764828444
+  },
+  "gradient_errors": [
+    {
+      "maximum_absolute": 0.0009284019470214844,
+      "relative_l2": 0.00020748125098180026
+    },
+    {
+      "maximum_absolute": 0.0009324550628662109,
+      "relative_l2": 0.00020846644474659115
+    },
+    {
+      "maximum_absolute": 0.0018229484558105469,
+      "relative_l2": 0.00020559625409077853
+    }
+  ],
+  "numerical_tolerance_relative_l2": 0.005,
+  "numerical_check": "passed",
+  "observed_operators": [
+    "explicit_dense_fp32"
+  ],
+  "forward": {
+    "unit": "milliseconds per batch",
+    "warmup_repetitions": 3,
+    "timing_repetitions": 10,
+    "samples_ms": [
+      0.6772280000291175,
+      0.6907769999884295,
+      0.6739690000472365,
+      0.7216540000172245,
+      0.6712370000059309,
+      0.6587800000374955,
+      0.6799559999990379,
+      0.6868439999720977,
+      0.6816500000468295,
+      0.678456000002825
+    ],
+    "median_ms": 0.6792060000009315,
+    "peak_allocated_bytes": 53215744,
+    "peak_reserved_bytes": 69206016,
+    "additional_peak_allocated_bytes": 34079232
+  },
+  "forward_backward": {
+    "unit": "milliseconds per batch",
+    "warmup_repetitions": 3,
+    "timing_repetitions": 10,
+    "samples_ms": [
+      1.9687440000097922,
+      2.047506999986126,
+      1.741299999991952,
+      1.6539560000410347,
+      1.6346329999805675,
+      1.6231680000373672,
+      1.618866999990587,
+      1.6552920000094673,
+      1.6375069999980951,
+      1.6443700000081662
+    ],
+    "median_ms": 1.6491630000246005,
+    "peak_allocated_bytes": 58196480,
+    "peak_reserved_bytes": 73400320,
+    "additional_peak_allocated_bytes": 37487104
+  },
+  "status": "complete"
+}

@@ -1,0 +1,12 @@
+{
+  "stage": "merge_off_policy_seed6305",
+  "status": "complete",
+  "config_id": "ca016510f6ba13eb7b0399b721f8bacbedbe9183fdc5bbc7a4b51ad310914e62",
+  "artifacts": {
+    "metrics/merging/off_policy_seed6305.json": "5606bb63c8a4b7a62aed146b371aca8d3f14d00b772803a8c2932a8b515dba0e",
+    "checkpoints/off_policy_seed6305/merged_fp16.pt": "b827c8d0bb564c65595d6165ac031aabfa65f459cd8b054fbce770a2d0a2bbf3"
+  },
+  "summary": {
+    "status": "complete"
+  }
+}

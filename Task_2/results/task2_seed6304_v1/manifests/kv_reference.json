@@ -1,0 +1,133 @@
+{
+  "stage": "kv_reference",
+  "status": "complete",
+  "config_id": "78c8fbc4f13121f27796d6e958bd0508c5b029ebef7e46cc27690631b2f7cfcd",
+  "artifacts": {
+    "metrics/kv/reference_checks.json": "d7e96424cc6ed6466535a626cee63657e54d626b1558a20a095699af633e5d33",
+    "metrics/kv/model_geometry.json": "9c97499bb2f7b0a4715c4d233b5a819a6087508a73cd3933ce11fa18600c03be",
+    "splits/kv_model_revision.json": "9e1c0dd3c88fc376d23c209be0ca785fb446cbec953dde1a5ce488acaea3a886",
+    "splits/retrieval_tokenized.jsonl.gz": "9429f07d29c674e8ef5104112d5df12bccbde78dafaff8b6352f410853fe52d9",
+    "splits/retrieval_selection.json": "3cdf56d0ad4937812fb40f216a034b4c663a07bc43ae70859f02a3e1af6209fc"
+  },
+  "summary": {
+    "status": "passed",
+    "cases": [
+      {
+        "id": "KV-2048-start-0-00",
+        "direct_vs_split": {
+          "maximum_absolute": 0.0546875,
+          "relative_l2": 0.0029534203931689262
+        },
+        "split_vs_retained_100_percent": {
+          "maximum_absolute": 0.0,
+          "relative_l2": 0.0
+        },
+        "three_step_greedy_tokens": [
+          17,
+          21,
+          23
+        ],
+        "physical_tokens": 2660,
+        "absolute_tokens": 2660,
+        "status": "passed"
+      },
+      {
+        "id": "KV-2048-middle-0-00",
+        "direct_vs_split": {
+          "maximum_absolute": 0.0546875,
+          "relative_l2": 0.003777835750952363
+        },
+        "split_vs_retained_100_percent": {
+          "maximum_absolute": 0.0,
+          "relative_l2": 0.0
+        },
+        "three_step_greedy_tokens": [
+          18,
+          17,
+          15
+        ],
+        "physical_tokens": 2669,
+        "absolute_tokens": 2669,
+        "status": "passed"
+      },
+      {
+        "id": "KV-2048-end-0-00",
+        "direct_vs_split": {
+          "maximum_absolute": 0.03515625,
+          "relative_l2": 0.0023559920955449343
+        },
+        "split_vs_retained_100_percent": {
+          "maximum_absolute": 0.0,
+          "relative_l2": 0.0
+        },
+        "three_step_greedy_tokens": [
+          18,
+          23,
+          22
+        ],
+        "physical_tokens": 2664,
+        "absolute_tokens": 2664,
+        "status": "passed"
+      },
+      {
+        "id": "KV-4096-start-0-00",
+        "direct_vs_split": {
+          "maximum_absolute": 0.049072265625,
+          "relative_l2": 0.0029080724343657494
+        },
+        "split_vs_retained_100_percent": {
+          "maximum_absolute": 0.0,
+          "relative_l2": 0.0
+        },
+        "three_step_greedy_tokens": [
+          19,
+          20,
+          16
+        ],
+        "physical_tokens": 5244,
+        "absolute_tokens": 5244,
+        "status": "passed"
+      },
+      {
+        "id": "KV-4096-middle-0-00",
+        "direct_vs_split": {
+          "maximum_absolute": 0.0546875,
+          "relative_l2": 0.0029015925247222185
+        },
+        "split_vs_retained_100_percent": {
+          "maximum_absolute": 0.0,
+          "relative_l2": 0.0
+        },
+        "three_step_greedy_tokens": [
+          18,
+          15,
+          17
+        ],
+        "physical_tokens": 5239,
+        "absolute_tokens": 5239,
+        "status": "passed"
+      },
+      {
+        "id": "KV-4096-end-0-00",
+        "direct_vs_split": {
+          "maximum_absolute": 0.04296875,
+          "relative_l2": 0.0026850183494389057
+        },
+        "split_vs_retained_100_percent": {
+          "maximum_absolute": 0.0,
+          "relative_l2": 0.0
+        },
+        "three_step_greedy_tokens": [
+          21,
+          23,
+          20
+        ],
+        "physical_tokens": 5259,
+        "absolute_tokens": 5259,
+        "status": "passed"
+      }
+    ],
+    "attention_backend": "sdpa",
+    "positions": "original absolute rotary IDs; independent physical append positions"
+  }
+}

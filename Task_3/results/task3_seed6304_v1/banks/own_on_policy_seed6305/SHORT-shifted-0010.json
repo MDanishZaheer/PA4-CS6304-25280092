@@ -1,0 +1,63 @@
+{
+  "prompt_id": "SHORT-shifted-0010",
+  "prompt_sha256": "065b64b9f26a6193b7b44a72b30233b9d10217202c0fc6e07a4b74c344fa1f82",
+  "workload": "shifted",
+  "bank": "own_on_policy_seed6305",
+  "producer": "on_policy_seed6305",
+  "producer_checkpoint": "1531506614888e94503fd4fd23b5ce1fcefe728665e60e320616976692bc2279",
+  "response_token_ids": [
+    36,
+    220,
+    21,
+    20,
+    16,
+    20,
+    151645
+  ],
+  "selected_positions": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "prefix_ids": [
+    "own_on_policy_seed6305:SHORT-shifted-0010:p001",
+    "own_on_policy_seed6305:SHORT-shifted-0010:p002",
+    "own_on_policy_seed6305:SHORT-shifted-0010:p003",
+    "own_on_policy_seed6305:SHORT-shifted-0010:p004",
+    "own_on_policy_seed6305:SHORT-shifted-0010:p005",
+    "own_on_policy_seed6305:SHORT-shifted-0010:p006",
+    "own_on_policy_seed6305:SHORT-shifted-0010:p007"
+  ],
+  "generation": {
+    "token_ids": [
+      36,
+      220,
+      21,
+      20,
+      16,
+      20,
+      151645
+    ],
+    "new_tokens": 7,
+    "eos": true,
+    "truncated": false,
+    "ignore_eos": false,
+    "generation_seed": 1008010,
+    "prefill_seconds": 0.047554159999890544,
+    "decode_seconds": 0.2575235240001348,
+    "elapsed_seconds": 0.3050926160003655,
+    "target_prefill_passes": 1,
+    "target_decode_passes": 6,
+    "target_passes": 7,
+    "draft_forward_passes": 0,
+    "rounds": [],
+    "peak_allocated_bytes": 4112223744,
+    "peak_reserved_bytes": 4362076160
+  },
+  "law": "on_policy_seed6305",
+  "materialization": "generated here because the supplied data-only checkout contains no materialized prefix bank"
+}

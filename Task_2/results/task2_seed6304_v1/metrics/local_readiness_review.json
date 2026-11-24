@@ -1,0 +1,81 @@
+{
+  "reviewed_at_utc": "2026-11-22T17:17:39.299395+00:00",
+  "reviewed_in": "ATML Conda environment",
+  "run_id": "task2_seed6304_v1",
+  "status": "passed",
+  "computed_on": "Google Colab / NVIDIA A100-SXM4-40GB",
+  "registered_replay_files_verified": 10847,
+  "recorded_execution_failures": [],
+  "notebook_cells_replayed": 38,
+  "displayed_png_figures": 8,
+  "canonical_figure_visual_review": "passed for all eight figures",
+  "all_canonical_figure_fonts": "Times New Roman, 10 pt; unchanged from verified cloud export",
+  "checks": {
+    "successful_optimizer_updates": 189000,
+    "overflow_attempts_retried_without_reducing_updates": 5,
+    "exact_lr_schedules_verified": 42,
+    "finite_gradient_norm_histories": 42,
+    "historical_and_recovery_checkpoint_files": 294,
+    "training_annotations_spot_checked_against_staff_generator": 108,
+    "unique_training_streams": 18,
+    "passed_attention_numerical_conditions": 36,
+    "maximum_fp16_reference_split_relative_l2": 0.003777835750952363,
+    "quantization_independent_numpy_checks": {
+      "int2_token": "passed",
+      "int2_channel": "passed",
+      "int4_token": "passed",
+      "int4_channel": "passed"
+    },
+    "mqar_csv_cells_matched_to_metrics": 486,
+    "kv_factorial_csv_cells_matched_to_predictions": 108,
+    "kv_summary_rows_matched_to_predictions": 6
+  },
+  "kv_retrieval_outcomes": [
+    {
+      "method": "fp16",
+      "prompts": 180,
+      "accuracy": 1.0,
+      "truncated_prompts": 0
+    },
+    {
+      "method": "sink_recent",
+      "prompts": 180,
+      "accuracy": 0.3333333333333333,
+      "truncated_prompts": 0
+    },
+    {
+      "method": "question_aware",
+      "prompts": 180,
+      "accuracy": 1.0,
+      "truncated_prompts": 0
+    },
+    {
+      "method": "int4_token",
+      "prompts": 180,
+      "accuracy": 0.0,
+      "truncated_prompts": 180
+    },
+    {
+      "method": "int4_channel",
+      "prompts": 180,
+      "accuracy": 1.0,
+      "truncated_prompts": 0
+    },
+    {
+      "method": "hybrid",
+      "prompts": 180,
+      "accuracy": 0.9777777777777776,
+      "truncated_prompts": 0
+    }
+  ],
+  "poor_outcomes_retained": {
+    "int4_token_correct": 0,
+    "int4_token_prompts": 180,
+    "int4_token_length_capped_prompts": 180,
+    "linear_and_dilated_seed_outcomes": "all prescribed seeds retained without post-test tuning"
+  },
+  "gpu_rerun_required": false,
+  "ready_to_start_task_3": true,
+  "gpu_work_during_local_audit": false,
+  "source_metrics_changed": false
+}

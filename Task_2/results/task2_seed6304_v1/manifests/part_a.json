@@ -1,0 +1,11 @@
+{
+  "stage": "part_a",
+  "status": "complete",
+  "config_id": "78c8fbc4f13121f27796d6e958bd0508c5b029ebef7e46cc27690631b2f7cfcd",
+  "artifacts": {
+    "metrics/attention/all_conditions.json": "fc0ecc3efab20f51765d4c81b299b981736308ddbf5e461daa12d25090a4e9e9"
+  },
+  "summary": {
+    "conditions": 36
+  }
+}

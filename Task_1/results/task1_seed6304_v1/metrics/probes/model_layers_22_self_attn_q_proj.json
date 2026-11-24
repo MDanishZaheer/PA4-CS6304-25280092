@@ -1,0 +1,617 @@
+{
+  "name": "model.layers.22.self_attn.q_proj",
+  "shape": [
+    1536,
+    1536
+  ],
+  "elements": 2359296,
+  "layer": 22,
+  "magnitude_scores": {
+    "quantile_probabilities": [
+      0.0,
+      0.009999999776482582,
+      0.10000000149011612,
+      0.25,
+      0.5,
+      0.75,
+      0.8999999761581421,
+      0.9900000095367432,
+      1.0
+    ],
+    "quantiles": [
+      0.0,
+      0.000270843505859375,
+      0.00274658203125,
+      0.00714111328125,
+      0.01611328125,
+      0.0303955078125,
+      0.0478515625,
+      0.08984375,
+      0.2470703125
+    ],
+    "quantile_stride": 3,
+    "log10_histogram_edges": [
+      -12.0,
+      -11.5,
+      -11.0,
+      -10.5,
+      -10.0,
+      -9.5,
+      -9.0,
+      -8.5,
+      -8.0,
+      -7.5,
+      -7.0,
+      -6.5,
+      -6.0,
+      -5.5,
+      -5.0,
+      -4.5,
+      -4.0,
+      -3.5,
+      -3.0,
+      -2.5,
+      -2.0,
+      -1.5,
+      -1.0,
+      -0.5,
+      0.0,
+      0.5,
+      1.0,
+      1.5,
+      2.0,
+      2.5,
+      3.0,
+      3.5,
+      4.0,
+      4.5,
+      5.0,
+      5.5,
+      6.0,
+      6.5,
+      7.0,
+      7.5,
+      8.0
+    ],
+    "log10_histogram_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      20,
+      70,
+      188,
+      618,
+      1928,
+      5970,
+      18880,
+      59480,
+      184816,
+      522580,
+      1013803,
+      538247,
+      12685,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "zero_count": 10,
+    "elements": 2359296
+  },
+  "wanda_scores": {
+    "quantile_probabilities": [
+      0.0,
+      0.009999999776482582,
+      0.10000000149011612,
+      0.25,
+      0.5,
+      0.75,
+      0.8999999761581421,
+      0.9900000095367432,
+      1.0
+    ],
+    "quantiles": [
+      0.0,
+      0.0400141142308712,
+      0.40189042687416077,
+      1.0409716367721558,
+      2.301179885864258,
+      4.274535655975342,
+      6.896609306335449,
+      16.587791442871094,
+      214.1365509033203
+    ],
+    "quantile_stride": 3,
+    "log10_histogram_edges": [
+      -12.0,
+      -11.5,
+      -11.0,
+      -10.5,
+      -10.0,
+      -9.5,
+      -9.0,
+      -8.5,
+      -8.0,
+      -7.5,
+      -7.0,
+      -6.5,
+      -6.0,
+      -5.5,
+      -5.0,
+      -4.5,
+      -4.0,
+      -3.5,
+      -3.0,
+      -2.5,
+      -2.0,
+      -1.5,
+      -1.0,
+      -0.5,
+      0.0,
+      0.5,
+      1.0,
+      1.5,
+      2.0,
+      2.5,
+      3.0,
+      3.5,
+      4.0,
+      4.5,
+      5.0,
+      5.5,
+      6.0,
+      6.5,
+      7.0,
+      7.5,
+      8.0
+    ],
+    "log10_histogram_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      3,
+      14,
+      51,
+      187,
+      530,
+      1738,
+      4931,
+      14052,
+      39433,
+      124005,
+      376643,
+      907327,
+      791111,
+      92207,
+      6890,
+      162,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "zero_count": 10,
+    "elements": 2359296
+  },
+  "activation_norms": {
+    "quantile_probabilities": [
+      0.0,
+      0.009999999776482582,
+      0.10000000149011612,
+      0.25,
+      0.5,
+      0.75,
+      0.8999999761581421,
+      0.9900000095367432,
+      1.0
+    ],
+    "quantiles": [
+      4.955178737640381,
+      100.49079895019531,
+      106.99948120117188,
+      111.7794189453125,
+      120.96246337890625,
+      162.19781494140625,
+      275.67236328125,
+      811.5526733398438,
+      2534.980712890625
+    ],
+    "quantile_stride": 1,
+    "log10_histogram_edges": [
+      -12.0,
+      -11.5,
+      -11.0,
+      -10.5,
+      -10.0,
+      -9.5,
+      -9.0,
+      -8.5,
+      -8.0,
+      -7.5,
+      -7.0,
+      -6.5,
+      -6.0,
+      -5.5,
+      -5.0,
+      -4.5,
+      -4.0,
+      -3.5,
+      -3.0,
+      -2.5,
+      -2.0,
+      -1.5,
+      -1.0,
+      -0.5,
+      0.0,
+      0.5,
+      1.0,
+      1.5,
+      2.0,
+      2.5,
+      3.0,
+      3.5,
+      4.0,
+      4.5,
+      5.0,
+      5.5,
+      6.0,
+      6.5,
+      7.0,
+      7.5,
+      8.0
+    ],
+    "log10_histogram_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      11,
+      1415,
+      97,
+      11,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "zero_count": 0,
+    "elements": 1536
+  },
+  "magnitude": {
+    "0.25": {
+      "relative_mse": 0.011727278502027582,
+      "squared_error": 6508.574633044753,
+      "squared_reference": 554994.4628601987,
+      "sample_tokens": 512
+    },
+    "0.5": {
+      "relative_mse": 0.09650874129105591,
+      "squared_error": 53561.81703414345,
+      "squared_reference": 554994.4628601987,
+      "sample_tokens": 512
+    },
+    "0.75": {
+      "relative_mse": 0.3299239179830024,
+      "squared_error": 183105.94764570866,
+      "squared_reference": 554994.4628601987,
+      "sample_tokens": 512
+    }
+  },
+  "wanda": {
+    "0.1": {
+      "relative_mse": 0.00020764166552254888,
+      "squared_error": 115.23997462408406,
+      "squared_reference": 554994.4628601987,
+      "sample_tokens": 512
+    },
+    "0.25": {
+      "relative_mse": 0.0033986142744559683,
+      "squared_error": 1886.212103720694,
+      "squared_reference": 554994.4628601987,
+      "sample_tokens": 512
+    },
+    "0.5": {
+      "relative_mse": 0.029602098356194154,
+      "squared_error": 16429.000676730746,
+      "squared_reference": 554994.4628601987,
+      "sample_tokens": 512
+    },
+    "0.75": {
+      "relative_mse": 0.12001287135437744,
+      "squared_error": 66606.47907363283,
+      "squared_reference": 554994.4628601987,
+      "sample_tokens": 512
+    },
+    "0.85": {
+      "relative_mse": 0.20069824405976802,
+      "squared_error": 111386.41415893602,
+      "squared_reference": 554994.4628601987,
+      "sample_tokens": 512
+    }
+  },
+  "ptq": {
+    "2": {
+      "relative_mse": 0.2983043006588223,
+      "squared_error": 165557.2351130303,
+      "squared_reference": 554994.4628601987,
+      "sample_tokens": 512
+    },
+    "3": {
+      "relative_mse": 0.06346444315086497,
+      "squared_error": 35222.41453723592,
+      "squared_reference": 554994.4628601987,
+      "sample_tokens": 512
+    },
+    "4": {
+      "relative_mse": 0.014120919949758469,
+      "squared_error": 7837.032382608066,
+      "squared_reference": 554994.4628601987,
+      "sample_tokens": 512
+    },
+    "8": {
+      "relative_mse": 4.928777773940024e-05,
+      "squared_error": 27.354443732051298,
+      "squared_reference": 554994.4628601987,
+      "sample_tokens": 512
+    }
+  },
+  "awq": {
+    "2": {
+      "bits": 2,
+      "selected_exponent": 0.5,
+      "relative_mse": 0.18717411802683392,
+      "candidates": [
+        {
+          "exponent": 0.0,
+          "relative_mse": 0.2983043006588223,
+          "squared_error": 165557.2351130303,
+          "squared_reference": 554994.4628601987,
+          "sample_tokens": 512
+        },
+        {
+          "exponent": 0.25,
+          "relative_mse": 0.20355630703938302,
+          "squared_error": 112972.62328712805,
+          "squared_reference": 554994.4628601987,
+          "sample_tokens": 512
+        },
+        {
+          "exponent": 0.5,
+          "relative_mse": 0.18717411802683392,
+          "squared_error": 103880.59909563413,
+          "squared_reference": 554994.4628601987,
+          "sample_tokens": 512
+        },
+        {
+          "exponent": 0.75,
+          "relative_mse": 0.22985649448411702,
+          "squared_error": 127569.08169114075,
+          "squared_reference": 554994.4628601987,
+          "sample_tokens": 512
+        },
+        {
+          "exponent": 1.0,
+          "relative_mse": 0.3041809669495752,
+          "squared_error": 168818.75236447534,
+          "squared_reference": 554994.4628601987,
+          "sample_tokens": 512
+        }
+      ],
+      "rescaling_equivalence": {
+        "relative_l2": 1.6503555855251761e-07,
+        "maximum_absolute": 1.1920928955078125e-06,
+        "dtype": "float32"
+      }
+    },
+    "3": {
+      "bits": 3,
+      "selected_exponent": 0.5,
+      "relative_mse": 0.03752147157830798,
+      "candidates": [
+        {
+          "exponent": 0.0,
+          "relative_mse": 0.06346444315086497,
+          "squared_error": 35222.41453723592,
+          "squared_reference": 554994.4628601987,
+          "sample_tokens": 512
+        },
+        {
+          "exponent": 0.25,
+          "relative_mse": 0.03974118618848361,
+          "squared_error": 22056.138282104606,
+          "squared_reference": 554994.4628601987,
+          "sample_tokens": 512
+        },
+        {
+          "exponent": 0.5,
+          "relative_mse": 0.03752147157830798,
+          "squared_error": 20824.20896432725,
+          "squared_reference": 554994.4628601987,
+          "sample_tokens": 512
+        },
+        {
+          "exponent": 0.75,
+          "relative_mse": 0.05380895491772481,
+          "squared_error": 29863.67203163133,
+          "squared_reference": 554994.4628601987,
+          "sample_tokens": 512
+        },
+        {
+          "exponent": 1.0,
+          "relative_mse": 0.09464182935015282,
+          "squared_error": 52525.69124429465,
+          "squared_reference": 554994.4628601987,
+          "sample_tokens": 512
+        }
+      ],
+      "rescaling_equivalence": {
+        "relative_l2": 1.6503555855251761e-07,
+        "maximum_absolute": 1.1920928955078125e-06,
+        "dtype": "float32"
+      }
+    },
+    "4": {
+      "bits": 4,
+      "selected_exponent": 0.5,
+      "relative_mse": 0.008293689392111375,
+      "candidates": [
+        {
+          "exponent": 0.0,
+          "relative_mse": 0.014120919949758469,
+          "squared_error": 7837.032382608066,
+          "squared_reference": 554994.4628601987,
+          "sample_tokens": 512
+        },
+        {
+          "exponent": 0.25,
+          "relative_mse": 0.008613343589306736,
+          "squared_error": 4780.3579987776275,
+          "squared_reference": 554994.4628601987,
+          "sample_tokens": 512
+        },
+        {
+          "exponent": 0.5,
+          "relative_mse": 0.008293689392111375,
+          "squared_error": 4602.95168930418,
+          "squared_reference": 554994.4628601987,
+          "sample_tokens": 512
+        },
+        {
+          "exponent": 0.75,
+          "relative_mse": 0.011929052531333757,
+          "squared_error": 6620.558102058672,
+          "squared_reference": 554994.4628601987,
+          "sample_tokens": 512
+        },
+        {
+          "exponent": 1.0,
+          "relative_mse": 0.023559805148252518,
+          "squared_error": 13075.56140334535,
+          "squared_reference": 554994.4628601987,
+          "sample_tokens": 512
+        }
+      ],
+      "rescaling_equivalence": {
+        "relative_l2": 1.6503555855251761e-07,
+        "maximum_absolute": 1.1920928955078125e-06,
+        "dtype": "float32"
+      }
+    },
+    "8": {
+      "bits": 8,
+      "selected_exponent": 0.5,
+      "relative_mse": 2.831069171630951e-05,
+      "candidates": [
+        {
+          "exponent": 0.0,
+          "relative_mse": 4.928777773940024e-05,
+          "squared_error": 27.354443732051298,
+          "squared_reference": 554994.4628601987,
+          "sample_tokens": 512
+        },
+        {
+          "exponent": 0.25,
+          "relative_mse": 3.0406349738659284e-05,
+          "squared_error": 16.875355740746553,
+          "squared_reference": 554994.4628601987,
+          "sample_tokens": 512
+        },
+        {
+          "exponent": 0.5,
+          "relative_mse": 2.831069171630951e-05,
+          "squared_error": 15.712277142293873,
+          "squared_reference": 554994.4628601987,
+          "sample_tokens": 512
+        },
+        {
+          "exponent": 0.75,
+          "relative_mse": 4.148267480389192e-05,
+          "squared_error": 23.022654820790294,
+          "squared_reference": 554994.4628601987,
+          "sample_tokens": 512
+        },
+        {
+          "exponent": 1.0,
+          "relative_mse": 8.332166552015515e-05,
+          "squared_error": 46.24306299997565,
+          "squared_reference": 554994.4628601987,
+          "sample_tokens": 512
+        }
+      ],
+      "rescaling_equivalence": {
+        "relative_l2": 1.6503555855251761e-07,
+        "maximum_absolute": 1.1920928955078125e-06,
+        "dtype": "float32"
+      }
+    }
+  },
+  "pruning_sensitivity": 0.029602098356194154,
+  "quantization_sensitivity": 0.03752147157830798,
+  "probe_seconds": 0.051394826999967336,
+  "probe_peak_allocated_bytes": 3226834944
+}

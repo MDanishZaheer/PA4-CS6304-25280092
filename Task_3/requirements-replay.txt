@@ -1,0 +1,8 @@
+numpy>=2.2
+pandas>=2.2
+matplotlib>=3.10
+PyYAML>=6.0
+ipython>=8
+jupyter_client>=8
+ipykernel>=6
+pillow>=10

@@ -1,0 +1,14 @@
+{
+  "stage": "kv_policy_hybrid",
+  "status": "complete",
+  "config_id": "78c8fbc4f13121f27796d6e958bd0508c5b029ebef7e46cc27690631b2f7cfcd",
+  "artifacts": {
+    "metrics/kv/policy_hybrid.json": "5ac4d063335e487695cc6ec1785c87cf7f7b97fcd682b6d5a5474630e718cd3f"
+  },
+  "summary": {
+    "cases": 180,
+    "methods": [
+      "hybrid"
+    ]
+  }
+}

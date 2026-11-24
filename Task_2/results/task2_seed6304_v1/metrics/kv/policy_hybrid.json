@@ -1,0 +1,1627 @@
+{
+  "status": "passed",
+  "family": "hybrid",
+  "conditions": [
+    {
+      "id": "KV-2048-start-0-00",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2623,
+      "budget_bytes": 22450208,
+      "planned_bytes": 21018140,
+      "selected_fp16_positions": 383,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-start-0-01",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2631,
+      "budget_bytes": 21360672,
+      "planned_bytes": 21247548,
+      "selected_fp16_positions": 391,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-start-0-02",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2631,
+      "budget_bytes": 21360672,
+      "planned_bytes": 21247548,
+      "selected_fp16_positions": 391,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-start-0-03",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2634,
+      "budget_bytes": 21446688,
+      "planned_bytes": 21333576,
+      "selected_fp16_positions": 394,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-start-0-04",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2633,
+      "budget_bytes": 21418016,
+      "planned_bytes": 21304900,
+      "selected_fp16_positions": 393,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-start-0-05",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2634,
+      "budget_bytes": 21446688,
+      "planned_bytes": 21333576,
+      "selected_fp16_positions": 394,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-start-0-06",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2629,
+      "budget_bytes": 21303328,
+      "planned_bytes": 21190196,
+      "selected_fp16_positions": 389,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-start-0-07",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2629,
+      "budget_bytes": 21303328,
+      "planned_bytes": 21190196,
+      "selected_fp16_positions": 389,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-start-0-08",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2631,
+      "budget_bytes": 21360672,
+      "planned_bytes": 21247548,
+      "selected_fp16_positions": 391,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-start-0-09",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2639,
+      "budget_bytes": 21590048,
+      "planned_bytes": 21476956,
+      "selected_fp16_positions": 399,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-start-2-00",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2629,
+      "budget_bytes": 21303328,
+      "planned_bytes": 21190196,
+      "selected_fp16_positions": 389,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-start-2-01",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2625,
+      "budget_bytes": 21188640,
+      "planned_bytes": 21075492,
+      "selected_fp16_positions": 385,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-start-2-02",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2615,
+      "budget_bytes": 22220832,
+      "planned_bytes": 20788732,
+      "selected_fp16_positions": 375,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-start-2-03",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2619,
+      "budget_bytes": 22335520,
+      "planned_bytes": 20903436,
+      "selected_fp16_positions": 379,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-start-2-04",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2624,
+      "budget_bytes": 21159968,
+      "planned_bytes": 21046816,
+      "selected_fp16_positions": 384,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-start-2-05",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2621,
+      "budget_bytes": 22392864,
+      "planned_bytes": 20960788,
+      "selected_fp16_positions": 381,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-start-2-06",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2623,
+      "budget_bytes": 22450208,
+      "planned_bytes": 21018140,
+      "selected_fp16_positions": 383,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-start-2-07",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2621,
+      "budget_bytes": 22392864,
+      "planned_bytes": 20960788,
+      "selected_fp16_positions": 381,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-start-2-08",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2624,
+      "budget_bytes": 21159968,
+      "planned_bytes": 21046816,
+      "selected_fp16_positions": 384,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-start-2-09",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2616,
+      "budget_bytes": 22249504,
+      "planned_bytes": 20817408,
+      "selected_fp16_positions": 376,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-start-8-00",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2597,
+      "budget_bytes": 21704736,
+      "planned_bytes": 20272564,
+      "selected_fp16_positions": 357,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-start-8-01",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2603,
+      "budget_bytes": 21876768,
+      "planned_bytes": 20444620,
+      "selected_fp16_positions": 363,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-start-8-02",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2599,
+      "budget_bytes": 21762080,
+      "planned_bytes": 20329916,
+      "selected_fp16_positions": 359,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-start-8-03",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2607,
+      "budget_bytes": 21991456,
+      "planned_bytes": 20559324,
+      "selected_fp16_positions": 367,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-start-8-04",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2598,
+      "budget_bytes": 21733408,
+      "planned_bytes": 20301240,
+      "selected_fp16_positions": 358,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-start-8-05",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2598,
+      "budget_bytes": 21733408,
+      "planned_bytes": 20301240,
+      "selected_fp16_positions": 358,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-start-8-06",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2603,
+      "budget_bytes": 21876768,
+      "planned_bytes": 20444620,
+      "selected_fp16_positions": 363,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-start-8-07",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2601,
+      "budget_bytes": 21819424,
+      "planned_bytes": 20387268,
+      "selected_fp16_positions": 361,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-start-8-08",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2601,
+      "budget_bytes": 21819424,
+      "planned_bytes": 20387268,
+      "selected_fp16_positions": 361,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-start-8-09",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2604,
+      "budget_bytes": 21905440,
+      "planned_bytes": 20473296,
+      "selected_fp16_positions": 364,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-middle-0-00",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2632,
+      "budget_bytes": 21389344,
+      "planned_bytes": 21276224,
+      "selected_fp16_positions": 392,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-middle-0-01",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2623,
+      "budget_bytes": 22450208,
+      "planned_bytes": 21018140,
+      "selected_fp16_positions": 383,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-middle-0-02",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2629,
+      "budget_bytes": 21303328,
+      "planned_bytes": 21190196,
+      "selected_fp16_positions": 389,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-middle-0-03",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2631,
+      "budget_bytes": 21360672,
+      "planned_bytes": 21247548,
+      "selected_fp16_positions": 391,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-middle-0-04",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2635,
+      "budget_bytes": 21475360,
+      "planned_bytes": 21362252,
+      "selected_fp16_positions": 395,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-middle-0-05",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2629,
+      "budget_bytes": 21303328,
+      "planned_bytes": 21190196,
+      "selected_fp16_positions": 389,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-middle-0-06",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2634,
+      "budget_bytes": 21446688,
+      "planned_bytes": 21333576,
+      "selected_fp16_positions": 394,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-middle-0-07",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2633,
+      "budget_bytes": 21418016,
+      "planned_bytes": 21304900,
+      "selected_fp16_positions": 393,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-middle-0-08",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2624,
+      "budget_bytes": 21159968,
+      "planned_bytes": 21046816,
+      "selected_fp16_positions": 384,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-middle-0-09",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2627,
+      "budget_bytes": 21245984,
+      "planned_bytes": 21132844,
+      "selected_fp16_positions": 387,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-middle-2-00",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2625,
+      "budget_bytes": 21188640,
+      "planned_bytes": 21075492,
+      "selected_fp16_positions": 385,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-middle-2-01",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2622,
+      "budget_bytes": 22421536,
+      "planned_bytes": 20989464,
+      "selected_fp16_positions": 382,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-middle-2-02",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2614,
+      "budget_bytes": 22192160,
+      "planned_bytes": 20760056,
+      "selected_fp16_positions": 374,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-middle-2-03",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2619,
+      "budget_bytes": 22335520,
+      "planned_bytes": 20903436,
+      "selected_fp16_positions": 379,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-middle-2-04",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2623,
+      "budget_bytes": 22450208,
+      "planned_bytes": 21018140,
+      "selected_fp16_positions": 383,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-middle-2-05",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2618,
+      "budget_bytes": 22306848,
+      "planned_bytes": 20874760,
+      "selected_fp16_positions": 378,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-middle-2-06",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2624,
+      "budget_bytes": 21159968,
+      "planned_bytes": 21046816,
+      "selected_fp16_positions": 384,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-middle-2-07",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2621,
+      "budget_bytes": 22392864,
+      "planned_bytes": 20960788,
+      "selected_fp16_positions": 381,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-middle-2-08",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2623,
+      "budget_bytes": 22450208,
+      "planned_bytes": 21018140,
+      "selected_fp16_positions": 383,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-middle-2-09",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2626,
+      "budget_bytes": 21217312,
+      "planned_bytes": 21104168,
+      "selected_fp16_positions": 386,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-middle-8-00",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2603,
+      "budget_bytes": 21876768,
+      "planned_bytes": 20444620,
+      "selected_fp16_positions": 363,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-middle-8-01",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2604,
+      "budget_bytes": 21905440,
+      "planned_bytes": 20473296,
+      "selected_fp16_positions": 364,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-middle-8-02",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2600,
+      "budget_bytes": 21790752,
+      "planned_bytes": 20358592,
+      "selected_fp16_positions": 360,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-middle-8-03",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2604,
+      "budget_bytes": 21905440,
+      "planned_bytes": 20473296,
+      "selected_fp16_positions": 364,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-middle-8-04",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2595,
+      "budget_bytes": 21647392,
+      "planned_bytes": 20215212,
+      "selected_fp16_positions": 355,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-middle-8-05",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2603,
+      "budget_bytes": 21876768,
+      "planned_bytes": 20444620,
+      "selected_fp16_positions": 363,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-middle-8-06",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2602,
+      "budget_bytes": 21848096,
+      "planned_bytes": 20415944,
+      "selected_fp16_positions": 362,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-middle-8-07",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2610,
+      "budget_bytes": 22077472,
+      "planned_bytes": 20645352,
+      "selected_fp16_positions": 370,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-middle-8-08",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2600,
+      "budget_bytes": 21790752,
+      "planned_bytes": 20358592,
+      "selected_fp16_positions": 360,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-middle-8-09",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2601,
+      "budget_bytes": 21819424,
+      "planned_bytes": 20387268,
+      "selected_fp16_positions": 361,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-end-0-00",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2628,
+      "budget_bytes": 21274656,
+      "planned_bytes": 21161520,
+      "selected_fp16_positions": 388,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-end-0-01",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2624,
+      "budget_bytes": 21159968,
+      "planned_bytes": 21046816,
+      "selected_fp16_positions": 384,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-end-0-02",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2624,
+      "budget_bytes": 21159968,
+      "planned_bytes": 21046816,
+      "selected_fp16_positions": 384,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-end-0-03",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2631,
+      "budget_bytes": 21360672,
+      "planned_bytes": 21247548,
+      "selected_fp16_positions": 391,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-end-0-04",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2632,
+      "budget_bytes": 21389344,
+      "planned_bytes": 21276224,
+      "selected_fp16_positions": 392,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-end-0-05",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2626,
+      "budget_bytes": 21217312,
+      "planned_bytes": 21104168,
+      "selected_fp16_positions": 386,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-end-0-06",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2631,
+      "budget_bytes": 21360672,
+      "planned_bytes": 21247548,
+      "selected_fp16_positions": 391,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-end-0-07",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2634,
+      "budget_bytes": 21446688,
+      "planned_bytes": 21333576,
+      "selected_fp16_positions": 394,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-end-0-08",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2633,
+      "budget_bytes": 21418016,
+      "planned_bytes": 21304900,
+      "selected_fp16_positions": 393,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-end-0-09",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2631,
+      "budget_bytes": 21360672,
+      "planned_bytes": 21247548,
+      "selected_fp16_positions": 391,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-end-2-00",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2618,
+      "budget_bytes": 22306848,
+      "planned_bytes": 20874760,
+      "selected_fp16_positions": 378,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-end-2-01",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2625,
+      "budget_bytes": 21188640,
+      "planned_bytes": 21075492,
+      "selected_fp16_positions": 385,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-end-2-02",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2618,
+      "budget_bytes": 22306848,
+      "planned_bytes": 20874760,
+      "selected_fp16_positions": 378,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-end-2-03",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2616,
+      "budget_bytes": 22249504,
+      "planned_bytes": 20817408,
+      "selected_fp16_positions": 376,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-end-2-04",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2628,
+      "budget_bytes": 21274656,
+      "planned_bytes": 21161520,
+      "selected_fp16_positions": 388,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-end-2-05",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2623,
+      "budget_bytes": 22450208,
+      "planned_bytes": 21018140,
+      "selected_fp16_positions": 383,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-end-2-06",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2620,
+      "budget_bytes": 22364192,
+      "planned_bytes": 20932112,
+      "selected_fp16_positions": 380,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-end-2-07",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2620,
+      "budget_bytes": 22364192,
+      "planned_bytes": 20932112,
+      "selected_fp16_positions": 380,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-end-2-08",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2617,
+      "budget_bytes": 22278176,
+      "planned_bytes": 20846084,
+      "selected_fp16_positions": 377,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-end-2-09",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2617,
+      "budget_bytes": 22278176,
+      "planned_bytes": 20846084,
+      "selected_fp16_positions": 377,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-end-8-00",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2604,
+      "budget_bytes": 21905440,
+      "planned_bytes": 20473296,
+      "selected_fp16_positions": 364,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-end-8-01",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2604,
+      "budget_bytes": 21905440,
+      "planned_bytes": 20473296,
+      "selected_fp16_positions": 364,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-end-8-02",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2601,
+      "budget_bytes": 21819424,
+      "planned_bytes": 20387268,
+      "selected_fp16_positions": 361,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-end-8-03",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2597,
+      "budget_bytes": 21704736,
+      "planned_bytes": 20272564,
+      "selected_fp16_positions": 357,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-end-8-04",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2597,
+      "budget_bytes": 21704736,
+      "planned_bytes": 20272564,
+      "selected_fp16_positions": 357,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-end-8-05",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2604,
+      "budget_bytes": 21905440,
+      "planned_bytes": 20473296,
+      "selected_fp16_positions": 364,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-end-8-06",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2603,
+      "budget_bytes": 21876768,
+      "planned_bytes": 20444620,
+      "selected_fp16_positions": 363,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-end-8-07",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2610,
+      "budget_bytes": 22077472,
+      "planned_bytes": 20645352,
+      "selected_fp16_positions": 370,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-end-8-08",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2598,
+      "budget_bytes": 21733408,
+      "planned_bytes": 20301240,
+      "selected_fp16_positions": 358,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-2048-end-8-09",
+      "method": "hybrid",
+      "actual_prefix_tokens": 2605,
+      "budget_bytes": 21934112,
+      "planned_bytes": 20501972,
+      "selected_fp16_positions": 365,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-start-0-00",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5207,
+      "budget_bytes": 42463264,
+      "planned_bytes": 40917884,
+      "selected_fp16_positions": 727,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-start-0-01",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5217,
+      "budget_bytes": 42749984,
+      "planned_bytes": 41204644,
+      "selected_fp16_positions": 737,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-start-0-02",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5214,
+      "budget_bytes": 42663968,
+      "planned_bytes": 41118616,
+      "selected_fp16_positions": 734,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-start-0-03",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5212,
+      "budget_bytes": 42606624,
+      "planned_bytes": 41061264,
+      "selected_fp16_positions": 732,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-start-0-04",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5213,
+      "budget_bytes": 42635296,
+      "planned_bytes": 41089940,
+      "selected_fp16_positions": 733,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-start-0-05",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5221,
+      "budget_bytes": 42864672,
+      "planned_bytes": 41319348,
+      "selected_fp16_positions": 741,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-start-0-06",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5219,
+      "budget_bytes": 42807328,
+      "planned_bytes": 41261996,
+      "selected_fp16_positions": 739,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-start-0-07",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5216,
+      "budget_bytes": 42721312,
+      "planned_bytes": 41175968,
+      "selected_fp16_positions": 736,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-start-0-08",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5230,
+      "budget_bytes": 43122720,
+      "planned_bytes": 41577432,
+      "selected_fp16_positions": 750,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-start-0-09",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5209,
+      "budget_bytes": 42520608,
+      "planned_bytes": 40975236,
+      "selected_fp16_positions": 729,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-start-2-00",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5204,
+      "budget_bytes": 42377248,
+      "planned_bytes": 40831856,
+      "selected_fp16_positions": 724,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-start-2-01",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5209,
+      "budget_bytes": 42520608,
+      "planned_bytes": 40975236,
+      "selected_fp16_positions": 729,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-start-2-02",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5216,
+      "budget_bytes": 42721312,
+      "planned_bytes": 41175968,
+      "selected_fp16_positions": 736,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-start-2-03",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5208,
+      "budget_bytes": 42491936,
+      "planned_bytes": 40946560,
+      "selected_fp16_positions": 728,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-start-2-04",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5210,
+      "budget_bytes": 42549280,
+      "planned_bytes": 41003912,
+      "selected_fp16_positions": 730,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-start-2-05",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5209,
+      "budget_bytes": 42520608,
+      "planned_bytes": 40975236,
+      "selected_fp16_positions": 729,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-start-2-06",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5212,
+      "budget_bytes": 42606624,
+      "planned_bytes": 41061264,
+      "selected_fp16_positions": 732,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-start-2-07",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5211,
+      "budget_bytes": 42577952,
+      "planned_bytes": 41032588,
+      "selected_fp16_positions": 731,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-start-2-08",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5204,
+      "budget_bytes": 42377248,
+      "planned_bytes": 40831856,
+      "selected_fp16_positions": 724,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-start-2-09",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5220,
+      "budget_bytes": 42836000,
+      "planned_bytes": 41290672,
+      "selected_fp16_positions": 740,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-start-8-00",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5191,
+      "budget_bytes": 42004512,
+      "planned_bytes": 40459068,
+      "selected_fp16_positions": 711,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-start-8-01",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5194,
+      "budget_bytes": 42090528,
+      "planned_bytes": 40545096,
+      "selected_fp16_positions": 714,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-start-8-02",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5195,
+      "budget_bytes": 42119200,
+      "planned_bytes": 40573772,
+      "selected_fp16_positions": 715,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-start-8-03",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5189,
+      "budget_bytes": 41947168,
+      "planned_bytes": 40401716,
+      "selected_fp16_positions": 709,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-start-8-04",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5191,
+      "budget_bytes": 42004512,
+      "planned_bytes": 40459068,
+      "selected_fp16_positions": 711,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-start-8-05",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5187,
+      "budget_bytes": 41889824,
+      "planned_bytes": 40344364,
+      "selected_fp16_positions": 707,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-start-8-06",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5199,
+      "budget_bytes": 42233888,
+      "planned_bytes": 40688476,
+      "selected_fp16_positions": 719,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-start-8-07",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5192,
+      "budget_bytes": 42033184,
+      "planned_bytes": 40487744,
+      "selected_fp16_positions": 712,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-start-8-08",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5189,
+      "budget_bytes": 41947168,
+      "planned_bytes": 40401716,
+      "selected_fp16_positions": 709,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-start-8-09",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5193,
+      "budget_bytes": 42061856,
+      "planned_bytes": 40516420,
+      "selected_fp16_positions": 713,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-middle-0-00",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5202,
+      "budget_bytes": 42319904,
+      "planned_bytes": 40774504,
+      "selected_fp16_positions": 722,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-middle-0-01",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5215,
+      "budget_bytes": 42692640,
+      "planned_bytes": 41147292,
+      "selected_fp16_positions": 735,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-middle-0-02",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5216,
+      "budget_bytes": 42721312,
+      "planned_bytes": 41175968,
+      "selected_fp16_positions": 736,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-middle-0-03",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5233,
+      "budget_bytes": 43208736,
+      "planned_bytes": 41663460,
+      "selected_fp16_positions": 753,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-middle-0-04",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5223,
+      "budget_bytes": 42922016,
+      "planned_bytes": 41376700,
+      "selected_fp16_positions": 743,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-middle-0-05",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5210,
+      "budget_bytes": 42549280,
+      "planned_bytes": 41003912,
+      "selected_fp16_positions": 730,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-middle-0-06",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5223,
+      "budget_bytes": 42922016,
+      "planned_bytes": 41376700,
+      "selected_fp16_positions": 743,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-middle-0-07",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5220,
+      "budget_bytes": 42836000,
+      "planned_bytes": 41290672,
+      "selected_fp16_positions": 740,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-middle-0-08",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5214,
+      "budget_bytes": 42663968,
+      "planned_bytes": 41118616,
+      "selected_fp16_positions": 734,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-middle-0-09",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5221,
+      "budget_bytes": 42864672,
+      "planned_bytes": 41319348,
+      "selected_fp16_positions": 741,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-middle-2-00",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5224,
+      "budget_bytes": 42950688,
+      "planned_bytes": 41405376,
+      "selected_fp16_positions": 744,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-middle-2-01",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5210,
+      "budget_bytes": 42549280,
+      "planned_bytes": 41003912,
+      "selected_fp16_positions": 730,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-middle-2-02",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5207,
+      "budget_bytes": 42463264,
+      "planned_bytes": 40917884,
+      "selected_fp16_positions": 727,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-middle-2-03",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5214,
+      "budget_bytes": 42663968,
+      "planned_bytes": 41118616,
+      "selected_fp16_positions": 734,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-middle-2-04",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5208,
+      "budget_bytes": 42491936,
+      "planned_bytes": 40946560,
+      "selected_fp16_positions": 728,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-middle-2-05",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5207,
+      "budget_bytes": 42463264,
+      "planned_bytes": 40917884,
+      "selected_fp16_positions": 727,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-middle-2-06",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5210,
+      "budget_bytes": 42549280,
+      "planned_bytes": 41003912,
+      "selected_fp16_positions": 730,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-middle-2-07",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5214,
+      "budget_bytes": 42663968,
+      "planned_bytes": 41118616,
+      "selected_fp16_positions": 734,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-middle-2-08",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5206,
+      "budget_bytes": 42434592,
+      "planned_bytes": 40889208,
+      "selected_fp16_positions": 726,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-middle-2-09",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5210,
+      "budget_bytes": 42549280,
+      "planned_bytes": 41003912,
+      "selected_fp16_positions": 730,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-middle-8-00",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5199,
+      "budget_bytes": 42233888,
+      "planned_bytes": 40688476,
+      "selected_fp16_positions": 719,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-middle-8-01",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5188,
+      "budget_bytes": 41918496,
+      "planned_bytes": 40373040,
+      "selected_fp16_positions": 708,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-middle-8-02",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5188,
+      "budget_bytes": 41918496,
+      "planned_bytes": 40373040,
+      "selected_fp16_positions": 708,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-middle-8-03",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5194,
+      "budget_bytes": 42090528,
+      "planned_bytes": 40545096,
+      "selected_fp16_positions": 714,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-middle-8-04",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5191,
+      "budget_bytes": 42004512,
+      "planned_bytes": 40459068,
+      "selected_fp16_positions": 711,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-middle-8-05",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5199,
+      "budget_bytes": 42233888,
+      "planned_bytes": 40688476,
+      "selected_fp16_positions": 719,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-middle-8-06",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5191,
+      "budget_bytes": 42004512,
+      "planned_bytes": 40459068,
+      "selected_fp16_positions": 711,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-middle-8-07",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5187,
+      "budget_bytes": 41889824,
+      "planned_bytes": 40344364,
+      "selected_fp16_positions": 707,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-middle-8-08",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5208,
+      "budget_bytes": 42491936,
+      "planned_bytes": 40946560,
+      "selected_fp16_positions": 728,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-middle-8-09",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5185,
+      "budget_bytes": 41832480,
+      "planned_bytes": 40287012,
+      "selected_fp16_positions": 705,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-end-0-00",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5223,
+      "budget_bytes": 42922016,
+      "planned_bytes": 41376700,
+      "selected_fp16_positions": 743,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-end-0-01",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5211,
+      "budget_bytes": 42577952,
+      "planned_bytes": 41032588,
+      "selected_fp16_positions": 731,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-end-0-02",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5213,
+      "budget_bytes": 42635296,
+      "planned_bytes": 41089940,
+      "selected_fp16_positions": 733,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-end-0-03",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5221,
+      "budget_bytes": 42864672,
+      "planned_bytes": 41319348,
+      "selected_fp16_positions": 741,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-end-0-04",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5216,
+      "budget_bytes": 42721312,
+      "planned_bytes": 41175968,
+      "selected_fp16_positions": 736,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-end-0-05",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5224,
+      "budget_bytes": 42950688,
+      "planned_bytes": 41405376,
+      "selected_fp16_positions": 744,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-end-0-06",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5209,
+      "budget_bytes": 42520608,
+      "planned_bytes": 40975236,
+      "selected_fp16_positions": 729,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-end-0-07",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5220,
+      "budget_bytes": 42836000,
+      "planned_bytes": 41290672,
+      "selected_fp16_positions": 740,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-end-0-08",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5211,
+      "budget_bytes": 42577952,
+      "planned_bytes": 41032588,
+      "selected_fp16_positions": 731,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-end-0-09",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5214,
+      "budget_bytes": 42663968,
+      "planned_bytes": 41118616,
+      "selected_fp16_positions": 734,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-end-2-00",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5207,
+      "budget_bytes": 42463264,
+      "planned_bytes": 40917884,
+      "selected_fp16_positions": 727,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-end-2-01",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5207,
+      "budget_bytes": 42463264,
+      "planned_bytes": 40917884,
+      "selected_fp16_positions": 727,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-end-2-02",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5209,
+      "budget_bytes": 42520608,
+      "planned_bytes": 40975236,
+      "selected_fp16_positions": 729,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-end-2-03",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5206,
+      "budget_bytes": 42434592,
+      "planned_bytes": 40889208,
+      "selected_fp16_positions": 726,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-end-2-04",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5215,
+      "budget_bytes": 42692640,
+      "planned_bytes": 41147292,
+      "selected_fp16_positions": 735,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-end-2-05",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5216,
+      "budget_bytes": 42721312,
+      "planned_bytes": 41175968,
+      "selected_fp16_positions": 736,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-end-2-06",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5228,
+      "budget_bytes": 43065376,
+      "planned_bytes": 41520080,
+      "selected_fp16_positions": 748,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-end-2-07",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5213,
+      "budget_bytes": 42635296,
+      "planned_bytes": 41089940,
+      "selected_fp16_positions": 733,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-end-2-08",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5209,
+      "budget_bytes": 42520608,
+      "planned_bytes": 40975236,
+      "selected_fp16_positions": 729,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-end-2-09",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5206,
+      "budget_bytes": 42434592,
+      "planned_bytes": 40889208,
+      "selected_fp16_positions": 726,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-end-8-00",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5191,
+      "budget_bytes": 42004512,
+      "planned_bytes": 40459068,
+      "selected_fp16_positions": 711,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-end-8-01",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5198,
+      "budget_bytes": 42205216,
+      "planned_bytes": 40659800,
+      "selected_fp16_positions": 718,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-end-8-02",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5183,
+      "budget_bytes": 43094048,
+      "planned_bytes": 41778204,
+      "selected_fp16_positions": 767,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-end-8-03",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5196,
+      "budget_bytes": 42147872,
+      "planned_bytes": 40602448,
+      "selected_fp16_positions": 716,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-end-8-04",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5189,
+      "budget_bytes": 41947168,
+      "planned_bytes": 40401716,
+      "selected_fp16_positions": 709,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-end-8-05",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5203,
+      "budget_bytes": 42348576,
+      "planned_bytes": 40803180,
+      "selected_fp16_positions": 723,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-end-8-06",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5200,
+      "budget_bytes": 42262560,
+      "planned_bytes": 40717152,
+      "selected_fp16_positions": 720,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-end-8-07",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5200,
+      "budget_bytes": 42262560,
+      "planned_bytes": 40717152,
+      "selected_fp16_positions": 720,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-end-8-08",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5191,
+      "budget_bytes": 42004512,
+      "planned_bytes": 40459068,
+      "selected_fp16_positions": 711,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    },
+    {
+      "id": "KV-4096-end-8-09",
+      "method": "hybrid",
+      "actual_prefix_tokens": 5190,
+      "budget_bytes": 41975840,
+      "planned_bytes": 40430392,
+      "selected_fp16_positions": 710,
+      "validation_scores": "synthetic monotone scores for allocation validation only; actual question scores used in C5"
+    }
+  ],
+  "quality_evaluation": "all six conditions run together in C5 to reuse a shared original prefill"
+}

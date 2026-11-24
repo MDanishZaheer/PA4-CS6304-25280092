@@ -1,0 +1,43 @@
+{
+  "prompt_id": "SHORT-shifted-0003",
+  "prompt_sha256": "c69ff932b3981afc6b0e11c3299d82fb182fde9da8d944b0d4f510e3565556bc",
+  "workload": "shifted",
+  "bank": "teacher",
+  "producer": "teacher",
+  "producer_checkpoint": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "response_token_ids": [
+    11109,
+    151645
+  ],
+  "selected_positions": [
+    1,
+    2
+  ],
+  "prefix_ids": [
+    "teacher:SHORT-shifted-0003:p001",
+    "teacher:SHORT-shifted-0003:p002"
+  ],
+  "generation": {
+    "token_ids": [
+      11109,
+      151645
+    ],
+    "new_tokens": 2,
+    "eos": true,
+    "truncated": false,
+    "ignore_eos": false,
+    "generation_seed": 936955,
+    "prefill_seconds": 0.037517215000207216,
+    "decode_seconds": 0.03460774399991351,
+    "elapsed_seconds": 0.07214441599990096,
+    "target_prefill_passes": 1,
+    "target_decode_passes": 1,
+    "target_passes": 2,
+    "draft_forward_passes": 0,
+    "rounds": [],
+    "peak_allocated_bytes": 3110815744,
+    "peak_reserved_bytes": 4626317312
+  },
+  "law": "target",
+  "materialization": "generated here because the supplied data-only checkout contains no materialized prefix bank"
+}

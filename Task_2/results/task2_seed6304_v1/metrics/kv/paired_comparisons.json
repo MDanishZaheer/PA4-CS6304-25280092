@@ -1,0 +1,101 @@
+[
+  {
+    "method": "sink_recent",
+    "reference": "fp16",
+    "difference": -0.6666666666666666,
+    "ci_low": -0.7333333333333333,
+    "ci_high": -0.6,
+    "paired_prompts": 180,
+    "resamples": 2000,
+    "unit": "fraction; multiply by 100 for percentage points",
+    "failed_runs_counted_as_incorrect": true
+  },
+  {
+    "method": "question_aware",
+    "reference": "fp16",
+    "difference": 0.0,
+    "ci_low": 0.0,
+    "ci_high": 0.0,
+    "paired_prompts": 180,
+    "resamples": 2000,
+    "unit": "fraction; multiply by 100 for percentage points",
+    "failed_runs_counted_as_incorrect": true
+  },
+  {
+    "method": "int4_token",
+    "reference": "fp16",
+    "difference": -1.0,
+    "ci_low": -1.0,
+    "ci_high": -1.0,
+    "paired_prompts": 180,
+    "resamples": 2000,
+    "unit": "fraction; multiply by 100 for percentage points",
+    "failed_runs_counted_as_incorrect": true
+  },
+  {
+    "method": "int4_channel",
+    "reference": "fp16",
+    "difference": 0.0,
+    "ci_low": 0.0,
+    "ci_high": 0.0,
+    "paired_prompts": 180,
+    "resamples": 2000,
+    "unit": "fraction; multiply by 100 for percentage points",
+    "failed_runs_counted_as_incorrect": true
+  },
+  {
+    "method": "hybrid",
+    "reference": "fp16",
+    "difference": -0.022222222222222223,
+    "ci_low": -0.044444444444444446,
+    "ci_high": -0.005555555555555556,
+    "paired_prompts": 180,
+    "resamples": 2000,
+    "unit": "fraction; multiply by 100 for percentage points",
+    "failed_runs_counted_as_incorrect": true
+  },
+  {
+    "method": "question_aware",
+    "reference": "sink_recent",
+    "difference": 0.6666666666666666,
+    "ci_low": 0.6,
+    "ci_high": 0.7333333333333333,
+    "paired_prompts": 180,
+    "resamples": 2000,
+    "unit": "fraction; multiply by 100 for percentage points",
+    "failed_runs_counted_as_incorrect": true
+  },
+  {
+    "method": "int4_channel",
+    "reference": "int4_token",
+    "difference": 1.0,
+    "ci_low": 1.0,
+    "ci_high": 1.0,
+    "paired_prompts": 180,
+    "resamples": 2000,
+    "unit": "fraction; multiply by 100 for percentage points",
+    "failed_runs_counted_as_incorrect": true
+  },
+  {
+    "method": "hybrid",
+    "reference": "question_aware",
+    "difference": -0.022222222222222223,
+    "ci_low": -0.044444444444444446,
+    "ci_high": -0.005555555555555556,
+    "paired_prompts": 180,
+    "resamples": 2000,
+    "unit": "fraction; multiply by 100 for percentage points",
+    "failed_runs_counted_as_incorrect": true
+  },
+  {
+    "method": "hybrid",
+    "reference": "int4_channel",
+    "difference": -0.022222222222222223,
+    "ci_low": -0.044444444444444446,
+    "ci_high": -0.005555555555555556,
+    "paired_prompts": 180,
+    "resamples": 2000,
+    "unit": "fraction; multiply by 100 for percentage points",
+    "failed_runs_counted_as_incorrect": true
+  }
+]

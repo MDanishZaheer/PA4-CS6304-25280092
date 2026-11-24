@@ -1,0 +1,101 @@
+{
+  "status": "passed",
+  "audited_at_utc": "2026-11-24T08:01:42.304180+00:00",
+  "gpu_work_performed": false,
+  "training": [
+    {
+      "draft": "off_policy_seed6304",
+      "updates": 157,
+      "annotations": 1008,
+      "presentations": 856,
+      "prompt_schedule_seed_and_response_reuse_verified": true,
+      "quota": {
+        "math": 30000,
+        "short": 10000
+      },
+      "overflow_attempts": 0,
+      "reported_peak_allocated_bytes": 5282826752,
+      "reported_peak_reserved_bytes": 5523898368,
+      "training_memory_scope": "entire uninterrupted training session"
+    },
+    {
+      "draft": "on_policy_seed6304",
+      "updates": 157,
+      "annotations": 965,
+      "presentations": 811,
+      "prompt_schedule_seed_and_response_reuse_verified": true,
+      "quota": {
+        "math": 30000,
+        "short": 10000
+      },
+      "overflow_attempts": 1,
+      "reported_peak_allocated_bytes": 4343878656,
+      "reported_peak_reserved_bytes": 5549064192,
+      "training_memory_scope": "observed allocator peak since last rollout reset; not certified as the whole-run maximum"
+    },
+    {
+      "draft": "off_policy_seed6305",
+      "updates": 157,
+      "annotations": 1009,
+      "presentations": 859,
+      "prompt_schedule_seed_and_response_reuse_verified": true,
+      "quota": {
+        "math": 30000,
+        "short": 10000
+      },
+      "overflow_attempts": 1,
+      "reported_peak_allocated_bytes": 5285545984,
+      "reported_peak_reserved_bytes": 5523898368,
+      "training_memory_scope": "entire uninterrupted training session"
+    },
+    {
+      "draft": "on_policy_seed6305",
+      "updates": 157,
+      "annotations": 985,
+      "presentations": 831,
+      "prompt_schedule_seed_and_response_reuse_verified": true,
+      "quota": {
+        "math": 30000,
+        "short": 10000
+      },
+      "overflow_attempts": 1,
+      "reported_peak_allocated_bytes": 4343878656,
+      "reported_peak_reserved_bytes": 4626317312,
+      "training_memory_scope": "observed allocator peak since last rollout reset; not certified as the whole-run maximum"
+    }
+  ],
+  "unique_bank_prefixes": 22786,
+  "alignment_prefix_draft_rows": 113930,
+  "prefix_bank_sha256_matches": true,
+  "timing": {
+    "baseline": {
+      "pairs": 480,
+      "order_balance": {
+        "speculative_first": 240,
+        "target_first": 240
+      }
+    },
+    "primary": {
+      "pairs": 2400,
+      "order_balance": {
+        "target_first": 1200,
+        "speculative_first": 1200
+      }
+    },
+    "fixed64": {
+      "pairs": 480,
+      "order_balance": {
+        "target_first": 240,
+        "speculative_first": 240
+      }
+    }
+  },
+  "matched_target_control_outputs_identical": true,
+  "isolated_system_conditions": 18,
+  "warm_setup_conditions": 22,
+  "limitations": [
+    "The on-policy seed 6305 stage ledger omits time before its resumed session; full histories retain component costs. Accounted upfront time is a disclosed lower bound.",
+    "On-policy rollout generation resets CUDA peak statistics. Saved training allocator peaks describe the final reset interval; benchmark per-request peaks remain valid.",
+    "Task 3 was measured on NVIDIA L4; Tasks 1 and 2 were measured on A100. No cross-task hardware speed comparison is claimed."
+  ]
+}

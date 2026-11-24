@@ -1,0 +1,104 @@
+{
+  "draft": "original",
+  "context_length": 256,
+  "status": "complete",
+  "unmerged_wrapper": false,
+  "target_single_step": {
+    "samples_ms": [
+      34.78432199995041,
+      34.782092000000375,
+      36.71958799998265,
+      37.43415799999639,
+      35.507112999994206,
+      35.42414000003191,
+      35.642894000034175,
+      35.6028820000347,
+      35.15992199993434,
+      34.89975799993772
+    ],
+    "median_ms": 35.46562650001306,
+    "warmup": 3,
+    "repetitions": 10,
+    "peak_allocated_bytes": 4124993536,
+    "peak_reserved_bytes": 4374659072,
+    "scope": "model forward including dynamic cache append; untimed cache clone and resident model/reference cache excluded from latency"
+  },
+  "draft_single_step": {
+    "samples_ms": [
+      29.690604999927928,
+      29.74582100000589,
+      30.042856000022766,
+      29.848731000015505,
+      29.775196000059623,
+      29.658031999929335,
+      30.667240000070706,
+      31.911284999978307,
+      31.849210000018502,
+      31.066876999943815
+    ],
+    "median_ms": 29.945793500019136,
+    "warmup": 3,
+    "repetitions": 10,
+    "peak_allocated_bytes": 4120794112,
+    "peak_reserved_bytes": 4374659072,
+    "scope": "model forward including dynamic cache append; untimed cache clone and resident model/reference cache excluded from latency"
+  },
+  "c": 0.8443610463220806,
+  "verification": {
+    "2": {
+      "samples_ms": [
+        43.504515999984505,
+        45.40552599996772,
+        43.41536399999768,
+        42.7171390000467,
+        41.96999100008725,
+        42.61715700010882,
+        42.54238199996507,
+        42.43419800002357,
+        42.181415000072775,
+        42.32150499990439
+      ],
+      "median_ms": 42.579769500036946,
+      "warmup": 3,
+      "repetitions": 10,
+      "peak_allocated_bytes": 4128423936,
+      "peak_reserved_bytes": 4374659072,
+      "scope": "model forward including dynamic cache append; untimed cache clone and resident model/reference cache excluded from latency",
+      "input_tokens": 3,
+      "v_gamma": 1.2005926217043217
+    },
+    "4": {
+      "samples_ms": [
+        41.67192900001737,
+        41.84243999998216,
+        42.44837299995652,
+        42.833643999983906,
+        42.96448499997041,
+        42.160951000028035,
+        41.95411800003512,
+        41.71285799998259,
+        42.832144999920274,
+        42.02102900001137
+      ],
+      "median_ms": 42.0909900000197,
+      "warmup": 3,
+      "repetitions": 10,
+      "peak_allocated_bytes": 4132806144,
+      "peak_reserved_bytes": 4376756224,
+      "scope": "model forward including dynamic cache append; untimed cache clone and resident model/reference cache excluded from latency",
+      "input_tokens": 5,
+      "v_gamma": 1.1868108406319624
+    }
+  },
+  "target_operators": [
+    "aten::_flash_attention_forward",
+    "aten::_scaled_dot_product_flash_attention",
+    "aten::scaled_dot_product_attention"
+  ],
+  "draft_operators": [
+    "aten::_flash_attention_forward",
+    "aten::_scaled_dot_product_flash_attention",
+    "aten::scaled_dot_product_attention"
+  ],
+  "verification_shape": "gamma proposals plus one pending returned token; first round has no pending token"
+}

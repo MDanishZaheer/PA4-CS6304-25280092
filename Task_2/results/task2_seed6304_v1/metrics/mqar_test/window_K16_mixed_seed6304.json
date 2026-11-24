@@ -1,0 +1,320 @@
+{
+  "id": "window_K16_mixed_seed6304",
+  "method": "window",
+  "train_K": 16,
+  "train_regime": "mixed",
+  "seed": 6304,
+  "training_id": "window_K16_mixed_seed6304",
+  "test_method": "window",
+  "test_only_mask": false,
+  "status": "complete",
+  "examples": 9216,
+  "cells": [
+    {
+      "test_K": 4,
+      "regime": "near",
+      "examples": 1024,
+      "queries": 4096,
+      "correct": 956,
+      "accuracy": 0.2333984375,
+      "mean_query_nll": 3.1906772620568518,
+      "chance_label_space": 0.015625,
+      "chance_present_values": 0.25,
+      "distance_bins": {
+        "0_32": {
+          "correct": 421,
+          "queries": 1818,
+          "accuracy": 0.23157315731573158
+        },
+        "32_64": {
+          "correct": 535,
+          "queries": 2278,
+          "accuracy": 0.23485513608428446
+        },
+        "64_128": {
+          "correct": 0,
+          "queries": 0,
+          "accuracy": null
+        },
+        "128_256": {
+          "correct": 0,
+          "queries": 0,
+          "accuracy": null
+        }
+      },
+      "denominator": "all supervised query positions; no next-token shift"
+    },
+    {
+      "test_K": 4,
+      "regime": "far",
+      "examples": 1024,
+      "queries": 4096,
+      "correct": 48,
+      "accuracy": 0.01171875,
+      "mean_query_nll": 4.174425760516897,
+      "chance_label_space": 0.015625,
+      "chance_present_values": 0.25,
+      "distance_bins": {
+        "0_32": {
+          "correct": 0,
+          "queries": 0,
+          "accuracy": null
+        },
+        "32_64": {
+          "correct": 0,
+          "queries": 0,
+          "accuracy": null
+        },
+        "64_128": {
+          "correct": 0,
+          "queries": 0,
+          "accuracy": null
+        },
+        "128_256": {
+          "correct": 48,
+          "queries": 4096,
+          "accuracy": 0.01171875
+        }
+      },
+      "denominator": "all supervised query positions; no next-token shift"
+    },
+    {
+      "test_K": 4,
+      "regime": "mixed",
+      "examples": 1024,
+      "queries": 4096,
+      "correct": 502,
+      "accuracy": 0.12255859375,
+      "mean_query_nll": 3.703893424535636,
+      "chance_label_space": 0.015625,
+      "chance_present_values": 0.25,
+      "distance_bins": {
+        "0_32": {
+          "correct": 96,
+          "queries": 453,
+          "accuracy": 0.2119205298013245
+        },
+        "32_64": {
+          "correct": 133,
+          "queries": 538,
+          "accuracy": 0.24721189591078066
+        },
+        "64_128": {
+          "correct": 244,
+          "queries": 1047,
+          "accuracy": 0.23304680038204392
+        },
+        "128_256": {
+          "correct": 29,
+          "queries": 2058,
+          "accuracy": 0.014091350826044704
+        }
+      },
+      "denominator": "all supervised query positions; no next-token shift"
+    },
+    {
+      "test_K": 8,
+      "regime": "near",
+      "examples": 1024,
+      "queries": 8192,
+      "correct": 1097,
+      "accuracy": 0.1339111328125,
+      "mean_query_nll": 3.368989898968721,
+      "chance_label_space": 0.015625,
+      "chance_present_values": 0.125,
+      "distance_bins": {
+        "0_32": {
+          "correct": 410,
+          "queries": 3304,
+          "accuracy": 0.12409200968523003
+        },
+        "32_64": {
+          "correct": 687,
+          "queries": 4888,
+          "accuracy": 0.14054828150572832
+        },
+        "64_128": {
+          "correct": 0,
+          "queries": 0,
+          "accuracy": null
+        },
+        "128_256": {
+          "correct": 0,
+          "queries": 0,
+          "accuracy": null
+        }
+      },
+      "denominator": "all supervised query positions; no next-token shift"
+    },
+    {
+      "test_K": 8,
+      "regime": "far",
+      "examples": 1024,
+      "queries": 8192,
+      "correct": 117,
+      "accuracy": 0.0142822265625,
+      "mean_query_nll": 4.174280587874819,
+      "chance_label_space": 0.015625,
+      "chance_present_values": 0.125,
+      "distance_bins": {
+        "0_32": {
+          "correct": 0,
+          "queries": 0,
+          "accuracy": null
+        },
+        "32_64": {
+          "correct": 0,
+          "queries": 0,
+          "accuracy": null
+        },
+        "64_128": {
+          "correct": 0,
+          "queries": 0,
+          "accuracy": null
+        },
+        "128_256": {
+          "correct": 117,
+          "queries": 8192,
+          "accuracy": 0.0142822265625
+        }
+      },
+      "denominator": "all supervised query positions; no next-token shift"
+    },
+    {
+      "test_K": 8,
+      "regime": "mixed",
+      "examples": 1024,
+      "queries": 8192,
+      "correct": 599,
+      "accuracy": 0.0731201171875,
+      "mean_query_nll": 3.77766810983303,
+      "chance_label_space": 0.015625,
+      "chance_present_values": 0.125,
+      "distance_bins": {
+        "0_32": {
+          "correct": 100,
+          "queries": 758,
+          "accuracy": 0.13192612137203166
+        },
+        "32_64": {
+          "correct": 140,
+          "queries": 1089,
+          "accuracy": 0.1285583103764922
+        },
+        "64_128": {
+          "correct": 304,
+          "queries": 2243,
+          "accuracy": 0.1355327686134641
+        },
+        "128_256": {
+          "correct": 55,
+          "queries": 4102,
+          "accuracy": 0.01340809361287177
+        }
+      },
+      "denominator": "all supervised query positions; no next-token shift"
+    },
+    {
+      "test_K": 16,
+      "regime": "near",
+      "examples": 1024,
+      "queries": 16384,
+      "correct": 1187,
+      "accuracy": 0.07244873046875,
+      "mean_query_nll": 3.61399373698805,
+      "chance_label_space": 0.015625,
+      "chance_present_values": 0.0625,
+      "distance_bins": {
+        "0_32": {
+          "correct": 214,
+          "queries": 4327,
+          "accuracy": 0.049456898544025886
+        },
+        "32_64": {
+          "correct": 973,
+          "queries": 12057,
+          "accuracy": 0.08070000829393713
+        },
+        "64_128": {
+          "correct": 0,
+          "queries": 0,
+          "accuracy": null
+        },
+        "128_256": {
+          "correct": 0,
+          "queries": 0,
+          "accuracy": null
+        }
+      },
+      "denominator": "all supervised query positions; no next-token shift"
+    },
+    {
+      "test_K": 16,
+      "regime": "far",
+      "examples": 1024,
+      "queries": 16384,
+      "correct": 264,
+      "accuracy": 0.01611328125,
+      "mean_query_nll": 4.18153360762517,
+      "chance_label_space": 0.015625,
+      "chance_present_values": 0.0625,
+      "distance_bins": {
+        "0_32": {
+          "correct": 0,
+          "queries": 0,
+          "accuracy": null
+        },
+        "32_64": {
+          "correct": 0,
+          "queries": 0,
+          "accuracy": null
+        },
+        "64_128": {
+          "correct": 0,
+          "queries": 0,
+          "accuracy": null
+        },
+        "128_256": {
+          "correct": 264,
+          "queries": 16384,
+          "accuracy": 0.01611328125
+        }
+      },
+      "denominator": "all supervised query positions; no next-token shift"
+    },
+    {
+      "test_K": 16,
+      "regime": "mixed",
+      "examples": 1024,
+      "queries": 16384,
+      "correct": 715,
+      "accuracy": 0.04364013671875,
+      "mean_query_nll": 3.9132766707916744,
+      "chance_label_space": 0.015625,
+      "chance_present_values": 0.0625,
+      "distance_bins": {
+        "0_32": {
+          "correct": 66,
+          "queries": 1055,
+          "accuracy": 0.06255924170616113
+        },
+        "32_64": {
+          "correct": 195,
+          "queries": 2352,
+          "accuracy": 0.08290816326530612
+        },
+        "64_128": {
+          "correct": 327,
+          "queries": 4743,
+          "accuracy": 0.068943706514864
+        },
+        "128_256": {
+          "correct": 127,
+          "queries": 8234,
+          "accuracy": 0.01542385231965023
+        }
+      },
+      "denominator": "all supervised query positions; no next-token shift"
+    }
+  ]
+}

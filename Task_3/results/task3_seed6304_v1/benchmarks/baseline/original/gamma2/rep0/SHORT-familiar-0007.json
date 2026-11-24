@@ -1,0 +1,673 @@
+{
+  "prompt_id": "SHORT-familiar-0007",
+  "prompt_sha256": "fdfa91bfd38ee1571372c343ecf025f877a4b9a9af9859d992e4bb2e07af0942",
+  "prompt_tokens": 53,
+  "workload": "familiar",
+  "draft": "original",
+  "gamma": 2,
+  "repetition": 0,
+  "suite": "baseline",
+  "model_order_index": 0,
+  "prompt_order_index": 67,
+  "target_first": true,
+  "adjacent_target_reference": true,
+  "fixed_length_ignore_eos": false,
+  "target": {
+    "token_ids": [
+      16,
+      21,
+      24,
+      16,
+      151645
+    ],
+    "new_tokens": 5,
+    "eos": true,
+    "truncated": false,
+    "ignore_eos": false,
+    "generation_seed": 676773,
+    "prefill_seconds": 0.040990185999817186,
+    "decode_seconds": 0.14375713799995538,
+    "elapsed_seconds": 0.18476543799988576,
+    "target_prefill_passes": 1,
+    "target_decode_passes": 4,
+    "target_passes": 5,
+    "draft_forward_passes": 0,
+    "rounds": [],
+    "peak_allocated_bytes": 4109902336,
+    "peak_reserved_bytes": 4420796416
+  },
+  "speculative": {
+    "token_ids": [
+      785,
+      1372,
+      315,
+      81720,
+      14733,
+      374,
+      220,
+      16,
+      21,
+      24,
+      16,
+      13,
+      8704,
+      419,
+      1372,
+      374,
+      2669,
+      13302,
+      438,
+      458,
+      7546,
+      11,
+      1052,
+      594,
+      902,
+      1184,
+      311,
+      5508,
+      432,
+      4623,
+      11,
+      438,
+      432,
+      374,
+      2669,
+      304,
+      279,
+      1352,
+      315,
+      264,
+      4361,
+      1372,
+      13,
+      151645
+    ],
+    "new_tokens": 44,
+    "eos": true,
+    "truncated": false,
+    "ignore_eos": false,
+    "generation_seed": 676773,
+    "gamma": 2,
+    "rounds": [
+      {
+        "round": 0,
+        "output_offset": 0,
+        "proposed_tokens": [
+          1249,
+          8253
+        ],
+        "emitted_tokens": [
+          785
+        ],
+        "proposed": 2,
+        "examined": 1,
+        "accepted": 0,
+        "accepted_prefix_length": 0,
+        "bonus": false,
+        "rejected": true,
+        "target_verification_passes": 1,
+        "target_verification_input_tokens": 2,
+        "draft_forward_passes": 2,
+        "proposal_seconds": 0.058923081000102684,
+        "verification_seconds": 0.041138388000035775,
+        "sampling_seconds": 0.0009946380000656063,
+        "maintenance_seconds": 0.0006190789999891422,
+        "cache_length": 53,
+        "pending_token": 785
+      },
+      {
+        "round": 1,
+        "output_offset": 1,
+        "proposed_tokens": [
+          3897,
+          1995
+        ],
+        "emitted_tokens": [
+          1372
+        ],
+        "proposed": 2,
+        "examined": 1,
+        "accepted": 0,
+        "accepted_prefix_length": 0,
+        "bonus": false,
+        "rejected": true,
+        "target_verification_passes": 1,
+        "target_verification_input_tokens": 3,
+        "draft_forward_passes": 3,
+        "proposal_seconds": 0.08779480600014722,
+        "verification_seconds": 0.04029053700014629,
+        "sampling_seconds": 0.0010236470000108966,
+        "maintenance_seconds": 0.0006516200000987737,
+        "cache_length": 54,
+        "pending_token": 1372
+      },
+      {
+        "round": 2,
+        "output_offset": 2,
+        "proposed_tokens": [
+          315,
+          81720
+        ],
+        "emitted_tokens": [
+          315,
+          81720,
+          14733
+        ],
+        "proposed": 2,
+        "examined": 2,
+        "accepted": 2,
+        "accepted_prefix_length": 2,
+        "bonus": true,
+        "rejected": false,
+        "target_verification_passes": 1,
+        "target_verification_input_tokens": 3,
+        "draft_forward_passes": 3,
+        "proposal_seconds": 0.08824441499996283,
+        "verification_seconds": 0.041251934999991136,
+        "sampling_seconds": 0.0012494650000007823,
+        "maintenance_seconds": 9.68130000273959e-05,
+        "cache_length": 57,
+        "pending_token": 14733
+      },
+      {
+        "round": 3,
+        "output_offset": 5,
+        "proposed_tokens": [
+          374,
+          220
+        ],
+        "emitted_tokens": [
+          374,
+          220,
+          16
+        ],
+        "proposed": 2,
+        "examined": 2,
+        "accepted": 2,
+        "accepted_prefix_length": 2,
+        "bonus": true,
+        "rejected": false,
+        "target_verification_passes": 1,
+        "target_verification_input_tokens": 3,
+        "draft_forward_passes": 3,
+        "proposal_seconds": 0.08776131999979953,
+        "verification_seconds": 0.04127523800002564,
+        "sampling_seconds": 0.0012242689999766299,
+        "maintenance_seconds": 9.285700002692465e-05,
+        "cache_length": 60,
+        "pending_token": 16
+      },
+      {
+        "round": 4,
+        "output_offset": 8,
+        "proposed_tokens": [
+          21,
+          24
+        ],
+        "emitted_tokens": [
+          21,
+          24,
+          16
+        ],
+        "proposed": 2,
+        "examined": 2,
+        "accepted": 2,
+        "accepted_prefix_length": 2,
+        "bonus": true,
+        "rejected": false,
+        "target_verification_passes": 1,
+        "target_verification_input_tokens": 3,
+        "draft_forward_passes": 3,
+        "proposal_seconds": 0.08803386800013868,
+        "verification_seconds": 0.04135965699992994,
+        "sampling_seconds": 0.0012650470000608038,
+        "maintenance_seconds": 9.454799987906881e-05,
+        "cache_length": 63,
+        "pending_token": 16
+      },
+      {
+        "round": 5,
+        "output_offset": 11,
+        "proposed_tokens": [
+          13,
+          151645
+        ],
+        "emitted_tokens": [
+          13,
+          8704
+        ],
+        "proposed": 2,
+        "examined": 2,
+        "accepted": 1,
+        "accepted_prefix_length": 1,
+        "bonus": false,
+        "rejected": true,
+        "target_verification_passes": 1,
+        "target_verification_input_tokens": 3,
+        "draft_forward_passes": 3,
+        "proposal_seconds": 0.08762974599994777,
+        "verification_seconds": 0.041160898999805795,
+        "sampling_seconds": 0.00133520999997927,
+        "maintenance_seconds": 0.0006444759999340022,
+        "cache_length": 65,
+        "pending_token": 8704
+      },
+      {
+        "round": 6,
+        "output_offset": 13,
+        "proposed_tokens": [
+          902,
+          1995
+        ],
+        "emitted_tokens": [
+          419
+        ],
+        "proposed": 2,
+        "examined": 1,
+        "accepted": 0,
+        "accepted_prefix_length": 0,
+        "bonus": false,
+        "rejected": true,
+        "target_verification_passes": 1,
+        "target_verification_input_tokens": 3,
+        "draft_forward_passes": 3,
+        "proposal_seconds": 0.08812192899995352,
+        "verification_seconds": 0.041904126999952496,
+        "sampling_seconds": 0.0010220990000107122,
+        "maintenance_seconds": 0.0006448049998653005,
+        "cache_length": 66,
+        "pending_token": 419
+      },
+      {
+        "round": 7,
+        "output_offset": 14,
+        "proposed_tokens": [
+          1372,
+          374
+        ],
+        "emitted_tokens": [
+          1372,
+          374,
+          2669
+        ],
+        "proposed": 2,
+        "examined": 2,
+        "accepted": 2,
+        "accepted_prefix_length": 2,
+        "bonus": true,
+        "rejected": false,
+        "target_verification_passes": 1,
+        "target_verification_input_tokens": 3,
+        "draft_forward_passes": 3,
+        "proposal_seconds": 0.08804567800007135,
+        "verification_seconds": 0.041783698000017466,
+        "sampling_seconds": 0.001269226999966122,
+        "maintenance_seconds": 9.492599997429352e-05,
+        "cache_length": 69,
+        "pending_token": 2669
+      },
+      {
+        "round": 8,
+        "output_offset": 17,
+        "proposed_tokens": [
+          13302,
+          304
+        ],
+        "emitted_tokens": [
+          13302,
+          438
+        ],
+        "proposed": 2,
+        "examined": 2,
+        "accepted": 1,
+        "accepted_prefix_length": 1,
+        "bonus": false,
+        "rejected": true,
+        "target_verification_passes": 1,
+        "target_verification_input_tokens": 3,
+        "draft_forward_passes": 3,
+        "proposal_seconds": 0.08930886699999974,
+        "verification_seconds": 0.041848611999967034,
+        "sampling_seconds": 0.0013302749998729269,
+        "maintenance_seconds": 0.0006219340000370721,
+        "cache_length": 71,
+        "pending_token": 438
+      },
+      {
+        "round": 9,
+        "output_offset": 19,
+        "proposed_tokens": [
+          458,
+          7546
+        ],
+        "emitted_tokens": [
+          458,
+          7546,
+          11
+        ],
+        "proposed": 2,
+        "examined": 2,
+        "accepted": 2,
+        "accepted_prefix_length": 2,
+        "bonus": true,
+        "rejected": false,
+        "target_verification_passes": 1,
+        "target_verification_input_tokens": 3,
+        "draft_forward_passes": 3,
+        "proposal_seconds": 0.08993392699994729,
+        "verification_seconds": 0.04170743100007712,
+        "sampling_seconds": 0.0013719179999043263,
+        "maintenance_seconds": 0.00010637400009727571,
+        "cache_length": 74,
+        "pending_token": 11
+      },
+      {
+        "round": 10,
+        "output_offset": 22,
+        "proposed_tokens": [
+          1052,
+          374
+        ],
+        "emitted_tokens": [
+          1052,
+          594
+        ],
+        "proposed": 2,
+        "examined": 2,
+        "accepted": 1,
+        "accepted_prefix_length": 1,
+        "bonus": false,
+        "rejected": true,
+        "target_verification_passes": 1,
+        "target_verification_input_tokens": 3,
+        "draft_forward_passes": 3,
+        "proposal_seconds": 0.0888220659999206,
+        "verification_seconds": 0.042018667000093046,
+        "sampling_seconds": 0.0013626590000512806,
+        "maintenance_seconds": 0.0006240390000584739,
+        "cache_length": 76,
+        "pending_token": 594
+      },
+      {
+        "round": 11,
+        "output_offset": 24,
+        "proposed_tokens": [
+          902,
+          1184
+        ],
+        "emitted_tokens": [
+          902,
+          1184,
+          311
+        ],
+        "proposed": 2,
+        "examined": 2,
+        "accepted": 2,
+        "accepted_prefix_length": 2,
+        "bonus": true,
+        "rejected": false,
+        "target_verification_passes": 1,
+        "target_verification_input_tokens": 3,
+        "draft_forward_passes": 3,
+        "proposal_seconds": 0.08797481100009463,
+        "verification_seconds": 0.04097292500000549,
+        "sampling_seconds": 0.0012887130001217884,
+        "maintenance_seconds": 9.456199995838688e-05,
+        "cache_length": 79,
+        "pending_token": 311
+      },
+      {
+        "round": 12,
+        "output_offset": 27,
+        "proposed_tokens": [
+          5508,
+          432
+        ],
+        "emitted_tokens": [
+          5508,
+          432,
+          4623
+        ],
+        "proposed": 2,
+        "examined": 2,
+        "accepted": 2,
+        "accepted_prefix_length": 2,
+        "bonus": true,
+        "rejected": false,
+        "target_verification_passes": 1,
+        "target_verification_input_tokens": 3,
+        "draft_forward_passes": 3,
+        "proposal_seconds": 0.08854676099986136,
+        "verification_seconds": 0.04120135800008029,
+        "sampling_seconds": 0.0012511790000644396,
+        "maintenance_seconds": 9.639299992159067e-05,
+        "cache_length": 82,
+        "pending_token": 4623
+      },
+      {
+        "round": 13,
+        "output_offset": 30,
+        "proposed_tokens": [
+          13,
+          151645
+        ],
+        "emitted_tokens": [
+          11
+        ],
+        "proposed": 2,
+        "examined": 1,
+        "accepted": 0,
+        "accepted_prefix_length": 0,
+        "bonus": false,
+        "rejected": true,
+        "target_verification_passes": 1,
+        "target_verification_input_tokens": 3,
+        "draft_forward_passes": 3,
+        "proposal_seconds": 0.08928010399995401,
+        "verification_seconds": 0.04164500299998508,
+        "sampling_seconds": 0.0010443040000609471,
+        "maintenance_seconds": 0.0006591710000520834,
+        "cache_length": 83,
+        "pending_token": 11
+      },
+      {
+        "round": 14,
+        "output_offset": 31,
+        "proposed_tokens": [
+          438,
+          279
+        ],
+        "emitted_tokens": [
+          438,
+          432
+        ],
+        "proposed": 2,
+        "examined": 2,
+        "accepted": 1,
+        "accepted_prefix_length": 1,
+        "bonus": false,
+        "rejected": true,
+        "target_verification_passes": 1,
+        "target_verification_input_tokens": 3,
+        "draft_forward_passes": 3,
+        "proposal_seconds": 0.08838527700004306,
+        "verification_seconds": 0.04139899400001923,
+        "sampling_seconds": 0.001358179000135351,
+        "maintenance_seconds": 0.0006476179999026499,
+        "cache_length": 85,
+        "pending_token": 432
+      },
+      {
+        "round": 15,
+        "output_offset": 33,
+        "proposed_tokens": [
+          646,
+          387
+        ],
+        "emitted_tokens": [
+          374
+        ],
+        "proposed": 2,
+        "examined": 1,
+        "accepted": 0,
+        "accepted_prefix_length": 0,
+        "bonus": false,
+        "rejected": true,
+        "target_verification_passes": 1,
+        "target_verification_input_tokens": 3,
+        "draft_forward_passes": 3,
+        "proposal_seconds": 0.08821694199991725,
+        "verification_seconds": 0.03968936000001122,
+        "sampling_seconds": 0.001021928999989541,
+        "maintenance_seconds": 0.0006364169998960278,
+        "cache_length": 86,
+        "pending_token": 374
+      },
+      {
+        "round": 16,
+        "output_offset": 34,
+        "proposed_tokens": [
+          2669,
+          304
+        ],
+        "emitted_tokens": [
+          2669,
+          304,
+          279
+        ],
+        "proposed": 2,
+        "examined": 2,
+        "accepted": 2,
+        "accepted_prefix_length": 2,
+        "bonus": true,
+        "rejected": false,
+        "target_verification_passes": 1,
+        "target_verification_input_tokens": 3,
+        "draft_forward_passes": 3,
+        "proposal_seconds": 0.08719730100006018,
+        "verification_seconds": 0.04098214000009648,
+        "sampling_seconds": 0.0012773700000252575,
+        "maintenance_seconds": 9.935900015989318e-05,
+        "cache_length": 89,
+        "pending_token": 279
+      },
+      {
+        "round": 17,
+        "output_offset": 37,
+        "proposed_tokens": [
+          1352,
+          315
+        ],
+        "emitted_tokens": [
+          1352,
+          315,
+          264
+        ],
+        "proposed": 2,
+        "examined": 2,
+        "accepted": 2,
+        "accepted_prefix_length": 2,
+        "bonus": true,
+        "rejected": false,
+        "target_verification_passes": 1,
+        "target_verification_input_tokens": 3,
+        "draft_forward_passes": 3,
+        "proposal_seconds": 0.0875867009999638,
+        "verification_seconds": 0.040728098000045065,
+        "sampling_seconds": 0.001208408000138661,
+        "maintenance_seconds": 0.0001032850000228791,
+        "cache_length": 92,
+        "pending_token": 264
+      },
+      {
+        "round": 18,
+        "output_offset": 40,
+        "proposed_tokens": [
+          1760,
+          13
+        ],
+        "emitted_tokens": [
+          4361
+        ],
+        "proposed": 2,
+        "examined": 1,
+        "accepted": 0,
+        "accepted_prefix_length": 0,
+        "bonus": false,
+        "rejected": true,
+        "target_verification_passes": 1,
+        "target_verification_input_tokens": 3,
+        "draft_forward_passes": 3,
+        "proposal_seconds": 0.08707063600013498,
+        "verification_seconds": 0.04069857899980889,
+        "sampling_seconds": 0.0009885540000595938,
+        "maintenance_seconds": 0.000650414999881832,
+        "cache_length": 93,
+        "pending_token": 4361
+      },
+      {
+        "round": 19,
+        "output_offset": 41,
+        "proposed_tokens": [
+          1372,
+          13
+        ],
+        "emitted_tokens": [
+          1372,
+          13,
+          151645
+        ],
+        "proposed": 2,
+        "examined": 2,
+        "accepted": 2,
+        "accepted_prefix_length": 2,
+        "bonus": true,
+        "rejected": false,
+        "target_verification_passes": 1,
+        "target_verification_input_tokens": 3,
+        "draft_forward_passes": 3,
+        "proposal_seconds": 0.08720602299990787,
+        "verification_seconds": 0.039719009000009464,
+        "sampling_seconds": 0.0012313579998135538,
+        "maintenance_seconds": 9.283699978368531e-05,
+        "cache_length": 96,
+        "pending_token": 151645
+      }
+    ],
+    "proposed": 40,
+    "examined": 34,
+    "accepted": 24,
+    "draft_forward_passes": 59,
+    "proposal_seconds": 1.7340842589999284,
+    "verification_seconds": 0.8227746550001029,
+    "sampling_seconds": 0.02411844800030849,
+    "maintenance_seconds": 0.0073715279995667515,
+    "accepted_examined_fraction": 0.7058823529411765,
+    "accepted_proposed_fraction": 0.6,
+    "mean_accepted_prefix": 1.2,
+    "target_verification_passes": 20,
+    "target_prefill_passes": 1,
+    "draft_prefill_passes": 1,
+    "target_passes": 21,
+    "target_passes_per_output_token": 0.4772727272727273,
+    "draft_forward_passes_including_prefill": 60,
+    "prefill_seconds": 0.06997758299985435,
+    "target_prefill_seconds": 0.038343455999893195,
+    "draft_prefill_seconds": 0.031634126999961154,
+    "decode_seconds": 2.5898698830001194,
+    "host_overhead_seconds": 0.0015209930002129113,
+    "elapsed_seconds": 2.659920558999829,
+    "final_cache_length": 96,
+    "final_pending_token": 151645,
+    "cache_convention": "returned context minus exactly one pending last token",
+    "peak_allocated_bytes": 4119333376,
+    "peak_reserved_bytes": 4420796416
+  },
+  "target_text": "1691",
+  "speculative_text": "The number of crates purchased is 1691. Since this number is already expressed as an integer, there's no need to convert it further, as it is already in the form of a whole number.",
+  "end_to_end_tps_ratio": 0.611272336272468,
+  "steady_decode_tps_ratio": 0.4884657807341857,
+  "request_latency_ratio": 0.06946276548550773,
+  "timing_scope": "pretokenized prompt; prefill and synchronized decoding; tokenization, loading, warming, output decoding and disk I/O excluded"
+}

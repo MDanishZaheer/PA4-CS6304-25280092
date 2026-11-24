@@ -1,0 +1,12 @@
+{
+  "seconds": 0.6323460149997118,
+  "new_draft_conditions": [
+    "original",
+    "off_policy_seed6304",
+    "on_policy_seed6304",
+    "off_policy_seed6305",
+    "on_policy_seed6305"
+  ],
+  "prefix_positions": 2,
+  "teacher_projection_scope": "full response prefixes before selecting saved positions"
+}

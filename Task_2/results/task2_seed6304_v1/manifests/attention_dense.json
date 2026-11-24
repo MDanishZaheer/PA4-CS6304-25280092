@@ -1,0 +1,27 @@
+{
+  "stage": "attention_dense",
+  "status": "complete",
+  "config_id": "78c8fbc4f13121f27796d6e958bd0508c5b029ebef7e46cc27690631b2f7cfcd",
+  "artifacts": {
+    "metrics/attention/correctness.json": "5ef7b17b57c4f38548a15d2ba232dbaeb4c335b9e4b497582115fec69c93fba2",
+    "metrics/attention/dense_float16_L256.json": "d0366a43d8f3eb819cf4314c77b5c34627992078a1b705bec2754ec170986373",
+    "metrics/attention/dense_float32_L256.json": "86dd9c371d21c9c0bd8060278a8f224e42897f84cd57ea108b91d2a470a0cd4e",
+    "metrics/attention/dense_float16_L512.json": "f10f8461150af5a5d66b385b3b1b384009d83fae592e66f1b4082a4d8dea9e24",
+    "metrics/attention/dense_float32_L512.json": "6b745d5f65fd152446246daea9d5e58b1f7640a956664fa2234e10e0726b6d2c",
+    "metrics/attention/dense_float16_L1024.json": "074fb8c5fe7774302d8ecf820c00a033c1e74667115ee7d5dc85d256070aa6f1",
+    "metrics/attention/dense_float32_L1024.json": "5c96d61e125d831240c94b099a2ab05913892cf414d206d413e8a2539f2f5b4a",
+    "metrics/attention/dense_float16_L2048.json": "67d6c9e47184b7c1b2aca3179c13804b085a20cfa37a21973f344e12ae72a462",
+    "metrics/attention/dense_float32_L2048.json": "145bd0e7e6e61bd929150c49a6f4bddbdb5c09dd82834e19401bbb17b8fb99f8",
+    "metrics/attention/dense_float16_L4096.json": "ee4ea0a8532d38e3c3c2bb24b6fe76d93093f790f2867aab83a1ac83562b6952",
+    "metrics/attention/dense_float32_L4096.json": "9bee9894957bf2ab691821697a8af41e78d194a7f572fd540c263a8af1a6c526",
+    "metrics/attention/dense_float16_L8192.json": "eb4bb881235789fe01be96d53faf5a9641ae84ae7cbe845f662c912563237361",
+    "metrics/attention/dense_float32_L8192.json": "dff806f2d6656df7750f2dae6093aaa704a021424459f736b7758da2a70e8077",
+    "metrics/attention/dense_conditions.json": "8bd7c1b4ab9818d9306db9b16eed45dc0cd1d54efb60a7fdb8753380e0c26863"
+  },
+  "summary": {
+    "conditions": 12,
+    "statuses": {
+      "complete": 12
+    }
+  }
+}

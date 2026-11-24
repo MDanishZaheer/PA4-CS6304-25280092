@@ -1,0 +1,15 @@
+{
+  "stage": "kv_policy_eviction",
+  "status": "complete",
+  "config_id": "78c8fbc4f13121f27796d6e958bd0508c5b029ebef7e46cc27690631b2f7cfcd",
+  "artifacts": {
+    "metrics/kv/policy_eviction.json": "ac034e8d1741976c4daad979f5b2a9fd6922cc204db64038dee120b9500a915c"
+  },
+  "summary": {
+    "cases": 180,
+    "methods": [
+      "sink_recent",
+      "question_aware"
+    ]
+  }
+}

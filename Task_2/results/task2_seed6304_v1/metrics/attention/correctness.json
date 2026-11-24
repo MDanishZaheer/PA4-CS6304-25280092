@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "tiles": [
+    {
+      "tile": 1,
+      "output": {
+        "maximum_absolute": 3.5762786865234375e-07,
+        "relative_l2": 1.3615068894523574e-07
+      },
+      "maximum_gradient_relative_l2": 2.716496396715229e-07
+    },
+    {
+      "tile": 8,
+      "output": {
+        "maximum_absolute": 3.5762786865234375e-07,
+        "relative_l2": 1.2433667961886385e-07
+      },
+      "maximum_gradient_relative_l2": 2.3651847413930227e-07
+    },
+    {
+      "tile": 16,
+      "output": {
+        "maximum_absolute": 3.5762786865234375e-07,
+        "relative_l2": 1.204511193009239e-07
+      },
+      "maximum_gradient_relative_l2": 2.433498309528659e-07
+    },
+    {
+      "tile": 64,
+      "output": {
+        "maximum_absolute": 2.384185791015625e-07,
+        "relative_l2": 1.0146578688363661e-07
+      },
+      "maximum_gradient_relative_l2": 2.0368524644709396e-07
+    }
+  ],
+  "future_perturbation": "passed",
+  "all_masked_dense_rows": "zero output",
+  "extreme_scores": "finite",
+  "tiled_backward": "custom blockwise recomputation; Python operators, not a fused kernel"
+}

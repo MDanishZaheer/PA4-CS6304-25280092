@@ -1,0 +1,21 @@
+{
+  "stage": "q1_int4",
+  "status": "complete",
+  "config_id": "b3a20f09648105e24c16f6f143510d39c3bc30f74bbb44f05d43d9d414b9ed78",
+  "artifacts": {
+    "metrics/q1_int4/storage.json": "4c475769c400c5ccca9765cdbfb60ff00703291f496f1423410838aa8843b80f",
+    "metrics/q1_int4/projection_policy.json": "b2ed541ed493ea2b3cbd475526d38b6c7d18316da07131eefd5799359edeb5f8",
+    "metrics/q1_int4/layer_errors.json": "5299ad72f4a2a15dc333ab6a656103d016e5df2b02322f022a5957d169125fe8",
+    "metrics/q1_int4/wikitext2.json": "6671f751744dfa96323ce1b5273463450398ce43b8be9de5686956a8fab518e9",
+    "predictions/q1_int4/wikitext2.jsonl": "2838dcaed0f345a0f87f68798b4d3748f58b8552ed4f2c3f4b338247d633ad4a",
+    "metrics/q1_int4/c4.json": "daa904f110cfd19e29a3cb49431542ac3e09b457e18164e816738fc0d9d3a7b6",
+    "predictions/q1_int4/c4.jsonl": "e677e3b08670d6877d111efa3daf713f7468c7f21a99895dd2e011526634695c",
+    "metrics/q1_int4/hellaswag.json": "c56fbd352485ec8566e693ba282d61572cc2dda60b7484be188dca68c60575dd",
+    "predictions/q1_int4/hellaswag.jsonl": "19c2a7f108f67ca59e4dd39ae1a94c321ad1f6e16f295c851aa564a0c057d0d5",
+    "metrics/q1_int4/latency.json": "84fad93ccab89a2c9b34cfd73024708b82a076e0ad0465927c1a0caf459cf77a",
+    "metrics/q1_int4/summary.json": "e2404701fc1770afbcd3e6698aeb269e58cd37081201ddf998ac715210e9b5d4"
+  },
+  "summary": {
+    "condition_status": "complete"
+  }
+}

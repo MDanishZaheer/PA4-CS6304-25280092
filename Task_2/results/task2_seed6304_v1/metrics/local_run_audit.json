@@ -1,0 +1,20 @@
+{
+  "audited_at_utc": "2026-11-22T17:13:59.894936+00:00",
+  "audited_on": "Local ATML; saved evidence only",
+  "status": "complete",
+  "run_id": "task2_seed6304_v1",
+  "computed_on": "Google Colab",
+  "registered_artifacts_verified": 10847,
+  "counts": {
+    "part_a_conditions": 36,
+    "mqar_training_runs": 42,
+    "mqar_test_variants": 54,
+    "kv_prompts": 180,
+    "kv_methods": 6,
+    "kv_systems_conditions": 24,
+    "figures": 8
+  },
+  "recorded_failures": [],
+  "gpu_work_performed": false,
+  "report_readiness": "complete experimental evidence"
+}

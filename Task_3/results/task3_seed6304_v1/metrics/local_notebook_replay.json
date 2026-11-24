@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "mode": "replay",
+  "code_cells_executed": 29,
+  "displayed_png_figures": 9,
+  "python_executable": "C:\\Users\\DanishZaheer\\anaconda3\\envs\\ATML\\python.exe",
+  "executed_at_utc": "2026-11-24T08:09:00.793463+00:00",
+  "elapsed_seconds": 106.67099999997299,
+  "compute_imports": [],
+  "gpu_work_performed": false
+}

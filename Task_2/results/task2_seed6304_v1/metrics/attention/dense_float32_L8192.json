@@ -1,0 +1,76 @@
+{
+  "method": "dense",
+  "dtype": "float32",
+  "length": 8192,
+  "batch": 2,
+  "heads": 4,
+  "head_dimension": 64,
+  "accumulation": "FP32 scores/statistics",
+  "reference_status": "dense_fp32_on_identical_input_values",
+  "output_error": {
+    "maximum_absolute": 0.0,
+    "relative_l2": 0.0
+  },
+  "gradient_errors": [
+    {
+      "maximum_absolute": 0.0,
+      "relative_l2": 0.0
+    },
+    {
+      "maximum_absolute": 0.0,
+      "relative_l2": 0.0
+    },
+    {
+      "maximum_absolute": 0.0,
+      "relative_l2": 0.0
+    }
+  ],
+  "numerical_tolerance_relative_l2": 0.0001,
+  "numerical_check": "passed",
+  "observed_operators": [
+    "explicit_dense_fp32"
+  ],
+  "forward": {
+    "unit": "milliseconds per batch",
+    "warmup_repetitions": 3,
+    "timing_repetitions": 10,
+    "samples_ms": [
+      40.71118000001661,
+      40.65289199996869,
+      40.64784799999188,
+      40.68723099999261,
+      39.8756009999488,
+      39.8825060000263,
+      39.90758999998434,
+      39.88138900001559,
+      39.89032700002326,
+      39.9183480000147
+    ],
+    "median_ms": 39.91296899999952,
+    "peak_allocated_bytes": 8808308736,
+    "peak_reserved_bytes": 9284091904,
+    "additional_peak_allocated_bytes": 8724160512
+  },
+  "forward_backward": {
+    "unit": "milliseconds per batch",
+    "warmup_repetitions": 3,
+    "timing_repetitions": 10,
+    "samples_ms": [
+      95.92568499999743,
+      95.90908699999545,
+      95.87956900003292,
+      95.9071960000415,
+      95.871456999987,
+      95.88096099997756,
+      95.90191099999856,
+      95.87957600001573,
+      95.91182299999446,
+      95.90438700001869
+    ],
+    "median_ms": 95.90314900000863,
+    "peak_allocated_bytes": 8892194816,
+    "peak_reserved_bytes": 9284091904,
+    "additional_peak_allocated_bytes": 8757714944
+  },
+  "status": "complete"
+}

@@ -1,0 +1,42 @@
+{
+  "prompt_id": "SHORT-shifted-0002",
+  "prompt_sha256": "82f837b874314f23f74ae37bfb103dbe2ff34468b7c3f26c11280e9455a1d8c7",
+  "draft": "off_policy_seed6304",
+  "workload": "shifted",
+  "repetition": 1,
+  "response": {
+    "token_ids": [
+      785,
+      1378,
+      79368,
+      2038,
+      369,
+      9856,
+      374,
+      3385,
+      13,
+      151645
+    ],
+    "new_tokens": 10,
+    "eos": true,
+    "truncated": false,
+    "ignore_eos": false,
+    "generation_seed": 1926951,
+    "prefill_seconds": 0.032339194000087446,
+    "decode_seconds": 0.2577256810000108,
+    "elapsed_seconds": 0.29008663700005854,
+    "target_prefill_passes": 1,
+    "target_decode_passes": 9,
+    "target_passes": 10,
+    "draft_forward_passes": 0,
+    "rounds": [],
+    "peak_allocated_bytes": 4110994944,
+    "peak_reserved_bytes": 5377097728
+  },
+  "text": "The two-letter code for Germany is DE.",
+  "extracted_answer": "de",
+  "correct": true,
+  "extractable": true,
+  "format_compliant": false,
+  "evaluation": "standalone model quality; not speculative-output quality"
+}

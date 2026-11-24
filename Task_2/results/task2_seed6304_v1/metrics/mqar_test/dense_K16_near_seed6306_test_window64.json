@@ -1,0 +1,320 @@
+{
+  "id": "dense_K16_near_seed6306_test_window64",
+  "method": "dense",
+  "train_K": 16,
+  "train_regime": "near",
+  "seed": 6306,
+  "training_id": "dense_K16_near_seed6306",
+  "test_method": "window",
+  "test_only_mask": true,
+  "status": "complete",
+  "examples": 9216,
+  "cells": [
+    {
+      "test_K": 4,
+      "regime": "near",
+      "examples": 1024,
+      "queries": 4096,
+      "correct": 4093,
+      "accuracy": 0.999267578125,
+      "mean_query_nll": 0.006392443247996482,
+      "chance_label_space": 0.015625,
+      "chance_present_values": 0.25,
+      "distance_bins": {
+        "0_32": {
+          "correct": 1815,
+          "queries": 1818,
+          "accuracy": 0.9983498349834984
+        },
+        "32_64": {
+          "correct": 2278,
+          "queries": 2278,
+          "accuracy": 1.0
+        },
+        "64_128": {
+          "correct": 0,
+          "queries": 0,
+          "accuracy": null
+        },
+        "128_256": {
+          "correct": 0,
+          "queries": 0,
+          "accuracy": null
+        }
+      },
+      "denominator": "all supervised query positions; no next-token shift"
+    },
+    {
+      "test_K": 4,
+      "regime": "far",
+      "examples": 1024,
+      "queries": 4096,
+      "correct": 78,
+      "accuracy": 0.01904296875,
+      "mean_query_nll": 6.120249476884055,
+      "chance_label_space": 0.015625,
+      "chance_present_values": 0.25,
+      "distance_bins": {
+        "0_32": {
+          "correct": 0,
+          "queries": 0,
+          "accuracy": null
+        },
+        "32_64": {
+          "correct": 0,
+          "queries": 0,
+          "accuracy": null
+        },
+        "64_128": {
+          "correct": 0,
+          "queries": 0,
+          "accuracy": null
+        },
+        "128_256": {
+          "correct": 78,
+          "queries": 4096,
+          "accuracy": 0.01904296875
+        }
+      },
+      "denominator": "all supervised query positions; no next-token shift"
+    },
+    {
+      "test_K": 4,
+      "regime": "mixed",
+      "examples": 1024,
+      "queries": 4096,
+      "correct": 1063,
+      "accuracy": 0.259521484375,
+      "mean_query_nll": 4.707714615060102,
+      "chance_label_space": 0.015625,
+      "chance_present_values": 0.25,
+      "distance_bins": {
+        "0_32": {
+          "correct": 453,
+          "queries": 453,
+          "accuracy": 1.0
+        },
+        "32_64": {
+          "correct": 538,
+          "queries": 538,
+          "accuracy": 1.0
+        },
+        "64_128": {
+          "correct": 36,
+          "queries": 1047,
+          "accuracy": 0.034383954154727794
+        },
+        "128_256": {
+          "correct": 36,
+          "queries": 2058,
+          "accuracy": 0.01749271137026239
+        }
+      },
+      "denominator": "all supervised query positions; no next-token shift"
+    },
+    {
+      "test_K": 8,
+      "regime": "near",
+      "examples": 1024,
+      "queries": 8192,
+      "correct": 8185,
+      "accuracy": 0.9991455078125,
+      "mean_query_nll": 0.005251381648267106,
+      "chance_label_space": 0.015625,
+      "chance_present_values": 0.125,
+      "distance_bins": {
+        "0_32": {
+          "correct": 3297,
+          "queries": 3304,
+          "accuracy": 0.9978813559322034
+        },
+        "32_64": {
+          "correct": 4888,
+          "queries": 4888,
+          "accuracy": 1.0
+        },
+        "64_128": {
+          "correct": 0,
+          "queries": 0,
+          "accuracy": null
+        },
+        "128_256": {
+          "correct": 0,
+          "queries": 0,
+          "accuracy": null
+        }
+      },
+      "denominator": "all supervised query positions; no next-token shift"
+    },
+    {
+      "test_K": 8,
+      "regime": "far",
+      "examples": 1024,
+      "queries": 8192,
+      "correct": 127,
+      "accuracy": 0.0155029296875,
+      "mean_query_nll": 6.1306522976046836,
+      "chance_label_space": 0.015625,
+      "chance_present_values": 0.125,
+      "distance_bins": {
+        "0_32": {
+          "correct": 0,
+          "queries": 0,
+          "accuracy": null
+        },
+        "32_64": {
+          "correct": 0,
+          "queries": 0,
+          "accuracy": null
+        },
+        "64_128": {
+          "correct": 0,
+          "queries": 0,
+          "accuracy": null
+        },
+        "128_256": {
+          "correct": 127,
+          "queries": 8192,
+          "accuracy": 0.0155029296875
+        }
+      },
+      "denominator": "all supervised query positions; no next-token shift"
+    },
+    {
+      "test_K": 8,
+      "regime": "mixed",
+      "examples": 1024,
+      "queries": 8192,
+      "correct": 1980,
+      "accuracy": 0.24169921875,
+      "mean_query_nll": 4.865673039966288,
+      "chance_label_space": 0.015625,
+      "chance_present_values": 0.125,
+      "distance_bins": {
+        "0_32": {
+          "correct": 756,
+          "queries": 758,
+          "accuracy": 0.9973614775725593
+        },
+        "32_64": {
+          "correct": 1089,
+          "queries": 1089,
+          "accuracy": 1.0
+        },
+        "64_128": {
+          "correct": 83,
+          "queries": 2243,
+          "accuracy": 0.03700401248328132
+        },
+        "128_256": {
+          "correct": 52,
+          "queries": 4102,
+          "accuracy": 0.012676743052169674
+        }
+      },
+      "denominator": "all supervised query positions; no next-token shift"
+    },
+    {
+      "test_K": 16,
+      "regime": "near",
+      "examples": 1024,
+      "queries": 16384,
+      "correct": 16384,
+      "accuracy": 1.0,
+      "mean_query_nll": 0.00020481986000242536,
+      "chance_label_space": 0.015625,
+      "chance_present_values": 0.0625,
+      "distance_bins": {
+        "0_32": {
+          "correct": 4327,
+          "queries": 4327,
+          "accuracy": 1.0
+        },
+        "32_64": {
+          "correct": 12057,
+          "queries": 12057,
+          "accuracy": 1.0
+        },
+        "64_128": {
+          "correct": 0,
+          "queries": 0,
+          "accuracy": null
+        },
+        "128_256": {
+          "correct": 0,
+          "queries": 0,
+          "accuracy": null
+        }
+      },
+      "denominator": "all supervised query positions; no next-token shift"
+    },
+    {
+      "test_K": 16,
+      "regime": "far",
+      "examples": 1024,
+      "queries": 16384,
+      "correct": 265,
+      "accuracy": 0.01617431640625,
+      "mean_query_nll": 6.1480320626569664,
+      "chance_label_space": 0.015625,
+      "chance_present_values": 0.0625,
+      "distance_bins": {
+        "0_32": {
+          "correct": 0,
+          "queries": 0,
+          "accuracy": null
+        },
+        "32_64": {
+          "correct": 0,
+          "queries": 0,
+          "accuracy": null
+        },
+        "64_128": {
+          "correct": 0,
+          "queries": 0,
+          "accuracy": null
+        },
+        "128_256": {
+          "correct": 265,
+          "queries": 16384,
+          "accuracy": 0.01617431640625
+        }
+      },
+      "denominator": "all supervised query positions; no next-token shift"
+    },
+    {
+      "test_K": 16,
+      "regime": "mixed",
+      "examples": 1024,
+      "queries": 16384,
+      "correct": 3660,
+      "accuracy": 0.223388671875,
+      "mean_query_nll": 5.06399189547912,
+      "chance_label_space": 0.015625,
+      "chance_present_values": 0.0625,
+      "distance_bins": {
+        "0_32": {
+          "correct": 1055,
+          "queries": 1055,
+          "accuracy": 1.0
+        },
+        "32_64": {
+          "correct": 2352,
+          "queries": 2352,
+          "accuracy": 1.0
+        },
+        "64_128": {
+          "correct": 131,
+          "queries": 4743,
+          "accuracy": 0.02761965001054185
+        },
+        "128_256": {
+          "correct": 122,
+          "queries": 8234,
+          "accuracy": 0.01481661403934904
+        }
+      },
+      "denominator": "all supervised query positions; no next-token shift"
+    }
+  ]
+}

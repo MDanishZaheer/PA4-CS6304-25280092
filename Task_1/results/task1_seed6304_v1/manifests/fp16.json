@@ -1,0 +1,21 @@
+{
+  "stage": "fp16",
+  "status": "complete",
+  "config_id": "b3a20f09648105e24c16f6f143510d39c3bc30f74bbb44f05d43d9d414b9ed78",
+  "artifacts": {
+    "metrics/fp16/storage.json": "cd6a8de7098c9c4657c9d20b8835f2762ad51ea644868d92e6e553a5946af51b",
+    "metrics/fp16/projection_policy.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+    "metrics/fp16/layer_errors.json": "7cf026e2b5792e7af7edf52131d13d3b3297b7c3c45a2f4d440165d2cd0c7976",
+    "metrics/fp16/wikitext2.json": "d9d9e33320ae225b55d0ca2c2e799c845a08193673ea3dc23d9ca057acb76b1f",
+    "predictions/fp16/wikitext2.jsonl": "86887dfd5e8d3ce3f31a57277b8db153feb26ec45933fa471f4ad51f6f9b7206",
+    "metrics/fp16/c4.json": "b413f7e7483c0042eb88c9bd1f9d8a47d91b4e5f79e05a17671f61710ded722f",
+    "predictions/fp16/c4.jsonl": "af30cce66197098eb732d973dfb92c628132c90238a1aa629a56b6350787f6db",
+    "metrics/fp16/hellaswag.json": "1eb47a8b676013488c4f6484ceeb641a694c8afaf727eb52da98d5fb54c633e0",
+    "predictions/fp16/hellaswag.jsonl": "7ccbe21302bf53ad2df15b812c6c69a8857c78bc340d226289927f9eb3a75042",
+    "metrics/fp16/latency.json": "be394f7da44bab1cd7fdbffe8aa41b2eb77de693c6c3fe2cd1de6439a34733f7",
+    "metrics/fp16/summary.json": "6545f05806e21d2edc5a199372797cb2897a48f5e2fd59d8d0c9444fb89f42a7"
+  },
+  "summary": {
+    "condition_status": "complete"
+  }
+}

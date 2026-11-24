@@ -1,0 +1,27 @@
+{
+  "stage": "data",
+  "status": "complete",
+  "config_id": "b3a20f09648105e24c16f6f143510d39c3bc30f74bbb44f05d43d9d414b9ed78",
+  "artifacts": {
+    "splits/selection.json": "d4e4418e965a4b750eb9877a18a8f30ce87994904856a062cf854e48fefffa78",
+    "splits/local_source_revisions.json": "edafd4b5508098d8366908538573ee42caaa3f7e7225c5e659bad0d031127b4c",
+    "splits/materialized/c4_calibration_locked.jsonl.gz": "39f3153dac5e0dec82d64e9e2efd67dcec64d3cfbabd99c5f7eefa47f6018039",
+    "splits/materialized/c4_development_locked.jsonl.gz": "0aabd3cf4e28a9fcbeeb9a86b6843aeb614edac38ad62a15106fd1263782349d",
+    "splits/materialized/wikitext2_test_windows_locked.jsonl.gz": "9020968b5412ce965b91f601223ab09dfeaf81bc6ea7a5ad416edbb8f16b4946",
+    "splits/materialized/c4_validation_windows_locked.jsonl.gz": "5a94d6041c9abbd7fbcc1b9e69b0439374e99c6bf08006d66fba0338e7269be9",
+    "splits/materialized/hellaswag_val_locked.jsonl.gz": "6a6c5b74f4eb0d390558d574efa50799b84afb61d85c0999864643273b7ad932"
+  },
+  "summary": {
+    "calibration_sequences": 128,
+    "development_sequences": 32,
+    "calibration_tokens_per_sequence": 512,
+    "wikitext2_scored_tokens": 50000,
+    "c4_scored_tokens": 50000,
+    "hellaswag_examples": 2000,
+    "hellaswag_diagnostic_orders": [
+      0,
+      512
+    ],
+    "leakage_checks": "passed"
+  }
+}

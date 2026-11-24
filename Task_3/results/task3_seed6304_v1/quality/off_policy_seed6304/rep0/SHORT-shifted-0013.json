@@ -1,0 +1,42 @@
+{
+  "prompt_id": "SHORT-shifted-0013",
+  "prompt_sha256": "434314fc63fb79782cec017c63f4bf5bdfb7af30b5926d873f6bfd67202ccede",
+  "draft": "off_policy_seed6304",
+  "workload": "shifted",
+  "repetition": 0,
+  "response": {
+    "token_ids": [
+      785,
+      1760,
+      374,
+      220,
+      17,
+      18,
+      20,
+      19,
+      13,
+      151645
+    ],
+    "new_tokens": 10,
+    "eos": true,
+    "truncated": false,
+    "ignore_eos": false,
+    "generation_seed": 1037025,
+    "prefill_seconds": 0.03169108200017945,
+    "decode_seconds": 0.260643464000168,
+    "elapsed_seconds": 0.2923508759995457,
+    "target_prefill_passes": 1,
+    "target_decode_passes": 9,
+    "target_passes": 10,
+    "draft_forward_passes": 0,
+    "rounds": [],
+    "peak_allocated_bytes": 4111093248,
+    "peak_reserved_bytes": 5377097728
+  },
+  "text": "The count is 2354.",
+  "extracted_answer": "2354",
+  "correct": true,
+  "extractable": true,
+  "format_compliant": false,
+  "evaluation": "standalone model quality; not speculative-output quality"
+}

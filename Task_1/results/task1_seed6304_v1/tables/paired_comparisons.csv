@@ -1,0 +1,25 @@
+method,reference,suite,status,metric,difference,ci_low,ci_high,overflow,paired_windows,scored_tokens,resamples,unit,resampling_unit,paired_examples
+p3_s50,p2_s50,wikitext2,complete,mean_nll,0.9144670466138938,0.8875388336751759,0.9413978236913755,False,437.0,50000.0,2000,nats/token,"whole fixed evaluation windows, paired",
+p3_s50,p2_s50,wikitext2,complete,perplexity,38.12458352432586,34.808064139856654,41.91300107635728,False,437.0,50000.0,2000,perplexity,"whole fixed evaluation windows, paired",
+p3_s50,p2_s50,c4,complete,mean_nll,0.7398105955878829,0.7040341504035512,0.7774870332404503,False,177.0,50000.0,2000,nats/token,"whole fixed evaluation windows, paired",
+p3_s50,p2_s50,c4,complete,perplexity,23.253097416840344,20.628024331216068,26.402608348427616,False,177.0,50000.0,2000,perplexity,"whole fixed evaluation windows, paired",
+p3_s50,p2_s50,hellaswag,complete,accuracy,-0.079,-0.094,-0.0645,,,,2000,fraction; multiply by 100 for percentage points,,2000.0
+p3_s50,p2_s50,hellaswag,complete,accuracy_normalized,-0.134,-0.152,-0.116,,,,2000,fraction; multiply by 100 for percentage points,,2000.0
+p3_s75,p2_s75,wikitext2,complete,mean_nll,-1.4775076285747257,-1.550248045046358,-1.404605405277476,False,437.0,50000.0,2000,nats/token,"whole fixed evaluation windows, paired",
+p3_s75,p2_s75,wikitext2,complete,perplexity,-49138.09889992296,-54570.68635333059,-43937.81070598786,False,437.0,50000.0,2000,perplexity,"whole fixed evaluation windows, paired",
+p3_s75,p2_s75,c4,complete,mean_nll,-1.3241819744262742,-1.5789968419337672,-1.0463782201858918,False,177.0,50000.0,2000,nats/token,"whole fixed evaluation windows, paired",
+p3_s75,p2_s75,c4,complete,perplexity,-38021.18832088604,-53773.748739155155,-25199.956212137517,False,177.0,50000.0,2000,perplexity,"whole fixed evaluation windows, paired",
+p3_s75,p2_s75,hellaswag,complete,accuracy,0.005859375,-0.017578125,0.029296875,,,,2000,fraction; multiply by 100 for percentage points,,512.0
+p3_s75,p2_s75,hellaswag,complete,accuracy_normalized,-0.009765625,-0.046923828125,0.025390625,,,,2000,fraction; multiply by 100 for percentage points,,512.0
+q3_budget_int4,q2_int4,wikitext2,complete,mean_nll,0.1274952957594686,0.11858495747596151,0.13680315591931852,False,437.0,50000.0,2000,nats/token,"whole fixed evaluation windows, paired",
+q3_budget_int4,q2_int4,wikitext2,complete,perplexity,2.4069647229146938,2.159182057206323,2.6972436858379614,False,437.0,50000.0,2000,perplexity,"whole fixed evaluation windows, paired",
+q3_budget_int4,q2_int4,c4,complete,mean_nll,0.09761344297302665,0.08359043409842368,0.11562061056551963,False,177.0,50000.0,2000,nats/token,"whole fixed evaluation windows, paired",
+q3_budget_int4,q2_int4,c4,complete,perplexity,1.6357059081707046,1.37672220627397,1.9638821868421987,False,177.0,50000.0,2000,perplexity,"whole fixed evaluation windows, paired",
+q3_budget_int4,q2_int4,hellaswag,complete,accuracy,-0.0155,-0.024,-0.0075,,,,2000,fraction; multiply by 100 for percentage points,,2000.0
+q3_budget_int4,q2_int4,hellaswag,complete,accuracy_normalized,-0.01,-0.02,-0.001,,,,2000,fraction; multiply by 100 for percentage points,,2000.0
+q3_budget_int3,q2_int3,wikitext2,complete,mean_nll,0.3178226332526237,0.3012929503320501,0.33384143066556726,False,437.0,50000.0,2000,nats/token,"whole fixed evaluation windows, paired",
+q3_budget_int3,q2_int3,wikitext2,complete,perplexity,9.756093319050098,8.815394320048753,10.802572314214238,False,437.0,50000.0,2000,perplexity,"whole fixed evaluation windows, paired",
+q3_budget_int3,q2_int3,c4,complete,mean_nll,0.2636542522679455,0.24471308018736163,0.2832398614434408,False,177.0,50000.0,2000,nats/token,"whole fixed evaluation windows, paired",
+q3_budget_int3,q2_int3,c4,complete,perplexity,6.516417151239285,5.74471075237193,7.393267299394837,False,177.0,50000.0,2000,perplexity,"whole fixed evaluation windows, paired",
+q3_budget_int3,q2_int3,hellaswag,complete,accuracy,-0.0325,-0.0445,-0.0195,,,,2000,fraction; multiply by 100 for percentage points,,2000.0
+q3_budget_int3,q2_int3,hellaswag,complete,accuracy_normalized,-0.0685,-0.0835,-0.052,,,,2000,fraction; multiply by 100 for percentage points,,2000.0

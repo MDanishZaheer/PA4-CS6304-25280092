@@ -1,0 +1,76 @@
+{
+  "method": "tiled",
+  "dtype": "float16",
+  "length": 8192,
+  "batch": 2,
+  "heads": 4,
+  "head_dimension": 64,
+  "accumulation": "FP32 scores/statistics",
+  "reference_status": "dense_fp32_on_identical_input_values",
+  "output_error": {
+    "maximum_absolute": 0.0009570121765136719,
+    "relative_l2": 0.0002039147657342255
+  },
+  "gradient_errors": [
+    {
+      "maximum_absolute": 0.00048661231994628906,
+      "relative_l2": 0.00020702126494143158
+    },
+    {
+      "maximum_absolute": 0.0009396076202392578,
+      "relative_l2": 0.00020814724848605692
+    },
+    {
+      "maximum_absolute": 0.0017075538635253906,
+      "relative_l2": 0.00020807622058782727
+    }
+  ],
+  "numerical_tolerance_relative_l2": 0.005,
+  "numerical_check": "passed",
+  "observed_operators": [
+    "python_tiled_custom_recomputed_backward"
+  ],
+  "forward": {
+    "unit": "milliseconds per batch",
+    "warmup_repetitions": 3,
+    "timing_repetitions": 10,
+    "samples_ms": [
+      245.76539000003095,
+      244.66366500001868,
+      264.61733300004653,
+      245.52193599998873,
+      242.55769500001634,
+      243.41500999997834,
+      241.05308299999706,
+      241.25716300000022,
+      240.27803800004222,
+      240.14704900002926
+    ],
+    "median_ms": 242.98635249999734,
+    "peak_allocated_bytes": 81356800,
+    "peak_reserved_bytes": 104857600,
+    "additional_peak_allocated_bytes": 30763008
+  },
+  "forward_backward": {
+    "unit": "milliseconds per batch",
+    "warmup_repetitions": 3,
+    "timing_repetitions": 10,
+    "samples_ms": [
+      558.9867710000362,
+      551.313461999996,
+      554.1857569999706,
+      552.7469749999909,
+      555.5446210000241,
+      549.4474779999905,
+      572.3815769999874,
+      555.8234480000124,
+      549.692800999992,
+      553.7930529999926
+    ],
+    "median_ms": 553.9894049999816,
+    "peak_allocated_bytes": 168307712,
+    "peak_reserved_bytes": 197132288,
+    "additional_peak_allocated_bytes": 92548096
+  },
+  "status": "complete"
+}

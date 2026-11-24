@@ -1,0 +1,36 @@
+{
+  "stage": "kv_systems",
+  "status": "complete",
+  "config_id": "78c8fbc4f13121f27796d6e958bd0508c5b029ebef7e46cc27690631b2f7cfcd",
+  "artifacts": {
+    "metrics/kv_systems/fp16_B1_L2048.json": "9d8be7c72a37970f3f2ee363e02fdbfecd0cff5f9e6da4b14c4af2ed13302d55",
+    "metrics/kv_systems/sink_recent_B1_L2048.json": "ffad5c5354d400e44c3c81899cec08a03ffcb85e86f13ac5b441863397b5f55e",
+    "metrics/kv_systems/question_aware_B1_L2048.json": "9b61bb577452038e7678420dd2d9b24c90d08823954cece1d978fe90f305897a",
+    "metrics/kv_systems/int4_token_B1_L2048.json": "e54c00be0c1b44500f50a045862b484d446ca9d07f3e7801ace47fbee7ba5fa2",
+    "metrics/kv_systems/int4_channel_B1_L2048.json": "644d642a4d142ea75c033d7d0d21d41717f2b38b71405f56557d312f1337c8e7",
+    "metrics/kv_systems/hybrid_B1_L2048.json": "944cd8b33cc166c12a3d060272360b092d9ce16386060fb795bfe595145306ea",
+    "metrics/kv_systems/fp16_B8_L2048.json": "65d32070326b51298b61d71fb26095338d21d4daba6ae443f3ec660d860a2f50",
+    "metrics/kv_systems/sink_recent_B8_L2048.json": "7c99a5db36403da28c34a77dee848c9d38caab1c821770c14740cc17630a602b",
+    "metrics/kv_systems/question_aware_B8_L2048.json": "f9564435a56a106e691f08b2e41d28cf96a5b8d08b8845238677aaf95c6283d5",
+    "metrics/kv_systems/int4_token_B8_L2048.json": "9a1aa7dcc1706089fab31554549a95855418a7a3c45501a456d84d19e0317551",
+    "metrics/kv_systems/int4_channel_B8_L2048.json": "cc16a99916af72503569669f6cab07922edf8a8d07be356002fc662b4548ee19",
+    "metrics/kv_systems/hybrid_B8_L2048.json": "54347fc63b4c7ddb9b9e2e89eb1cc1f312af1e48ae134b468fce32829620f939",
+    "metrics/kv_systems/fp16_B1_L4096.json": "109f3e66624796968fd74672b93fb719c0c4b9a1d103357dea96b43b0a25936e",
+    "metrics/kv_systems/sink_recent_B1_L4096.json": "9efa068cbb0b3e4f73be15153f5dda0965f6cbd473cde09386ce6138a9e3f859",
+    "metrics/kv_systems/question_aware_B1_L4096.json": "44b24b7105b7f61724ca276a3feca610a20ef6058b0a17839484a4ae61d3c11b",
+    "metrics/kv_systems/int4_token_B1_L4096.json": "40faaaa69cc5b3635124eb7a43e608ebabb1e3484189621d3ee6850918d3d265",
+    "metrics/kv_systems/int4_channel_B1_L4096.json": "b4542dca35b5162f171184a250bcffb5a152c08e1590055a16b16b6785125abf",
+    "metrics/kv_systems/hybrid_B1_L4096.json": "2bf4533dd852f5c5bd101156d99503f4dbfbae870a06ae766eea261fc8130d01",
+    "metrics/kv_systems/fp16_B8_L4096.json": "0ddb78d7d10a1ebfb37aa89f9557bbd3a27a3380681929c6a4678a60ebb0cfdd",
+    "metrics/kv_systems/sink_recent_B8_L4096.json": "96de99ead95da724114e5a740db5bc64ff7ab35d3de2ce7ce2327bdd97d8484a",
+    "metrics/kv_systems/question_aware_B8_L4096.json": "0b414c8c7cbe68b634a6dea8d750776a7c37ce0926ade3ae61bcfc4dbc1672e8",
+    "metrics/kv_systems/int4_token_B8_L4096.json": "60ddcedaa713c62e00134476bd29ff441c3ccf51177eae1a9d4bd40faeac0717",
+    "metrics/kv_systems/int4_channel_B8_L4096.json": "cf1477d8ec0e95460b4c60a29c0a7fb0914755b6e0d6eda9e39c75caed0a886e",
+    "metrics/kv_systems/hybrid_B8_L4096.json": "9d6cd8e447dd31691da072ae02c01ec2892f91d9b095c022550d8064f85b0150",
+    "metrics/kv_systems/all_conditions.json": "3c53ecd7a089c0528e2425009e06e9d745f5f699d1910342dbbb41e13ea02770"
+  },
+  "summary": {
+    "conditions": 24,
+    "repetitions_per_condition": 10
+  }
+}

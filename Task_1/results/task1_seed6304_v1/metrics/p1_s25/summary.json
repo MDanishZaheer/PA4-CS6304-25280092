@@ -1,0 +1,177 @@
+{
+  "condition": "p1_s25",
+  "specification": {
+    "id": "p1_s25",
+    "family": "P1",
+    "sparsity": 0.25,
+    "label": "P1 25%",
+    "hellaswag_count": 512
+  },
+  "status": "complete",
+  "config_id": "b3a20f09648105e24c16f6f143510d39c3bc30f74bbb44f05d43d9d414b9ed78",
+  "data_id": "2d958e32231a2a1706122fe1cb13a6ceabe4841acc4e18b8f066869a5da0d0fe",
+  "model_revision": "8faed761d45a263340a0528343f099c05c9a4323",
+  "runtime": {
+    "computed_on": "Google Colab",
+    "python": "3.13.16",
+    "packages": {
+      "torch": "2.8.0",
+      "transformers": "4.57.1",
+      "huggingface_hub": "0.36.2",
+      "datasets": "4.4.1",
+      "accelerate": "1.11.0",
+      "numpy": "2.2.6",
+      "safetensors": "0.6.2"
+    },
+    "cuda": "12.8",
+    "gpu": "NVIDIA A100-SXM4-40GB",
+    "gpu_memory_bytes": 42405855232,
+    "compute_capability": [
+      8,
+      0
+    ],
+    "precision": "float16 weights/activations; float32 error/scoring arithmetic; float64 NLL accumulation",
+    "attention_implementation": "sdpa",
+    "tf32": false,
+    "seed": 6304
+  },
+  "compression_seconds_including_restore": 4.797527858999956,
+  "compression_peak_allocated_bytes": 3633606656,
+  "storage": {
+    "dense_fp16_parameter_bytes": 3087428608,
+    "uncompressed_parameter_bytes": 467037184,
+    "model_header_bytes": 128,
+    "estimated_packed_model_bytes": 2596117888,
+    "packed_size_kind": "justified custom binary-format estimate; no low-bit/sparse inference kernel",
+    "packing_convention": "64-byte per-projection header, 16-byte tensor alignment, 128-byte model header; excluded FP16 tensors stored once",
+    "effective_nonzeros": 982646784,
+    "eligible_parameters": 1310195712,
+    "achieved_sparsity": 0.25,
+    "nominal_bits_per_eligible_weight": 16.0,
+    "effective_packed_bits_per_eligible_weight": 13.000076593137255,
+    "execution": "dense FP16 reconstructed weights; explicit input compensation for unfused AWQ scales"
+  },
+  "mean_projection_calibration_relative_mse": 0.011911435202675721,
+  "quality": {
+    "wikitext2": {
+      "scored_tokens": 50000,
+      "windows": 437,
+      "mean_nll": 3.0601414294568343,
+      "perplexity": 21.33057372016199,
+      "perplexity_overflow": false,
+      "saved_successful_item_scoring_seconds": 3.0727210599998216,
+      "current_session_scoring_seconds": 4.145146613000065
+    },
+    "c4": {
+      "scored_tokens": 50000,
+      "windows": 177,
+      "mean_nll": 2.8896329303940402,
+      "perplexity": 17.986706016546783,
+      "perplexity_overflow": false,
+      "saved_successful_item_scoring_seconds": 2.1985324240001773,
+      "current_session_scoring_seconds": 2.671464834000062
+    },
+    "hellaswag": {
+      "examples": 512,
+      "accuracy": 0.451171875,
+      "accuracy_normalized": 0.587890625,
+      "normalization": "preprocessed ending character count; excludes delimiter",
+      "saved_successful_item_scoring_seconds": 4.011154148999935,
+      "current_session_scoring_seconds": 5.523555410999961
+    }
+  },
+  "peak_allocated_through_quality_bytes": 9969477632,
+  "latency": {
+    "unit": "milliseconds per batch",
+    "batch_size": 1,
+    "warmup_repetitions": 2,
+    "timing_repetitions": 5,
+    "decode_steps": 64,
+    "decode_definition": "64 cached next-token forward/argmax steps after an untimed prefill; EOS ignored for matched fixed work",
+    "execution": "dense FP16 SDPA; no claimed sparse/low-bit hardware speedup",
+    "shapes": {
+      "512": {
+        "prompt_tokens": 512,
+        "sdpa_observed_operators": [
+          "aten::_flash_attention_forward",
+          "aten::_scaled_dot_product_flash_attention",
+          "aten::scaled_dot_product_attention"
+        ],
+        "prefill_ms": [
+          36.306919999901766,
+          34.98759199999313,
+          35.21540899998854,
+          33.89202000005298,
+          33.952105999901505
+        ],
+        "decode_64_steps_ms": [
+          2152.2671709999486,
+          2101.182774999984,
+          2079.3101130000196,
+          2090.139432000001,
+          2117.708504999996
+        ],
+        "prefill_median_ms": 34.98759199999313,
+        "decode_median_ms": 2101.182774999984,
+        "prefill_peak_allocated_bytes": [
+          3146681856,
+          3146681856,
+          3146681856,
+          3146681856,
+          3146681856
+        ],
+        "decode_peak_allocated_bytes": [
+          3114752512,
+          3114752512,
+          3114752512,
+          3114752512,
+          3114752512
+        ],
+        "peak_allocated_bytes": 3146681856,
+        "peak_reserved_bytes_at_end": 11819548672
+      },
+      "2048": {
+        "prompt_tokens": 2048,
+        "sdpa_observed_operators": [
+          "aten::_flash_attention_forward",
+          "aten::_scaled_dot_product_flash_attention",
+          "aten::scaled_dot_product_attention"
+        ],
+        "prefill_ms": [
+          49.46305400005713,
+          49.66936499999974,
+          49.81777099999363,
+          49.68138599997474,
+          49.70278199994027
+        ],
+        "decode_64_steps_ms": [
+          2075.20523900007,
+          2058.0752109999594,
+          2098.0641219999825,
+          2104.5244549999325,
+          2180.5195119999325
+        ],
+        "prefill_median_ms": 49.68138599997474,
+        "decode_median_ms": 2098.0641219999825,
+        "prefill_peak_allocated_bytes": [
+          3292458496,
+          3292458496,
+          3292458496,
+          3292458496,
+          3292458496
+        ],
+        "decode_peak_allocated_bytes": [
+          3201797632,
+          3201797632,
+          3201797632,
+          3201797632,
+          3201797632
+        ],
+        "peak_allocated_bytes": 3292458496,
+        "peak_reserved_bytes_at_end": 11819548672
+      }
+    }
+  },
+  "current_session_condition_seconds": 50.57178185399994,
+  "condition_peak_allocated_bytes": 9969477632
+}

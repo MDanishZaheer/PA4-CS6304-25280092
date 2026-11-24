@@ -1,0 +1,27 @@
+{
+  "stage": "attention_tiled",
+  "status": "complete",
+  "config_id": "78c8fbc4f13121f27796d6e958bd0508c5b029ebef7e46cc27690631b2f7cfcd",
+  "artifacts": {
+    "metrics/attention/correctness.json": "5ef7b17b57c4f38548a15d2ba232dbaeb4c335b9e4b497582115fec69c93fba2",
+    "metrics/attention/tiled_float16_L256.json": "5a32e48ea13191ce4a0949729b734c0122b9a104e9a4aec41cd59ec50185a46c",
+    "metrics/attention/tiled_float32_L256.json": "1c10a4a9d8f93bf972d002423a0d207f27acb784ba71291f562bea2fdbd47c18",
+    "metrics/attention/tiled_float16_L512.json": "dc6fa6c46d605adc4a27d8275f79fb91dd11b0ccb4e978889b7d39c52e96ad43",
+    "metrics/attention/tiled_float32_L512.json": "574418440f578349494ced1e0ab6b388e57738677169f0072436027290614418",
+    "metrics/attention/tiled_float16_L1024.json": "f9a57471dfa8137a89aa433bf5097e39ae7d0beda2e64b05d22013dfa4892ef5",
+    "metrics/attention/tiled_float32_L1024.json": "a86be9f61ea01e887f47e4320b33a44c754b1224ac239488fc5c6aac792a0620",
+    "metrics/attention/tiled_float16_L2048.json": "7e210147b828ec852da795409af04feabf7ca7d42ea0e32592f5c5e9b7234981",
+    "metrics/attention/tiled_float32_L2048.json": "fc6bb30f11f1f99dfcc2647be37b94fefd2f2d4f359d92595292bb69fb3dcc1f",
+    "metrics/attention/tiled_float16_L4096.json": "ad9e3d5185f5b76a9f11cf4bc316e12e71d750255ea0bd46fd648dc2227d0499",
+    "metrics/attention/tiled_float32_L4096.json": "855dc7e754c73954cc7e54e23413375c2569a0535579f2d1e7cdd9f4cce9bbad",
+    "metrics/attention/tiled_float16_L8192.json": "f70777bb483519b4c305a0c0142947fc0fe168c96525bedeca4bd4c8d12e8a49",
+    "metrics/attention/tiled_float32_L8192.json": "31d30b365c39f7cb742aa2fc0f677e90596b43d1d0375bf1bd1b67a696fafa2b",
+    "metrics/attention/tiled_conditions.json": "9e1eb01920d0aed9ff512b243355af89ee28456d3e0baca5f3e36cf4b9676e7b"
+  },
+  "summary": {
+    "conditions": 12,
+    "statuses": {
+      "complete": 12
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "stage": "mqar_inference",
+  "status": "complete",
+  "config_id": "78c8fbc4f13121f27796d6e958bd0508c5b029ebef7e46cc27690631b2f7cfcd",
+  "artifacts": {
+    "metrics/mqar_inference/dense_L256.json": "fb2757fc346f8563d00d8aadb6ba86c56da156057091fa4a8f09cd4771ea3044",
+    "metrics/mqar_inference/window_L256.json": "c9b5559cad4bff8ea4b06fa1b7a820566d66419945e7662ba846db8ed0d8b068",
+    "metrics/mqar_inference/linear_L256.json": "33909513100e2f1f9618fb8bcf1625650769a4ac7afdd87ed4aa0b84a65e94ad",
+    "metrics/mqar_inference/dilated_L256.json": "eb654af287ff60b87e0e6f91323e76b34f6a73a626feac4f377258f20b1bdca5",
+    "metrics/mqar_inference/local_content_L256.json": "d416d86e5586045d4b2299ec9dab852a443df1cc417f5b0324bb89c2ce0394a6",
+    "metrics/mqar_inference/dense_L1024.json": "a9aec9c049e9fabaac71e881198f9aed0c7b36d57c5b125f33f5b96eb725c0ec",
+    "metrics/mqar_inference/window_L1024.json": "65586baeda67ffecb308751c13bb3a2d1651c44c80e28a024c555ec6b8a2543a",
+    "metrics/mqar_inference/linear_L1024.json": "aef72c3d3e58848249bf1231c5f2c94393c62b8c023871c1841b277e4a5a4796",
+    "metrics/mqar_inference/dilated_L1024.json": "c4ec5d252823f0c0755e1b167b2e1dfc08314ae0ce74366fe1cd2c55111e5ad6",
+    "metrics/mqar_inference/local_content_L1024.json": "9a4cd340a33c0b326eade471c3e60eeea93940f63f97baa2fd525933b1d2ad77",
+    "metrics/mqar_inference/dense_L4096.json": "cb7a04ca6637e4d5da89f282766a26b88a5645b098b29b205d485dda9de5248f",
+    "metrics/mqar_inference/window_L4096.json": "ab240aac5cfe32d3d4f16109d4ebe9739ff305d836e35fd0474870d70cc8e347",
+    "metrics/mqar_inference/linear_L4096.json": "e7aa0c27b63c299188b1022cfbe9d20ef09958ceb5ec22a41165d8be6d13255e",
+    "metrics/mqar_inference/dilated_L4096.json": "ff1fbf0e5708537bc3be4d3b7296e5b6b317b8e63a9a61a075cbc9223b5c9403",
+    "metrics/mqar_inference/local_content_L4096.json": "82c4468545b546ae3a1cac7fc66b65a90c484dcf682ed99fc6bf5e89e01f45ca",
+    "metrics/mqar_inference/dense_L8192.json": "79066fabf89a55f086b817e3665ca76237e80940159d1f624dc5393dcc97ee38",
+    "metrics/mqar_inference/window_L8192.json": "4b348609e6afa359605ea9b8c5bd3a897e9dbc118120a396fcdfa7b8209bbc6e",
+    "metrics/mqar_inference/linear_L8192.json": "f4214fda9664b1500f8f4d329284c8c520fe817e0e1519a344c4482ac764ee8f",
+    "metrics/mqar_inference/dilated_L8192.json": "5bc46f7ac6795f876cdff73e91fb8187a315fcb2a8115d6ec693498f31030364",
+    "metrics/mqar_inference/local_content_L8192.json": "c52ca7624f8c598f548920a684ad9dbfe77f9967f838d08571767e1dc75bd756",
+    "metrics/mqar_inference/all_conditions.json": "826db9d8fe6a93e21280e38c704ad855d4ce2f753b45ecea7f153a0564ac3fb5"
+  },
+  "summary": {
+    "conditions": 20
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "prompt_id": "SHORT-shifted-0026",
+  "prompt_sha256": "8e013af964ee275711d4d01637eda7111d4005652ff436d5b94d196077a08fa9",
+  "draft": "original",
+  "workload": "shifted",
+  "repetition": 1,
+  "response": {
+    "token_ids": [
+      2149,
+      102648,
+      151645
+    ],
+    "new_tokens": 3,
+    "eos": true,
+    "truncated": false,
+    "ignore_eos": false,
+    "generation_seed": 2167119,
+    "prefill_seconds": 0.03179123700101627,
+    "decode_seconds": 0.058268259999749716,
+    "elapsed_seconds": 0.09007599200049299,
+    "target_prefill_passes": 1,
+    "target_decode_passes": 2,
+    "target_passes": 3,
+    "draft_forward_passes": 0,
+    "rounds": [],
+    "peak_allocated_bytes": 4107775488,
+    "peak_reserved_bytes": 5387583488
+  },
+  "text": "CH法规",
+  "extracted_answer": null,
+  "correct": false,
+  "extractable": false,
+  "format_compliant": false,
+  "evaluation": "standalone model quality; not speculative-output quality"
+}

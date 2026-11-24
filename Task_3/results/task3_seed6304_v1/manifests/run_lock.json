@@ -1,0 +1,29 @@
+{
+  "task": "Task_3",
+  "run_id": "task3_seed6304_v1",
+  "config_id": "ca016510f6ba13eb7b0399b721f8bacbedbe9183fdc5bbc7a4b51ad310914e62",
+  "created_utc": "2026-11-23T17:52:21.145074+00:00",
+  "runtime": {
+    "computed_on": "Google Colab",
+    "python": "3.13.16",
+    "packages": {
+      "torch": "2.8.0",
+      "transformers": "4.57.1",
+      "huggingface_hub": "0.36.2",
+      "datasets": "4.4.1",
+      "numpy": "2.2.6",
+      "safetensors": "0.6.2",
+      "accelerate": "1.11.0"
+    },
+    "gpu": "NVIDIA L4",
+    "gpu_memory_bytes": 23659151360,
+    "cuda": "12.8",
+    "compute_capability": [
+      8,
+      9
+    ],
+    "tf32": false
+  },
+  "data_id": "e82139066e33299da384db78732233928808afc2fe9c3397f26a3b93a5148345",
+  "protocol": "fixed supplied prompts, four independent final-quota adapters, no held-out hyperparameter selection"
+}
